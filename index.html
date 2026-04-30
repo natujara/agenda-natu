@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>La agenda de natu (extendida) — La Plata</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Space+Mono:wght@400;700&family=Bebas+Neue&display=swap" rel="stylesheet" />
+  <style>
+    /* ══════════════════════════════════════
+       PALETA
+       --Y  : #e8ff00  amarillo-verde principal
+       --YL : #c8e890  verde claro — texto secundario
+       --W  : #f0ece4  blanco hueso — texto principal
+       --BG : #0d0d0d  negro fondo
+    ══════════════════════════════════════ */
+    :root {
+      --Y:  #e8ff00;
+      --YL: #c8e890;
+      --W:  #f0ece4;
+      --BG: #0d0d0d;
+      --S1: #111111;
+      --S2: #1a1a1a;
+      --BR: #2a2a2a;
+      --GR: #4a7028;
+      --RED:#ff3c3c;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: #1a1a1a;
+      font-family: 'Space Mono', monospace;
+      color: var(--W);
+      min-height: 100vh;
+    }
+
+    .page-wrap {
+      max-width: 960px;
+      margin: 0 auto;
+      background: var(--BG);
+      min-height: 100vh;
+      box-shadow: 0 0 60px rgba(0,0,0,.8);
+    }
+
+    /* ── HEADER ── */
+    .stripe { height: 6px; background: repeating-linear-gradient(90deg, var(--Y) 0, var(--Y) 20px, var(--RED) 20px, var(--RED) 40px, var(--BG) 40px, var(--BG) 60px); }
+
+    .site-header { background: var(--S1); border-bottom: 3px solid var(--Y); }
+
+    .header-inner {
+      padding: 1.2rem 1.5rem 0.8rem;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+
+    .logo-main { font-family: 'Anton', sans-serif; font-size: clamp(2.2rem, 6vw, 3.2rem); color: var(--Y); line-height: .9; letter-spacing: -1px; }
+    .logo-sub  { font-size: .65rem; color: var(--Y); letter-spacing: .25em; text-transform: uppercase; margin-top: .3rem; opacity: .75; display: block; }
+    .logo-city { font-size: .65rem; color: var(--RED); letter-spacing: .15em; text-transform: uppercase; margin-top: .1rem; display: block; }
+
+    .header-right { display: flex; flex-direction: column; align-items: flex-end; gap: .5rem; padding-top: .3rem; }
+    .update-info  { font-size: .65rem; color: var(--YL); letter-spacing: .05em; }
+
+    .btn-cargar {
+      font-family: 'Space Mono', monospace; font-size: .65rem; font-weight: 700;
+      letter-spacing: .1em; text-transform: uppercase;
+      padding: .4rem .9rem; background: transparent;
+      color: var(--Y); border: 1px solid var(--Y); cursor: pointer;
+      transition: all .15s;
+    }
+    .btn-cargar:hover { background: var(--Y); color: var(--BG); }
+
+    /* ── TABS ── */
+    .tabs-nav { display: flex; background: var(--S1); border-bottom: 2px solid var(--Y); }
+    .tab-btn {
+      font-family: 'Space Mono', monospace; font-size: .7rem; font-weight: 700;
+      letter-spacing: .15em; text-transform: uppercase;
+      padding: .75rem 1rem; background: var(--S1);
+      color: var(--YL); border: none; border-right: 1px solid var(--BR);
+      cursor: pointer; transition: all .15s; flex: 1; text-align: center;
+    }
+    .tab-btn:last-child { border-right: none; }
+    .tab-btn:hover { color: var(--Y); background: #181818; }
+    .tab-btn.active { background: var(--BR); color: var(--Y); border-bottom: 2px solid var(--Y); margin-bottom: -2px; }
+
+    .tab-panel { display: none; }
+    .tab-panel.active { display: block; }
+
+    /* ── TICKER ── */
+    .ticker { background: var(--Y); color: var(--BG); padding: .3rem 0; overflow: hidden; white-space: nowrap; font-size: .65rem; font-weight: 700; letter-spacing: .15em; text-transform: uppercase; }
+    .ticker-inner { display: inline-block; animation: tick 45s linear infinite; }
+    @keyframes tick { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+
+    /* ── STATS ── */
+    .stats-bar { background: #0a0a0a; border-bottom: 1px solid var(--BR); padding: .4rem 1.5rem; display: flex; gap: 1.5rem; flex-wrap: wrap; }
+    .stat-val { font-family: 'Bebas Neue', sans-serif; font-size: 1.4rem; color: var(--Y); line-height: 1; margin-right: .2rem; }
+    .stat-lbl { font-size: .6rem; color: var(--YL); text-transform: uppercase; letter-spacing: .1em; }
+
+    /* ── FILTERS ── */
+    .filters-section { background: var(--BG); border-bottom: 1px solid var(--BR); padding: .9rem 1.5rem; display: flex; flex-direction: column; gap: .8rem; }
+    .filter-label { font-size: .6rem; color: var(--YL); letter-spacing: .25em; text-transform: uppercase; display: block; margin-bottom: .25rem; }
+
+    .chips { display: flex; gap: .35rem; flex-wrap: wrap; }
+    .chip {
+      font-family: 'Space Mono', monospace; font-size: .65rem; font-weight: 700;
+      letter-spacing: .06em; text-transform: uppercase;
+      padding: .28rem .7rem; border: 1px solid var(--GR);
+      background: var(--S2); color: var(--YL); cursor: pointer; transition: all .12s;
+    }
+    .chip:hover { border-color: var(--Y); color: var(--Y); }
+    .chip.active            { background: var(--Y);    color: var(--BG); border-color: var(--Y); }
+    .chip.cat-recital.active  { background: var(--RED);  color: #fff;     border-color: var(--RED); }
+    .chip.cat-teatro.active   { background: #00d4ff;     color: #000;     border-color: #00d4ff; }
+    .chip.cat-festival.active { background: #ff9500;     color: #000;     border-color: #ff9500; }
+    .chip.cat-standup.active  { background: #bf5fff;     color: #fff;     border-color: #bf5fff; }
+    .chip.cat-danza.active    { background: #ff6b9d;     color: #fff;     border-color: #ff6b9d; }
+    .chip.cat-cine.active     { background: #2b9b6a;     color: #fff;     border-color: #2b9b6a; }
+    .chip.cat-arte.active     { background: #4a7fff;     color: #fff;     border-color: #4a7fff; }
+    .chip.cat-infantil.active { background: #ffcc00;     color: #000;     border-color: #ffcc00; }
+    .chip.cat-otro.active     { background: #888;        color: #fff;     border-color: #888; }
+
+    /* search row */
+    .search-row { display: flex; gap: .6rem; align-items: flex-end; flex-wrap: wrap; padding-top: .7rem; border-top: 1px solid var(--BR); }
+    .search-group { display: flex; flex-direction: column; gap: .25rem; flex: 1; min-width: 140px; }
+    .search-lbl { font-size: .6rem; color: var(--YL); letter-spacing: .2em; text-transform: uppercase; }
+    .search-input, .venue-select {
+      font-family: 'Space Mono', monospace; font-size: .7rem;
+      background: var(--S2); border: 1px solid var(--GR);
+      color: var(--W); padding: .38rem .6rem; outline: none;
+      width: 100%; transition: border-color .12s; appearance: none;
+    }
+    .search-input::placeholder { color: #556644; }
+    .search-input:focus, .venue-select:focus { border-color: var(--Y); }
+
+    .btn-clear {
+      font-family: 'Space Mono', monospace; font-size: .6rem; font-weight: 700;
+      text-transform: uppercase; letter-spacing: .1em;
+      padding: .38rem .7rem; background: transparent;
+      border: 1px solid var(--GR); color: var(--YL);
+      cursor: pointer; white-space: nowrap; align-self: flex-end;
+      transition: all .12s; display: none;
+    }
+    .btn-clear.visible { display: block; }
+    .btn-clear:hover { border-color: var(--RED); color: var(--RED); }
+
+    /* active pills */
+    .active-pills { display: flex; gap: .35rem; flex-wrap: wrap; }
+    .active-pills:empty { display: none; }
+    .pill {
+      font-family: 'Space Mono', monospace; font-size: .55rem; font-weight: 700;
+      letter-spacing: .06em; text-transform: uppercase;
+      background: var(--S2); color: var(--Y); border: 1px solid var(--Y);
+      padding: .15rem .5rem; display: flex; align-items: center; gap: .3rem; cursor: pointer;
+      transition: background .12s;
+    }
+    .pill:hover { background: var(--RED); border-color: var(--RED); color: #fff; }
+    .pill span { opacity: .6; }
+
+    /* ── MAIN ── */
+    .main { padding: 1.2rem 1.5rem 3rem; }
+
+    .date-group { margin-bottom: 2rem; animation: fadeUp .35s ease both; }
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+
+    .date-heading { display: flex; align-items: center; gap: .8rem; margin-bottom: .8rem; }
+    .date-heading::after { content: ''; flex: 1; height: 1px; background: var(--BR); }
+
+    .date-num  { font-family: 'Bebas Neue', sans-serif; font-size: 2.8rem; color: var(--Y); line-height: 1; min-width: 2ch; }
+    .date-dow  { font-size: .6rem; color: var(--YL); letter-spacing: .2em; text-transform: uppercase; }
+    .date-long { font-size: .85rem; color: var(--W); }
+    .date-wrap { display: flex; flex-direction: column; }
+    .date-badge { font-size: .6rem; font-weight: 700; letter-spacing: .15em; text-transform: uppercase; background: var(--RED); color: #fff; padding: .15rem .5rem; }
+
+    /* cards */
+    .events-list { display: flex; flex-direction: column; gap: 2px; }
+
+    .event-card {
+      display: grid; grid-template-columns: 80px 1fr auto;
+      background: var(--S1); border: 1px solid var(--BR);
+      position: relative; overflow: hidden; transition: border-color .12s;
+    }
+    .event-card:hover { border-color: var(--Y); }
+    .event-card::before { content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 3px; }
+
+    .event-card.cat-recital::before  { background: var(--RED); }
+    .event-card.cat-teatro::before   { background: #00d4ff; }
+    .event-card.cat-festival::before { background: #ff9500; }
+    .event-card.cat-standup::before  { background: #bf5fff; }
+    .event-card.cat-danza::before    { background: #ff6b9d; }
+    .event-card.cat-cine::before     { background: #2b9b6a; }
+    .event-card.cat-arte::before     { background: #4a7fff; }
+    .event-card.cat-infantil::before { background: #ffcc00; }
+    .event-card.cat-otro::before     { background: #888; }
+
+    .event-flyer { width: 80px; height: 80px; object-fit: cover; display: block; transition: filter .3s; }
+    .event-card:hover .event-flyer { filter: brightness(1.1); }
+
+    .event-fp {
+      width: 80px; height: 80px;
+      display: flex; align-items: center; justify-content: center;
+      font-family: 'Anton', sans-serif; font-size: 1.3rem; color: var(--BG);
+    }
+    .cat-recital  .event-fp { background: var(--RED); }
+    .cat-teatro   .event-fp { background: #00d4ff; }
+    .cat-festival .event-fp { background: #ff9500; }
+    .cat-standup  .event-fp { background: #bf5fff; }
+    .cat-danza    .event-fp { background: #ff6b9d; }
+    .cat-cine     .event-fp { background: #2b9b6a; }
+    .cat-arte     .event-fp { background: #4a7fff; }
+    .cat-infantil .event-fp { background: #ffcc00; }
+    .cat-otro     .event-fp { background: #888; color: #fff; }
+
+    .event-body { padding: .6rem .8rem; display: flex; flex-direction: column; justify-content: center; gap: .25rem; min-width: 0; }
+    .event-cat-row { display: flex; align-items: center; gap: .5rem; }
+
+    .event-cat-badge {
+      font-size: .55rem; font-weight: 700; letter-spacing: .12em;
+      text-transform: uppercase; padding: .1rem .4rem; color: var(--BG);
+    }
+    .cat-recital  .event-cat-badge { background: var(--RED); color: #fff; }
+    .cat-teatro   .event-cat-badge { background: #00d4ff; }
+    .cat-festival .event-cat-badge { background: #ff9500; }
+    .cat-standup  .event-cat-badge { background: #bf5fff; color: #fff; }
+    .cat-danza    .event-cat-badge { background: #ff6b9d; }
+    .cat-cine     .event-cat-badge { background: #2b9b6a; color: #fff; }
+    .cat-arte     .event-cat-badge { background: #4a7fff; color: #fff; }
+    .cat-infantil .event-cat-badge { background: #ffcc00; }
+    .cat-otro     .event-cat-badge { background: #888; color: #fff; }
+
+    .event-source { font-size: .6rem; color: var(--YL); text-transform: uppercase; letter-spacing: .08em; }
+    .event-title  { font-family: 'Anton', sans-serif; font-size: 1rem; color: var(--W); line-height: 1.15; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; letter-spacing: .02em; }
+    .event-meta   { font-size: .65rem; color: var(--YL); }
+
+    .event-action { display: flex; align-items: center; padding: 0 .8rem; flex-shrink: 0; }
+    .btn-tickets {
+      font-family: 'Space Mono', monospace; font-size: .6rem; font-weight: 700;
+      letter-spacing: .08em; text-transform: uppercase;
+      padding: .45rem .8rem; color: var(--Y); background: transparent;
+      border: 1px solid var(--Y); white-space: nowrap;
+      text-decoration: none; display: block; transition: all .12s;
+    }
+    .btn-tickets:hover { background: var(--Y); color: var(--BG); }
+
+    /* empty state */
+    .empty-state { text-align: center; padding: 4rem 2rem; color: var(--YL); font-size: .75rem; }
+    .empty-state .big { font-family: 'Bebas Neue', sans-serif; font-size: 3rem; color: var(--BR); display: block; margin-bottom: .8rem; }
+
+    /* ── MODAL cargar evento ── */
+    .modal-overlay {
+      position: fixed; inset: 0; background: rgba(0,0,0,.88);
+      z-index: 200; display: flex; align-items: center; justify-content: center;
+      padding: 1rem; opacity: 0; pointer-events: none; transition: opacity .2s;
+    }
+    .modal-overlay.open { opacity: 1; pointer-events: all; }
+    .modal {
+      background: var(--S1); border: 1px solid var(--BR);
+      width: 100%; max-width: 560px; max-height: 92vh; overflow-y: auto;
+      transform: translateY(20px); transition: transform .2s;
+    }
+    .modal-overlay.open .modal { transform: translateY(0); }
+
+    .modal-header { background: var(--BG); padding: .9rem 1.2rem; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--BR); }
+    .modal-title  { font-family: 'Anton', sans-serif; font-size: 1.2rem; color: var(--Y); letter-spacing: .04em; }
+    .modal-close  { background: none; border: none; color: var(--YL); font-size: 1rem; cursor: pointer; transition: color .12s; }
+    .modal-close:hover { color: var(--RED); }
+
+    .modal-stripe { height: 4px; background: repeating-linear-gradient(90deg, var(--Y) 0, var(--Y) 20px, var(--RED) 20px, var(--RED) 40px, #00d4ff 40px, #00d4ff 60px); }
+
+    .modal-body { padding: 1.2rem; }
+    .modal-intro { font-size: .65rem; color: var(--YL); line-height: 1.8; margin-bottom: 1rem; border-left: 3px solid var(--Y); padding-left: .7rem; }
+
+    .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: .8rem; }
+    .form-full  { grid-column: 1 / -1; }
+    .form-group { display: flex; flex-direction: column; gap: .3rem; }
+    .form-lbl   { font-size: .6rem; color: var(--YL); letter-spacing: .2em; text-transform: uppercase; }
+    .form-lbl span { color: var(--RED); }
+    .form-ctrl  {
+      font-family: 'Space Mono', monospace; font-size: .72rem;
+      background: var(--S2); border: 1px solid var(--BR);
+      color: var(--W); padding: .5rem .6rem; outline: none;
+      width: 100%; transition: border-color .12s; appearance: none;
+    }
+    .form-ctrl::placeholder { color: #444; }
+    .form-ctrl:focus { border-color: var(--Y); }
+    textarea.form-ctrl { resize: vertical; min-height: 70px; }
+    .form-hint { font-size: .58rem; color: var(--YL); }
+    .form-hint a { color: var(--Y); }
+
+    .modal-footer { padding: .8rem 1.2rem; border-top: 1px solid var(--BR); display: flex; justify-content: flex-end; gap: .6rem; background: var(--BG); }
+    .btn-cancel { font-family: 'Space Mono', monospace; font-size: .6rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; padding: .45rem .9rem; background: transparent; border: 1px solid var(--BR); color: var(--YL); cursor: pointer; transition: all .12s; }
+    .btn-cancel:hover { border-color: var(--W); color: var(--W); }
+    .btn-submit { font-family: 'Space Mono', monospace; font-size: .6rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; padding: .45rem 1rem; background: var(--Y); border: 1px solid var(--Y); color: var(--BG); cursor: pointer; transition: background .12s; }
+    .btn-submit:hover { background: #d4eb00; }
+
+    /* ── CONTACTO ── */
+    .contact-wrap { padding: 1.5rem; background: var(--BG); display: flex; flex-direction: column; gap: 1.2rem; }
+    .contact-title { font-family: 'Bebas Neue', sans-serif; font-size: 1.6rem; color: var(--Y); letter-spacing: .05em; padding-bottom: .4rem; border-bottom: 1px solid var(--BR); display: flex; align-items: baseline; gap: .8rem; flex-wrap: wrap; }
+    .contact-title small { font-family: 'Space Mono', monospace; font-size: .6rem; color: var(--YL); letter-spacing: .1em; font-weight: 400; text-transform: uppercase; }
+
+    .social-grid { display: flex; flex-direction: column; gap: .4rem; }
+    .social-item { display: flex; align-items: center; gap: .8rem; padding: .7rem .9rem; background: var(--S2); border: 1px solid var(--BR); text-decoration: none; transition: border-color .12s; }
+    .social-item:hover { border-color: var(--Y); }
+    .social-icon { width: 28px; height: 28px; display: flex; align-items: center; justify-content: center; font-size: .8rem; flex-shrink: 0; }
+    .si-ig { background: linear-gradient(135deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888); }
+    .si-wa { background: #25d366; }
+    .si-ml { background: #1a1a1a; border: 1px solid #444; }
+    .si-sp { background: #1db954; }
+    .si-td { background: var(--BG); border: 1px solid #555; font-weight: 700; font-size: .65rem; color: #fff; font-family: 'Space Mono', monospace; }
+    .social-info { display: flex; flex-direction: column; gap: 1px; flex: 1; min-width: 0; }
+    .social-lbl  { font-size: .58rem; color: var(--YL); letter-spacing: .15em; text-transform: uppercase; }
+    .social-val  { font-size: .8rem; color: var(--W); font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .social-arr  { color: var(--Y); font-size: .85rem; flex-shrink: 0; }
+
+    .contact-divider { height: 1px; background: repeating-linear-gradient(90deg,var(--Y) 0,var(--Y) 6px,transparent 6px,transparent 12px); opacity: .2; }
+
+    .form-section-title { font-family: 'Bebas Neue', sans-serif; font-size: 1.3rem; color: var(--Y); letter-spacing: .05em; margin-bottom: .3rem; }
+    .form-section-sub   { font-size: .6rem; color: var(--YL); text-transform: uppercase; letter-spacing: .08em; margin-bottom: .8rem; }
+
+    /* ── TOAST ── */
+    .toast { position: fixed; bottom: 1.2rem; right: 1.2rem; background: var(--S1); color: var(--W); font-size: .65rem; font-weight: 700; padding: .6rem 1rem; z-index: 300; border-left: 4px solid var(--Y); transform: translateY(80px); transition: transform .3s; max-width: 260px; }
+    .toast.show { transform: translateY(0); }
+
+    /* ── FOOTER ── */
+    .site-footer { background: #080808; text-align: center; padding: 1rem 1.5rem; font-size: .65rem; letter-spacing: .07em; text-transform: uppercase; border-top: 3px solid var(--Y); line-height: 2.4; color: #fff; }
+    .site-footer strong { color: var(--Y); }
+    .site-footer .disclaimer { font-size: .65rem; color: #fff; letter-spacing: .04em; margin-top: .6rem; line-height: 1.9; text-transform: none; font-style: italic; border-top: 1px solid var(--BR); padding-top: .7rem; }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 600px) {
+      .header-inner { padding: .8rem 1rem .6rem; }
+      .main { padding: 1rem 1rem 2rem; }
+      .filters-section { padding: .8rem 1rem; }
+      .stats-bar { padding: .4rem 1rem; gap: 1rem; }
+      .event-card { grid-template-columns: 68px 1fr; }
+      .event-action { display: none; }
+      .form-grid { grid-template-columns: 1fr; }
+      .contact-wrap { padding: 1rem; }
+    }
+  </style>
+</head>
+<body>
+<div class="page-wrap">
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="stripe"></div>
+    <div class="header-inner">
+      <div>
+        <div class="logo-main">AGENDA<br>DE NATU</div>
+        <span class="logo-sub">(extendida)</span>
+        <span class="logo-city">// La Plata, Buenos Aires</span>
+      </div>
+      <div class="header-right">
+        <span class="update-info" id="update-info">Cargando…</span>
+        <button class="btn-cargar" onclick="openModal()">+ Cargar evento</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- TABS -->
+  <nav class="tabs-nav">
+    <button class="tab-btn active" onclick="switchTab('agenda')">Agenda</button>
+    <button class="tab-btn" onclick="switchTab('contacto')">Contacto</button>
+  </nav>
+
+  <!-- ══ PESTAÑA: AGENDA ══ -->
+  <div class="tab-panel active" id="tab-agenda">
+
+    <div class="ticker"><span class="ticker-inner" id="ticker-inner">Cargando…</span></div>
+
+    <div class="stats-bar">
+      <span><span class="stat-val" id="stat-total">0</span><span class="stat-lbl"> eventos</span></span>
+      <span><span class="stat-val" id="stat-venues">0</span><span class="stat-lbl"> venues</span></span>
+      <span><span class="stat-val" id="stat-cats">0</span><span class="stat-lbl"> categorías</span></span>
+    </div>
+
+    <div class="filters-section">
+      <!-- Categorías -->
+      <div>
+        <span class="filter-label">Categoría</span>
+        <div class="chips" id="cat-chips">
+          <button class="chip active"          data-cat="all">Todas</button>
+          <button class="chip cat-recital"     data-cat="recital">Recital</button>
+          <button class="chip cat-teatro"      data-cat="teatro">Teatro</button>
+          <button class="chip cat-festival"    data-cat="festival">Festival</button>
+          <button class="chip cat-standup"     data-cat="standup">Stand-up</button>
+          <button class="chip cat-danza"       data-cat="danza">Danza</button>
+          <button class="chip cat-cine"        data-cat="cine">Cine</button>
+          <button class="chip cat-arte"        data-cat="arte">Arte / Expo</button>
+          <button class="chip cat-infantil"    data-cat="infantil">Infantil</button>
+          <button class="chip cat-otro"        data-cat="otro">Otro</button>
+        </div>
+      </div>
+
+      <!-- Búsqueda + venue -->
+      <div class="search-row">
+        <div class="search-group">
+          <label class="search-lbl" for="search-input">Buscar artista o evento</label>
+          <input class="search-input" type="text" id="search-input" placeholder="Nombre del evento, artista…" autocomplete="off" />
+        </div>
+        <div class="search-group">
+          <label class="search-lbl" for="venue-select">Venue</label>
+          <select class="venue-select" id="venue-select">
+            <option value="">— Todos los venues —</option>
+          </select>
+        </div>
+        <button class="btn-clear" id="btn-clear" onclick="clearFilters()">✕ limpiar</button>
+      </div>
+
+      <!-- Pills activas -->
+      <div class="active-pills" id="active-pills"></div>
+    </div>
+
+    <main class="main" id="main-content"></main>
+
+  </div><!-- /tab-agenda -->
+
+  <!-- ══ PESTAÑA: CONTACTO ══ -->
+  <div class="tab-panel" id="tab-contacto">
+    <div class="contact-wrap">
+
+      <div class="contact-title">
+        La agenda de natu
+        <small>// natu — curadora</small>
+      </div>
+
+      <div class="social-grid">
+        <a class="social-item" href="https://instagram.com/natujara_" target="_blank" rel="noopener">
+          <div class="social-icon si-ig">📷</div>
+          <div class="social-info"><span class="social-lbl">Instagram</span><span class="social-val">@natujara_</span></div>
+          <span class="social-arr">→</span>
+        </a>
+        <a class="social-item" href="mailto:laagendadenatu@gmail.com">
+          <div class="social-icon si-ml">✉</div>
+          <div class="social-info"><span class="social-lbl">Correo electrónico</span><span class="social-val">laagendadenatu@gmail.com</span></div>
+          <span class="social-arr">→</span>
+        </a>
+        <a class="social-item" href="https://whatsapp.com/channel/0029Val6NjvGZNCheSQ1dJ3X" target="_blank" rel="noopener">
+          <div class="social-icon si-wa">💬</div>
+          <div class="social-info"><span class="social-lbl">Canal de WhatsApp</span><span class="social-val">La agenda de natu</span></div>
+          <span class="social-arr">→</span>
+        </a>
+        <a class="social-item" href="https://open.spotify.com/user/sof%C3%ADa.jara" target="_blank" rel="noopener">
+          <div class="social-icon si-sp">♫</div>
+          <div class="social-info"><span class="social-lbl">Spotify</span><span class="social-val">sofía.jara</span></div>
+          <span class="social-arr">→</span>
+        </a>
+        <a class="social-item" href="https://tidal.com/browse/user/natujara" target="_blank" rel="noopener">
+          <div class="social-icon si-td">Ti</div>
+          <div class="social-info"><span class="social-lbl">Tidal</span><span class="social-val">@natujara</span></div>
+          <span class="social-arr">→</span>
+        </a>
+      </div>
+
+      <div class="contact-divider"></div>
+
+      <!-- Formulario -->
+      <div>
+        <div class="form-section-title">Escribinos</div>
+        <div class="form-section-sub">Te respondemos por mail en 24–48 hs.</div>
+        <div class="form-grid">
+          <div class="form-group">
+            <label class="form-lbl">Nombre <span>*</span></label>
+            <input class="form-ctrl" type="text" id="c-nombre" placeholder="Tu nombre…" />
+          </div>
+          <div class="form-group">
+            <label class="form-lbl">Email <span>*</span></label>
+            <input class="form-ctrl" type="email" id="c-email" placeholder="tu@mail.com" />
+          </div>
+          <div class="form-group form-full">
+            <label class="form-lbl">Motivo</label>
+            <select class="form-ctrl" id="c-motivo">
+              <option value="">— Elegir —</option>
+              <option>Quiero publicar un evento</option>
+              <option>Reportar un error en la agenda</option>
+              <option>Sugerir un venue</option>
+              <option>Consulta general</option>
+              <option>Otro</option>
+            </select>
+          </div>
+          <div class="form-group form-full">
+            <label class="form-lbl">Mensaje <span>*</span></label>
+            <textarea class="form-ctrl" id="c-mensaje" placeholder="Contanos de qué se trata…"></textarea>
+          </div>
+          <div class="form-full" style="display:flex;justify-content:flex-end;gap:.6rem;padding-top:.3rem">
+            <button class="btn-submit" onclick="submitContact()">Enviar mensaje →</button>
+          </div>
+          <p class="form-hint form-full">// Campos con * obligatorios · Los mensajes llegan a laagendadenatu@gmail.com</p>
+        </div>
+      </div>
+
+    </div>
+  </div><!-- /tab-contacto -->
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <strong>La agenda de natu (extendida)</strong> — La Plata
+    <div class="disclaimer">Esta página funciona como espacio de difusión. Los enlaces de compra no están asociados a la misma.</div>
+  </footer>
+
+</div><!-- /page-wrap -->
+
+<!-- MODAL: cargar evento -->
+<div class="modal-overlay" id="modal-overlay" onclick="closeModalOutside(event)">
+  <div class="modal">
+    <div class="modal-header">
+      <span class="modal-title">Cargar evento</span>
+      <button class="modal-close" onclick="closeModal()">✕</button>
+    </div>
+    <div class="modal-stripe"></div>
+    <div class="modal-body">
+      <p class="modal-intro">¿Las entradas se consiguen directamente con vos o por fuera de las ticketeras? Cargá tu fecha acá y va a aparecer en la agenda.</p>
+      <div class="form-grid">
+        <div class="form-group form-full">
+          <label class="form-lbl">Nombre del evento / artista <span>*</span></label>
+          <input class="form-ctrl" type="text" id="f-title" placeholder="Ej: Banda en vivo, Obra de teatro…" />
+        </div>
+        <div class="form-group">
+          <label class="form-lbl">Categoría <span>*</span></label>
+          <select class="form-ctrl" id="f-cat">
+            <option value="">— Elegir —</option>
+            <option value="recital">Recital / Música en vivo</option>
+            <option value="teatro">Teatro</option>
+            <option value="festival">Festival</option>
+            <option value="standup">Stand-up / Humor</option>
+            <option value="danza">Danza / Circo</option>
+            <option value="cine">Cine</option>
+            <option value="arte">Arte / Exposición</option>
+            <option value="infantil">Infantil / Familiar</option>
+            <option value="otro">Otro</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label class="form-lbl">Fecha <span>*</span></label>
+          <input class="form-ctrl" type="date" id="f-date" />
+        </div>
+        <div class="form-group">
+          <label class="form-lbl">Hora</label>
+          <input class="form-ctrl" type="time" id="f-time" />
+        </div>
+        <div class="form-group form-full">
+          <label class="form-lbl">Venue / lugar <span>*</span></label>
+          <input class="form-ctrl" type="text" id="f-venue" placeholder="Ej: El Galpón, Calle 7 e/ 47 y 48" />
+        </div>
+        <div class="form-group form-full">
+          <label class="form-lbl">Link de entradas <span>*</span></label>
+          <input class="form-ctrl" type="url" id="f-link" placeholder="https://…" />
+          <span class="form-hint">Puede ser Instagram, WhatsApp, Mercado Pago, etc.</span>
+        </div>
+        <div class="form-group form-full">
+          <label class="form-lbl">Link del flyer (imagen)</label>
+          <input class="form-ctrl" type="url" id="f-flyer" placeholder="https://i.imgur.com/…" />
+          <span class="form-hint">Subí tu flyer gratis a <a href="https://imgur.com" target="_blank">imgur.com</a> y pegá el link acá.</span>
+        </div>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button class="btn-cancel" onclick="closeModal()">Cancelar</button>
+      <button class="btn-submit" onclick="submitEvent()">Publicar →</button>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+// ══════════════════════════════════════════════════════
+//  DATOS DE EJEMPLO — reemplazados por shows.json
+//  cuando el scraper esté corriendo
+// ══════════════════════════════════════════════════════
+const SEED = [
+  {id:1,  title:"Los Visitantes",           cat:"recital",  date:"2025-06-07",time:"21:30",venue:"El Teatrito",                     city:"La Plata",source:"Passline",         url:"https://passline.com",                                        flyer:"https://picsum.photos/seed/visit/200/200"},
+  {id:2,  title:"Obra: Las Brujas",          cat:"teatro",   date:"2025-06-07",time:"20:00",venue:"Teatro Argentino",                city:"La Plata",source:"Teatro Argentino",  url:"https://teatroargentino.gba.gob.ar/meets/no-season",           flyer:"https://picsum.photos/seed/brujas/200/200"},
+  {id:3,  title:"Feria del Libro Platense",  cat:"arte",     date:"2025-06-08",time:"11:00",venue:"Pasaje Dardo Rocha",              city:"La Plata",source:"Propio",            url:"https://instagram.com",                                       flyer:"https://picsum.photos/seed/feria/200/200"},
+  {id:4,  title:"Stand-Up: Nico Occhiato",  cat:"standup",  date:"2025-06-14",time:"22:00",venue:"Quality Espacio",                 city:"La Plata",source:"All Access",        url:"https://allaccess.com.ar",                                    flyer:"https://picsum.photos/seed/nico/200/200"},
+  {id:5,  title:"Festival Synth",            cat:"festival", date:"2025-06-14",time:"18:00",venue:"Club Atenas",                     city:"La Plata",source:"LivePass",          url:"https://www.livepass.com.ar",                                 flyer:"https://picsum.photos/seed/synth/200/200"},
+  {id:6,  title:"Ballet: La Bayadera",       cat:"danza",    date:"2025-06-14",time:"20:00",venue:"Teatro Argentino — Sala Ginastera",city:"La Plata",source:"Teatro Argentino", url:"https://teatroargentino.gba.gob.ar/meets/no-season",           flyer:"https://picsum.photos/seed/ballet/200/200"},
+  {id:7,  title:"Conociendo Rusia",          cat:"recital",  date:"2025-06-21",time:"21:00",venue:"Estadio Estudiantes",             city:"La Plata",source:"Ticketek",          url:"https://ticketek.com.ar",                                     flyer:"https://picsum.photos/seed/rusia2/200/200"},
+  {id:8,  title:"Danza Contemporánea UNLP",  cat:"danza",    date:"2025-06-21",time:"19:00",venue:"Teatro Coliseo Podestá",          city:"La Plata",source:"TuEntrada",         url:"https://tuentrada.com",                                       flyer:"https://picsum.photos/seed/danza/200/200"},
+  {id:9,  title:"Ciclo de Cine Argentino",   cat:"cine",     date:"2025-06-22",time:"20:30",venue:"Cine Select",                     city:"La Plata",source:"Alpogo",            url:"https://alpogo.com",                                          flyer:"https://picsum.photos/seed/cine2/200/200"},
+  {id:10, title:"Airbag",                    cat:"recital",  date:"2025-06-28",time:"21:30",venue:"El Galpón",                       city:"La Plata",source:"MiAnticipada",      url:"https://mianticipada.com",                                    flyer:"https://picsum.photos/seed/air2/200/200"},
+  {id:11, title:"Mamuschka — Circo",         cat:"danza",    date:"2025-06-29",time:"17:00",venue:"Anfiteatro Martín Fierro",        city:"La Plata",source:"RgEntradas",        url:"https://rgentradas.com",                                      flyer:"https://picsum.photos/seed/circo/200/200"},
+  {id:12, title:"Expo Foto La Plata",        cat:"arte",     date:"2025-07-05",time:"10:00",venue:"Centro Cultural Islas Malvinas",  city:"La Plata",source:"Plateanet",         url:"https://plateanet.com",                                       flyer:"https://picsum.photos/seed/foto/200/200"},
+  {id:13, title:"La Beriso",                 cat:"recital",  date:"2025-07-05",time:"21:00",venue:"Estadio Ciudad de La Plata",      city:"La Plata",source:"CatPass",           url:"https://catpass.com.ar",                                      flyer:"https://picsum.photos/seed/beriso/200/200"},
+  {id:14, title:"Show Infantil: Paka Paka",  cat:"infantil", date:"2025-07-06",time:"15:00",venue:"Teatro Argentino",                city:"La Plata",source:"TicketPass",        url:"https://ticketpass.com.ar",                                   flyer:"https://picsum.photos/seed/paka/200/200"},
+  {id:15, title:"Jazz en el Patio",          cat:"recital",  date:"2025-07-12",time:"20:00",venue:"Casa Curutchet",                  city:"La Plata",source:"Propio",            url:"https://instagram.com",                                       flyer:"https://picsum.photos/seed/jazz/200/200"},
+  {id:16, title:"Nati Uboldi — El Último Click",cat:"standup",date:"2025-07-19",time:"21:00",venue:"Teatro Metro LP",               city:"La Plata",source:"Teatro Metro LP",   url:"https://www.teatrometrolp.com.ar/entradas/cartelera/",         flyer:"https://www.teatrometrolp.com.ar/sistema/uploads/366/slider/772306863246.jpg"},
+  {id:17, title:"EKATHÉ",                    cat:"recital",  date:"2025-07-19",time:"21:00",venue:"Casa Metro La Plata",             city:"La Plata",source:"Casa Metro",        url:"https://casametro.com.ar/evento/ekathe/",                     flyer:"https://casametro.com.ar/wp-content/uploads/2026/04/Ekathe-web-1024x640.png"},
+  {id:18, title:"Los Amados — Bailable",     cat:"recital",  date:"2025-07-26",time:"21:00",venue:"Casa Metro La Plata",             city:"La Plata",source:"Casa Metro",        url:"https://casametro.com.ar/evento/los-amados-bailable/",        flyer:"https://casametro.com.ar/wp-content/uploads/2026/03/web_AMADOS-1024x679.png"},
+];
+
+const CAT_LABELS = {recital:"Recital",teatro:"Teatro",festival:"Festival",standup:"Stand-up",danza:"Danza",cine:"Cine",arte:"Arte / Expo",infantil:"Infantil",otro:"Otro"};
+const CAT_ICONS  = {recital:"🎸",teatro:"🎭",festival:"🎪",standup:"🎤",danza:"💃",cine:"🎬",arte:"🖼",infantil:"🎠",otro:"✦"};
+const DAYS   = ['Domingo','Lunes','Martes','Miércoles','Jueves','Viernes','Sábado'];
+const MONTHS = ['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
+
+let allEvents = [];
+let activeCat = 'all', activeVenue = '', searchQ = '';
+
+// ── storage ──
+function loadLocal(){try{const s=localStorage.getItem('natu_events_v3');return s?JSON.parse(s):[]}catch(e){return[]}}
+function saveLocal(ev){try{const a=loadLocal();a.push(ev);localStorage.setItem('natu_events_v3',JSON.stringify(a))}catch(e){}}
+
+// ── init ──
+async function init(){
+  const local = loadLocal();
+  allEvents = [...SEED, ...local];
+
+  // Intentar cargar shows.json del scraper
+  try {
+    const r = await fetch('shows.json?t='+Date.now());
+    if(r.ok){
+      const data = await r.json();
+      if(data.events && data.events.length){
+        allEvents = [...data.events, ...local];
+        document.getElementById('update-info').textContent =
+          'Actualizado: '+new Date(data.updated_at).toLocaleString('es-AR',{day:'2-digit',month:'2-digit',year:'numeric',hour:'2-digit',minute:'2-digit'});
+      }
+    }
+  } catch(e){}
+
+  if(!document.getElementById('update-info').textContent.includes('/')){
+    document.getElementById('update-info').textContent =
+      'Actualizado: '+new Date().toLocaleString('es-AR',{day:'2-digit',month:'2-digit',year:'numeric',hour:'2-digit',minute:'2-digit'});
+  }
+
+  populateVenues();
+  updateAll();
+}
+
+// ── venue select ──
+function populateVenues(){
+  const today = getToday();
+  const venues = [...new Set(allEvents.filter(e=>!e.date||e.date>=today).map(e=>e.venue).filter(Boolean))].sort((a,b)=>a.localeCompare(b,'es'));
+  const sel = document.getElementById('venue-select');
+  const prev = sel.value;
+  sel.innerHTML = '<option value="">— Todos los venues —</option>';
+  venues.forEach(v=>{const o=document.createElement('option');o.value=v;o.textContent=v;if(v===prev)o.selected=true;sel.appendChild(o)});
+}
+
+// ── filter ──
+function getToday(){return new Date().toISOString().slice(0,10)}
+
+function filtered(){
+  const today=getToday(), q=searchQ.toLowerCase().trim();
+  return allEvents.filter(e=>{
+    if(!e.date||e.date<today)return false;
+    if(activeCat!=='all'&&e.cat!==activeCat)return false;
+    if(activeVenue&&e.venue!==activeVenue)return false;
+    if(q&&!e.title.toLowerCase().includes(q)&&!e.venue.toLowerCase().includes(q)&&!(e.source||'').toLowerCase().includes(q))return false;
+    return true;
+  }).sort((a,b)=>a.date!==b.date?a.date<b.date?-1:1:a.title.localeCompare(b.title,'es'));
+}
+
+function groupByDate(evs){const g={};evs.forEach(e=>{if(!g[e.date])g[e.date]=[];g[e.date].push(e)});return g}
+
+function fmtDate(str){
+  const d=new Date(str+'T12:00:00'),today=getToday(),tom=new Date(Date.now()+86400000).toISOString().slice(0,10);
+  return{num:d.getDate(),dow:DAYS[d.getDay()],long:`${DAYS[d.getDay()]} ${d.getDate()} de ${MONTHS[d.getMonth()]} ${d.getFullYear()}`,badge:str===today?'HOY':str===tom?'MAÑANA':null};
+}
+
+// ── render ──
+function updateAll(){renderAll();buildTicker();updatePills()}
+
+function renderAll(){
+  const evs=filtered(),grouped=groupByDate(evs),main=document.getElementById('main-content');
+  if(!evs.length){main.innerHTML=`<div class="empty-state"><span class="big">¯\\_(ツ)_/¯</span>No hay eventos con ese filtro por el momento.</div>`;updateStats([]);return}
+  let html='';
+  Object.entries(grouped).forEach(([date,evs],gi)=>{
+    const f=fmtDate(date);
+    html+=`<div class="date-group" style="animation-delay:${gi*.04}s">
+      <div class="date-heading">
+        <span class="date-num">${f.num}</span>
+        <div class="date-wrap"><span class="date-dow">${f.dow}</span><span class="date-long">${f.long}</span></div>
+        ${f.badge?`<span class="date-badge">${f.badge}</span>`:''}
+      </div>
+      <div class="events-list">${evs.map(renderCard).join('')}</div>
+    </div>`;
+  });
+  main.innerHTML=html;
+  updateStats(evs);
+}
+
+function renderCard(ev){
+  const icon=CAT_ICONS[ev.cat]||'✦',label=CAT_LABELS[ev.cat]||ev.cat;
+  const initials=ev.title.split(/\s+/).map(w=>w[0]).join('').slice(0,3).toUpperCase();
+  const hasFlyer=ev.flyer&&ev.flyer.startsWith('http');
+  return`<div class="event-card cat-${ev.cat}">
+    ${hasFlyer
+      ?`<img class="event-flyer" src="${ev.flyer}" alt="${ev.title}" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><div class="event-fp" style="display:none">${icon}</div>`
+      :`<div class="event-fp">${icon}</div>`}
+    <div class="event-body">
+      <div class="event-cat-row"><span class="event-cat-badge">${label}</span><span class="event-source">${ev.source}</span></div>
+      <div class="event-title">${ev.title}</div>
+      <div class="event-meta">📍 ${ev.venue}${ev.time?' &nbsp;·&nbsp; 🕐 '+ev.time+' hs':''}</div>
+    </div>
+    <div class="event-action"><a class="btn-tickets" href="${ev.url}" target="_blank" rel="noopener">Entradas →</a></div>
+  </div>`;
+}
+
+function updateStats(evs){
+  document.getElementById('stat-total').textContent=evs.length;
+  document.getElementById('stat-venues').textContent=new Set(evs.map(e=>e.venue)).size;
+  document.getElementById('stat-cats').textContent=new Set(evs.map(e=>e.cat)).size;
+}
+
+function buildTicker(){
+  const evs=filtered().slice(0,20);
+  const txt=evs.map(e=>`${CAT_ICONS[e.cat]||'///'}  ${e.title.toUpperCase()} — ${e.venue.toUpperCase()}`).join('   ///   ');
+  const el=document.getElementById('ticker-inner');
+  el.textContent=txt+'   ///   '+txt;
+}
+
+// ── pills ──
+function updatePills(){
+  const c=document.getElementById('active-pills');c.innerHTML='';
+  const hasCat=activeCat!=='all',hasVenue=activeVenue!=='',hasSearch=searchQ.trim()!=='';
+  if(hasCat)c.appendChild(mkPill(CAT_LABELS[activeCat]||activeCat,()=>{activeCat='all';document.querySelectorAll('[data-cat]').forEach(x=>x.classList.remove('active'));document.querySelector('[data-cat="all"]').classList.add('active');updateAll()}));
+  if(hasVenue)c.appendChild(mkPill('📍 '+activeVenue,()=>{activeVenue='';document.getElementById('venue-select').value='';updateAll()}));
+  if(hasSearch)c.appendChild(mkPill('🔍 "'+searchQ+'"',()=>{searchQ='';document.getElementById('search-input').value='';updateAll()}));
+  document.getElementById('btn-clear').classList.toggle('visible',hasCat||hasVenue||hasSearch);
+}
+function mkPill(label,onClick){const p=document.createElement('div');p.className='pill';p.innerHTML=`${label} <span>✕</span>`;p.addEventListener('click',onClick);return p}
+
+// ── event listeners ──
+document.getElementById('cat-chips').addEventListener('click',e=>{
+  const chip=e.target.closest('[data-cat]');if(!chip)return;
+  activeCat=chip.dataset.cat;
+  document.querySelectorAll('[data-cat]').forEach(c=>c.classList.remove('active'));chip.classList.add('active');updateAll();
+});
+document.getElementById('search-input').addEventListener('input',e=>{searchQ=e.target.value;updateAll()});
+document.getElementById('venue-select').addEventListener('change',e=>{activeVenue=e.target.value;updateAll()});
+
+function clearFilters(){
+  activeCat='all';activeVenue='';searchQ='';
+  document.querySelectorAll('[data-cat]').forEach(c=>c.classList.remove('active'));
+  document.querySelector('[data-cat="all"]').classList.add('active');
+  document.getElementById('search-input').value='';
+  document.getElementById('venue-select').value='';
+  updateAll();
+}
+
+// ── tabs ──
+function switchTab(tab){
+  document.querySelectorAll('.tab-btn').forEach((b,i)=>{b.classList.toggle('active',(i===0&&tab==='agenda')||(i===1&&tab==='contacto'))});
+  document.getElementById('tab-agenda').classList.toggle('active',tab==='agenda');
+  document.getElementById('tab-contacto').classList.toggle('active',tab==='contacto');
+}
+
+// ── modal cargar evento ──
+function openModal(){document.getElementById('modal-overlay').classList.add('open');document.getElementById('f-date').min=getToday()}
+function closeModal(){document.getElementById('modal-overlay').classList.remove('open')}
+function closeModalOutside(e){if(e.target===document.getElementById('modal-overlay'))closeModal()}
+
+function showToast(msg){const t=document.getElementById('toast');t.textContent=msg;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),3500)}
+
+function submitEvent(){
+  const title=document.getElementById('f-title').value.trim();
+  const cat=document.getElementById('f-cat').value;
+  const date=document.getElementById('f-date').value;
+  const time=document.getElementById('f-time').value;
+  const venue=document.getElementById('f-venue').value.trim();
+  const link=document.getElementById('f-link').value.trim();
+  const flyer=document.getElementById('f-flyer').value.trim();
+  if(!title||!cat||!date||!venue||!link){showToast('⚠ Completá los campos obligatorios');return}
+  const ev={id:Date.now(),title,cat,date,time,venue,city:'La Plata',source:'Propio',url:link,flyer:flyer||null};
+  allEvents.push(ev);saveLocal(ev);populateVenues();closeModal();updateAll();
+  showToast('✓ Evento publicado en la agenda');
+  ['f-title','f-date','f-time','f-venue','f-link','f-flyer'].forEach(id=>document.getElementById(id).value='');
+  document.getElementById('f-cat').value='';
+}
+
+// ── formulario contacto ──
+function submitContact(){
+  const nombre=document.getElementById('c-nombre').value.trim();
+  const email=document.getElementById('c-email').value.trim();
+  const mensaje=document.getElementById('c-mensaje').value.trim();
+  if(!nombre||!email||!mensaje){showToast('⚠ Completá los campos obligatorios');return}
+  const motivo=document.getElementById('c-motivo').value;
+  const subject=encodeURIComponent(motivo||'Consulta desde la agenda de natu');
+  const body=encodeURIComponent(`Nombre: ${nombre}\n\n${mensaje}`);
+  window.location.href=`mailto:laagendadenatu@gmail.com?subject=${subject}&body=${body}`;
+  showToast('✓ Abriendo tu cliente de correo…');
+}
+
+// ── boot ──
+init();
+</script>
+</body>
+</html>
