@@ -1,0 +1,34 @@
+{
+  "updated_at": "2026-04-30T21:24:19.841815",
+  "source": "scraper-natu-v2",
+  "city": "La Plata",
+  "total": 2,
+  "events": [
+    {
+      "title": "Ballet “La Bayadera” - Jueves 30/4",
+      "cat": "danza",
+      "date": "2026-04-30",
+      "time": "20:00",
+      "venue": "Teatro Argentino — Sala Ginastera",
+      "city": "La Plata",
+      "source": "Teatro Argentino",
+      "sourceKey": "teatroargentino",
+      "url": "https://teatroargentino.gba.gob.ar/meets/no-season",
+      "flyer": "",
+      "id": 1
+    },
+    {
+      "title": "Ballet “La Bayadera” - Sábado 2/5",
+      "cat": "danza",
+      "date": "2026-05-02",
+      "time": "20:00",
+      "venue": "Teatro Argentino — Sala Ginastera",
+      "city": "La Plata",
+      "source": "Teatro Argentino",
+      "sourceKey": "teatroargentino",
+      "url": "https://teatroargentino.gba.gob.ar/meets/no-season",
+      "flyer": "",
+      "id": 2
+    }
+  ]
+}
