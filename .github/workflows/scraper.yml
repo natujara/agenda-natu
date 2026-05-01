@@ -2,40 +2,42 @@ name: Actualizar agenda automáticamente
 
 on:
   schedule:
-    # Corre cada 6 horas: medianoche, 6am, mediodía y 6pm (UTC-3 = UTC+3)
+    # 0hs, 6hs, 12hs y 18hs hora Argentina (UTC-3 = UTC+3)
     - cron: "0 3,9,15,21 * * *"
-
-  # También se puede ejecutar a mano desde la pestaña Actions de GitHub
   workflow_dispatch:
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
-
     permissions:
-      contents: write   # necesario para que pueda hacer git push
+      contents: write
 
     steps:
       - name: 📥 Descargar repositorio
         uses: actions/checkout@v4
 
-      - name: 🐍 Instalar Python 3.11
+      - name: 🐍 Instalar Python 3.12
         uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: "3.12"
 
-      - name: 📦 Instalar dependencias
-        run: pip install requests beautifulsoup4
+      - name: 📦 Instalar dependencias Python
+        run: pip install requests beautifulsoup4 playwright
 
-      - name: 🎭 Ejecutar scraper
+      - name: 🎭 Instalar Playwright (Chromium)
+        run: playwright install chromium --with-deps
+
+      - name: 🎸 Ejecutar scraper
         run: python scraper.py
 
       - name: 💾 Guardar shows.json en el repositorio
         run: |
           git config user.name  "natu-bot"
-          git config user.email "natu-bot@agenda.ar"
+          git config user.email "natu-bot@agendanatu.ar"
           git add shows.json
-          # Solo commitea si el archivo cambió
           git diff --staged --quiet || \
             git commit -m "🎭 Agenda actualizada — $(date '+%d/%m/%Y %H:%M')"
           git push
