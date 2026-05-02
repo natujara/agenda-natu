@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-02T23:18:08.112408",
+  "updated_at": "2026-05-02T23:49:34.597068",
   "source": "scraper-natu-v8",
   "city": "La Plata",
-  "total": 21,
+  "total": 23,
   "events": [
     {
       "title": "Ballet “La Bayadera” - Sábado 2/5",
@@ -213,6 +213,32 @@
       "id": 16
     },
     {
+      "title": "Botón de Arrep.",
+      "cat": "recital",
+      "date": "",
+      "time": "",
+      "venue": "",
+      "city": "La Plata",
+      "source": "Plateanet",
+      "sourceKey": "plateanet",
+      "url": "http://qr.afip.gob.ar/?qr=kwtNgkcpGIa54lJJxVAn0A,,",
+      "flyer": "https://www.plateanet.com./assets/footer/comodo_2021.svg",
+      "id": 17
+    },
+    {
+      "title": "COMPRARObrasTeatrosEticketBeneficiosTérminos y condiciones",
+      "cat": "teatro",
+      "date": "",
+      "time": "",
+      "venue": "",
+      "city": "La Plata",
+      "source": "Plateanet",
+      "sourceKey": "plateanet",
+      "url": "https://www.plateanet.com/reportes",
+      "flyer": "https://www.plateanet.comassets/footer/footer_flecha.svg",
+      "id": 18
+    },
+    {
       "title": "encontranos en",
       "cat": "recital",
       "date": "",
@@ -223,7 +249,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 17
+      "id": 19
     },
     {
       "title": "Inicio(current)EL TEATROCARTELERANOTICIASCONTACTO",
@@ -236,7 +262,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 18
+      "id": 20
     },
     {
       "title": "Landing de la productoraeventosno encontrada",
@@ -249,7 +275,7 @@
       "sourceKey": "ticketpass",
       "url": "https://ticketpass.com.ar/",
       "flyer": "https://ticketpass.com.ar/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo_color.58bdc547.png&w=64&q=75",
-      "id": 19
+      "id": 21
     },
     {
       "title": "RGENTRADAS",
@@ -262,7 +288,7 @@
       "sourceKey": "rgentradas",
       "url": "https://wa.me/5492216914649",
       "flyer": "https://www.afip.gob.ar/images/f960/DATAWEB.jpg",
-      "id": 20
+      "id": 22
     },
     {
       "title": "Teatro Metro.Todos Los Derechos Reservados.",
@@ -275,7 +301,7 @@
       "sourceKey": "teatrometrolp",
       "url": "http://www.misticastudio.com",
       "flyer": "https://www.teatrometrolp.com.arimages/mistica-logo.png",
-      "id": 21
+      "id": 23
     }
   ]
 }
