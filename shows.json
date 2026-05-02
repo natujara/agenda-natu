@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-02T15:33:06.584373",
-  "source": "scraper-natu-v7",
+  "updated_at": "2026-05-02T16:11:58.789989",
+  "source": "scraper-natu-v8",
   "city": "La Plata",
-  "total": 34,
+  "total": 42,
   "events": [
     {
       "title": "Ballet “La Bayadera” - Sábado 2/5",
@@ -18,6 +18,149 @@
       "id": 1
     },
     {
+      "title": "DINOJUMP",
+      "cat": "recital",
+      "date": "2026-05-02",
+      "time": "",
+      "venue": "",
+      "city": "La Plata",
+      "source": "TuEntrada",
+      "sourceKey": "tuentrada",
+      "url": "https://tuentrada.comdinojump-gralalvear",
+      "flyer": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/dinojump/dinojump-image-main-1774270543.png",
+      "id": 2
+    },
+    {
+      "title": "MATIAS DABANCH QUINTETO",
+      "cat": "recital",
+      "date": "2026-05-02",
+      "time": "23:00",
+      "venue": "",
+      "city": "La Plata",
+      "source": "TuEntrada",
+      "sourceKey": "tuentrada",
+      "url": "https://tuentrada.commdabanch5-prez",
+      "flyer": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/matias-dabanch-quinteto/matias-dabanch-quinteto-image-main-1775660037.jpg",
+      "id": 3
+    },
+    {
+      "title": "MUJERES ARGENTINAS",
+      "cat": "recital",
+      "date": "2026-05-02",
+      "time": "21:00",
+      "venue": "",
+      "city": "La Plata",
+      "source": "TuEntrada",
+      "sourceKey": "tuentrada",
+      "url": "https://tuentrada.commujeres-argentinas-tbsj",
+      "flyer": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/mujeres-argentinas/mujeres-argentinas-image-main-1774555094.jpg",
+      "id": 4
+    },
+    {
+      "title": "NBMV",
+      "cat": "recital",
+      "date": "2026-05-02",
+      "time": "20:45",
+      "venue": "",
+      "city": "La Plata",
+      "source": "TuEntrada",
+      "sourceKey": "tuentrada",
+      "url": "https://tuentrada.comnbmv",
+      "flyer": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/nbmv/nbmv-image-main-1774559928.jpg",
+      "id": 5
+    },
+    {
+      "title": "NONPALIDESENCHUFADOS",
+      "cat": "recital",
+      "date": "2026-05-02",
+      "time": "20:00",
+      "venue": "",
+      "city": "La Plata",
+      "source": "TuEntrada",
+      "sourceKey": "tuentrada",
+      "url": "https://tuentrada.comnonpalidece-ausur",
+      "flyer": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/nonpalidece/nonpalidece-image-main-1774962604.jpg",
+      "id": 6
+    },
+    {
+      "title": "Pim Pau en San Francisco",
+      "cat": "recital",
+      "date": "2026-05-02",
+      "time": "17:00",
+      "venue": "",
+      "city": "La Plata",
+      "source": "TuEntrada",
+      "sourceKey": "tuentrada",
+      "url": "https://tuentrada.compim-pau-sf",
+      "flyer": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/pim-pau-en-san-francisco/pim-pau-en-san-francisco-image-main-1773338994.jpg",
+      "id": 7
+    },
+    {
+      "title": "Pimpinela",
+      "cat": "recital",
+      "date": "2026-05-02",
+      "time": "21:00",
+      "venue": "",
+      "city": "La Plata",
+      "source": "TuEntrada",
+      "sourceKey": "tuentrada",
+      "url": "https://tuentrada.compimpinela-tucuman",
+      "flyer": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/pimpinela/pimpinela-image-main-1769542136.jpg",
+      "id": 8
+    },
+    {
+      "title": "POR EL PLACER DE VOLVER A VERLA",
+      "cat": "recital",
+      "date": "2026-05-02",
+      "time": "21:00",
+      "venue": "",
+      "city": "La Plata",
+      "source": "TuEntrada",
+      "sourceKey": "tuentrada",
+      "url": "https://tuentrada.compepdvav-sf",
+      "flyer": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/por-el-placer-de-volver-a-verla/por-el-placer-de-volver-a-verla-image-main-1772458231.jpg",
+      "id": 9
+    },
+    {
+      "title": "Sofi Salomón",
+      "cat": "recital",
+      "date": "2026-05-02",
+      "time": "20:30",
+      "venue": "",
+      "city": "La Plata",
+      "source": "TuEntrada",
+      "sourceKey": "tuentrada",
+      "url": "https://tuentrada.comsofi-salomon-rondeman",
+      "flyer": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/sofi-salomon/sofi-salomon-image-main-1773770455.jpg",
+      "id": 10
+    },
+    {
+      "title": "VAN GOGH",
+      "cat": "recital",
+      "date": "2026-05-02",
+      "time": "",
+      "venue": "",
+      "city": "La Plata",
+      "source": "TuEntrada",
+      "sourceKey": "tuentrada",
+      "url": "https://tuentrada.comvan-gogh-larioja",
+      "flyer": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/van-gogh/van-gogh-image-main-1775652399.png",
+      "id": 11
+    },
+    {
+      "title": "Virus",
+      "cat": "recital",
+      "date": "2026-05-02",
+      "time": "20:30",
+      "venue": "",
+      "city": "La Plata",
+      "source": "TuEntrada",
+      "sourceKey": "tuentrada",
+      "url": "https://tuentrada.comvirus-tgr",
+      "flyer": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/virus/virus-image-main-1773173325.jpg",
+      "id": 12
+    },
+    {
       "title": "EL VIAJE DE LA ESTRELLA",
       "cat": "recital",
       "date": "2026-05-07",
@@ -28,7 +171,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/entrada/el-viaje-de-la-estrella-100580",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/entradas/20260415190342_14.-flyer-10052026-ve-san-isidro-600x400-px.png",
-      "id": 2
+      "id": 13
     },
     {
       "title": "NATI UBOLDI - EL ULTIMO CLICK",
@@ -41,7 +184,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/entrada/nati-uboldi-el-ultimo-click-100479",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/entradas/20260217133538_natiuboldi_2026_posteo_laplata.jpg",
-      "id": 3
+      "id": 14
     },
     {
       "title": "2026-05-09 | Seru Giran por Cinema Verité en La Plata",
@@ -54,7 +197,7 @@
       "sourceKey": "mianticipada",
       "url": "https://entradas.mianticipada.com/es/seruporcinema/evento/seru-giran-por-cinema-verite-en-la-plata-3br7",
       "flyer": "https://mianticipada.com/media/imagenes_eventos/home/2026/04/FLYER-090526-LAPLATA_1080_1.webp",
-      "id": 4
+      "id": 15
     },
     {
       "title": "CARMEN Y OSVALDO Y TODA LA FAMILIA",
@@ -67,20 +210,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/entrada/carmen-y-osvaldo-y-toda-la-familia-100467",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/entradas/20260210173109__jpg_coyflia-800x600.jpg",
-      "id": 5
-    },
-    {
-      "title": "EKATHÉ",
-      "cat": "recital",
-      "date": "2026-05-09",
-      "time": "",
-      "venue": "Casa Metro La Plata",
-      "city": "La Plata",
-      "source": "Casa Metro",
-      "sourceKey": "casametro",
-      "url": "https://casametro.com.ar/evento/ekathe/",
-      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/04/Ekathe-web.png",
-      "id": 6
+      "id": 16
     },
     {
       "title": "ABBA Sinfónico  Edelweiss Orchestra",
@@ -93,33 +223,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/entrada/abba-sinfonico-edelweiss-orchestra-100468",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/entradas/770755639232.png",
-      "id": 7
-    },
-    {
-      "title": "Hugo Figueras – La Canción Sin Fin",
-      "cat": "recital",
-      "date": "2026-05-10",
-      "time": "",
-      "venue": "Casa Metro La Plata",
-      "city": "La Plata",
-      "source": "Casa Metro",
-      "sourceKey": "casametro",
-      "url": "https://casametro.com.ar/evento/hugo-figueras-la-cancion-sin-fin-2/",
-      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/03/10-may-web_figueras.png",
-      "id": 8
-    },
-    {
-      "title": "Gala Banda + Only Funk",
-      "cat": "recital",
-      "date": "2026-05-15",
-      "time": "",
-      "venue": "Casa Metro La Plata",
-      "city": "La Plata",
-      "source": "Casa Metro",
-      "sourceKey": "casametro",
-      "url": "https://casametro.com.ar/evento/gala-banda-only-funk/",
-      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/04/web-copiaTipico-de-viernes.png",
-      "id": 9
+      "id": 17
     },
     {
       "title": "Misterios Mentales",
@@ -132,33 +236,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/entrada/misterios-mentales-100585",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/entradas/20260327193410_horizontal_1920x1080-copia.png",
-      "id": 10
-    },
-    {
-      "title": "Ocelote + Moah",
-      "cat": "recital",
-      "date": "2026-05-15",
-      "time": "",
-      "venue": "Casa Metro La Plata",
-      "city": "La Plata",
-      "source": "Casa Metro",
-      "sourceKey": "casametro",
-      "url": "https://casametro.com.ar/evento/ocelote-moah/",
-      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/04/web_ocelote.png",
-      "id": 11
-    },
-    {
-      "title": "Ligia Piro & Ricardo Lew",
-      "cat": "recital",
-      "date": "2026-05-16",
-      "time": "",
-      "venue": "Casa Metro La Plata",
-      "city": "La Plata",
-      "source": "Casa Metro",
-      "sourceKey": "casametro",
-      "url": "https://casametro.com.ar/evento/ligia-piro-ricardo-lew/",
-      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/04/Placa_Ligia_web.png",
-      "id": 12
+      "id": 18
     },
     {
       "title": "Los Palmeras",
@@ -171,20 +249,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/entrada/los-palmeras-100595",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/entradas/20260331195209_doblepano-palmeras-mudo.jpg",
-      "id": 13
-    },
-    {
-      "title": "Cayó la Cabra",
-      "cat": "recital",
-      "date": "2026-05-22",
-      "time": "",
-      "venue": "Casa Metro La Plata",
-      "city": "La Plata",
-      "source": "Casa Metro",
-      "sourceKey": "casametro",
-      "url": "https://casametro.com.ar/evento/cayo-la-cabra/",
-      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/04/1600-1000-azul.jpg.jpeg",
-      "id": 14
+      "id": 19
     },
     {
       "title": "Cayó la Cabra",
@@ -197,20 +262,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/entrada/cayo-la-cabra-100624",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/entradas/20260421210134_1600-1000-azul.jpg.jpeg",
-      "id": 15
-    },
-    {
-      "title": "Digit.AR – 001",
-      "cat": "recital",
-      "date": "2026-05-22",
-      "time": "",
-      "venue": "Casa Metro La Plata",
-      "city": "La Plata",
-      "source": "Casa Metro",
-      "sourceKey": "casametro",
-      "url": "https://casametro.com.ar/evento/digitar-001/",
-      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/03/DIGIT.AR-001-Ticketera.jpg",
-      "id": 16
+      "id": 20
     },
     {
       "title": "2026-05-23 | ETIQUETA NEGRA En La Plata",
@@ -223,7 +275,7 @@
       "sourceKey": "mianticipada",
       "url": "https://mianticipada.com/2026-05-23-ETIQUETA-NEGRA-En-La-Plata/",
       "flyer": "https://mianticipada.com/media/imagenes_eventos/home/2026/04/ENLP.jpg",
-      "id": 17
+      "id": 21
     },
     {
       "title": "2026-05-23 | LA DRACU STONE En Hurlingham",
@@ -236,7 +288,7 @@
       "sourceKey": "mianticipada",
       "url": "https://mianticipada.com/2026-05-23---LA-DRACU-STONE-En-Hurlingham/",
       "flyer": "https://mianticipada.com/media/imagenes_eventos/home/2026/04/IMG_0803.jpeg",
-      "id": 18
+      "id": 22
     },
     {
       "title": "La Grecia en La Plata🚀",
@@ -249,7 +301,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos?ciudad=la-plata",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/LG%20LA%20PLATA%20FEED.jpeg?alt=media&token=d023901a-0733-413f-80a1-b9d81c095f2c",
-      "id": 19
+      "id": 23
     },
     {
       "title": "Próximos Eventos",
@@ -262,7 +314,7 @@
       "sourceKey": "rgentradas",
       "url": "https://rgentradas.com/events/4",
       "flyer": "https://rgentradas.com/storage/banners/b6Ri63ukHLICXPheDaK87NGRl4NrxlaKJfdc1MND.png",
-      "id": 20
+      "id": 24
     },
     {
       "title": "CAZADORAS DORADAS",
@@ -275,20 +327,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/entrada/cazadoras-doradas-100532",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/entradas/20260419192320_500x450px-cazadoras-doradas-k-pop-en-la-plata.jpg",
-      "id": 21
-    },
-    {
-      "title": "Ciclo de Peñas – Luna Cautiva",
-      "cat": "recital",
-      "date": "2026-05-24",
-      "time": "",
-      "venue": "Casa Metro La Plata",
-      "city": "La Plata",
-      "source": "Casa Metro",
-      "sourceKey": "casametro",
-      "url": "https://casametro.com.ar/evento/ciclo-de-penas-luna-cautiva-2/",
-      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/04/web_pena_24.png",
-      "id": 22
+      "id": 25
     },
     {
       "title": "Fernando Sanjiao - Quemado",
@@ -301,33 +340,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/entrada/fernando-sanjiao-quemado-100110",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/entradas/20250904114224_quemado_fuego-real_editable_-1.jpg",
-      "id": 23
-    },
-    {
-      "title": "Sofía Calvo – Es hora de hablar",
-      "cat": "recital",
-      "date": "2026-06-06",
-      "time": "",
-      "venue": "Casa Metro La Plata",
-      "city": "La Plata",
-      "source": "Casa Metro",
-      "sourceKey": "casametro",
-      "url": "https://casametro.com.ar/evento/sofia-calvo/",
-      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/04/web_varela-1.png",
-      "id": 24
-    },
-    {
-      "title": "Los Amados – Bailable",
-      "cat": "recital",
-      "date": "2026-06-13",
-      "time": "",
-      "venue": "Casa Metro La Plata",
-      "city": "La Plata",
-      "source": "Casa Metro",
-      "sourceKey": "casametro",
-      "url": "https://casametro.com.ar/evento/los-amados-bailable/",
-      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/03/web_AMADOS.png",
-      "id": 25
+      "id": 26
     },
     {
       "title": "Festival Viaje de Agua VII La Plata",
@@ -340,33 +353,33 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos?ciudad=la-plata",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/Anuncio%201.jpeg?alt=media&token=14cc61e9-46df-433c-a06f-e169e6d01960",
-      "id": 26
-    },
-    {
-      "title": "Silvina Garré",
-      "cat": "recital",
-      "date": "2026-07-25",
-      "time": "",
-      "venue": "Casa Metro La Plata",
-      "city": "La Plata",
-      "source": "Casa Metro",
-      "sourceKey": "casametro",
-      "url": "https://casametro.com.ar/evento/silvina-garre/",
-      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/04/web-1.png",
       "id": 27
     },
     {
-      "title": "Adriana Varela",
+      "title": "No Te Va Gustar",
+      "cat": "recital",
+      "date": "2026-07-31",
+      "time": "",
+      "venue": "",
+      "city": "La Plata",
+      "source": "TuEntrada",
+      "sourceKey": "tuentrada",
+      "url": "https://tuentrada.comntvg-gira",
+      "flyer": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/event-groups/no-te-va-gustar/no-te-va-gustar-image-main-1772451812.jpg",
+      "id": 28
+    },
+    {
+      "title": "Devoluciones",
       "cat": "recital",
       "date": "",
       "time": "",
-      "venue": "Casa Metro La Plata",
+      "venue": "",
       "city": "La Plata",
-      "source": "Casa Metro",
-      "sourceKey": "casametro",
-      "url": "https://casametro.com.ar/evento/5463/",
-      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/04/web_varela.png",
-      "id": 28
+      "source": "TuEntrada",
+      "sourceKey": "tuentrada",
+      "url": "https://ayuda.tuentrada.com/devoluciones",
+      "flyer": "https://bucket.tuentrada.com/bucket/dynamic-content-items/site-tuentrada-centro-de-ayuda/site-tuentrada-centro-de-ayuda-image-1768398873.svg",
+      "id": 29
     },
     {
       "title": "encontranos en",
@@ -379,20 +392,20 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 29
+      "id": 30
     },
     {
-      "title": "Esteban Echaniz en Medio Tono",
+      "title": "Información General",
       "cat": "recital",
       "date": "",
-      "time": "21:00",
-      "venue": "Viernes 01/05, 21:00 hsMedio Tono Club de Música, Córdoba",
+      "time": "",
+      "venue": "",
       "city": "La Plata",
-      "source": "Alpogo",
-      "sourceKey": "alpogo",
-      "url": "https://alpogo.com/evento/esteban-echaniz-en-medio-tono-25914",
-      "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1776783686_69e79146c79eb.jpg",
-      "id": 30
+      "source": "TuEntrada",
+      "sourceKey": "tuentrada",
+      "url": "https://ayuda.tuentrada.com/general",
+      "flyer": "https://bucket.tuentrada.com/bucket/dynamic-content-items/site-tuentrada-centro-de-ayuda/site-tuentrada-centro-de-ayuda-image-1768398813.svg",
+      "id": 31
     },
     {
       "title": "Inicio(current)EL TEATROCARTELERANOTICIASCONTACTO",
@@ -405,20 +418,72 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 31
+      "id": 32
     },
     {
-      "title": "La Colosa en El Galpon de Hurligham",
+      "title": "Landing de la productoraeventosno encontrada",
       "cat": "recital",
       "date": "",
-      "time": "20:00",
-      "venue": "Sábado 02/05, 20:00 hsEl Galpón Clásico",
+      "time": "",
+      "venue": "",
       "city": "La Plata",
-      "source": "Alpogo",
-      "sourceKey": "alpogo",
-      "url": "https://alpogo.com/evento/la-colosa-en-el-galpon-de-hurligham-24855",
-      "flyer": "https://imagenes.alpogo.com/eventos/9252967b-ee1b-4f2f-b10d-d5ee447065da.webp",
-      "id": 32
+      "source": "TicketPass",
+      "sourceKey": "ticketpass",
+      "url": "https://ticketpass.com.ar/",
+      "flyer": "https://ticketpass.com.ar/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo_color.58bdc547.png&w=64&q=75",
+      "id": 33
+    },
+    {
+      "title": "Mis Entradas",
+      "cat": "recital",
+      "date": "",
+      "time": "",
+      "venue": "",
+      "city": "La Plata",
+      "source": "TuEntrada",
+      "sourceKey": "tuentrada",
+      "url": "https://ayuda.tuentrada.com/mis-entradas/descargar-entradas",
+      "flyer": "https://bucket.tuentrada.com/bucket/dynamic-content-items/site-tuentrada-centro-de-ayuda/site-tuentrada-centro-de-ayuda-image-1768398887.svg",
+      "id": 34
+    },
+    {
+      "title": "Preguntas Frecuentes",
+      "cat": "recital",
+      "date": "",
+      "time": "",
+      "venue": "",
+      "city": "La Plata",
+      "source": "TuEntrada",
+      "sourceKey": "tuentrada",
+      "url": "https://ayuda.tuentrada.com/general/consultas-generales",
+      "flyer": "https://bucket.tuentrada.com/bucket/dynamic-content-items/site-tuentrada-centro-de-ayuda/site-tuentrada-centro-de-ayuda-image-1768398839.svg",
+      "id": 35
+    },
+    {
+      "title": "Rechazo en el Pago",
+      "cat": "recital",
+      "date": "",
+      "time": "",
+      "venue": "",
+      "city": "La Plata",
+      "source": "TuEntrada",
+      "sourceKey": "tuentrada",
+      "url": "https://ayuda.tuentrada.com/general/inconvenientes-para-realizar-mi-compra",
+      "flyer": "https://bucket.tuentrada.com/bucket/dynamic-content-items/site-tuentrada-centro-de-ayuda/site-tuentrada-centro-de-ayuda-image-1768398744.svg",
+      "id": 36
+    },
+    {
+      "title": "Reventa Oficial",
+      "cat": "recital",
+      "date": "",
+      "time": "",
+      "venue": "",
+      "city": "La Plata",
+      "source": "TuEntrada",
+      "sourceKey": "tuentrada",
+      "url": "https://ayuda.tuentrada.com/trabaja-con-nosotros",
+      "flyer": "https://bucket.tuentrada.com/bucket/dynamic-content-items/site-tuentrada-centro-de-ayuda/site-tuentrada-centro-de-ayuda-image-1768398793.svg",
+      "id": 37
     },
     {
       "title": "RGENTRADAS",
@@ -431,7 +496,7 @@
       "sourceKey": "rgentradas",
       "url": "https://wa.me/5492216914649",
       "flyer": "https://www.afip.gob.ar/images/f960/DATAWEB.jpg",
-      "id": 33
+      "id": 38
     },
     {
       "title": "Teatro Metro.Todos Los Derechos Reservados.",
@@ -444,7 +509,46 @@
       "sourceKey": "teatrometrolp",
       "url": "http://www.misticastudio.com",
       "flyer": "https://www.teatrometrolp.com.arimages/mistica-logo.png",
-      "id": 34
+      "id": 39
+    },
+    {
+      "title": "Trabaja con Nosotros",
+      "cat": "recital",
+      "date": "",
+      "time": "",
+      "venue": "",
+      "city": "La Plata",
+      "source": "TuEntrada",
+      "sourceKey": "tuentrada",
+      "url": "https://ayuda.tuentrada.com/trabaja-con-nosotros",
+      "flyer": "https://bucket.tuentrada.com/bucket/dynamic-content-items/site-tuentrada-centro-de-ayuda/site-tuentrada-centro-de-ayuda-image-1768398725.svg",
+      "id": 40
+    },
+    {
+      "title": "TuEntrada Wallet",
+      "cat": "recital",
+      "date": "",
+      "time": "",
+      "venue": "",
+      "city": "La Plata",
+      "source": "TuEntrada",
+      "sourceKey": "tuentrada",
+      "url": "https://ayuda.tuentrada.com/tuentrada-wallet",
+      "flyer": "https://bucket.tuentrada.com/bucket/dynamic-content-items/site-tuentrada-centro-de-ayuda/site-tuentrada-centro-de-ayuda-image-1768398781.svg",
+      "id": 41
+    },
+    {
+      "title": "¿Estás perdido?",
+      "cat": "recital",
+      "date": "",
+      "time": "",
+      "venue": "",
+      "city": "La Plata",
+      "source": "LivePass",
+      "sourceKey": "livepass",
+      "url": "https://www.livepass.com.ar/",
+      "flyer": "https://ticketplus.uploads.ticketplus.global/images/website/404.png",
+      "id": 42
     }
   ]
 }
