@@ -2,7 +2,7 @@ name: Actualizar agenda automáticamente
 
 on:
   schedule:
-    # 0hs, 6hs, 12hs y 18hs hora Argentina (UTC-3 = UTC+3)
+    # 0hs, 6hs, 12hs y 18hs hora Argentina (UTC-3)
     - cron: "0 3,9,15,21 * * *"
   workflow_dispatch:
 
@@ -12,6 +12,7 @@ env:
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    timeout-minutes: 30   # Bandsintown + Playwright tarda ~20 min
     permissions:
       contents: write
 
@@ -24,16 +25,16 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: 📦 Instalar dependencias Python
+      - name: 📦 Instalar dependencias
         run: pip install requests beautifulsoup4 playwright
 
-      - name: 🎭 Instalar Playwright (Chromium)
+      - name: 🎭 Instalar Playwright Chromium
         run: playwright install chromium --with-deps
 
       - name: 🎸 Ejecutar scraper
         run: python scraper.py
 
-      - name: 💾 Guardar shows.json en el repositorio
+      - name: 💾 Guardar shows.json
         run: |
           git config user.name  "natu-bot"
           git config user.email "natu-bot@agendanatu.ar"
@@ -41,3 +42,4 @@ jobs:
           git diff --staged --quiet || \
             git commit -m "🎭 Agenda actualizada — $(date '+%d/%m/%Y %H:%M')"
           git push
+
