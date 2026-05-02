@@ -311,40 +311,58 @@ def _parse_bandsintown_event(ev: dict) -> dict | None:
 #  CASA METRO — funciona bien en v7
 # ══════════════════════════════════════════════════════════
 def scrape_casa_metro():
+    """
+    Casa Metro — scraping desde la home.
+    Estructura real: cada evento está en un bloque con:
+      - <img> con el flyer
+      - texto con "Día, DD de Mes de YYYY"
+      - <h5> con el título
+      - <a href="/evento/...">Comprar tickets</a>
+    """
     events = []
     log.info("Casa Metro → scrapeando…")
     try:
-        r = requests.get("https://casametro.com.ar/cartelera/",
-                         headers=HEADERS, timeout=20)
+        r = requests.get("https://casametro.com.ar/", headers=HEADERS, timeout=20)
         soup = BeautifulSoup(r.text, "html.parser")
-        cards = soup.select("li.product, article.product, .product-inner")
-        if not cards:
-            cards = soup.select(".entry, .post, section article")
-        if not cards:
-            links = soup.find_all("a", href=re.compile(r"/evento/|/product/"))
-            cards = [a.find_parent(["li","article","div"]) for a in links]
-            cards = [c for c in cards if c]
-        log.info(f"Casa Metro: {len(cards)} cards")
-        for card in cards:
-            try:
-                title_el = (card.select_one(".woocommerce-loop-product__title")
-                            or card.find(["h2","h3","h4","h5"]))
-                title = title_el.get_text(strip=True) if title_el else ""
-                if not title or len(title) < 3: continue
-                block_text = card.get_text(" ", strip=True)
-                link_el = (card.select_one("a[href*='/evento/'],a[href*='/product/']")
-                           or card.find("a", href=True))
-                href = link_el["href"] if link_el else "https://casametro.com.ar/cartelera/"
-                img_el = card.find("img")
-                flyer = ""
-                if img_el:
-                    flyer = img_el.get("data-src") or img_el.get("src") or ""
-                    flyer = re.sub(r"-\d+x\d+(\.\w+)$", r"\1", flyer)
-                events.append(make_ev(title, detect_cat(title),
-                    parse_date(block_text), parse_time(block_text),
-                    "Casa Metro La Plata", "Casa Metro", "casametro", href, flyer))
-            except Exception as e:
-                log.debug(f"Casa Metro: {e}")
+
+        # Buscar todos los links a /evento/ — cada uno es un evento
+        seen = set()
+        for a in soup.find_all("a", href=re.compile(r"/evento/")):
+            href = a.get("href","")
+            if not href or href in seen: continue
+            seen.add(href)
+
+            # El bloque padre contiene imagen, fecha y título
+            block = a.find_parent(["div","li","article","section"])
+            if not block: continue
+
+            # Título: <h5> o <h4> o <h3>
+            title_el = block.find(["h5","h4","h3","h2"])
+            title = title_el.get_text(strip=True) if title_el else ""
+            # Si el link tiene texto descriptivo, usarlo como título
+            if not title:
+                link_text = a.get_text(strip=True)
+                if link_text and link_text.lower() not in ("comprar tickets","ver más","tickets"):
+                    title = link_text
+            if not title or len(title) < 3: continue
+
+            block_text = block.get_text(" ", strip=True)
+            date_str = parse_date(block_text)
+            time_str = parse_time(block_text)
+
+            # Imagen: quitar sufijos de tamaño
+            img_el = block.find("img")
+            flyer = ""
+            if img_el:
+                flyer = img_el.get("src") or img_el.get("data-src") or ""
+                flyer = re.sub(r"-\d+x\d+(\.\w+)$", r"\1", flyer)
+
+            events.append(make_ev(
+                title, detect_cat(title), date_str, time_str,
+                "Casa Metro La Plata", "Casa Metro", "casametro", href, flyer
+            ))
+
+        log.info(f"Casa Metro: {len(events)} eventos")
     except Exception as e:
         log.error(f"Casa Metro: {e}")
     log.info(f"Casa Metro → {len(events)} eventos")
@@ -786,8 +804,13 @@ def scrape_livepass():
     log.info(f"LivePass → {len(deduped)} eventos")
     return deduped
 
+def scrape_plateanet():
+    return playwright_scrape("Plateanet","plateanet",
+        ["https://www.plateanet.com/search/-/-/La%20Plata/-/-/-/-"],
+        filter_lp=False, extra_wait=4,
+        preferred_selector="[class*='card'],[class*='show'],[class*='espectaculo'],article")
+
 def scrape_alpogo():
-    # [class*='evento'] funcionó bien en v7 (94 cards, 6 eventos)
     return playwright_scrape("Alpogo","alpogo",
         ["https://alpogo.com/search?q=la+plata",
          "https://alpogo.com/eventos?ciudad=la-plata"],
@@ -873,6 +896,7 @@ def main():
     # Playwright
     all_events += scrape_teatro_metro();     pause()
     all_events += scrape_mianticipada();     pause()
+    all_events += scrape_plateanet();        pause()
     all_events += scrape_alpogo();           pause()
     all_events += scrape_universotickets();  pause()
     all_events += scrape_catpass();          pause()
