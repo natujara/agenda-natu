@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-01T23:49:32.627742",
+  "updated_at": "2026-05-02T08:25:11.402888",
   "source": "scraper-natu-v3",
   "city": "La Plata",
-  "total": 8,
+  "total": 6,
   "events": [
     {
       "title": "Ballet “La Bayadera” - Sábado 2/5",
@@ -70,32 +70,6 @@
       "id": 5
     },
     {
-      "title": "Estacionamiento Festival Nacional de Cuarteto - La Plata",
-      "cat": "recital",
-      "date": "",
-      "time": "",
-      "venue": "",
-      "city": "La Plata",
-      "source": "UniversoTickets",
-      "sourceKey": "universotickets",
-      "url": "https://universotickets.com/",
-      "flyer": "",
-      "id": 6
-    },
-    {
-      "title": "Festival Nacional de Cuarteto - La Plata",
-      "cat": "recital",
-      "date": "",
-      "time": "",
-      "venue": "",
-      "city": "La Plata",
-      "source": "UniversoTickets",
-      "sourceKey": "universotickets",
-      "url": "https://universotickets.com/",
-      "flyer": "",
-      "id": 7
-    },
-    {
       "title": "Fito Paez",
       "cat": "otro",
       "date": "",
@@ -106,7 +80,7 @@
       "sourceKey": "universotickets",
       "url": "https://universotickets.com/",
       "flyer": "",
-      "id": 8
+      "id": 6
     }
   ]
 }
