@@ -667,19 +667,124 @@ def scrape_ticketpass():
         trust_url_filter=True)
 
 def scrape_livepass():
-    return playwright_scrape("LivePass","livepass",
-        ["https://www.livepass.com.ar/eventos?ciudad=la-plata",
-         "https://www.livepass.com.ar/eventos/buenos-aires/la-plata",
-         "https://www.livepass.com.ar/buscar?q=la+plata"],
-        filter_lp=True, extra_wait=3,
-        trust_url_filter=True)
+    """
+    LivePass — HTML estático, no necesita Playwright.
+    Scrapea las páginas de taxón (venue) de La Plata directamente.
+    Estructura: h3 = título, h2 = fecha, a[href*='/events/'] = link, img = flyer.
+    """
+    events = []
+    log.info("LivePass → scrapeando páginas de venue…")
 
-def scrape_tuentrada():
-    return playwright_scrape("TuEntrada","tuentrada",
-        ["https://tuentrada.com/eventos?ciudad=la-plata",
-         "https://tuentrada.com/buscar?q=la+plata"],
-        filter_lp=True, extra_wait=3,
-        trust_url_filter=True)
+    # Páginas de venue/taxón de La Plata conocidas
+    venue_pages = [
+        ("https://livepass.com.ar/taxons/hipodromo-la-plata", "Hipódromo de La Plata"),
+        ("https://livepass.com.ar/taxons/opera-la-plata",     "Opera La Plata"),
+        ("https://livepass.com.ar/taxons/teatro-argentino",   "Teatro Argentino"),
+    ]
+
+    # También buscar en la home si hay eventos de La Plata destacados
+    home_urls = [
+        "https://livepass.com.ar/",
+        "https://livepass.com.ar/t/show",
+    ]
+
+    BASE = "https://livepass.com.ar"
+
+    def parse_livepass_page(html, default_venue):
+        found = []
+        soup = BeautifulSoup(html, "html.parser")
+
+        # Cada evento: un <a href="/events/..."> que contiene h3 (título) + h2 (fecha)
+        for a in soup.find_all("a", href=re.compile(r"/events/")):
+            try:
+                title_el = a.find("h3") or a.find("h4") or a.find("strong")
+                title = title_el.get_text(strip=True) if title_el else ""
+                if not title or len(title) < 3:
+                    continue
+
+                # Fecha: h2 dentro del link o texto tipo "Sábado 09 Mayo"
+                date_el = a.find("h2") or a.find("h4")
+                date_txt = date_el.get_text(strip=True) if date_el else ""
+
+                # Venue: texto del <h2> suele incluir venue después de la fecha
+                # "Sábado 09 Mayo, Hipodromo de la Plata, Avenida 44..."
+                full_date_txt = date_txt
+                venue_txt = default_venue
+                if "," in date_txt:
+                    parts = date_txt.split(",")
+                    full_date_txt = parts[0].strip()
+                    venue_txt = parts[1].strip() if len(parts) > 1 else default_venue
+
+                href = a.get("href","")
+                if href and not href.startswith("http"):
+                    href = BASE + href
+
+                img_el = a.find("img")
+                flyer = img_el.get("src","") if img_el else ""
+
+                found.append(make_ev(
+                    title, detect_cat(title),
+                    parse_date(full_date_txt), parse_time(full_date_txt),
+                    venue_txt, "LivePass", "livepass", href, flyer
+                ))
+            except Exception as e:
+                log.debug(f"LivePass card: {e}")
+        return found
+
+    # Scrapear páginas de venue
+    for url, default_venue in venue_pages:
+        try:
+            r = requests.get(url, headers=HEADERS, timeout=20)
+            log.info(f"LivePass: HTTP {r.status_code} — {url}")
+            if r.status_code == 200:
+                found = parse_livepass_page(r.text, default_venue)
+                log.info(f"LivePass: {len(found)} eventos en {default_venue}")
+                events += found
+            pause(1)
+        except Exception as e:
+            log.error(f"LivePass {url}: {e}")
+
+    # Scrapear home filtrando por La Plata
+    for url in home_urls:
+        try:
+            r = requests.get(url, headers=HEADERS, timeout=20)
+            if r.status_code == 200:
+                soup = BeautifulSoup(r.text, "html.parser")
+                for a in soup.find_all("a", href=re.compile(r"/events/")):
+                    try:
+                        block_text = a.get_text(" ")
+                        if not is_lp(block_text): continue
+                        title_el = a.find("h3") or a.find("h4") or a.find("strong")
+                        title = title_el.get_text(strip=True) if title_el else ""
+                        if not title or len(title) < 3: continue
+                        date_el = a.find("h2")
+                        date_txt = date_el.get_text(strip=True) if date_el else ""
+                        href = a.get("href","")
+                        if href and not href.startswith("http"):
+                            href = BASE + href
+                        img_el = a.find("img")
+                        flyer = img_el.get("src","") if img_el else ""
+                        events.append(make_ev(
+                            title, detect_cat(title),
+                            parse_date(date_txt), parse_time(date_txt),
+                            "", "LivePass", "livepass", href, flyer
+                        ))
+                    except Exception as e:
+                        log.debug(f"LivePass home card: {e}")
+            pause(1)
+        except Exception as e:
+            log.error(f"LivePass home {url}: {e}")
+
+    # Deduplicar por URL de evento
+    seen_urls = set()
+    deduped = []
+    for e in events:
+        if e["url"] not in seen_urls:
+            seen_urls.add(e["url"])
+            deduped.append(e)
+
+    log.info(f"LivePass → {len(deduped)} eventos")
+    return deduped
 
 def scrape_alpogo():
     # [class*='evento'] funcionó bien en v7 (94 cards, 6 eventos)
@@ -753,7 +858,7 @@ def sort_events(events):
 # ══════════════════════════════════════════════════════════
 def main():
     log.info("══════════════════════════════════════════")
-    log.info("  La agenda de natu (extendida) — v8")
+    log.info("  La agenda de natu (extendida) — v9")
     log.info("══════════════════════════════════════════")
     t0 = time.time()
 
@@ -774,7 +879,6 @@ def main():
     all_events += scrape_rgentradas();       pause()
     all_events += scrape_livepass();         pause()
     all_events += scrape_ticketpass();       pause()
-    all_events += scrape_tuentrada();        pause()
     all_events += scrape_ticketek()
 
     log.info(f"Total crudo: {len(all_events)}")
