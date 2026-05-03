@@ -115,27 +115,36 @@ def scrape_casa_metro():
         r = requests.get("https://casametro.com.ar/cartelera/", headers=HEADERS, timeout=20)
         soup = BeautifulSoup(r.text, "html.parser")
 
-        # WooCommerce: cada evento es un <li class="product ...">
-        cards = soup.select("li.product")
+        # WooCommerce: productos en <ul class="products"> > <li>
+        # Cada <li> tiene: img+fecha en <a href=/evento/>, título en <h2><a>
+        cards = soup.select("ul.products li")
+        if not cards:
+            # fallback: cualquier li que tenga un link a /evento/
+            cards = [a.find_parent("li") for a in
+                     soup.find_all("a", href=re.compile(r"/evento/"))]
+            cards = list({id(c): c for c in cards if c}.values())
         log.info(f"Casa Metro: {len(cards)} cards")
 
+        seen_hrefs = set()
         for card in cards:
             try:
-                # Título: <h2> dentro de la card
+                # Título: <h2> con link a /evento/
                 title_el = card.find("h2")
                 title = title_el.get_text(strip=True) if title_el else ""
                 if not title or len(title) < 3: continue
 
-                # Fecha: texto con "Fecha: mayo 09, 2026"
+                # Link principal al evento
+                link_el = card.find("a", href=re.compile(r"/evento/"))
+                href = link_el["href"] if link_el else "https://casametro.com.ar/cartelera/"
+                if href in seen_hrefs: continue
+                seen_hrefs.add(href)
+
+                # Fecha: "Fecha:mayo 09, 2026" en el texto del bloque
                 block_text = card.get_text(" ", strip=True)
                 date_str = parse_date(block_text)
                 time_str = parse_time(block_text)
 
-                # Link: href="/evento/..."
-                link_el = card.find("a", href=re.compile(r"/evento/"))
-                href = link_el["href"] if link_el else "https://casametro.com.ar/cartelera/"
-
-                # Imagen: quitar sufijo tamaño (-300x188, -1024x640, etc.)
+                # Imagen: quitar sufijo tamaño (-300x188, etc.)
                 img_el = card.find("img")
                 flyer = ""
                 if img_el:
@@ -220,42 +229,45 @@ def scrape_livepass():
     def parse_page(html, default_venue):
         found = []
         soup = BeautifulSoup(html, "html.parser")
+
+        # LivePass: cada evento es <a href="https://livepass.com.ar/events/SLUG">
+        # con h1 (título largo), h3 (título corto), h2 (fecha "Viernes 08 Mayo")
+        # Hay links duplicados (destacados + lista) — deduplicar por href
+        seen = set()
         for a in soup.find_all("a", href=True):
             href = a.get("href","")
-            if "/events/" not in href: continue
-            if href.startswith("/"): href = BASE + href
-            if href in seen_urls: continue
+            # Filtrar solo links de eventos
+            if "livepass.com.ar/events/" not in href:
+                continue
+            if href in seen:
+                continue
+            seen.add(href)
+
             try:
-                # Título: h1 preferido (nombre completo), fallback h3
+                # Título: h1 (nombre completo) preferido sobre h3
                 h1 = a.find("h1")
                 h3 = a.find("h3")
-                title = (h1 or h3)
-                title = title.get_text(strip=True) if title else ""
-                if not title or len(title) < 3: continue
+                title_el = h1 or h3
+                title = title_el.get_text(strip=True) if title_el else ""
+                if not title or len(title) < 3:
+                    continue
 
-                # Fecha: h2 con "Sábado 09 Mayo, Venue..." o solo "09 MAY"
+                # Fecha: h2 con texto "Viernes 08 Mayo" o "08 MAY"
                 h2 = a.find("h2")
-                h2_txt = h2.get_text(strip=True) if h2 else ""
-                date_str = parse_date(h2_txt)
-                time_str = parse_time(h2_txt)
+                date_str = parse_date(h2.get_text(strip=True)) if h2 else ""
+                time_str = ""
 
-                # Venue: segunda parte del h2 tras la coma
-                venue_txt = default_venue
-                if "," in h2_txt:
-                    parts = [p.strip() for p in h2_txt.split(",")]
-                    if len(parts) > 1 and len(parts[1]) > 2:
-                        venue_txt = parts[1]
-
+                # Flyer: primera imagen dentro del link
                 img_el = a.find("img")
                 flyer = img_el.get("src","") if img_el else ""
 
-                seen_urls.add(href)
                 found.append(make_ev(
                     title, detect_cat(title), date_str, time_str,
-                    venue_txt, "LivePass", "livepass", href, flyer
+                    default_venue, "LivePass", "livepass", href, flyer
                 ))
             except Exception as e:
                 log.debug(f"LivePass card: {e}")
+
         return found
 
     for url, default_venue in venue_pages:
@@ -280,44 +292,70 @@ def scrape_livepass():
 #  Estructura: tabla o lista con nombre obra, teatro, dirección
 # ══════════════════════════════════════════════════════════
 def scrape_alternativa_teatral():
+    """
+    Alternativa Teatral — Playwright porque es una SPA.
+    Filtramos directamente con el parámetro ciudad=La+Plata en la URL.
+    Estructura: lista de espectáculos con nombre, teatro y horarios.
+    """
     events = []
     log.info("Alternativa Teatral → scrapeando…")
-
-    # Buscar la URL con filtro La Plata — probar variantes
-    urls = [
-        "https://www.alternativateatral.com/cartelera.asp?ciudad=La+Plata",
-        "https://www.alternativateatral.com/cartelera.asp?provincia=Buenos+Aires&ciudad=La+Plata",
-        "https://www.alternativateatral.com/cartelera.asp?prov=2&ciudad=La+Plata",
-    ]
+    try:
+        from playwright.sync_api import sync_playwright
+    except ImportError:
+        log.warning("Alternativa Teatral: Playwright no instalado.")
+        return events
 
     BASE = "https://www.alternativateatral.com"
 
-    for url in urls:
-        try:
-            r = requests.get(url, headers=HEADERS, timeout=20)
-            log.info(f"Alternativa Teatral: HTTP {r.status_code}")
-            if r.status_code != 200: continue
+    with sync_playwright() as p:
+        browser = p.chromium.launch(
+            headless=True,
+            args=["--no-sandbox","--disable-setuid-sandbox","--disable-dev-shm-usage"]
+        )
+        ctx = browser.new_context(
+            user_agent=HEADERS["User-Agent"], locale="es-AR",
+            viewport={"width": 1280, "height": 900},
+        )
+        page = ctx.new_page()
 
-            soup = BeautifulSoup(r.text, "html.parser")
+        urls = [
+            f"{BASE}/cartelera.asp?ciudad=La+Plata",
+            f"{BASE}/cartelera.asp?prov=2&ciudad=La+Plata",
+            f"{BASE}/cartelera.asp",
+        ]
 
-            # Alternativa Teatral usa una tabla o divs con clase "espectaculo"
-            # Intentar varios selectores
-            cards = (
-                soup.select(".espectaculo, .show-item, [class*='espectaculo']")
-                or soup.select("table tr:has(td a)")
-                or soup.select(".resultado, .item-cartelera")
-            )
+        for url in urls:
+            try:
+                page.goto(url, timeout=35000, wait_until="domcontentloaded")
+                time.sleep(3)
+                # Scroll para cargar lazy content
+                page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+                time.sleep(2)
 
-            # Si no hay cards con selector, buscar links a /obra/ o /espectaculo/
-            if not cards:
-                for a in soup.find_all("a", href=re.compile(r"/(obra|show|espectaculo)\d")):
+                html = page.content()
+                soup = BeautifulSoup(html, "html.parser")
+
+                # Alternativa Teatral: lista con links a /obra_NNNNN
+                # Cada espectáculo tiene el nombre en el link y el teatro debajo
+                obra_links = soup.find_all("a", href=re.compile(r"/obra_\d+"))
+                log.info(f"Alternativa Teatral: {len(obra_links)} links en {url}")
+
+                for a in obra_links:
                     try:
                         title = a.get_text(strip=True)
                         if not title or len(title) < 3: continue
-                        parent = a.find_parent(["tr","li","div"])
+
+                        parent = a.find_parent(["tr","li","div","td"])
                         block_text = parent.get_text(" ") if parent else ""
+
+                        # Filtrar por La Plata si la URL no filtra
+                        if "ciudad=La" not in url and not is_lp(block_text):
+                            continue
+
                         href = a["href"]
-                        if not href.startswith("http"): href = BASE + href
+                        if not href.startswith("http"):
+                            href = BASE + href
+
                         events.append(make_ev(
                             title, "teatro",
                             parse_date(block_text), parse_time(block_text),
@@ -326,30 +364,14 @@ def scrape_alternativa_teatral():
                         ))
                     except Exception as e:
                         log.debug(f"Alternativa Teatral link: {e}")
-            else:
-                for card in cards:
-                    try:
-                        title_el = card.find(["h2","h3","h4","a","strong"])
-                        title = title_el.get_text(strip=True) if title_el else ""
-                        if not title or len(title) < 3: continue
-                        bt = card.get_text(" ")
-                        link_el = card.find("a", href=True)
-                        href = link_el["href"] if link_el else ""
-                        if href and not href.startswith("http"): href = BASE + href
-                        events.append(make_ev(
-                            title, "teatro",
-                            parse_date(bt), parse_time(bt),
-                            "", "Alternativa Teatral", "alternativateatral",
-                            href, ""
-                        ))
-                    except Exception as e:
-                        log.debug(f"Alternativa Teatral card: {e}")
 
-            if events: break
-            pause(1)
+                if events: break
+                pause(1)
 
-        except Exception as e:
-            log.error(f"Alternativa Teatral {url}: {e}")
+            except Exception as e:
+                log.error(f"Alternativa Teatral {url}: {e}")
+
+        browser.close()
 
     log.info(f"Alternativa Teatral → {len(events)} eventos")
     return events
@@ -568,12 +590,16 @@ def scrape_alpogo():
 
 def scrape_passline():
     """
-    Passline home — filtrar por texto 'la plata' en las cards.
-    URL: home.passline.com/eventos.php?...comuna=26324... (La Plata)
+    Passline — home.passline.com con filtro por comuna La Plata (26324).
+    Necesita Playwright, filtro LP activo como seguridad adicional.
     """
     return playwright_scrape("Passline","passline",
-        ["https://home.passline.com/eventos.php?q=&catS=&region=1&comuna=26324&mes=&pais=argentina&page=1"],
-        filter_lp=True, extra_wait=3,
+        [
+            "https://home.passline.com/eventos.php?q=&catS=&region=1&comuna=26324&mes=&pais=argentina&page=1",
+            "https://www.passline.com/eventos?ciudad=la-plata",
+            "https://www.passline.com/buscar?q=la+plata",
+        ],
+        filter_lp=True, extra_wait=5,
         trust_url_filter=True)
 
 
@@ -653,7 +679,7 @@ def sort_events(events):
 # ══════════════════════════════════════════════════════════
 def main():
     log.info("══════════════════════════════════════════")
-    log.info("  La agenda de natu (extendida) — v10")
+    log.info("  La agenda de natu (extendida) — v11")
     log.info("══════════════════════════════════════════")
     t0 = time.time()
 
@@ -663,11 +689,11 @@ def main():
     all_events += scrape_casa_metro();           pause()
     all_events += scrape_teatro_argentino();     pause()
     all_events += scrape_livepass();             pause()
-    all_events += scrape_alternativa_teatral();  pause()
 
     # Playwright
     all_events += scrape_teatro_metro();         pause()
     all_events += scrape_mianticipada();         pause()
+    all_events += scrape_alternativa_teatral();  pause()
     all_events += scrape_catpass();              pause()
     all_events += scrape_plateanet();            pause()
     all_events += scrape_alpogo();               pause()
