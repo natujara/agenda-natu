@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-03T22:42:23.149191",
+  "updated_at": "2026-05-03T22:54:57.208178",
   "source": "scraper-natu-v10",
   "city": "La Plata",
-  "total": 40,
+  "total": 41,
   "events": [
     {
       "title": "EL VIAJE DE LA ESTRELLA",
@@ -304,6 +304,19 @@
       "id": 23
     },
     {
+      "title": "404",
+      "cat": "recital",
+      "date": "",
+      "time": "",
+      "venue": "",
+      "city": "La Plata",
+      "source": "Passline",
+      "sourceKey": "passline",
+      "url": "https://www.passline.com/",
+      "flyer": "https://www.passline.com/error-400/img/passline-01.png",
+      "id": 24
+    },
+    {
       "title": "AXEL MILANES EN VIVO EN LA PLATA",
       "cat": "recital",
       "date": "",
@@ -314,7 +327,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/axel-milanes-en-vivo-en-la-plata-25998",
       "flyer": "https://imagenes.alpogo.com/eventos/alexxxxxxxx.jpg",
-      "id": 24
+      "id": 25
     },
     {
       "title": "Botón de Arrep.",
@@ -327,7 +340,7 @@
       "sourceKey": "plateanet",
       "url": "http://qr.afip.gob.ar/?qr=kwtNgkcpGIa54lJJxVAn0A,,",
       "flyer": "https://www.plateanet.com./assets/footer/comodo_2021.svg",
-      "id": 25
+      "id": 26
     },
     {
       "title": "COMPRARObrasTeatrosEticketBeneficiosTérminos y condiciones",
@@ -340,7 +353,7 @@
       "sourceKey": "plateanet",
       "url": "https://www.plateanet.com/reportes",
       "flyer": "https://www.plateanet.comassets/footer/footer_flecha.svg",
-      "id": 26
+      "id": 27
     },
     {
       "title": "dani umpi + julian desbats = bromance en la plata",
@@ -353,7 +366,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/dani-umpi-julian-desbats-bromance-en-la-plata-25889",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1776700143_69e64aefb93e5.jpg",
-      "id": 27
+      "id": 28
     },
     {
       "title": "Emilia Freston Banda + Luli Maidana en La Maga, La Plata",
@@ -366,7 +379,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/emilia-freston-banda-luli-maidana-en-la-maga-la-plata-26027",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1777060558_69ebcace2d050.jpg",
-      "id": 28
+      "id": 29
     },
     {
       "title": "encontranos en",
@@ -379,7 +392,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 29
+      "id": 30
     },
     {
       "title": "Ensayo Abierto - Lucas Muñoz",
@@ -392,7 +405,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/ensayo-abierto-lucas-munoz-26072",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1777319567_69efbe8fe9fcf.jpg",
-      "id": 30
+      "id": 31
     },
     {
       "title": "EXPLENDEN en La Plata",
@@ -405,7 +418,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/explenden-en-la-plata-25863",
       "flyer": "https://imagenes.alpogo.com/eventos/EXPLENDENCATASTROFES.png",
-      "id": 31
+      "id": 32
     },
     {
       "title": "Ezequiel Borra Quintento + El Ruido De Las Nubes",
@@ -418,7 +431,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/ezequiel-borra-quintento-el-ruido-de-las-nubes-25859",
       "flyer": "https://imagenes.alpogo.com/eventos/5e6ce645-e60c-44d2-9f25-a26f58b080d7.webp",
-      "id": 32
+      "id": 33
     },
     {
       "title": "Fogones presenta : Manuel Moretti",
@@ -431,7 +444,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/fogones-presenta-manuel-moretti-25493",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1774460325_69c41da553a1a.jpg",
-      "id": 33
+      "id": 34
     },
     {
       "title": "Inicio(current)EL TEATROCARTELERANOTICIASCONTACTO",
@@ -444,7 +457,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 34
+      "id": 35
     },
     {
       "title": "Las Mareas, Lape y los cósmicos, Superpiba - En Pura Vida",
@@ -457,7 +470,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/las-mareas-lape-y-los-cosmicos-superpiba-en-pura-vida-25638",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1775232137_69cfe4895d59a.jpg",
-      "id": 35
+      "id": 36
     },
     {
       "title": "LIVE WHILE WE'RE YOUNG | LA PLATA | EDICIÓN MIDNIGHT MEMORIES",
@@ -470,7 +483,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/live-while-were-young-la-plata-edicion-midnight-memories-25878",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1776556215_69e418b74ae7a.jpg",
-      "id": 36
+      "id": 37
     },
     {
       "title": "LOS BRINDIS EN LA PLATA",
@@ -483,7 +496,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/los-brindis-en-la-plata-25630",
       "flyer": "https://imagenes.alpogo.com/eventos/loavvvbbbbbb.jpg",
-      "id": 37
+      "id": 38
     },
     {
       "title": "Orozco Barrientos en La Plata",
@@ -496,7 +509,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/orozco-barrientos-en-la-plata-26018",
       "flyer": "https://imagenes.alpogo.com/eventos/orozcoooooooozzz.jpg",
-      "id": 38
+      "id": 39
     },
     {
       "title": "Parana Berreta en La Plata",
@@ -509,7 +522,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/parana-berreta-en-la-plata-26019",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1776998947_69eada23989df.jpg",
-      "id": 39
+      "id": 40
     },
     {
       "title": "Teatro Metro.Todos Los Derechos Reservados.",
@@ -522,7 +535,7 @@
       "sourceKey": "teatrometrolp",
       "url": "http://www.misticastudio.com",
       "flyer": "https://www.teatrometrolp.com.arimages/mistica-logo.png",
-      "id": 40
+      "id": 41
     }
   ]
 }
