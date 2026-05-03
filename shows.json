@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-03T17:54:36.638920",
-  "source": "scraper-natu-v8",
+  "updated_at": "2026-05-03T22:42:23.149191",
+  "source": "scraper-natu-v10",
   "city": "La Plata",
-  "total": 22,
+  "total": 40,
   "events": [
     {
       "title": "EL VIAJE DE LA ESTRELLA",
@@ -18,6 +18,19 @@
       "id": 1
     },
     {
+      "title": "Las Sombras - Atras Hay Truenos",
+      "cat": "recital",
+      "date": "2026-05-08",
+      "time": "20:30",
+      "venue": "",
+      "city": "La Plata",
+      "source": "CatPass",
+      "sourceKey": "catpass",
+      "url": "https://catpass.net/eventos",
+      "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/IMG_1689.PNG?alt=media&token=6d29fdc7-58fa-477c-90b6-bd6347010f32",
+      "id": 2
+    },
+    {
       "title": "NATI UBOLDI - EL ULTIMO CLICK",
       "cat": "recital",
       "date": "2026-05-08",
@@ -28,7 +41,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/entrada/nati-uboldi-el-ultimo-click-100479",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/entradas/20260217133538_natiuboldi_2026_posteo_laplata.jpg",
-      "id": 2
+      "id": 3
     },
     {
       "title": "2026-05-09 | Seru Giran por Cinema Verité en La Plata",
@@ -41,7 +54,7 @@
       "sourceKey": "mianticipada",
       "url": "https://entradas.mianticipada.com/es/seruporcinema/evento/seru-giran-por-cinema-verite-en-la-plata-3br7",
       "flyer": "https://mianticipada.com/media/imagenes_eventos/home/2026/04/FLYER-090526-LAPLATA_1080_1.webp",
-      "id": 3
+      "id": 4
     },
     {
       "title": "CARMEN Y OSVALDO Y TODA LA FAMILIA",
@@ -54,7 +67,33 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/entrada/carmen-y-osvaldo-y-toda-la-familia-100467",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/entradas/20260210173109__jpg_coyflia-800x600.jpg",
-      "id": 4
+      "id": 5
+    },
+    {
+      "title": "Encias Sangrantes en Ciudad de Gatos",
+      "cat": "recital",
+      "date": "2026-05-09",
+      "time": "20:00",
+      "venue": "",
+      "city": "La Plata",
+      "source": "CatPass",
+      "sourceKey": "catpass",
+      "url": "https://catpass.net/eventos",
+      "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/1000418268.png?alt=media&token=8c051e56-8834-4b88-b0a6-418ddf52dfc1",
+      "id": 6
+    },
+    {
+      "title": "FACTORY 20 años con Alejandro Paz",
+      "cat": "recital",
+      "date": "2026-05-09",
+      "time": "23:59",
+      "venue": "",
+      "city": "La Plata",
+      "source": "CatPass",
+      "sourceKey": "catpass",
+      "url": "https://catpass.net/eventos",
+      "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/surfing%20on%20a%20kate%20bush%20nuevoo-07.jpg.jpeg?alt=media&token=c9901300-982a-445b-9647-219b219c382b",
+      "id": 7
     },
     {
       "title": "ABBA Sinfónico  Edelweiss Orchestra",
@@ -67,7 +106,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/entrada/abba-sinfonico-edelweiss-orchestra-100468",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/entradas/770755639232.png",
-      "id": 5
+      "id": 8
     },
     {
       "title": "Misterios Mentales",
@@ -80,7 +119,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/entrada/misterios-mentales-100585",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/entradas/20260327193410_horizontal_1920x1080-copia.png",
-      "id": 6
+      "id": 9
     },
     {
       "title": "Los Palmeras",
@@ -93,7 +132,33 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/entrada/los-palmeras-100595",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/entradas/20260331195209_doblepano-palmeras-mudo.jpg",
-      "id": 7
+      "id": 10
+    },
+    {
+      "title": "Recreo Uruguayo + El Pibe Materia + Fuun (Despedida de Luchemos por la vida)",
+      "cat": "recital",
+      "date": "2026-05-16",
+      "time": "20:00",
+      "venue": "",
+      "city": "La Plata",
+      "source": "CatPass",
+      "sourceKey": "catpass",
+      "url": "https://catpass.net/eventos",
+      "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/Flyer%20lula%20c%20marcas.png?alt=media&token=ff251d98-3f08-476f-bddb-009e32b485bc",
+      "id": 11
+    },
+    {
+      "title": "SABOR CANELA EN CIUDAD DE GATOS",
+      "cat": "recital",
+      "date": "2026-05-16",
+      "time": "23:59",
+      "venue": "",
+      "city": "La Plata",
+      "source": "CatPass",
+      "sourceKey": "catpass",
+      "url": "https://catpass.net/eventos",
+      "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/sabor%20ciudad%20de%20gatos%20(800%20x%20800%20mm)%20(Post%20para%20Instagram%20(45))%20(1).jpg?alt=media&token=31c8fa84-7a59-4717-8e20-ec4339ded2c1",
+      "id": 12
     },
     {
       "title": "Cayó la Cabra",
@@ -106,7 +171,20 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/entrada/cayo-la-cabra-100624",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/entradas/20260421210134_1600-1000-azul.jpg.jpeg",
-      "id": 8
+      "id": 13
+    },
+    {
+      "title": "Los misterios - Santi Moraes full banda",
+      "cat": "recital",
+      "date": "2026-05-22",
+      "time": "20:00",
+      "venue": "",
+      "city": "La Plata",
+      "source": "CatPass",
+      "sourceKey": "catpass",
+      "url": "https://catpass.net/eventos",
+      "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/1-FEED-LOS-MISTERIOS-%2B-MORAES---PACK-REDES.jpg?alt=media&token=803ecdd3-3dc8-4216-8bb5-f578ee43073e",
+      "id": 14
     },
     {
       "title": "2026-05-23 | ETIQUETA NEGRA En La Plata",
@@ -119,7 +197,7 @@
       "sourceKey": "mianticipada",
       "url": "https://mianticipada.com/2026-05-23-ETIQUETA-NEGRA-En-La-Plata/",
       "flyer": "https://mianticipada.com/media/imagenes_eventos/home/2026/04/ENLP.jpg",
-      "id": 9
+      "id": 15
     },
     {
       "title": "2026-05-23 | LA DRACU STONE En Hurlingham",
@@ -132,7 +210,7 @@
       "sourceKey": "mianticipada",
       "url": "https://mianticipada.com/2026-05-23---LA-DRACU-STONE-En-Hurlingham/",
       "flyer": "https://mianticipada.com/media/imagenes_eventos/home/2026/04/IMG_0803.jpeg",
-      "id": 10
+      "id": 16
     },
     {
       "title": "La Grecia en La Plata🚀",
@@ -143,22 +221,9 @@
       "city": "La Plata",
       "source": "CatPass",
       "sourceKey": "catpass",
-      "url": "https://catpass.net/eventos?ciudad=la-plata",
+      "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/LG%20LA%20PLATA%20FEED.jpeg?alt=media&token=d023901a-0733-413f-80a1-b9d81c095f2c",
-      "id": 11
-    },
-    {
-      "title": "Próximos Eventos",
-      "cat": "recital",
-      "date": "2026-05-23",
-      "time": "",
-      "venue": "",
-      "city": "La Plata",
-      "source": "RgEntradas",
-      "sourceKey": "rgentradas",
-      "url": "https://rgentradas.com/events/4",
-      "flyer": "https://rgentradas.com/storage/banners/b6Ri63ukHLICXPheDaK87NGRl4NrxlaKJfdc1MND.png",
-      "id": 12
+      "id": 17
     },
     {
       "title": "CAZADORAS DORADAS",
@@ -171,7 +236,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/entrada/cazadoras-doradas-100532",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/entradas/20260419192320_500x450px-cazadoras-doradas-k-pop-en-la-plata.jpg",
-      "id": 13
+      "id": 18
     },
     {
       "title": "Fernando Sanjiao - Quemado",
@@ -184,7 +249,46 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/entrada/fernando-sanjiao-quemado-100110",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/entradas/20250904114224_quemado_fuego-real_editable_-1.jpg",
-      "id": 14
+      "id": 19
+    },
+    {
+      "title": "TRT - GUIDO SARTORIS",
+      "cat": "recital",
+      "date": "2026-05-29",
+      "time": "23:59",
+      "venue": "",
+      "city": "La Plata",
+      "source": "CatPass",
+      "sourceKey": "catpass",
+      "url": "https://catpass.net/eventos",
+      "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/IMG_8881.png?alt=media&token=0baf37d2-e7f9-40a4-b536-36039c2f128e",
+      "id": 20
+    },
+    {
+      "title": "YASAR & ROSA PROFUNDA & UTAH",
+      "cat": "recital",
+      "date": "2026-05-30",
+      "time": "20:00",
+      "venue": "",
+      "city": "La Plata",
+      "source": "CatPass",
+      "sourceKey": "catpass",
+      "url": "https://catpass.net/eventos",
+      "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/HISTORIA%20FLYER%20IG_%20ciudad%20de%20gatos%2030%20de%20mayo.jpg?alt=media&token=a340e1fa-f854-4b55-9b02-bebc1a25e422",
+      "id": 21
+    },
+    {
+      "title": "TICKY presenta EL TIEMPO ES ARTE",
+      "cat": "arte",
+      "date": "2026-06-13",
+      "time": "20:00",
+      "venue": "",
+      "city": "La Plata",
+      "source": "CatPass",
+      "sourceKey": "catpass",
+      "url": "https://catpass.net/eventos",
+      "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/feedgeneral_cudad%20de%20gatos.png?alt=media&token=7d2ea8c8-bb89-4722-8c11-052aa738dbea",
+      "id": 22
     },
     {
       "title": "Festival Viaje de Agua VII La Plata",
@@ -195,9 +299,22 @@
       "city": "La Plata",
       "source": "CatPass",
       "sourceKey": "catpass",
-      "url": "https://catpass.net/eventos?ciudad=la-plata",
+      "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/Anuncio%201.jpeg?alt=media&token=14cc61e9-46df-433c-a06f-e169e6d01960",
-      "id": 15
+      "id": 23
+    },
+    {
+      "title": "AXEL MILANES EN VIVO EN LA PLATA",
+      "cat": "recital",
+      "date": "",
+      "time": "21:00",
+      "venue": "Sábado 09/05, 21:00 hsLa Maga Club De Arte, La Plata.",
+      "city": "La Plata",
+      "source": "Alpogo",
+      "sourceKey": "alpogo",
+      "url": "https://alpogo.com/evento/axel-milanes-en-vivo-en-la-plata-25998",
+      "flyer": "https://imagenes.alpogo.com/eventos/alexxxxxxxx.jpg",
+      "id": 24
     },
     {
       "title": "Botón de Arrep.",
@@ -210,7 +327,7 @@
       "sourceKey": "plateanet",
       "url": "http://qr.afip.gob.ar/?qr=kwtNgkcpGIa54lJJxVAn0A,,",
       "flyer": "https://www.plateanet.com./assets/footer/comodo_2021.svg",
-      "id": 16
+      "id": 25
     },
     {
       "title": "COMPRARObrasTeatrosEticketBeneficiosTérminos y condiciones",
@@ -223,7 +340,33 @@
       "sourceKey": "plateanet",
       "url": "https://www.plateanet.com/reportes",
       "flyer": "https://www.plateanet.comassets/footer/footer_flecha.svg",
-      "id": 17
+      "id": 26
+    },
+    {
+      "title": "dani umpi + julian desbats = bromance en la plata",
+      "cat": "recital",
+      "date": "",
+      "time": "22:00",
+      "venue": "Sábado 16/05, 22:00 hsCentro Cultural Azulunala, La Plata.",
+      "city": "La Plata",
+      "source": "Alpogo",
+      "sourceKey": "alpogo",
+      "url": "https://alpogo.com/evento/dani-umpi-julian-desbats-bromance-en-la-plata-25889",
+      "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1776700143_69e64aefb93e5.jpg",
+      "id": 27
+    },
+    {
+      "title": "Emilia Freston Banda + Luli Maidana en La Maga, La Plata",
+      "cat": "recital",
+      "date": "",
+      "time": "21:00",
+      "venue": "Viernes 05/06, 21:00 hsLa Maga Club De Arte, La Plata.",
+      "city": "La Plata",
+      "source": "Alpogo",
+      "sourceKey": "alpogo",
+      "url": "https://alpogo.com/evento/emilia-freston-banda-luli-maidana-en-la-maga-la-plata-26027",
+      "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1777060558_69ebcace2d050.jpg",
+      "id": 28
     },
     {
       "title": "encontranos en",
@@ -236,7 +379,59 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 18
+      "id": 29
+    },
+    {
+      "title": "Ensayo Abierto - Lucas Muñoz",
+      "cat": "recital",
+      "date": "",
+      "time": "20:00",
+      "venue": "Sábado 16/05, 20:00 hsAutopista del sonido, La Plata",
+      "city": "La Plata",
+      "source": "Alpogo",
+      "sourceKey": "alpogo",
+      "url": "https://alpogo.com/evento/ensayo-abierto-lucas-munoz-26072",
+      "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1777319567_69efbe8fe9fcf.jpg",
+      "id": 30
+    },
+    {
+      "title": "EXPLENDEN en La Plata",
+      "cat": "recital",
+      "date": "",
+      "time": "20:00",
+      "venue": "Sábado 09/05, 20:00 hsCasa Unclan, La Plata",
+      "city": "La Plata",
+      "source": "Alpogo",
+      "sourceKey": "alpogo",
+      "url": "https://alpogo.com/evento/explenden-en-la-plata-25863",
+      "flyer": "https://imagenes.alpogo.com/eventos/EXPLENDENCATASTROFES.png",
+      "id": 31
+    },
+    {
+      "title": "Ezequiel Borra Quintento + El Ruido De Las Nubes",
+      "cat": "recital",
+      "date": "",
+      "time": "21:00",
+      "venue": "Viernes 29/05, 21:00 hsGuajira, La Plata",
+      "city": "La Plata",
+      "source": "Alpogo",
+      "sourceKey": "alpogo",
+      "url": "https://alpogo.com/evento/ezequiel-borra-quintento-el-ruido-de-las-nubes-25859",
+      "flyer": "https://imagenes.alpogo.com/eventos/5e6ce645-e60c-44d2-9f25-a26f58b080d7.webp",
+      "id": 32
+    },
+    {
+      "title": "Fogones presenta : Manuel Moretti",
+      "cat": "recital",
+      "date": "",
+      "time": "20:00",
+      "venue": "Miércoles 27/05, 20:00 hsGuajira, La Plata",
+      "city": "La Plata",
+      "source": "Alpogo",
+      "sourceKey": "alpogo",
+      "url": "https://alpogo.com/evento/fogones-presenta-manuel-moretti-25493",
+      "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1774460325_69c41da553a1a.jpg",
+      "id": 33
     },
     {
       "title": "Inicio(current)EL TEATROCARTELERANOTICIASCONTACTO",
@@ -249,33 +444,72 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 19
+      "id": 34
     },
     {
-      "title": "Landing de la productoraeventosno encontrada",
+      "title": "Las Mareas, Lape y los cósmicos, Superpiba - En Pura Vida",
       "cat": "recital",
       "date": "",
-      "time": "",
-      "venue": "",
+      "time": "21:00",
+      "venue": "Domingo 17/05, 21:00 hsPura Vida, La Plata",
       "city": "La Plata",
-      "source": "TicketPass",
-      "sourceKey": "ticketpass",
-      "url": "https://ticketpass.com.ar/",
-      "flyer": "https://ticketpass.com.ar/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo_color.58bdc547.png&w=64&q=75",
-      "id": 20
+      "source": "Alpogo",
+      "sourceKey": "alpogo",
+      "url": "https://alpogo.com/evento/las-mareas-lape-y-los-cosmicos-superpiba-en-pura-vida-25638",
+      "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1775232137_69cfe4895d59a.jpg",
+      "id": 35
     },
     {
-      "title": "RGENTRADAS",
+      "title": "LIVE WHILE WE'RE YOUNG | LA PLATA | EDICIÓN MIDNIGHT MEMORIES",
       "cat": "recital",
       "date": "",
-      "time": "",
-      "venue": "",
+      "time": "23:59",
+      "venue": "Sábado 16/05, 23:59 hsBYE HENRY DIAGONAL",
       "city": "La Plata",
-      "source": "RgEntradas",
-      "sourceKey": "rgentradas",
-      "url": "https://wa.me/5492216914649",
-      "flyer": "https://www.afip.gob.ar/images/f960/DATAWEB.jpg",
-      "id": 21
+      "source": "Alpogo",
+      "sourceKey": "alpogo",
+      "url": "https://alpogo.com/evento/live-while-were-young-la-plata-edicion-midnight-memories-25878",
+      "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1776556215_69e418b74ae7a.jpg",
+      "id": 36
+    },
+    {
+      "title": "LOS BRINDIS EN LA PLATA",
+      "cat": "recital",
+      "date": "",
+      "time": "20:00",
+      "venue": "Viernes 26/06, 20:00 hsSputnik Var, La Plata",
+      "city": "La Plata",
+      "source": "Alpogo",
+      "sourceKey": "alpogo",
+      "url": "https://alpogo.com/evento/los-brindis-en-la-plata-25630",
+      "flyer": "https://imagenes.alpogo.com/eventos/loavvvbbbbbb.jpg",
+      "id": 37
+    },
+    {
+      "title": "Orozco Barrientos en La Plata",
+      "cat": "recital",
+      "date": "",
+      "time": "21:00",
+      "venue": "Viernes 12/06, 21:00 hsGuajira, La Plata",
+      "city": "La Plata",
+      "source": "Alpogo",
+      "sourceKey": "alpogo",
+      "url": "https://alpogo.com/evento/orozco-barrientos-en-la-plata-26018",
+      "flyer": "https://imagenes.alpogo.com/eventos/orozcoooooooozzz.jpg",
+      "id": 38
+    },
+    {
+      "title": "Parana Berreta en La Plata",
+      "cat": "recital",
+      "date": "",
+      "time": "21:00",
+      "venue": "Jueves 11/06, 21:00 hsLa Maga Club De Arte, La Plata.",
+      "city": "La Plata",
+      "source": "Alpogo",
+      "sourceKey": "alpogo",
+      "url": "https://alpogo.com/evento/parana-berreta-en-la-plata-26019",
+      "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1776998947_69eada23989df.jpg",
+      "id": 39
     },
     {
       "title": "Teatro Metro.Todos Los Derechos Reservados.",
@@ -288,7 +522,7 @@
       "sourceKey": "teatrometrolp",
       "url": "http://www.misticastudio.com",
       "flyer": "https://www.teatrometrolp.com.arimages/mistica-logo.png",
-      "id": 22
+      "id": 40
     }
   ]
 }
