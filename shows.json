@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-04T16:43:30.202605",
+  "updated_at": "2026-05-04T20:12:41.926498",
   "source": "scraper-natu-v10",
   "city": "La Plata",
-  "total": 58,
+  "total": 59,
   "events": [
     {
       "title": "EL VIAJE DE LA ESTRELLA",
@@ -603,6 +603,19 @@
       "id": 46
     },
     {
+      "title": "Ensayo Abierto - Ensambles Mano Zurda",
+      "cat": "recital",
+      "date": "",
+      "time": "20:00",
+      "venue": "Viernes 22/05, 20:00 hsAutopista del sonido, La Plata",
+      "city": "La Plata",
+      "source": "Alpogo",
+      "sourceKey": "alpogo",
+      "url": "https://alpogo.com/evento/ensayo-abierto-ensambles-mano-zurda-26210",
+      "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1777923147_69f8f44b10d19.jpg",
+      "id": 47
+    },
+    {
       "title": "Ensayo Abierto - Lucas Muñoz",
       "cat": "recital",
       "date": "",
@@ -613,7 +626,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/ensayo-abierto-lucas-munoz-26072",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1777319567_69efbe8fe9fcf.jpg",
-      "id": 47
+      "id": 48
     },
     {
       "title": "EXPLENDEN en La Plata",
@@ -626,7 +639,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/explenden-en-la-plata-25863",
       "flyer": "https://imagenes.alpogo.com/eventos/EXPLENDENCATASTROFES.png",
-      "id": 48
+      "id": 49
     },
     {
       "title": "Ezequiel Borra Quintento + El Ruido De Las Nubes",
@@ -639,7 +652,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/ezequiel-borra-quintento-el-ruido-de-las-nubes-25859",
       "flyer": "https://imagenes.alpogo.com/eventos/5e6ce645-e60c-44d2-9f25-a26f58b080d7.webp",
-      "id": 49
+      "id": 50
     },
     {
       "title": "Fogones presenta : Manuel Moretti",
@@ -652,7 +665,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/fogones-presenta-manuel-moretti-25493",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1774460325_69c41da553a1a.jpg",
-      "id": 50
+      "id": 51
     },
     {
       "title": "Inicio(current)EL TEATROCARTELERANOTICIASCONTACTO",
@@ -665,7 +678,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 51
+      "id": 52
     },
     {
       "title": "Las Mareas, Lape y los cósmicos, Superpiba - En Pura Vida",
@@ -678,7 +691,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/las-mareas-lape-y-los-cosmicos-superpiba-en-pura-vida-25638",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1775232137_69cfe4895d59a.jpg",
-      "id": 52
+      "id": 53
     },
     {
       "title": "LIVE WHILE WE'RE YOUNG | LA PLATA | EDICIÓN MIDNIGHT MEMORIES",
@@ -691,7 +704,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/live-while-were-young-la-plata-edicion-midnight-memories-25878",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1776556215_69e418b74ae7a.jpg",
-      "id": 53
+      "id": 54
     },
     {
       "title": "LOS BRINDIS EN LA PLATA",
@@ -704,7 +717,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/los-brindis-en-la-plata-25630",
       "flyer": "https://imagenes.alpogo.com/eventos/loavvvbbbbbb.jpg",
-      "id": 54
+      "id": 55
     },
     {
       "title": "Margarita Xirgu – Una actriz entre dos continentes",
@@ -717,7 +730,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/margarita-xirgu-una-actriz-entre-dos-continentes/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/04/2Oteyza.png",
-      "id": 55
+      "id": 56
     },
     {
       "title": "Orozco Barrientos en La Plata",
@@ -730,7 +743,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/orozco-barrientos-en-la-plata-26018",
       "flyer": "https://imagenes.alpogo.com/eventos/orozcoooooooozzz.jpg",
-      "id": 56
+      "id": 57
     },
     {
       "title": "Parana Berreta en La Plata",
@@ -743,7 +756,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/parana-berreta-en-la-plata-26019",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1776998947_69eada23989df.jpg",
-      "id": 57
+      "id": 58
     },
     {
       "title": "Teatro Metro.Todos Los Derechos Reservados.",
@@ -756,7 +769,7 @@
       "sourceKey": "teatrometrolp",
       "url": "http://www.misticastudio.com",
       "flyer": "https://www.teatrometrolp.com.arimages/mistica-logo.png",
-      "id": 58
+      "id": 59
     }
   ]
 }
