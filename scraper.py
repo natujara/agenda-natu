@@ -178,17 +178,18 @@ def scrape_casa_metro():
 
 def scrape_livepass():
     """
-    LivePass — Playwright con las URLs exactas de venue provistas.
-    Cada página tiene eventos con link absoluto a livepass.com.ar/events/SLUG,
-    h1 título completo, h2 fecha tipo "Viernes 08 Mayo".
+    LivePass — HTML ESTÁTICO, no necesita Playwright.
+    Estructura verificada en el HTML real:
+      <a href="https://livepass.com.ar/events/SLUG">
+        <img src="...thumbs/...">
+        DD MES   ← texto antes del h1
+        <h1> TÍTULO COMPLETO </h1>
+      </a>
+    Hay eventos duplicados (sección "Destacados" + sección "Eventos").
+    Se deduplica por href.
     """
     events = []
     log.info("LivePass → scrapeando…")
-    try:
-        from playwright.sync_api import sync_playwright
-    except ImportError:
-        log.warning("LivePass: Playwright no instalado.")
-        return events
 
     venue_pages = [
         ("https://livepass.com.ar/taxons/hipodromo-la-plata", "Hipódromo de La Plata"),
@@ -196,60 +197,57 @@ def scrape_livepass():
         ("https://livepass.com.ar/taxons/teatro-argentino",   "Teatro Argentino La Plata"),
     ]
 
-    seen_urls = set()
+    seen_hrefs = set()
 
-    with sync_playwright() as p:
-        browser = p.chromium.launch(
-            headless=True,
-            args=["--no-sandbox","--disable-setuid-sandbox","--disable-dev-shm-usage"]
-        )
-        ctx = browser.new_context(
-            user_agent=HEADERS["User-Agent"], locale="es-AR",
-            viewport={"width": 1280, "height": 900},
-        )
-        page = ctx.new_page()
-
-        for url, default_venue in venue_pages:
-            try:
-                page.goto(url, timeout=30000, wait_until="domcontentloaded")
-                time.sleep(3)
-                html = page.content()
-                soup = BeautifulSoup(html, "html.parser")
-
-                found = 0
-                for a in soup.find_all("a", href=True):
-                    href = a.get("href","")
-                    if "livepass.com.ar/events/" not in href: continue
-                    if href in seen_urls: continue
-                    seen_urls.add(href)
-                    try:
-                        h1 = a.find("h1")
-                        h3 = a.find("h3")
-                        title = (h1 or h3)
-                        title = title.get_text(strip=True) if title else ""
-                        if not title or len(title) < 3: continue
-
-                        h2 = a.find("h2")
-                        date_str = parse_date(h2.get_text(strip=True)) if h2 else ""
-
-                        img_el = a.find("img")
-                        flyer = img_el.get("src","") if img_el else ""
-
-                        events.append(make_ev(
-                            title, detect_cat(title), date_str, "",
-                            default_venue, "LivePass", "livepass", href, flyer
-                        ))
-                        found += 1
-                    except Exception as e:
-                        log.debug(f"LivePass card: {e}")
-
-                log.info(f"LivePass: {found} eventos en {default_venue}")
+    for url, default_venue in venue_pages:
+        try:
+            r = requests.get(url, headers=HEADERS, timeout=20)
+            log.info(f"LivePass: HTTP {r.status_code} — {url}")
+            if r.status_code != 200:
                 pause(1)
+                continue
 
-            except Exception as e:
-                log.error(f"LivePass {url}: {e}")
+            soup = BeautifulSoup(r.text, "html.parser")
+            found = 0
 
-        browser.close()
+            for a in soup.find_all("a", href=True):
+                href = a.get("href", "")
+                # Solo links de eventos individuales
+                if "livepass.com.ar/events/" not in href:
+                    continue
+                if href in seen_hrefs:
+                    continue
+                seen_hrefs.add(href)
+
+                try:
+                    # Título: <h1> dentro del link
+                    h1 = a.find("h1")
+                    title = h1.get_text(strip=True) if h1 else ""
+                    if not title or len(title) < 3:
+                        continue
+
+                    # Fecha: texto completo del link tipo "08 MAY\n# TÍTULO"
+                    # extraemos todo el texto y buscamos patrón "DD MES"
+                    full_text = a.get_text(" ", strip=True)
+                    date_str = parse_date(full_text)
+
+                    # Flyer
+                    img_el = a.find("img")
+                    flyer = img_el.get("src", "") if img_el else ""
+
+                    events.append(make_ev(
+                        title, detect_cat(title), date_str, "",
+                        default_venue, "LivePass", "livepass", href, flyer
+                    ))
+                    found += 1
+                except Exception as e:
+                    log.debug(f"LivePass card: {e}")
+
+            log.info(f"LivePass: {found} eventos en {default_venue}")
+            pause(1)
+
+        except Exception as e:
+            log.error(f"LivePass {url}: {e}")
 
     log.info(f"LivePass → {len(events)} eventos")
     return events
@@ -472,8 +470,13 @@ def playwright_scrape(name, source_key, urls,
                 for sel in selector_list:
                     try:
                         found = soup.select(sel)
-                        if 2 < len(found) < 300:
+                        if len(found) >= 2 and len(found) < 300:
                             log.info(f"{name}: {len(found)} cards con '{sel}'")
+                            cards = found
+                            break
+                        elif len(found) == 1 and name in ("Alpogo","CatPass","Plateanet"):
+                            # Para fuentes pequeñas aceptar 1 resultado
+                            log.info(f"{name}: {len(found)} card con '{sel}'")
                             cards = found
                             break
                     except Exception:
@@ -692,7 +695,7 @@ def sort_events(events):
 # ══════════════════════════════════════════════════════════
 def main():
     log.info("══════════════════════════════════════════")
-    log.info("  La agenda de natu (extendida) — v11")
+    log.info("  La agenda de natu (extendida) — v12")
     log.info("══════════════════════════════════════════")
     t0 = time.time()
 
