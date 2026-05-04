@@ -109,42 +109,54 @@ def make_ev(title, cat, date, time_, venue, source, source_key, url, flyer=""):
 #      <a href="/evento/slug">
 # ══════════════════════════════════════════════════════════
 def scrape_casa_metro():
+    """
+    Casa Metro — Playwright con URL exacta /cartelera/
+    El HTML tiene li dentro de ul.products, cada uno con h2 título y Fecha: en texto.
+    """
     events = []
     log.info("Casa Metro → scrapeando…")
     try:
-        r = requests.get("https://casametro.com.ar/cartelera/", headers=HEADERS, timeout=20)
-        soup = BeautifulSoup(r.text, "html.parser")
+        from playwright.sync_api import sync_playwright
+        with sync_playwright() as p:
+            browser = p.chromium.launch(
+                headless=True,
+                args=["--no-sandbox","--disable-setuid-sandbox","--disable-dev-shm-usage"]
+            )
+            ctx = browser.new_context(
+                user_agent=HEADERS["User-Agent"], locale="es-AR",
+                viewport={"width": 1280, "height": 900},
+            )
+            page = ctx.new_page()
+            page.goto("https://casametro.com.ar/cartelera/",
+                      timeout=30000, wait_until="domcontentloaded")
+            time.sleep(3)
+            html = page.content()
+            browser.close()
 
-        # WooCommerce: productos en <ul class="products"> > <li>
-        # Cada <li> tiene: img+fecha en <a href=/evento/>, título en <h2><a>
+        soup = BeautifulSoup(html, "html.parser")
+
+        # WooCommerce: <ul class="products"> > <li>
         cards = soup.select("ul.products li")
         if not cards:
-            # fallback: cualquier li que tenga un link a /evento/
-            cards = [a.find_parent("li") for a in
-                     soup.find_all("a", href=re.compile(r"/evento/"))]
-            cards = list({id(c): c for c in cards if c}.values())
-        log.info(f"Casa Metro: {len(cards)} cards")
+            # fallback: li que contenga link a /evento/
+            all_li = [a.find_parent("li") for a in
+                      soup.find_all("a", href=re.compile(r"/evento/"))]
+            cards = list({id(c): c for c in all_li if c}.values())
 
-        seen_hrefs = set()
+        log.info(f"Casa Metro: {len(cards)} cards")
+        seen = set()
         for card in cards:
             try:
-                # Título: <h2> con link a /evento/
                 title_el = card.find("h2")
                 title = title_el.get_text(strip=True) if title_el else ""
                 if not title or len(title) < 3: continue
 
-                # Link principal al evento
                 link_el = card.find("a", href=re.compile(r"/evento/"))
                 href = link_el["href"] if link_el else "https://casametro.com.ar/cartelera/"
-                if href in seen_hrefs: continue
-                seen_hrefs.add(href)
+                if href in seen: continue
+                seen.add(href)
 
-                # Fecha: "Fecha:mayo 09, 2026" en el texto del bloque
                 block_text = card.get_text(" ", strip=True)
-                date_str = parse_date(block_text)
-                time_str = parse_time(block_text)
-
-                # Imagen: quitar sufijo tamaño (-300x188, etc.)
                 img_el = card.find("img")
                 flyer = ""
                 if img_el:
@@ -152,15 +164,94 @@ def scrape_casa_metro():
                     flyer = re.sub(r"-\d+x\d+(\.\w+)$", r"\1", flyer)
 
                 events.append(make_ev(
-                    title, detect_cat(title), date_str, time_str,
+                    title, detect_cat(title),
+                    parse_date(block_text), parse_time(block_text),
                     "Casa Metro La Plata", "Casa Metro", "casametro", href, flyer
                 ))
             except Exception as e:
                 log.debug(f"Casa Metro card: {e}")
-
     except Exception as e:
         log.error(f"Casa Metro: {e}")
     log.info(f"Casa Metro → {len(events)} eventos")
+    return events
+
+
+def scrape_livepass():
+    """
+    LivePass — Playwright con las URLs exactas de venue provistas.
+    Cada página tiene eventos con link absoluto a livepass.com.ar/events/SLUG,
+    h1 título completo, h2 fecha tipo "Viernes 08 Mayo".
+    """
+    events = []
+    log.info("LivePass → scrapeando…")
+    try:
+        from playwright.sync_api import sync_playwright
+    except ImportError:
+        log.warning("LivePass: Playwright no instalado.")
+        return events
+
+    venue_pages = [
+        ("https://livepass.com.ar/taxons/hipodromo-la-plata", "Hipódromo de La Plata"),
+        ("https://livepass.com.ar/taxons/opera",              "Teatro Ópera LP"),
+        ("https://livepass.com.ar/taxons/teatro-argentino",   "Teatro Argentino La Plata"),
+    ]
+
+    seen_urls = set()
+
+    with sync_playwright() as p:
+        browser = p.chromium.launch(
+            headless=True,
+            args=["--no-sandbox","--disable-setuid-sandbox","--disable-dev-shm-usage"]
+        )
+        ctx = browser.new_context(
+            user_agent=HEADERS["User-Agent"], locale="es-AR",
+            viewport={"width": 1280, "height": 900},
+        )
+        page = ctx.new_page()
+
+        for url, default_venue in venue_pages:
+            try:
+                page.goto(url, timeout=30000, wait_until="domcontentloaded")
+                time.sleep(3)
+                html = page.content()
+                soup = BeautifulSoup(html, "html.parser")
+
+                found = 0
+                for a in soup.find_all("a", href=True):
+                    href = a.get("href","")
+                    if "livepass.com.ar/events/" not in href: continue
+                    if href in seen_urls: continue
+                    seen_urls.add(href)
+                    try:
+                        h1 = a.find("h1")
+                        h3 = a.find("h3")
+                        title = (h1 or h3)
+                        title = title.get_text(strip=True) if title else ""
+                        if not title or len(title) < 3: continue
+
+                        h2 = a.find("h2")
+                        date_str = parse_date(h2.get_text(strip=True)) if h2 else ""
+
+                        img_el = a.find("img")
+                        flyer = img_el.get("src","") if img_el else ""
+
+                        events.append(make_ev(
+                            title, detect_cat(title), date_str, "",
+                            default_venue, "LivePass", "livepass", href, flyer
+                        ))
+                        found += 1
+                    except Exception as e:
+                        log.debug(f"LivePass card: {e}")
+
+                log.info(f"LivePass: {found} eventos en {default_venue}")
+                pause(1)
+
+            except Exception as e:
+                log.error(f"LivePass {url}: {e}")
+
+        browser.close()
+
+    log.info(f"LivePass → {len(events)} eventos")
     return events
 
 
@@ -212,84 +303,6 @@ def scrape_teatro_argentino():
 #      <h3> nombre corto </h3>
 #      <h2> DD MES (fecha sin año) </h2>
 #      <img src="..."> flyer
-# ══════════════════════════════════════════════════════════
-def scrape_livepass():
-    events = []
-    log.info("LivePass → scrapeando páginas de venue…")
-
-    venue_pages = [
-        ("https://livepass.com.ar/taxons/hipodromo-la-plata", "Hipódromo de La Plata"),
-        ("https://livepass.com.ar/taxons/opera",              "Teatro Ópera LP"),
-        ("https://livepass.com.ar/taxons/teatro-argentino",   "Teatro Argentino La Plata"),
-    ]
-
-    BASE = "https://livepass.com.ar"
-    seen_urls = set()
-
-    def parse_page(html, default_venue):
-        found = []
-        soup = BeautifulSoup(html, "html.parser")
-
-        # LivePass: cada evento es <a href="https://livepass.com.ar/events/SLUG">
-        # con h1 (título largo), h3 (título corto), h2 (fecha "Viernes 08 Mayo")
-        # Hay links duplicados (destacados + lista) — deduplicar por href
-        seen = set()
-        for a in soup.find_all("a", href=True):
-            href = a.get("href","")
-            # Filtrar solo links de eventos
-            if "livepass.com.ar/events/" not in href:
-                continue
-            if href in seen:
-                continue
-            seen.add(href)
-
-            try:
-                # Título: h1 (nombre completo) preferido sobre h3
-                h1 = a.find("h1")
-                h3 = a.find("h3")
-                title_el = h1 or h3
-                title = title_el.get_text(strip=True) if title_el else ""
-                if not title or len(title) < 3:
-                    continue
-
-                # Fecha: h2 con texto "Viernes 08 Mayo" o "08 MAY"
-                h2 = a.find("h2")
-                date_str = parse_date(h2.get_text(strip=True)) if h2 else ""
-                time_str = ""
-
-                # Flyer: primera imagen dentro del link
-                img_el = a.find("img")
-                flyer = img_el.get("src","") if img_el else ""
-
-                found.append(make_ev(
-                    title, detect_cat(title), date_str, time_str,
-                    default_venue, "LivePass", "livepass", href, flyer
-                ))
-            except Exception as e:
-                log.debug(f"LivePass card: {e}")
-
-        return found
-
-    for url, default_venue in venue_pages:
-        try:
-            r = requests.get(url, headers=HEADERS, timeout=20)
-            log.info(f"LivePass: HTTP {r.status_code} — {url}")
-            if r.status_code == 200:
-                found = parse_page(r.text, default_venue)
-                log.info(f"LivePass: {len(found)} eventos en {default_venue}")
-                events += found
-            pause(1)
-        except Exception as e:
-            log.error(f"LivePass {url}: {e}")
-
-    log.info(f"LivePass → {len(events)} eventos")
-    return events
-
-
-# ══════════════════════════════════════════════════════════
-#  ALTERNATIVA TEATRAL — HTML estático con filtro por ciudad
-#  URL: cartelera.asp?ciudad=La+Plata
-#  Estructura: tabla o lista con nombre obra, teatro, dirección
 # ══════════════════════════════════════════════════════════
 def scrape_alternativa_teatral():
     """
