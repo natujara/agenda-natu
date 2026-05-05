@@ -178,18 +178,17 @@ def scrape_casa_metro():
 
 def scrape_livepass():
     """
-    LivePass — HTML ESTÁTICO, no necesita Playwright.
-    Estructura verificada en el HTML real:
-      <a href="https://livepass.com.ar/events/SLUG">
-        <img src="...thumbs/...">
-        DD MES   ← texto antes del h1
-        <h1> TÍTULO COMPLETO </h1>
-      </a>
-    Hay eventos duplicados (sección "Destacados" + sección "Eventos").
-    Se deduplica por href.
+    LivePass — necesita Playwright porque el servidor detecta que requests
+    no es un browser y no devuelve los eventos en el HTML.
+    Con Playwright carga el HTML completo con todos los eventos.
     """
     events = []
     log.info("LivePass → scrapeando…")
+    try:
+        from playwright.sync_api import sync_playwright
+    except ImportError:
+        log.warning("LivePass: Playwright no instalado.")
+        return events
 
     venue_pages = [
         ("https://livepass.com.ar/taxons/hipodromo-la-plata", "Hipódromo de La Plata"),
@@ -199,57 +198,152 @@ def scrape_livepass():
 
     seen_hrefs = set()
 
-    for url, default_venue in venue_pages:
-        try:
-            r = requests.get(url, headers=HEADERS, timeout=20)
-            log.info(f"LivePass: HTTP {r.status_code} — {url}")
-            if r.status_code != 200:
-                pause(1)
-                continue
+    with sync_playwright() as p:
+        browser = p.chromium.launch(
+            headless=True,
+            args=["--no-sandbox","--disable-setuid-sandbox","--disable-dev-shm-usage"]
+        )
+        ctx = browser.new_context(
+            user_agent=HEADERS["User-Agent"], locale="es-AR",
+            viewport={"width": 1280, "height": 900},
+        )
+        page = ctx.new_page()
 
-            soup = BeautifulSoup(r.text, "html.parser")
-            found = 0
-
-            for a in soup.find_all("a", href=True):
-                href = a.get("href", "")
-                # Solo links de eventos individuales
-                if "livepass.com.ar/events/" not in href:
-                    continue
-                if href in seen_hrefs:
-                    continue
-                seen_hrefs.add(href)
-
+        for url, default_venue in venue_pages:
+            try:
+                page.goto(url, timeout=30000, wait_until="domcontentloaded")
+                # Esperar a que aparezcan los eventos
                 try:
-                    # Título: <h1> dentro del link
-                    h1 = a.find("h1")
-                    title = h1.get_text(strip=True) if h1 else ""
-                    if not title or len(title) < 3:
+                    page.wait_for_selector("a[href*='/events/']", timeout=10000)
+                except Exception:
+                    pass
+                time.sleep(2)
+
+                html = page.content()
+                soup = BeautifulSoup(html, "html.parser")
+                found = 0
+
+                for a in soup.find_all("a", href=True):
+                    href = a.get("href", "")
+                    if "livepass.com.ar/events/" not in href:
                         continue
+                    if href in seen_hrefs:
+                        continue
+                    seen_hrefs.add(href)
+                    try:
+                        h1 = a.find("h1")
+                        title = h1.get_text(strip=True) if h1 else ""
+                        if not title or len(title) < 3:
+                            continue
+                        full_text = a.get_text(" ", strip=True)
+                        date_str = parse_date(full_text)
+                        img_el = a.find("img")
+                        flyer = img_el.get("src", "") if img_el else ""
+                        events.append(make_ev(
+                            title, detect_cat(title), date_str, "",
+                            default_venue, "LivePass", "livepass", href, flyer
+                        ))
+                        found += 1
+                    except Exception as e:
+                        log.debug(f"LivePass card: {e}")
 
-                    # Fecha: texto completo del link tipo "08 MAY\n# TÍTULO"
-                    # extraemos todo el texto y buscamos patrón "DD MES"
-                    full_text = a.get_text(" ", strip=True)
-                    date_str = parse_date(full_text)
+                log.info(f"LivePass: {found} eventos en {default_venue}")
+                pause(1)
 
-                    # Flyer
-                    img_el = a.find("img")
-                    flyer = img_el.get("src", "") if img_el else ""
+            except Exception as e:
+                log.error(f"LivePass {url}: {e}")
 
-                    events.append(make_ev(
-                        title, detect_cat(title), date_str, "",
-                        default_venue, "LivePass", "livepass", href, flyer
-                    ))
-                    found += 1
-                except Exception as e:
-                    log.debug(f"LivePass card: {e}")
-
-            log.info(f"LivePass: {found} eventos en {default_venue}")
-            pause(1)
-
-        except Exception as e:
-            log.error(f"LivePass {url}: {e}")
+        browser.close()
 
     log.info(f"LivePass → {len(events)} eventos")
+    return events
+
+
+def scrape_alternativa_teatral():
+    """
+    Alternativa Teatral — Playwright porque la cartelera carga con JS.
+    Filtra por La Plata usando el selector de ciudad en el formulario,
+    o buscando en el texto de cada espectáculo.
+    Los links de espectáculos siguen el patrón /obras_NNNNN o /espectaculosNNNNN.
+    """
+    events = []
+    log.info("Alternativa Teatral → scrapeando…")
+    try:
+        from playwright.sync_api import sync_playwright
+    except ImportError:
+        log.warning("Alternativa Teatral: Playwright no instalado.")
+        return events
+
+    BASE = "https://www.alternativateatral.com"
+
+    with sync_playwright() as p:
+        browser = p.chromium.launch(
+            headless=True,
+            args=["--no-sandbox","--disable-setuid-sandbox","--disable-dev-shm-usage"]
+        )
+        ctx = browser.new_context(
+            user_agent=HEADERS["User-Agent"], locale="es-AR",
+            viewport={"width": 1280, "height": 900},
+        )
+        page = ctx.new_page()
+
+        try:
+            page.goto(f"{BASE}/cartelera.asp", timeout=35000, wait_until="domcontentloaded")
+            time.sleep(4)
+
+            # Intentar seleccionar La Plata en el filtro de ciudad si existe
+            try:
+                # El filtro puede ser un <select> con opciones de ciudad
+                page.select_option("select[name='ciudad']", label="La Plata")
+                time.sleep(1)
+                page.click("input[type='submit'], button[type='submit']")
+                time.sleep(3)
+            except Exception:
+                pass
+
+            # Scroll para cargar lazy content
+            page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+            time.sleep(2)
+
+            html = page.content()
+            soup = BeautifulSoup(html, "html.parser")
+
+            # Alternativa Teatral: links a espectáculos con patrón variable
+            # Probamos varios patrones de href
+            obra_links = (
+                soup.find_all("a", href=re.compile(r"espectaculos\d+|obra_\d+|/show/\d+|seccion\d+.*obra"))
+                or soup.find_all("a", href=re.compile(r"\d{4,}"))  # IDs numéricos largos
+            )
+
+            log.info(f"Alternativa Teatral: {len(obra_links)} links encontrados")
+
+            for a in obra_links:
+                try:
+                    title = a.get_text(strip=True)
+                    if not title or len(title) < 3:
+                        continue
+                    parent = a.find_parent(["tr","li","div","td","article"])
+                    block_text = parent.get_text(" ") if parent else a.get_text()
+                    if not is_lp(block_text):
+                        continue
+                    href = a["href"]
+                    if not href.startswith("http"):
+                        href = BASE + "/" + href.lstrip("/")
+                    events.append(make_ev(
+                        title, "teatro",
+                        parse_date(block_text), parse_time(block_text),
+                        "", "Alternativa Teatral", "alternativateatral",
+                        href, ""
+                    ))
+                except Exception as e:
+                    log.debug(f"Alternativa Teatral link: {e}")
+
+        except Exception as e:
+            log.error(f"Alternativa Teatral: {e}")
+
+        browser.close()
+
+    log.info(f"Alternativa Teatral → {len(events)} eventos")
     return events
 
 
