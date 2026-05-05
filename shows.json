@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-05T20:35:21.698507",
+  "updated_at": "2026-05-05T21:58:11.382269",
   "source": "scraper-natu-v10",
   "city": "La Plata",
   "total": 62,
@@ -525,6 +525,19 @@
       "id": 40
     },
     {
+      "title": "404",
+      "cat": "recital",
+      "date": "",
+      "time": "",
+      "venue": "",
+      "city": "La Plata",
+      "source": "Passline",
+      "sourceKey": "passline",
+      "url": "https://www.passline.com/",
+      "flyer": "https://www.passline.com/error-400/img/passline-01.png",
+      "id": 41
+    },
+    {
       "title": "Adriana Varela",
       "cat": "recital",
       "date": "",
@@ -540,9 +553,9 @@
     {
       "title": "AXEL MILANES EN VIVO EN LA PLATA",
       "cat": "recital",
-      "date": "2026-05-09",
+      "date": "",
       "time": "21:00",
-      "venue": "La Maga Club De Arte, La Plata.",
+      "venue": "Sábado 09/05, 21:00 hsLa Maga Club De Arte, La Plata.",
       "city": "La Plata",
       "source": "Alpogo",
       "sourceKey": "alpogo",
@@ -551,11 +564,37 @@
       "id": 43
     },
     {
+      "title": "Botón de Arrep.",
+      "cat": "recital",
+      "date": "",
+      "time": "",
+      "venue": "",
+      "city": "La Plata",
+      "source": "Plateanet",
+      "sourceKey": "plateanet",
+      "url": "http://qr.afip.gob.ar/?qr=kwtNgkcpGIa54lJJxVAn0A,,",
+      "flyer": "https://www.plateanet.com./assets/footer/comodo_2021.svg",
+      "id": 44
+    },
+    {
+      "title": "COMPRARObrasTeatrosEticketBeneficiosTérminos y condiciones",
+      "cat": "teatro",
+      "date": "",
+      "time": "",
+      "venue": "",
+      "city": "La Plata",
+      "source": "Plateanet",
+      "sourceKey": "plateanet",
+      "url": "https://www.plateanet.com/reportes",
+      "flyer": "https://www.plateanet.comassets/footer/footer_flecha.svg",
+      "id": 45
+    },
+    {
       "title": "dani umpi + julian desbats = bromance en la plata",
       "cat": "recital",
-      "date": "2026-05-16",
+      "date": "",
       "time": "22:00",
-      "venue": "Centro Cultural Azulunala, La Plata.",
+      "venue": "Sábado 16/05, 22:00 hsCentro Cultural Azulunala, La Plata.",
       "city": "La Plata",
       "source": "Alpogo",
       "sourceKey": "alpogo",
@@ -566,9 +605,9 @@
     {
       "title": "Emilia Freston Banda + Luli Maidana en La Maga, La Plata",
       "cat": "recital",
-      "date": "2026-06-05",
+      "date": "",
       "time": "21:00",
-      "venue": "La Maga Club De Arte, La Plata.",
+      "venue": "Viernes 05/06, 21:00 hsLa Maga Club De Arte, La Plata.",
       "city": "La Plata",
       "source": "Alpogo",
       "sourceKey": "alpogo",
@@ -577,11 +616,24 @@
       "id": 47
     },
     {
+      "title": "encontranos en",
+      "cat": "recital",
+      "date": "",
+      "time": "",
+      "venue": "Teatro Metro LP",
+      "city": "La Plata",
+      "source": "Teatro Metro LP",
+      "sourceKey": "teatrometrolp",
+      "url": "https://www.teatrometrolp.com.ar/",
+      "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
+      "id": 48
+    },
+    {
       "title": "Ensayo Abierto - Ensambles Mano Zurda",
       "cat": "recital",
-      "date": "2026-05-22",
+      "date": "",
       "time": "20:00",
-      "venue": "Autopista del sonido, La Plata",
+      "venue": "Viernes 22/05, 20:00 hsAutopista del sonido, La Plata",
       "city": "La Plata",
       "source": "Alpogo",
       "sourceKey": "alpogo",
@@ -592,9 +644,9 @@
     {
       "title": "Ensayo Abierto - Lucas Muñoz",
       "cat": "recital",
-      "date": "2026-05-16",
+      "date": "",
       "time": "20:00",
-      "venue": "Autopista del sonido, La Plata",
+      "venue": "Sábado 16/05, 20:00 hsAutopista del sonido, La Plata",
       "city": "La Plata",
       "source": "Alpogo",
       "sourceKey": "alpogo",
@@ -605,9 +657,9 @@
     {
       "title": "EXPLENDEN en La Plata",
       "cat": "recital",
-      "date": "2026-05-09",
+      "date": "",
       "time": "20:00",
-      "venue": "Casa Unclan, La Plata",
+      "venue": "Sábado 09/05, 20:00 hsCasa Unclan, La Plata",
       "city": "La Plata",
       "source": "Alpogo",
       "sourceKey": "alpogo",
@@ -618,9 +670,9 @@
     {
       "title": "Ezequiel Borra Quintento + El Ruido De Las Nubes",
       "cat": "recital",
-      "date": "2026-05-29",
+      "date": "",
       "time": "21:00",
-      "venue": "Guajira, La Plata",
+      "venue": "Viernes 29/05, 21:00 hsGuajira, La Plata",
       "city": "La Plata",
       "source": "Alpogo",
       "sourceKey": "alpogo",
@@ -631,9 +683,9 @@
     {
       "title": "Fogones presenta : Manuel Moretti",
       "cat": "recital",
-      "date": "2026-05-27",
+      "date": "",
       "time": "20:00",
-      "venue": "Guajira, La Plata",
+      "venue": "Miércoles 27/05, 20:00 hsGuajira, La Plata",
       "city": "La Plata",
       "source": "Alpogo",
       "sourceKey": "alpogo",
@@ -657,9 +709,9 @@
     {
       "title": "Las Mareas, Lape y los cósmicos, Superpiba - En Pura Vida",
       "cat": "recital",
-      "date": "2026-05-17",
+      "date": "",
       "time": "21:00",
-      "venue": "Pura Vida, La Plata",
+      "venue": "Domingo 17/05, 21:00 hsPura Vida, La Plata",
       "city": "La Plata",
       "source": "Alpogo",
       "sourceKey": "alpogo",
@@ -670,9 +722,9 @@
     {
       "title": "LIVE WHILE WE'RE YOUNG | LA PLATA | EDICIÓN MIDNIGHT MEMORIES",
       "cat": "recital",
-      "date": "2026-05-16",
+      "date": "",
       "time": "23:59",
-      "venue": "BYE HENRY DIAGONAL",
+      "venue": "Sábado 16/05, 23:59 hsBYE HENRY DIAGONAL",
       "city": "La Plata",
       "source": "Alpogo",
       "sourceKey": "alpogo",
@@ -683,9 +735,9 @@
     {
       "title": "LOS BRINDIS EN LA PLATA",
       "cat": "recital",
-      "date": "2026-06-26",
+      "date": "",
       "time": "20:00",
-      "venue": "Sputnik Var, La Plata",
+      "venue": "Viernes 26/06, 20:00 hsSputnik Var, La Plata",
       "city": "La Plata",
       "source": "Alpogo",
       "sourceKey": "alpogo",
@@ -696,7 +748,7 @@
     {
       "title": "Margarita Xirgu – Una actriz entre dos continentes",
       "cat": "recital",
-      "date": "2026-08-21",
+      "date": "",
       "time": "",
       "venue": "Casa Metro La Plata",
       "city": "La Plata",
@@ -709,9 +761,9 @@
     {
       "title": "Modafinilo en Pura Vida",
       "cat": "recital",
-      "date": "2026-05-21",
+      "date": "",
       "time": "20:00",
-      "venue": "Pura Vida, La Plata",
+      "venue": "Jueves 21/05, 20:00 hsPura Vida, La Plata",
       "city": "La Plata",
       "source": "Alpogo",
       "sourceKey": "alpogo",
@@ -722,9 +774,9 @@
     {
       "title": "Orozco Barrientos en La Plata",
       "cat": "recital",
-      "date": "2026-06-12",
+      "date": "",
       "time": "21:00",
-      "venue": "Guajira, La Plata",
+      "venue": "Viernes 12/06, 21:00 hsGuajira, La Plata",
       "city": "La Plata",
       "source": "Alpogo",
       "sourceKey": "alpogo",
@@ -735,7 +787,7 @@
     {
       "title": "Parana Berreta en La Plata",
       "cat": "recital",
-      "date": "2026-06-11",
+      "date": "",
       "time": "21:00",
       "venue": "Jueves 11/06, 21:00 hsLa Maga Club De Arte, La Plata.",
       "city": "La Plata",
@@ -745,5 +797,18 @@
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1776998947_69eada23989df.jpg",
       "id": 61
     },
+    {
+      "title": "Teatro Metro.Todos Los Derechos Reservados.",
+      "cat": "teatro",
+      "date": "",
+      "time": "",
+      "venue": "Teatro Metro LP",
+      "city": "La Plata",
+      "source": "Teatro Metro LP",
+      "sourceKey": "teatrometrolp",
+      "url": "http://www.misticastudio.com",
+      "flyer": "https://www.teatrometrolp.com.arimages/mistica-logo.png",
+      "id": 62
+    }
   ]
 }
