@@ -571,26 +571,7 @@
 //  DATOS DE EJEMPLO — reemplazados por shows.json
 //  cuando el scraper esté corriendo
 // ══════════════════════════════════════════════════════
-const SEED = [
-  {id:1,  title:"Los Visitantes",           cat:"recital",  date:"2025-06-07",time:"21:30",venue:"El Teatrito",                     city:"La Plata",source:"Passline",         url:"https://passline.com",                                        flyer:"https://picsum.photos/seed/visit/200/200"},
-  {id:2,  title:"Obra: Las Brujas",          cat:"teatro",   date:"2025-06-07",time:"20:00",venue:"Teatro Argentino",                city:"La Plata",source:"Teatro Argentino",  url:"https://teatroargentino.gba.gob.ar/meets/no-season",           flyer:"https://picsum.photos/seed/brujas/200/200"},
-  {id:3,  title:"Feria del Libro Platense",  cat:"arte",     date:"2025-06-08",time:"11:00",venue:"Pasaje Dardo Rocha",              city:"La Plata",source:"Propio",            url:"https://instagram.com",                                       flyer:"https://picsum.photos/seed/feria/200/200"},
-  {id:4,  title:"Stand-Up: Nico Occhiato",  cat:"standup",  date:"2025-06-14",time:"22:00",venue:"Quality Espacio",                 city:"La Plata",source:"All Access",        url:"https://allaccess.com.ar",                                    flyer:"https://picsum.photos/seed/nico/200/200"},
-  {id:5,  title:"Festival Synth",            cat:"festival", date:"2025-06-14",time:"18:00",venue:"Club Atenas",                     city:"La Plata",source:"LivePass",          url:"https://www.livepass.com.ar",                                 flyer:"https://picsum.photos/seed/synth/200/200"},
-  {id:6,  title:"Ballet: La Bayadera",       cat:"danza",    date:"2025-06-14",time:"20:00",venue:"Teatro Argentino — Sala Ginastera",city:"La Plata",source:"Teatro Argentino", url:"https://teatroargentino.gba.gob.ar/meets/no-season",           flyer:"https://picsum.photos/seed/ballet/200/200"},
-  {id:7,  title:"Conociendo Rusia",          cat:"recital",  date:"2025-06-21",time:"21:00",venue:"Estadio Estudiantes",             city:"La Plata",source:"Ticketek",          url:"https://ticketek.com.ar",                                     flyer:"https://picsum.photos/seed/rusia2/200/200"},
-  {id:8,  title:"Danza Contemporánea UNLP",  cat:"danza",    date:"2025-06-21",time:"19:00",venue:"Teatro Coliseo Podestá",          city:"La Plata",source:"TuEntrada",         url:"https://tuentrada.com",                                       flyer:"https://picsum.photos/seed/danza/200/200"},
-  {id:9,  title:"Ciclo de Cine Argentino",   cat:"cine",     date:"2025-06-22",time:"20:30",venue:"Cine Select",                     city:"La Plata",source:"Alpogo",            url:"https://alpogo.com",                                          flyer:"https://picsum.photos/seed/cine2/200/200"},
-  {id:10, title:"Airbag",                    cat:"recital",  date:"2025-06-28",time:"21:30",venue:"El Galpón",                       city:"La Plata",source:"MiAnticipada",      url:"https://mianticipada.com",                                    flyer:"https://picsum.photos/seed/air2/200/200"},
-  {id:11, title:"Mamuschka — Circo",         cat:"danza",    date:"2025-06-29",time:"17:00",venue:"Anfiteatro Martín Fierro",        city:"La Plata",source:"RgEntradas",        url:"https://rgentradas.com",                                      flyer:"https://picsum.photos/seed/circo/200/200"},
-  {id:12, title:"Expo Foto La Plata",        cat:"arte",     date:"2025-07-05",time:"10:00",venue:"Centro Cultural Islas Malvinas",  city:"La Plata",source:"Plateanet",         url:"https://plateanet.com",                                       flyer:"https://picsum.photos/seed/foto/200/200"},
-  {id:13, title:"La Beriso",                 cat:"recital",  date:"2025-07-05",time:"21:00",venue:"Estadio Ciudad de La Plata",      city:"La Plata",source:"CatPass",           url:"https://catpass.com.ar",                                      flyer:"https://picsum.photos/seed/beriso/200/200"},
-  {id:14, title:"Show Infantil: Paka Paka",  cat:"infantil", date:"2025-07-06",time:"15:00",venue:"Teatro Argentino",                city:"La Plata",source:"TicketPass",        url:"https://ticketpass.com.ar",                                   flyer:"https://picsum.photos/seed/paka/200/200"},
-  {id:15, title:"Jazz en el Patio",          cat:"recital",  date:"2025-07-12",time:"20:00",venue:"Casa Curutchet",                  city:"La Plata",source:"Propio",            url:"https://instagram.com",                                       flyer:"https://picsum.photos/seed/jazz/200/200"},
-  {id:16, title:"Nati Uboldi — El Último Click",cat:"standup",date:"2025-07-19",time:"21:00",venue:"Teatro Metro LP",               city:"La Plata",source:"Teatro Metro LP",   url:"https://www.teatrometrolp.com.ar/entradas/cartelera/",         flyer:"https://www.teatrometrolp.com.ar/sistema/uploads/366/slider/772306863246.jpg"},
-  {id:17, title:"EKATHÉ",                    cat:"recital",  date:"2025-07-19",time:"21:00",venue:"Casa Metro La Plata",             city:"La Plata",source:"Casa Metro",        url:"https://casametro.com.ar/evento/ekathe/",                     flyer:"https://casametro.com.ar/wp-content/uploads/2026/04/Ekathe-web-1024x640.png"},
-  {id:18, title:"Los Amados — Bailable",     cat:"recital",  date:"2025-07-26",time:"21:00",venue:"Casa Metro La Plata",             city:"La Plata",source:"Casa Metro",        url:"https://casametro.com.ar/evento/los-amados-bailable/",        flyer:"https://casametro.com.ar/wp-content/uploads/2026/03/web_AMADOS-1024x679.png"},
-];
+const SEED = []; // Vacío — la página carga desde shows.json
 
 const CAT_LABELS = {recital:"Recital",teatro:"Teatro",festival:"Festival",standup:"Stand-up",danza:"Danza",cine:"Cine",arte:"Arte / Expo",infantil:"Infantil",otro:"Otro"};
 const CAT_ICONS  = {recital:"🎸",teatro:"🎭",festival:"🎪",standup:"🎤",danza:"💃",cine:"🎬",arte:"🖼",infantil:"🎠",otro:"✦"};
@@ -607,20 +588,28 @@ function saveLocal(ev){try{const a=loadLocal();a.push(ev);localStorage.setItem('
 // ── init ──
 async function init(){
   const local = loadLocal();
-  allEvents = [...SEED, ...local];
 
-  // Intentar cargar shows.json del scraper
   try {
     const r = await fetch('shows.json?t='+Date.now());
     if(r.ok){
       const data = await r.json();
       if(data.events && data.events.length){
         allEvents = [...data.events, ...local];
+        console.log(`shows.json: ${data.events.length} eventos cargados`);
         document.getElementById('update-info').textContent =
           'Actualizado: '+new Date(data.updated_at).toLocaleString('es-AR',{day:'2-digit',month:'2-digit',year:'numeric',hour:'2-digit',minute:'2-digit'});
+      } else {
+        allEvents = [...local];
+        console.warn('shows.json vacío o sin campo events');
       }
+    } else {
+      allEvents = [...local];
+      console.warn('shows.json HTTP', r.status);
     }
-  } catch(e){}
+  } catch(e){
+    allEvents = [...local];
+    console.error('Error cargando shows.json:', e);
+  }
 
   if(!document.getElementById('update-info').textContent.includes('/')){
     document.getElementById('update-info').textContent =
@@ -647,17 +636,21 @@ function getToday(){return new Date().toISOString().slice(0,10)}
 function filtered(){
   const today=getToday(), q=searchQ.toLowerCase().trim();
   return allEvents.filter(e=>{
-    if(!e.date||e.date<today)return false;
+    if(e.date&&e.date<today)return false;
     if(activeCat!=='all'&&e.cat!==activeCat)return false;
     if(activeVenue&&e.venue!==activeVenue)return false;
     if(q&&!e.title.toLowerCase().includes(q)&&!e.venue.toLowerCase().includes(q)&&!(e.source||'').toLowerCase().includes(q))return false;
     return true;
-  }).sort((a,b)=>a.date!==b.date?a.date<b.date?-1:1:a.title.localeCompare(b.title,'es'));
+  }).sort((a,b)=>{
+    const da=a.date||'9999-12-31', db=b.date||'9999-12-31';
+    return da!==db?da<db?-1:1:a.title.localeCompare(b.title,'es');
+  });
 }
 
-function groupByDate(evs){const g={};evs.forEach(e=>{if(!g[e.date])g[e.date]=[];g[e.date].push(e)});return g}
+function groupByDate(evs){const g={};evs.forEach(e=>{const k=e.date||'sin-fecha';if(!g[k])g[k]=[];g[k].push(e)});return g}
 
 function fmtDate(str){
+  if(!str||str==='sin-fecha') return{num:'?',dow:'Fecha',long:'Fecha a confirmar',badge:null};
   const d=new Date(str+'T12:00:00'),today=getToday(),tom=new Date(Date.now()+86400000).toISOString().slice(0,10);
   return{num:d.getDate(),dow:DAYS[d.getDay()],long:`${DAYS[d.getDay()]} ${d.getDate()} de ${MONTHS[d.getMonth()]} ${d.getFullYear()}`,badge:str===today?'HOY':str===tom?'MAÑANA':null};
 }
