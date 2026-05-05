@@ -577,19 +577,6 @@
       "id": 47
     },
     {
-      "title": "encontranos en",
-      "cat": "recital",
-      "date": "",
-      "time": "",
-      "venue": "Teatro Metro LP",
-      "city": "La Plata",
-      "source": "Teatro Metro LP",
-      "sourceKey": "teatrometrolp",
-      "url": "https://www.teatrometrolp.com.ar/",
-      "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 48
-    },
-    {
       "title": "Ensayo Abierto - Ensambles Mano Zurda",
       "cat": "recital",
       "date": "2026-05-22",
@@ -655,19 +642,6 @@
       "id": 53
     },
     {
-      "title": "Inicio(current)EL TEATROCARTELERANOTICIASCONTACTO",
-      "cat": "teatro",
-      "date": "",
-      "time": "",
-      "venue": "Teatro Metro LP",
-      "city": "La Plata",
-      "source": "Teatro Metro LP",
-      "sourceKey": "teatrometrolp",
-      "url": "https://www.teatrometrolp.com.ar/",
-      "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 54
-    },
-    {
       "title": "Las Mareas, Lape y los cósmicos, Superpiba - En Pura Vida",
       "cat": "recital",
       "date": "2026-05-17",
@@ -709,7 +683,7 @@
     {
       "title": "Margarita Xirgu – Una actriz entre dos continentes",
       "cat": "recital",
-      "date": "",
+      "date": "2026-08-21",
       "time": "",
       "venue": "Casa Metro La Plata",
       "city": "La Plata",
@@ -758,18 +732,5 @@
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1776998947_69eada23989df.jpg",
       "id": 61
     },
-    {
-      "title": "Teatro Metro.Todos Los Derechos Reservados.",
-      "cat": "teatro",
-      "date": "",
-      "time": "",
-      "venue": "Teatro Metro LP",
-      "city": "La Plata",
-      "source": "Teatro Metro LP",
-      "sourceKey": "teatrometrolp",
-      "url": "http://www.misticastudio.com",
-      "flyer": "https://www.teatrometrolp.com.arimages/mistica-logo.png",
-      "id": 62
-    }
   ]
 }
