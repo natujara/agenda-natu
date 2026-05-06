@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-06T20:19:47.750191",
+  "updated_at": "2026-05-06T23:43:08.068467",
   "source": "scraper-natu-v10",
   "city": "La Plata",
   "total": 64,
@@ -456,7 +456,7 @@
       "source": "Casa Metro",
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/parte-del-aire/",
-      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/05/@4x-8fito_web.png",
+      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/05/fito_web.png",
       "id": 35
     },
     {
@@ -508,7 +508,7 @@
       "source": "CatPass",
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
-      "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/Anuncio%201.jpeg?alt=media&token=14cc61e9-46df-433c-a06f-e169e6d01960",
+      "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/VIAJE%20DE%20AGUA%20-%20VERTICAL%201.jpg?alt=media&token=cd23e8cc-11d1-48cd-8f07-f0ee4ec88fd6",
       "id": 39
     },
     {
