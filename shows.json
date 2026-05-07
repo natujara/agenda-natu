@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-07T11:04:41.021296",
+  "updated_at": "2026-05-07T20:12:29.386162",
   "source": "scraper-natu-v10",
   "city": "La Plata",
-  "total": 64,
+  "total": 67,
   "events": [
     {
       "title": "EL VIAJE DE LA ESTRELLA",
@@ -369,6 +369,19 @@
       "id": 28
     },
     {
+      "title": "PEGAJOSA B SIDE",
+      "cat": "recital",
+      "date": "2026-05-23",
+      "time": "23:59",
+      "venue": "",
+      "city": "La Plata",
+      "source": "CatPass",
+      "sourceKey": "catpass",
+      "url": "https://catpass.net/eventos",
+      "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/Artboard%201%20copy%207.png?alt=media&token=10015f07-a7b0-433e-8c07-89fabdd9521f",
+      "id": 29
+    },
+    {
       "title": "CAZADORAS DORADAS",
       "cat": "recital",
       "date": "2026-05-24",
@@ -379,7 +392,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/entrada/cazadoras-doradas-100532",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/entradas/20260419192320_500x450px-cazadoras-doradas-k-pop-en-la-plata.jpg",
-      "id": 29
+      "id": 30
     },
     {
       "title": "Ciclo de Peñas – Luna Cautiva",
@@ -391,8 +404,8 @@
       "source": "Casa Metro",
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/ciclo-de-penas-luna-cautiva-2/",
-      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/04/web_pena_24.png",
-      "id": 30
+      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/04/web_pena_24-1.png",
+      "id": 31
     },
     {
       "title": "Núcleo – Sesiones de música clásica",
@@ -405,7 +418,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/nucleo-sesiones-de-musica-clasica/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/05/nucleo_web.png",
-      "id": 31
+      "id": 32
     },
     {
       "title": "Fernando Sanjiao - Quemado",
@@ -418,7 +431,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/entrada/fernando-sanjiao-quemado-100110",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/entradas/20250904114224_quemado_fuego-real_editable_-1.jpg",
-      "id": 32
+      "id": 33
     },
     {
       "title": "TRT - GUIDO SARTORIS",
@@ -431,7 +444,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/IMG_8881.png?alt=media&token=0baf37d2-e7f9-40a4-b536-36039c2f128e",
-      "id": 33
+      "id": 34
     },
     {
       "title": "YASAR & ROSA PROFUNDA & UTAH",
@@ -444,7 +457,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/HISTORIA%20FLYER%20IG_%20ciudad%20de%20gatos%2030%20de%20mayo.jpg?alt=media&token=a340e1fa-f854-4b55-9b02-bebc1a25e422",
-      "id": 34
+      "id": 35
     },
     {
       "title": "Parte del aire – Canciones de Fito Páez",
@@ -457,7 +470,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/parte-del-aire/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/05/fito_web.png",
-      "id": 35
+      "id": 36
     },
     {
       "title": "Sofía Calvo – Es hora de hablar",
@@ -470,7 +483,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/sofia-calvo/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/04/web_varela-1.png",
-      "id": 36
+      "id": 37
     },
     {
       "title": "Los Amados – Bailable",
@@ -483,7 +496,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/los-amados-bailable/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/03/web_AMADOS.png",
-      "id": 37
+      "id": 38
     },
     {
       "title": "TICKY presenta EL TIEMPO ES ARTE",
@@ -496,7 +509,20 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/feedgeneral_cudad%20de%20gatos.png?alt=media&token=7d2ea8c8-bb89-4722-8c11-052aa738dbea",
-      "id": 38
+      "id": 39
+    },
+    {
+      "title": "Gatiaventuras",
+      "cat": "recital",
+      "date": "2026-06-14",
+      "time": "",
+      "venue": "Casa Metro La Plata",
+      "city": "La Plata",
+      "source": "Casa Metro",
+      "sourceKey": "casametro",
+      "url": "https://casametro.com.ar/evento/gatiaventuras/",
+      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/05/1920x1080.jpg",
+      "id": 40
     },
     {
       "title": "Festival Viaje de Agua VII La Plata",
@@ -509,7 +535,20 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/VIAJE%20DE%20AGUA%20-%20VERTICAL%201.jpg?alt=media&token=cd23e8cc-11d1-48cd-8f07-f0ee4ec88fd6",
-      "id": 39
+      "id": 41
+    },
+    {
+      "title": "Gordillo",
+      "cat": "recital",
+      "date": "2026-07-02",
+      "time": "",
+      "venue": "Casa Metro La Plata",
+      "city": "La Plata",
+      "source": "Casa Metro",
+      "sourceKey": "casametro",
+      "url": "https://casametro.com.ar/evento/gordillo/",
+      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/05/web_casametro.png",
+      "id": 42
     },
     {
       "title": "Silvina Garré",
@@ -522,7 +561,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/silvina-garre/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/04/web-1.png",
-      "id": 40
+      "id": 43
     },
     {
       "title": "Bahiano",
@@ -535,7 +574,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/bahiano/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/04/Iumus_BahianoTour-LaPlata-1600x1000.jpg.jpeg",
-      "id": 41
+      "id": 44
     },
     {
       "title": "404",
@@ -548,7 +587,7 @@
       "sourceKey": "passline",
       "url": "https://www.passline.com/",
       "flyer": "https://www.passline.com/error-400/img/passline-01.png",
-      "id": 42
+      "id": 45
     },
     {
       "title": "Adriana Varela",
@@ -561,7 +600,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/5463/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/04/web_varela.png",
-      "id": 43
+      "id": 46
     },
     {
       "title": "AXEL MILANES EN VIVO EN LA PLATA",
@@ -574,7 +613,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/axel-milanes-en-vivo-en-la-plata-25998",
       "flyer": "https://imagenes.alpogo.com/eventos/alexxxxxxxx.jpg",
-      "id": 44
+      "id": 47
     },
     {
       "title": "Botón de Arrep.",
@@ -587,7 +626,7 @@
       "sourceKey": "plateanet",
       "url": "http://qr.afip.gob.ar/?qr=kwtNgkcpGIa54lJJxVAn0A,,",
       "flyer": "https://www.plateanet.com./assets/footer/comodo_2021.svg",
-      "id": 45
+      "id": 48
     },
     {
       "title": "COMPRARObrasTeatrosEticketBeneficiosTérminos y condiciones",
@@ -600,7 +639,7 @@
       "sourceKey": "plateanet",
       "url": "https://www.plateanet.com/reportes",
       "flyer": "https://www.plateanet.comassets/footer/footer_flecha.svg",
-      "id": 46
+      "id": 49
     },
     {
       "title": "dani umpi + julian desbats = bromance en la plata",
@@ -613,7 +652,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/dani-umpi-julian-desbats-bromance-en-la-plata-25889",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1776700143_69e64aefb93e5.jpg",
-      "id": 47
+      "id": 50
     },
     {
       "title": "Emilia Freston Banda + Luli Maidana en La Maga, La Plata",
@@ -626,7 +665,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/emilia-freston-banda-luli-maidana-en-la-maga-la-plata-26027",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1777060558_69ebcace2d050.jpg",
-      "id": 48
+      "id": 51
     },
     {
       "title": "encontranos en",
@@ -639,7 +678,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 49
+      "id": 52
     },
     {
       "title": "Ensayo Abierto - Ensambles Mano Zurda",
@@ -652,7 +691,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/ensayo-abierto-ensambles-mano-zurda-26210",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1777923147_69f8f44b10d19.jpg",
-      "id": 50
+      "id": 53
     },
     {
       "title": "Ensayo Abierto - Lucas Muñoz",
@@ -665,7 +704,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/ensayo-abierto-lucas-munoz-26072",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1777319567_69efbe8fe9fcf.jpg",
-      "id": 51
+      "id": 54
     },
     {
       "title": "EXPLENDEN en La Plata",
@@ -678,7 +717,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/explenden-en-la-plata-25863",
       "flyer": "https://imagenes.alpogo.com/eventos/EXPLENDENCATASTROFES.png",
-      "id": 52
+      "id": 55
     },
     {
       "title": "Ezequiel Borra Quintento + El Ruido De Las Nubes",
@@ -691,7 +730,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/ezequiel-borra-quintento-el-ruido-de-las-nubes-25859",
       "flyer": "https://imagenes.alpogo.com/eventos/5e6ce645-e60c-44d2-9f25-a26f58b080d7.webp",
-      "id": 53
+      "id": 56
     },
     {
       "title": "Fogones presenta : Manuel Moretti",
@@ -704,7 +743,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/fogones-presenta-manuel-moretti-25493",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1774460325_69c41da553a1a.jpg",
-      "id": 54
+      "id": 57
     },
     {
       "title": "Inicio(current)EL TEATROCARTELERANOTICIASCONTACTO",
@@ -717,7 +756,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 55
+      "id": 58
     },
     {
       "title": "Las Mareas, Lape y los cósmicos, Superpiba - En Pura Vida",
@@ -730,7 +769,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/las-mareas-lape-y-los-cosmicos-superpiba-en-pura-vida-25638",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1775232137_69cfe4895d59a.jpg",
-      "id": 56
+      "id": 59
     },
     {
       "title": "LIVE WHILE WE'RE YOUNG | LA PLATA | EDICIÓN MIDNIGHT MEMORIES",
@@ -743,7 +782,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/live-while-were-young-la-plata-edicion-midnight-memories-25878",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1776556215_69e418b74ae7a.jpg",
-      "id": 57
+      "id": 60
     },
     {
       "title": "LOS BRINDIS EN LA PLATA",
@@ -756,7 +795,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/los-brindis-en-la-plata-25630",
       "flyer": "https://imagenes.alpogo.com/eventos/loavvvbbbbbb.jpg",
-      "id": 58
+      "id": 61
     },
     {
       "title": "Margarita Xirgu – Una actriz entre dos continentes",
@@ -769,7 +808,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/margarita-xirgu-una-actriz-entre-dos-continentes/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/04/2Oteyza.png",
-      "id": 59
+      "id": 62
     },
     {
       "title": "Modafinilo en Pura Vida",
@@ -782,7 +821,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/modafinilo-en-pura-vida-26223",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1777941206_69f93ad604a07.jpg",
-      "id": 60
+      "id": 63
     },
     {
       "title": "Nos Gustan los 80s en La Plata",
@@ -795,7 +834,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/nos-gustan-los-80s-en-la-plata-26267",
       "flyer": "https://imagenes.alpogo.com/eventos/laplatanosguiop.jpg",
-      "id": 61
+      "id": 64
     },
     {
       "title": "Orozco Barrientos en La Plata",
@@ -808,7 +847,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/orozco-barrientos-en-la-plata-26018",
       "flyer": "https://imagenes.alpogo.com/eventos/orozcoooooooozzz.jpg",
-      "id": 62
+      "id": 65
     },
     {
       "title": "Parana Berreta en La Plata",
@@ -821,7 +860,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/parana-berreta-en-la-plata-26019",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1776998947_69eada23989df.jpg",
-      "id": 63
+      "id": 66
     },
     {
       "title": "Teatro Metro.Todos Los Derechos Reservados.",
@@ -834,7 +873,7 @@
       "sourceKey": "teatrometrolp",
       "url": "http://www.misticastudio.com",
       "flyer": "https://www.teatrometrolp.com.arimages/mistica-logo.png",
-      "id": 64
+      "id": 67
     }
   ]
 }
