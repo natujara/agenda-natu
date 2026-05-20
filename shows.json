@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-20T08:49:17.418122",
+  "updated_at": "2026-05-20T18:11:42.757899",
   "source": "scraper-natu-v10",
   "city": "La Plata",
-  "total": 66,
+  "total": 67,
   "events": [
     {
       "title": "Cayó la Cabra",
@@ -733,6 +733,19 @@
       "id": 56
     },
     {
+      "title": "FABIO LIONE en La Plata",
+      "cat": "recital",
+      "date": "",
+      "time": "19:00",
+      "venue": "Jueves 25/06, 19:00 hsTeatro Rene Favaloro, La Plata",
+      "city": "La Plata",
+      "source": "Alpogo",
+      "sourceKey": "alpogo",
+      "url": "https://alpogo.com/evento/fabio-lione-en-la-plata-26479",
+      "flyer": "https://imagenes.alpogo.com/eventos/7c0f943c-1bcb-4a89-a769-0c6f2b5b4c4d.webp",
+      "id": 57
+    },
+    {
       "title": "FIESTA UGH! | LA PLATA | EDICIÓN ARGENTINA",
       "cat": "recital",
       "date": "",
@@ -743,7 +756,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/fiesta-ugh-la-plata-edicion-argentina-26326",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1778509696_6a01e78058961.jpg",
-      "id": 57
+      "id": 58
     },
     {
       "title": "Fogones presenta : Manuel Moretti",
@@ -756,7 +769,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/fogones-presenta-manuel-moretti-25493",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1774460325_69c41da553a1a.jpg",
-      "id": 58
+      "id": 59
     },
     {
       "title": "Inicio(current)EL TEATROCARTELERANOTICIASCONTACTO",
@@ -769,7 +782,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 59
+      "id": 60
     },
     {
       "title": "LOS BRINDIS EN LA PLATA",
@@ -782,7 +795,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/los-brindis-en-la-plata-25630",
       "flyer": "https://imagenes.alpogo.com/eventos/loavvvbbbbbb.jpg",
-      "id": 60
+      "id": 61
     },
     {
       "title": "Margarita Xirgu – Una actriz entre dos continentes",
@@ -795,7 +808,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/margarita-xirgu-una-actriz-entre-dos-continentes/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/04/2Oteyza.png",
-      "id": 61
+      "id": 62
     },
     {
       "title": "Modafinilo en Pura Vida",
@@ -808,7 +821,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/modafinilo-en-pura-vida-26223",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1777941206_69f93ad604a07.jpg",
-      "id": 62
+      "id": 63
     },
     {
       "title": "Nos Gustan los 80s en La Plata",
@@ -821,7 +834,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/nos-gustan-los-80s-en-la-plata-26267",
       "flyer": "https://imagenes.alpogo.com/eventos/laplatanosguiop.jpg",
-      "id": 63
+      "id": 64
     },
     {
       "title": "Orozco Barrientos en La Plata",
@@ -834,7 +847,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/orozco-barrientos-en-la-plata-26018",
       "flyer": "https://imagenes.alpogo.com/eventos/orozcoooooooozzz.jpg",
-      "id": 64
+      "id": 65
     },
     {
       "title": "Parana Berreta en La Plata",
@@ -847,7 +860,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/parana-berreta-en-la-plata-26019",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1776998947_69eada23989df.jpg",
-      "id": 65
+      "id": 66
     },
     {
       "title": "Teatro Metro.Todos Los Derechos Reservados.",
@@ -860,7 +873,7 @@
       "sourceKey": "teatrometrolp",
       "url": "http://www.misticastudio.com",
       "flyer": "https://www.teatrometrolp.com.arimages/mistica-logo.png",
-      "id": 66
+      "id": 67
     }
   ]
 }
