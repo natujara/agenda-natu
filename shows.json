@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-21T17:41:03.063367",
+  "updated_at": "2026-05-22T08:43:36.974019",
   "source": "scraper-natu-v10",
   "city": "La Plata",
-  "total": 65,
+  "total": 64,
   "events": [
     {
       "title": "Cayó la Cabra",
@@ -785,19 +785,6 @@
       "id": 60
     },
     {
-      "title": "Modafinilo en Pura Vida",
-      "cat": "recital",
-      "date": "",
-      "time": "20:00",
-      "venue": "Jueves 21/05, 20:00 hsPura Vida, La Plata",
-      "city": "La Plata",
-      "source": "Alpogo",
-      "sourceKey": "alpogo",
-      "url": "https://alpogo.com/evento/modafinilo-en-pura-vida-26223",
-      "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1777941206_69f93ad604a07.jpg",
-      "id": 61
-    },
-    {
       "title": "Nos Gustan los 80s en La Plata",
       "cat": "recital",
       "date": "",
@@ -808,7 +795,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/nos-gustan-los-80s-en-la-plata-26267",
       "flyer": "https://imagenes.alpogo.com/eventos/laplatanosguiop.jpg",
-      "id": 62
+      "id": 61
     },
     {
       "title": "Orozco Barrientos en La Plata",
@@ -821,7 +808,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/orozco-barrientos-en-la-plata-26018",
       "flyer": "https://imagenes.alpogo.com/eventos/orozcoooooooozzz.jpg",
-      "id": 63
+      "id": 62
     },
     {
       "title": "Parana Berreta en La Plata",
@@ -834,7 +821,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/parana-berreta-en-la-plata-26019",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1776998947_69eada23989df.jpg",
-      "id": 64
+      "id": 63
     },
     {
       "title": "Teatro Metro.Todos Los Derechos Reservados.",
@@ -847,7 +834,7 @@
       "sourceKey": "teatrometrolp",
       "url": "http://www.misticastudio.com",
       "flyer": "https://www.teatrometrolp.com.arimages/mistica-logo.png",
-      "id": 65
+      "id": 64
     }
   ]
 }
