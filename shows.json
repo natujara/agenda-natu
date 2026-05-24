@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-24T00:21:01.436358",
+  "updated_at": "2026-05-24T09:39:11.393771",
   "source": "scraper-natu-v10",
   "city": "La Plata",
-  "total": 56,
+  "total": 54,
   "events": [
     {
       "title": "CAZADORAS DORADAS",
@@ -551,32 +551,6 @@
       "id": 42
     },
     {
-      "title": "Ensayo Abierto - Ensambles Mano Zurda",
-      "cat": "recital",
-      "date": "",
-      "time": "20:00",
-      "venue": "Sábado 23/05, 20:00 hsAutopista del sonido, La Plata",
-      "city": "La Plata",
-      "source": "Alpogo",
-      "sourceKey": "alpogo",
-      "url": "https://alpogo.com/evento/ensayo-abierto-ensambles-mano-zurda-26210",
-      "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1777923147_69f8f44b10d19.jpg",
-      "id": 43
-    },
-    {
-      "title": "Etiqueta negra en La Plata",
-      "cat": "recital",
-      "date": "",
-      "time": "21:00",
-      "venue": "Sábado 23/05, 21:00 hsTeatro René Favaloro",
-      "city": "La Plata",
-      "source": "Alpogo",
-      "sourceKey": "alpogo",
-      "url": "https://alpogo.com/evento/etiqueta-negra-en-la-plata-26399",
-      "flyer": "https://imagenes.alpogo.com/eventos/f214ef04-a0ab-4fe1-9944-7a7488f69b6f.webp",
-      "id": 44
-    },
-    {
       "title": "Ezequiel Borra Quintento + El Ruido De Las Nubes",
       "cat": "recital",
       "date": "",
@@ -587,7 +561,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/ezequiel-borra-quintento-el-ruido-de-las-nubes-25859",
       "flyer": "https://imagenes.alpogo.com/eventos/5e6ce645-e60c-44d2-9f25-a26f58b080d7.webp",
-      "id": 45
+      "id": 43
     },
     {
       "title": "FABIO LIONE en La Plata",
@@ -600,7 +574,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/fabio-lione-en-la-plata-26479",
       "flyer": "https://imagenes.alpogo.com/eventos/7c0f943c-1bcb-4a89-a769-0c6f2b5b4c4d.webp",
-      "id": 46
+      "id": 44
     },
     {
       "title": "FIESTA UGH! | LA PLATA | EDICIÓN ARGENTINA",
@@ -613,7 +587,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/fiesta-ugh-la-plata-edicion-argentina-26326",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1778509696_6a01e78058961.jpg",
-      "id": 47
+      "id": 45
     },
     {
       "title": "Fogones presenta : Manuel Moretti",
@@ -626,7 +600,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/fogones-presenta-manuel-moretti-25493",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1774460325_69c41da553a1a.jpg",
-      "id": 48
+      "id": 46
     },
     {
       "title": "Inicio(current)EL TEATROCARTELERANOTICIASCONTACTO",
@@ -639,7 +613,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 49
+      "id": 47
     },
     {
       "title": "LOS BRINDIS EN LA PLATA",
@@ -652,7 +626,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/los-brindis-en-la-plata-25630",
       "flyer": "https://imagenes.alpogo.com/eventos/loavvvbbbbbb.jpg",
-      "id": 50
+      "id": 48
     },
     {
       "title": "Margarita Xirgu – Una actriz entre dos continentes",
@@ -665,7 +639,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/margarita-xirgu-una-actriz-entre-dos-continentes/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/04/2Oteyza.png",
-      "id": 51
+      "id": 49
     },
     {
       "title": "Nos Gustan los 80s en La Plata",
@@ -678,7 +652,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/nos-gustan-los-80s-en-la-plata-26267",
       "flyer": "https://imagenes.alpogo.com/eventos/laplatanosguiop.jpg",
-      "id": 52
+      "id": 50
     },
     {
       "title": "Orozco Barrientos en La Plata",
@@ -691,7 +665,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/orozco-barrientos-en-la-plata-26018",
       "flyer": "https://imagenes.alpogo.com/eventos/orozcoooooooozzz.jpg",
-      "id": 53
+      "id": 51
     },
     {
       "title": "Parana Berreta en La Plata",
@@ -704,7 +678,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/parana-berreta-en-la-plata-26019",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1776998947_69eada23989df.jpg",
-      "id": 54
+      "id": 52
     },
     {
       "title": "Reales Kimonos",
@@ -717,7 +691,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/reales-kimonos-26583",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1779502198_6a110c76b140a.jpg",
-      "id": 55
+      "id": 53
     },
     {
       "title": "Teatro Metro.Todos Los Derechos Reservados.",
@@ -730,7 +704,7 @@
       "sourceKey": "teatrometrolp",
       "url": "http://www.misticastudio.com",
       "flyer": "https://www.teatrometrolp.com.arimages/mistica-logo.png",
-      "id": 56
+      "id": 54
     }
   ]
 }
