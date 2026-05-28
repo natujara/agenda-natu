@@ -1,22 +1,9 @@
 {
-  "updated_at": "2026-05-27T18:21:07.338504",
+  "updated_at": "2026-05-28T00:23:30.116864",
   "source": "scraper-natu-v10",
   "city": "La Plata",
   "total": 52,
   "events": [
-    {
-      "title": "Ópera \"La Bohème\" - Miércoles 27/5",
-      "cat": "teatro",
-      "date": "2026-05-27",
-      "time": "20:00",
-      "venue": "Teatro Argentino — Alberto Ginastera",
-      "city": "La Plata",
-      "source": "Teatro Argentino",
-      "sourceKey": "teatroargentino",
-      "url": "https://teatroargentino.gba.gob.ar/meets/no-season",
-      "flyer": "",
-      "id": 1
-    },
     {
       "title": "JUEBLESS",
       "cat": "recital",
@@ -28,7 +15,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/IMG_8985.jpeg?alt=media&token=4bf14dcd-30df-49e1-abc6-8e932b17cc00",
-      "id": 2
+      "id": 1
     },
     {
       "title": "Núcleo – Sesiones de música clásica",
@@ -41,7 +28,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/nucleo-sesiones-de-musica-clasica/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/05/nucleo_web.png",
-      "id": 3
+      "id": 2
     },
     {
       "title": "Fernando Sanjiao - Quemado",
@@ -54,10 +41,10 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/entrada/fernando-sanjiao-quemado-100110",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/entradas/20250904114224_quemado_fuego-real_editable_-1.jpg",
-      "id": 4
+      "id": 3
     },
     {
-      "title": "Sin Ley + En Bajada en La Plata",
+      "title": "Sin Ley + En Bajada + Fama y Guita en La Plata",
       "cat": "recital",
       "date": "2026-05-29",
       "time": "20:00",
@@ -66,8 +53,8 @@
       "source": "CatPass",
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
-      "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/Sin%20Ley%20%2B%20Embajada%20feed%20OK.jpeg?alt=media&token=2b5cc5f5-c1b6-45a5-b4da-d17de3e23635",
-      "id": 5
+      "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/FLYER_29_05%20OK.jpg?alt=media&token=2f941be2-05da-474e-914c-ef86e7ce97eb",
+      "id": 4
     },
     {
       "title": "TRT - GUIDO SARTORIS",
@@ -80,7 +67,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/IMG_8881.png?alt=media&token=0baf37d2-e7f9-40a4-b536-36039c2f128e",
-      "id": 6
+      "id": 5
     },
     {
       "title": "Ópera \"La Bohème\" - Viernes 29/5",
@@ -93,7 +80,7 @@
       "sourceKey": "teatroargentino",
       "url": "https://teatroargentino.gba.gob.ar/meets/no-season",
       "flyer": "",
-      "id": 7
+      "id": 6
     },
     {
       "title": "+GATEO",
@@ -106,7 +93,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/Gateo03.png?alt=media&token=18bc6347-a687-464b-90ba-601b0ec663d1",
-      "id": 8
+      "id": 7
     },
     {
       "title": "YASAR & ROSA PROFUNDA & UTAH",
@@ -119,7 +106,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/HISTORIA%20FLYER%20IG_%20ciudad%20de%20gatos%2030%20de%20mayo.jpg?alt=media&token=a340e1fa-f854-4b55-9b02-bebc1a25e422",
-      "id": 9
+      "id": 8
     },
     {
       "title": "Ópera \"La Bohème\" - Sábado 30/5",
@@ -132,7 +119,7 @@
       "sourceKey": "teatroargentino",
       "url": "https://teatroargentino.gba.gob.ar/meets/no-season",
       "flyer": "",
-      "id": 10
+      "id": 9
     },
     {
       "title": "Ópera \"La Bohème\" - Domingo 31/5",
@@ -145,7 +132,7 @@
       "sourceKey": "teatroargentino",
       "url": "https://teatroargentino.gba.gob.ar/meets/no-season",
       "flyer": "",
-      "id": 11
+      "id": 10
     },
     {
       "title": "CONTTACTO",
@@ -158,7 +145,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/00%20FEED.png?alt=media&token=593dccfb-29d7-4d4d-adc0-7c213543af25",
-      "id": 12
+      "id": 11
     },
     {
       "title": "ISLA MUJERES ++++++ MARIA TORPE",
@@ -171,7 +158,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/1x1%20CDG%205-6.png?alt=media&token=288bd3c2-cdf8-4cbc-8155-5d84455446d4",
-      "id": 13
+      "id": 12
     },
     {
       "title": "MARINA FAGES en Ciudad de Gatos",
@@ -184,7 +171,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/FAGES%202026-06-06%20La%20Plata%20posteo.jpg.jpeg?alt=media&token=8480465e-e663-4e06-8a1f-efec8013074e",
-      "id": 14
+      "id": 13
     },
     {
       "title": "Sofía Calvo – Es hora de hablar",
@@ -197,7 +184,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/sofia-calvo/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/04/web_varela-1.png",
-      "id": 15
+      "id": 14
     },
     {
       "title": "DIMANAR",
@@ -210,6 +197,19 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/dimanar/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/05/Web_Dimanar.png",
+      "id": 15
+    },
+    {
+      "title": "FRAXU + LA PIBA BERRETA GRATIS!",
+      "cat": "recital",
+      "date": "2026-06-12",
+      "time": "20:00",
+      "venue": "",
+      "city": "La Plata",
+      "source": "CatPass",
+      "sourceKey": "catpass",
+      "url": "https://catpass.net/eventos",
+      "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/OK_FRAXU_ok-01.jpg.jpeg?alt=media&token=d1f24ce5-c14e-40fd-b473-e210956cb498",
       "id": 16
     },
     {
