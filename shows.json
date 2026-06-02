@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-06-02T07:22:42.279028",
+  "updated_at": "2026-06-02T12:40:28.595769",
   "source": "scraper-natu-v10",
   "city": "La Plata",
-  "total": 51,
+  "total": 52,
   "events": [
     {
       "title": "The Beats",
@@ -551,6 +551,19 @@
       "id": 42
     },
     {
+      "title": "FIESTA UGH! LA PLATA | POP VS. K-POP ft Akira",
+      "cat": "recital",
+      "date": "",
+      "time": "23:59",
+      "venue": "Sábado 20/06, 23:59 hsBYE HENRY DIAGONAL",
+      "city": "La Plata",
+      "source": "Alpogo",
+      "sourceKey": "alpogo",
+      "url": "https://alpogo.com/evento/fiesta-ugh-la-plata-pop-vs-k-pop-ft-akira-26729",
+      "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1780371866_6a1e519a250d7.jpg",
+      "id": 43
+    },
+    {
       "title": "Fogones presenta : Manuel Moretti",
       "cat": "recital",
       "date": "",
@@ -561,7 +574,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/fogones-presenta-manuel-moretti-25493",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1774460325_69c41da553a1a.jpg",
-      "id": 43
+      "id": 44
     },
     {
       "title": "Inicio(current)EL TEATROCARTELERANOTICIASCONTACTO",
@@ -574,7 +587,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 44
+      "id": 45
     },
     {
       "title": "LOS BRINDIS EN LA PLATA",
@@ -587,7 +600,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/los-brindis-en-la-plata-25630",
       "flyer": "https://imagenes.alpogo.com/eventos/loavvvbbbbbb.jpg",
-      "id": 45
+      "id": 46
     },
     {
       "title": "Margarita Xirgu – Una actriz entre dos continentes",
@@ -600,7 +613,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/margarita-xirgu-una-actriz-entre-dos-continentes/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/04/2Oteyza.png",
-      "id": 46
+      "id": 47
     },
     {
       "title": "Nos Gustan los 80s en La Plata",
@@ -613,7 +626,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/nos-gustan-los-80s-en-la-plata-26267",
       "flyer": "https://imagenes.alpogo.com/eventos/laplatanosguiop.jpg",
-      "id": 47
+      "id": 48
     },
     {
       "title": "Orozco Barrientos en La Plata",
@@ -626,7 +639,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/orozco-barrientos-en-la-plata-26018",
       "flyer": "https://imagenes.alpogo.com/eventos/orozcoooooooozzz.jpg",
-      "id": 48
+      "id": 49
     },
     {
       "title": "Parana Berreta en La Plata",
@@ -639,7 +652,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/parana-berreta-en-la-plata-26019",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1776998947_69eada23989df.jpg",
-      "id": 49
+      "id": 50
     },
     {
       "title": "Teatro Metro.Todos Los Derechos Reservados.",
@@ -652,7 +665,7 @@
       "sourceKey": "teatrometrolp",
       "url": "http://www.misticastudio.com",
       "flyer": "https://www.teatrometrolp.com.arimages/mistica-logo.png",
-      "id": 50
+      "id": 51
     },
     {
       "title": "Toch – Pulso Inicial",
@@ -665,7 +678,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/toch/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/pantalla-led-Toch.png",
-      "id": 51
+      "id": 52
     }
   ]
 }
