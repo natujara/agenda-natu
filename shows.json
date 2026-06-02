@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-06-01T23:01:26.233356",
+  "updated_at": "2026-06-02T07:22:42.279028",
   "source": "scraper-natu-v10",
   "city": "La Plata",
-  "total": 50,
+  "total": 51,
   "events": [
     {
       "title": "The Beats",
@@ -157,7 +157,7 @@
       "source": "CatPass",
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
-      "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/Artboard%204.jpg?alt=media&token=5168b311-5210-4a00-b934-5a5962773d03",
+      "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/Feed.png?alt=media&token=ece53692-a1af-4e02-a7bf-046c7d012836",
       "id": 12
     },
     {
@@ -653,6 +653,19 @@
       "url": "http://www.misticastudio.com",
       "flyer": "https://www.teatrometrolp.com.arimages/mistica-logo.png",
       "id": 50
+    },
+    {
+      "title": "Toch – Pulso Inicial",
+      "cat": "recital",
+      "date": "",
+      "time": "",
+      "venue": "Casa Metro La Plata",
+      "city": "La Plata",
+      "source": "Casa Metro",
+      "sourceKey": "casametro",
+      "url": "https://casametro.com.ar/evento/toch/",
+      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/pantalla-led-Toch.png",
+      "id": 51
     }
   ]
 }
