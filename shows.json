@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-02T23:01:21.916993",
+  "updated_at": "2026-06-03T07:37:33.237997",
   "source": "scraper-natu-v10",
   "city": "La Plata",
   "total": 54,
@@ -356,6 +356,19 @@
       "id": 27
     },
     {
+      "title": "Mundo Wouu!",
+      "cat": "recital",
+      "date": "2026-07-18",
+      "time": "",
+      "venue": "Casa Metro La Plata",
+      "city": "La Plata",
+      "source": "Casa Metro",
+      "sourceKey": "casametro",
+      "url": "https://casametro.com.ar/evento/mundo-wouu/",
+      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/web-mundo-wouu.png",
+      "id": 28
+    },
+    {
       "title": "Protegido: Leon Gieco",
       "cat": "recital",
       "date": "2026-07-18",
@@ -366,19 +379,6 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/leon-gieco/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/05/Aviso-LA-PLATA-1600X1000.png",
-      "id": 28
-    },
-    {
-      "title": "Protegido: Mundo Wouu!",
-      "cat": "recital",
-      "date": "2026-07-18",
-      "time": "",
-      "venue": "Casa Metro La Plata",
-      "city": "La Plata",
-      "source": "Casa Metro",
-      "sourceKey": "casametro",
-      "url": "https://casametro.com.ar/evento/mundo-wouu/",
-      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/web-mundo-wouu.png",
       "id": 29
     },
     {
