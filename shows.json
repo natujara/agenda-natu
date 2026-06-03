@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-06-03T13:11:43.658441",
+  "updated_at": "2026-06-03T18:46:49.037237",
   "source": "scraper-natu-v10",
   "city": "La Plata",
-  "total": 54,
+  "total": 55,
   "events": [
     {
       "title": "The Beats",
@@ -642,6 +642,19 @@
       "id": 49
     },
     {
+      "title": "NIRVANA x SEATTLE SUPERSONICS en LA PLATA",
+      "cat": "recital",
+      "date": "",
+      "time": "21:00",
+      "venue": "Viernes 19/06, 21:00 hsPura Vida, La Plata",
+      "city": "La Plata",
+      "source": "Alpogo",
+      "sourceKey": "alpogo",
+      "url": "https://alpogo.com/evento/nirvana-x-seattle-supersonics-en-la-plata-26777",
+      "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1780506437_6a205f45b3dc9.jpg",
+      "id": 50
+    },
+    {
       "title": "Nos Gustan los 80s en La Plata",
       "cat": "recital",
       "date": "",
@@ -652,7 +665,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/nos-gustan-los-80s-en-la-plata-26267",
       "flyer": "https://imagenes.alpogo.com/eventos/laplatanosguiop.jpg",
-      "id": 50
+      "id": 51
     },
     {
       "title": "Orozco Barrientos en La Plata",
@@ -665,7 +678,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/orozco-barrientos-en-la-plata-26018",
       "flyer": "https://imagenes.alpogo.com/eventos/orozcoooooooozzz.jpg",
-      "id": 51
+      "id": 52
     },
     {
       "title": "Parana Berreta en La Plata",
@@ -678,7 +691,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/parana-berreta-en-la-plata-26019",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1776998947_69eada23989df.jpg",
-      "id": 52
+      "id": 53
     },
     {
       "title": "Teatro Metro.Todos Los Derechos Reservados.",
@@ -691,7 +704,7 @@
       "sourceKey": "teatrometrolp",
       "url": "http://www.misticastudio.com",
       "flyer": "https://www.teatrometrolp.com.arimages/mistica-logo.png",
-      "id": 53
+      "id": 54
     },
     {
       "title": "Toch – Pulso Inicial",
@@ -704,7 +717,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/toch/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/pantalla-led-Toch.png",
-      "id": 54
+      "id": 55
     }
   ]
 }
