@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-06-06T06:27:56.349161",
+  "updated_at": "2026-06-06T10:55:54.273706",
   "source": "scraper-natu-v10",
   "city": "La Plata",
-  "total": 53,
+  "total": 52,
   "events": [
     {
       "title": "+GATEO/ CONEJA CHINA/ LA BIPOLAR",
@@ -421,19 +421,6 @@
       "id": 32
     },
     {
-      "title": "Adios Fama y Guita - Ultimo show en La Plata",
-      "cat": "recital",
-      "date": "",
-      "time": "23:59",
-      "venue": "Viernes 05/06, 23:59 hscasa unclan",
-      "city": "La Plata",
-      "source": "Alpogo",
-      "sourceKey": "alpogo",
-      "url": "https://alpogo.com/evento/adios-fama-y-guita-ultimo-show-en-la-plata-26434",
-      "flyer": "https://imagenes.alpogo.com/eventos/ea74e084-cdf3-432b-89e1-cdfcec47a66c.webp",
-      "id": 33
-    },
-    {
       "title": "Adriana Varela",
       "cat": "recital",
       "date": "",
@@ -444,7 +431,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/5463/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/04/web_Adriana.jpg",
-      "id": 34
+      "id": 33
     },
     {
       "title": "ANABEL URDANIZ presenta FESTEJO, el instante en el que elegimos la esperanza",
@@ -457,7 +444,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/anabel-urdaniz-presenta-festejo-el-instante-en-el-que-elegimos-la-esperanza-26704",
       "flyer": "https://imagenes.alpogo.com/eventos/a6b07b37-9de6-4731-bfa9-a19b3e370a73.webp",
-      "id": 35
+      "id": 34
     },
     {
       "title": "Botón de Arrep.",
@@ -470,7 +457,7 @@
       "sourceKey": "plateanet",
       "url": "http://qr.afip.gob.ar/?qr=kwtNgkcpGIa54lJJxVAn0A,,",
       "flyer": "https://www.plateanet.com./assets/footer/comodo_2021.svg",
-      "id": 36
+      "id": 35
     },
     {
       "title": "CHARLIE 3, DARAA y LOS FIN DEL MUNDO EN LA PLATA",
@@ -483,7 +470,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/charlie-3-daraa-y-los-fin-del-mundo-en-la-plata-26368",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1778675771_6a04703b0a64c.jpg",
-      "id": 37
+      "id": 36
     },
     {
       "title": "COMPRARObrasTeatrosEticketBeneficiosTérminos y condiciones",
@@ -496,7 +483,7 @@
       "sourceKey": "plateanet",
       "url": "https://www.plateanet.com/reportes",
       "flyer": "https://www.plateanet.comassets/footer/footer_flecha.svg",
-      "id": 38
+      "id": 37
     },
     {
       "title": "Dúo Coplanacu",
@@ -509,7 +496,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/duo-coplanacu/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/05/complanacu_web.png",
-      "id": 39
+      "id": 38
     },
     {
       "title": "encontranos en",
@@ -522,7 +509,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 40
+      "id": 39
     },
     {
       "title": "Etiqueta Negra en La Plata",
@@ -535,7 +522,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/etiqueta-negra-en-la-plata-26666",
       "flyer": "https://imagenes.alpogo.com/eventos/62ae9d18-3ef1-4492-b932-9dbf4be312e8.webp",
-      "id": 41
+      "id": 40
     },
     {
       "title": "FABIO LIONE en La Plata",
@@ -548,7 +535,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/fabio-lione-en-la-plata-26479",
       "flyer": "https://imagenes.alpogo.com/eventos/7c0f943c-1bcb-4a89-a769-0c6f2b5b4c4d.webp",
-      "id": 42
+      "id": 41
     },
     {
       "title": "FIESTA UGH! LA PLATA | POP VS. K-POP ft Akira",
@@ -561,7 +548,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/fiesta-ugh-la-plata-pop-vs-k-pop-ft-akira-26729",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1780371866_6a1e519a250d7.jpg",
-      "id": 43
+      "id": 42
     },
     {
       "title": "Fogones presenta : Manuel Moretti",
@@ -574,7 +561,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/fogones-presenta-manuel-moretti-25493",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1774460325_69c41da553a1a.jpg",
-      "id": 44
+      "id": 43
     },
     {
       "title": "Inicio(current)EL TEATROCARTELERANOTICIASCONTACTO",
@@ -587,7 +574,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 45
+      "id": 44
     },
     {
       "title": "LOS BRINDIS EN LA PLATA",
@@ -600,7 +587,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/los-brindis-en-la-plata-25630",
       "flyer": "https://imagenes.alpogo.com/eventos/loavvvbbbbbb.jpg",
-      "id": 46
+      "id": 45
     },
     {
       "title": "Margarita Xirgu – Una actriz entre dos continentes",
@@ -613,7 +600,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/margarita-xirgu-una-actriz-entre-dos-continentes/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/04/2Oteyza.png",
-      "id": 47
+      "id": 46
     },
     {
       "title": "NIRVANA x SEATTLE SUPERSONICS en LA PLATA",
@@ -626,7 +613,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/nirvana-x-seattle-supersonics-en-la-plata-26777",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1780506437_6a205f45b3dc9.jpg",
-      "id": 48
+      "id": 47
     },
     {
       "title": "Nos Gustan los 80s en La Plata",
@@ -639,7 +626,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/nos-gustan-los-80s-en-la-plata-26267",
       "flyer": "https://imagenes.alpogo.com/eventos/laplatanosguiop.jpg",
-      "id": 49
+      "id": 48
     },
     {
       "title": "Orozco Barrientos en La Plata",
@@ -652,7 +639,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/orozco-barrientos-en-la-plata-26018",
       "flyer": "https://imagenes.alpogo.com/eventos/orozcoooooooozzz.jpg",
-      "id": 50
+      "id": 49
     },
     {
       "title": "Parana Berreta en La Plata",
@@ -665,7 +652,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/parana-berreta-en-la-plata-26019",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1776998947_69eada23989df.jpg",
-      "id": 51
+      "id": 50
     },
     {
       "title": "Teatro Metro.Todos Los Derechos Reservados.",
@@ -678,7 +665,7 @@
       "sourceKey": "teatrometrolp",
       "url": "http://www.misticastudio.com",
       "flyer": "https://www.teatrometrolp.com.arimages/mistica-logo.png",
-      "id": 52
+      "id": 51
     },
     {
       "title": "Toch – Pulso Inicial",
@@ -691,7 +678,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/toch/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/pantalla-led-Toch.png",
-      "id": 53
+      "id": 52
     }
   ]
 }
