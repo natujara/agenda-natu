@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-06-11T12:42:30.022491",
+  "updated_at": "2026-06-11T18:07:43.444361",
   "source": "scraper-natu-v10",
   "city": "La Plata",
-  "total": 57,
+  "total": 58,
   "events": [
     {
       "title": "DIMANAR",
@@ -73,7 +73,7 @@
       "title": "Concierto de Cámara: Soledad de la Rosa y Claudio Santoro - Sábado 13/6",
       "cat": "recital",
       "date": "2026-06-13",
-      "time": "18:00",
+      "time": "17:00",
       "venue": "Teatro Argentino — Astor Piazzolla",
       "city": "La Plata",
       "source": "Teatro Argentino",
@@ -577,6 +577,19 @@
       "id": 44
     },
     {
+      "title": "Escritorxs Just Wanna Have Fun",
+      "cat": "recital",
+      "date": "",
+      "time": "20:00",
+      "venue": "Viernes 19/06, 20:00 hsLa Maga Club De Arte, La Plata.",
+      "city": "La Plata",
+      "source": "Alpogo",
+      "sourceKey": "alpogo",
+      "url": "https://alpogo.com/evento/escritorxs-just-wanna-have-fun-26955",
+      "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1781128150_6a29dbd6ecba8.jpg",
+      "id": 45
+    },
+    {
       "title": "Etiqueta Negra en La Plata",
       "cat": "recital",
       "date": "",
@@ -587,7 +600,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/etiqueta-negra-en-la-plata-26666",
       "flyer": "https://imagenes.alpogo.com/eventos/62ae9d18-3ef1-4492-b932-9dbf4be312e8.webp",
-      "id": 45
+      "id": 46
     },
     {
       "title": "FABIO LIONE en La Plata",
@@ -600,7 +613,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/fabio-lione-en-la-plata-26479",
       "flyer": "https://imagenes.alpogo.com/eventos/72e98b66-94b4-43aa-ab0f-c60ad9bfe8a7.webp",
-      "id": 46
+      "id": 47
     },
     {
       "title": "FIESTA UGH! LA PLATA | POP VS. K-POP ft Akira",
@@ -613,7 +626,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/fiesta-ugh-la-plata-pop-vs-k-pop-ft-akira-26729",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1780371866_6a1e519a250d7.jpg",
-      "id": 47
+      "id": 48
     },
     {
       "title": "Fogones presenta : Manuel Moretti",
@@ -626,7 +639,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/fogones-presenta-manuel-moretti-25493",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1774460325_69c41da553a1a.jpg",
-      "id": 48
+      "id": 49
     },
     {
       "title": "Inicio(current)EL TEATROCARTELERANOTICIASCONTACTO",
@@ -639,7 +652,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 49
+      "id": 50
     },
     {
       "title": "LOS BRINDIS EN LA PLATA",
@@ -652,7 +665,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/los-brindis-en-la-plata-25630",
       "flyer": "https://imagenes.alpogo.com/eventos/loavvvbbbbbb.jpg",
-      "id": 50
+      "id": 51
     },
     {
       "title": "Margarita Xirgu – Una actriz entre dos continentes",
@@ -665,7 +678,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/margarita-xirgu-una-actriz-entre-dos-continentes/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/04/2Oteyza.png",
-      "id": 51
+      "id": 52
     },
     {
       "title": "NIRVANA x SEATTLE SUPERSONICS en LA PLATA",
@@ -678,7 +691,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/nirvana-x-seattle-supersonics-en-la-plata-26777",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1780506437_6a205f45b3dc9.jpg",
-      "id": 52
+      "id": 53
     },
     {
       "title": "Nos Gustan los 80s en La Plata",
@@ -691,7 +704,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/nos-gustan-los-80s-en-la-plata-26267",
       "flyer": "https://imagenes.alpogo.com/eventos/laplatanosguiop.jpg",
-      "id": 53
+      "id": 54
     },
     {
       "title": "Orozco Barrientos en La Plata",
@@ -704,7 +717,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/orozco-barrientos-en-la-plata-26018",
       "flyer": "https://imagenes.alpogo.com/eventos/orozcoooooooozzz.jpg",
-      "id": 54
+      "id": 55
     },
     {
       "title": "Parana Berreta en La Plata",
@@ -717,7 +730,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/parana-berreta-en-la-plata-26019",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1776998947_69eada23989df.jpg",
-      "id": 55
+      "id": 56
     },
     {
       "title": "Teatro Metro.Todos Los Derechos Reservados.",
@@ -730,7 +743,7 @@
       "sourceKey": "teatrometrolp",
       "url": "http://www.misticastudio.com",
       "flyer": "https://www.teatrometrolp.com.arimages/mistica-logo.png",
-      "id": 56
+      "id": 57
     },
     {
       "title": "Toch – Pulso Inicial",
@@ -743,7 +756,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/toch/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/pantalla-led-Toch.png",
-      "id": 57
+      "id": 58
     }
   ]
 }
