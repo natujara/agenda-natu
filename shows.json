@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-06-11T22:52:52.784723",
+  "updated_at": "2026-06-12T07:17:31.179589",
   "source": "scraper-natu-v10",
   "city": "La Plata",
-  "total": 59,
+  "total": 58,
   "events": [
     {
       "title": "DIMANAR",
@@ -733,19 +733,6 @@
       "id": 56
     },
     {
-      "title": "Parana Berreta en La Plata",
-      "cat": "recital",
-      "date": "",
-      "time": "21:00",
-      "venue": "Jueves 11/06, 21:00 hsLa Maga Club De Arte, La Plata.",
-      "city": "La Plata",
-      "source": "Alpogo",
-      "sourceKey": "alpogo",
-      "url": "https://alpogo.com/evento/parana-berreta-en-la-plata-26019",
-      "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1776998947_69eada23989df.jpg",
-      "id": 57
-    },
-    {
       "title": "Teatro Metro.Todos Los Derechos Reservados.",
       "cat": "teatro",
       "date": "",
@@ -756,7 +743,7 @@
       "sourceKey": "teatrometrolp",
       "url": "http://www.misticastudio.com",
       "flyer": "https://www.teatrometrolp.com.arimages/mistica-logo.png",
-      "id": 58
+      "id": 57
     },
     {
       "title": "Toch – Pulso Inicial",
@@ -769,7 +756,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/toch/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/pantalla-led-Toch.png",
-      "id": 59
+      "id": 58
     }
   ]
 }
