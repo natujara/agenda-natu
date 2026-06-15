@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-06-15T15:00:29.011864",
+  "updated_at": "2026-06-15T19:05:57.560719",
   "source": "scraper-natu-v10",
   "city": "La Plata",
-  "total": 58,
+  "total": 59,
   "events": [
     {
       "title": "SUBSUELO  |  FÁBRICA-PLANTA 5  |  DJ MARTIN DRAGO",
@@ -57,7 +57,7 @@
       "id": 4
     },
     {
-      "title": "Programa de Ballet Contemporáneo - Viernes 19/6",
+      "title": "Programa de Ballet Contemporáneo  | Viernes 19/6 | 20:00",
       "cat": "danza",
       "date": "2026-06-19",
       "time": "20:00",
@@ -109,7 +109,7 @@
       "id": 8
     },
     {
-      "title": "Programa de Ballet Contemporáneo - Domingo 21/6",
+      "title": "Programa de Ballet Contemporáneo | Domingo 21/6 | 17:00",
       "cat": "danza",
       "date": "2026-06-21",
       "time": "17:00",
@@ -122,7 +122,7 @@
       "id": 9
     },
     {
-      "title": "Programa de Ballet Contemporáneo - Miércoles 24/6",
+      "title": "Programa de Ballet Contemporáneo | Miércoles 24/6 | 20:00",
       "cat": "danza",
       "date": "2026-06-24",
       "time": "20:00",
@@ -135,7 +135,7 @@
       "id": 10
     },
     {
-      "title": "Programa de Ballet Contemporáneo - Jueves 25/6",
+      "title": "Programa de Ballet Contemporáneo | Jueves 25/6 | 20:00",
       "cat": "danza",
       "date": "2026-06-25",
       "time": "20:00",
@@ -187,7 +187,7 @@
       "id": 14
     },
     {
-      "title": "Programa de Ballet Contemporáneo - Viernes 26/6",
+      "title": "Programa de Ballet Contemporáneo | Viernes 26/6 | 20:00",
       "cat": "danza",
       "date": "2026-06-26",
       "time": "20:00",
@@ -226,7 +226,7 @@
       "id": 17
     },
     {
-      "title": "Programa de Ballet Contemporáneo - Domingo 28/6",
+      "title": "Programa de Ballet Contemporáneo | Domingo 28/6 | 17:00",
       "cat": "danza",
       "date": "2026-06-28",
       "time": "17:00",
@@ -382,6 +382,19 @@
       "id": 29
     },
     {
+      "title": "Abril Olivera  • Río de la Plata Tour 2026 @ La Plata",
+      "cat": "recital",
+      "date": "2026-08-15",
+      "time": "20:00",
+      "venue": "",
+      "city": "La Plata",
+      "source": "CatPass",
+      "sourceKey": "catpass",
+      "url": "https://catpass.net/eventos",
+      "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/RDP%20Tour%20LaPlata%20-01.jpeg?alt=media&token=4d7fcbdf-3e25-4eda-90b3-1c388c37fbb5",
+      "id": 30
+    },
+    {
       "title": "LOS BESOS",
       "cat": "recital",
       "date": "2026-08-22",
@@ -392,7 +405,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/LOSBESOS_2026_FEED_LAPLATA_FINAL_003.jpeg?alt=media&token=401b09bd-e627-45a5-9213-65c568748c21",
-      "id": 30
+      "id": 31
     },
     {
       "title": "2026-08-29 | Seru Giran por Cinema Verité en La Plata",
@@ -405,7 +418,7 @@
       "sourceKey": "mianticipada",
       "url": "https://entradas.mianticipada.com/es/seruporcinema/evento/seru-giran-por-cinema-verite-en-la-plata-trzk",
       "flyer": "https://mianticipada.com/media/imagenes_eventos/home/2026/05/060526-cinema-laplata_2_1.webp",
-      "id": 31
+      "id": 32
     },
     {
       "title": "Bahiano",
@@ -418,7 +431,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/bahiano/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/04/Iumus_BahianoTour-LaPlata-1600x1000.jpg.jpeg",
-      "id": 32
+      "id": 33
     },
     {
       "title": "RALY BARRIONUEVO – EL CAMINO DE SOLGO",
@@ -431,7 +444,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/raly-barrionuevo-el-camino-de-solgo/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/Ilumus_Raly_1600x1000-LaPlata.jpg",
-      "id": 33
+      "id": 34
     },
     {
       "title": "Música como en casa – Juan Falú",
@@ -444,7 +457,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/musica-como-en-casa-juan-falu/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/Mesa-de-trabajo-6.png",
-      "id": 34
+      "id": 35
     },
     {
       "title": "Sofía Calvo | Es hora de hablar",
@@ -457,7 +470,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/sofia-calvo-es-hora-de-hablar/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/16__x1____LaPlata.jpg",
-      "id": 35
+      "id": 36
     },
     {
       "title": "404",
@@ -470,7 +483,7 @@
       "sourceKey": "passline",
       "url": "https://www.passline.com/",
       "flyer": "https://www.passline.com/error-400/img/passline-01.png",
-      "id": 36
+      "id": 37
     },
     {
       "title": "5to día internacional del Recreo Uruguayo",
@@ -483,7 +496,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/5to-dia-internacional-del-recreo-uruguayo-26903",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1781024046_6a28452ee64ff.jpg",
-      "id": 37
+      "id": 38
     },
     {
       "title": "Adriana Varela",
@@ -496,7 +509,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/5463/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/04/web_Adriana.jpg",
-      "id": 38
+      "id": 39
     },
     {
       "title": "ANABEL URDANIZ presenta FESTEJO, el instante en el que elegimos la esperanza",
@@ -509,7 +522,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/anabel-urdaniz-presenta-festejo-el-instante-en-el-que-elegimos-la-esperanza-26704",
       "flyer": "https://imagenes.alpogo.com/eventos/a6b07b37-9de6-4731-bfa9-a19b3e370a73.webp",
-      "id": 39
+      "id": 40
     },
     {
       "title": "Botón de Arrep.",
@@ -522,7 +535,7 @@
       "sourceKey": "plateanet",
       "url": "http://qr.afip.gob.ar/?qr=kwtNgkcpGIa54lJJxVAn0A,,",
       "flyer": "https://www.plateanet.com./assets/footer/comodo_2021.svg",
-      "id": 40
+      "id": 41
     },
     {
       "title": "CHARLIE 3, DARAA y LOS FIN DEL MUNDO EN LA PLATA",
@@ -535,7 +548,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/charlie-3-daraa-y-los-fin-del-mundo-en-la-plata-26368",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1778675771_6a04703b0a64c.jpg",
-      "id": 41
+      "id": 42
     },
     {
       "title": "COMPRARObrasTeatrosEticketBeneficiosTérminos y condiciones",
@@ -548,7 +561,7 @@
       "sourceKey": "plateanet",
       "url": "https://www.plateanet.com/reportes",
       "flyer": "https://www.plateanet.comassets/footer/footer_flecha.svg",
-      "id": 42
+      "id": 43
     },
     {
       "title": "Dúo Coplanacu",
@@ -561,7 +574,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/duo-coplanacu/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/05/complanacu_web.png",
-      "id": 43
+      "id": 44
     },
     {
       "title": "Dúo Karma + Urraka",
@@ -574,7 +587,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/duo-karma-urraka/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/web_karma.png",
-      "id": 44
+      "id": 45
     },
     {
       "title": "encontranos en",
@@ -587,7 +600,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 45
+      "id": 46
     },
     {
       "title": "Escritorxs Just Wanna Have Fun",
@@ -600,7 +613,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/escritorxs-just-wanna-have-fun-26955",
       "flyer": "https://imagenes.alpogo.com/eventos/lllkhvevvevjsjzjf.jpg",
-      "id": 46
+      "id": 47
     },
     {
       "title": "Etiqueta Negra en La Plata",
@@ -613,7 +626,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/etiqueta-negra-en-la-plata-26666",
       "flyer": "https://imagenes.alpogo.com/eventos/62ae9d18-3ef1-4492-b932-9dbf4be312e8.webp",
-      "id": 47
+      "id": 48
     },
     {
       "title": "FABIO LIONE en La Plata",
@@ -626,7 +639,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/fabio-lione-en-la-plata-26479",
       "flyer": "https://imagenes.alpogo.com/eventos/72e98b66-94b4-43aa-ab0f-c60ad9bfe8a7.webp",
-      "id": 48
+      "id": 49
     },
     {
       "title": "FIESTA UGH! LA PLATA | POP VS. K-POP ft Akira",
@@ -639,7 +652,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/fiesta-ugh-la-plata-pop-vs-k-pop-ft-akira-26729",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1780371866_6a1e519a250d7.jpg",
-      "id": 49
+      "id": 50
     },
     {
       "title": "Fogones presenta : Manuel Moretti",
@@ -652,7 +665,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/fogones-presenta-manuel-moretti-25493",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1774460325_69c41da553a1a.jpg",
-      "id": 50
+      "id": 51
     },
     {
       "title": "Inicio(current)EL TEATROCARTELERANOTICIASCONTACTO",
@@ -665,7 +678,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 51
+      "id": 52
     },
     {
       "title": "Juan Solá- Unipersonal",
@@ -678,7 +691,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/juan-sola/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/web_Juan_Sola.png",
-      "id": 52
+      "id": 53
     },
     {
       "title": "LOS BRINDIS EN LA PLATA",
@@ -691,7 +704,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/los-brindis-en-la-plata-25630",
       "flyer": "https://imagenes.alpogo.com/eventos/loavvvbbbbbb.jpg",
-      "id": 53
+      "id": 54
     },
     {
       "title": "Margarita Xirgu – Una actriz entre dos continentes",
@@ -704,7 +717,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/margarita-xirgu-una-actriz-entre-dos-continentes/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/04/2Oteyza.png",
-      "id": 54
+      "id": 55
     },
     {
       "title": "NIRVANA x SEATTLE SUPERSONICS en LA PLATA",
@@ -717,7 +730,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/nirvana-x-seattle-supersonics-en-la-plata-26777",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1780506437_6a205f45b3dc9.jpg",
-      "id": 55
+      "id": 56
     },
     {
       "title": "Nos Gustan los 80s en La Plata",
@@ -730,7 +743,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/nos-gustan-los-80s-en-la-plata-26267",
       "flyer": "https://imagenes.alpogo.com/eventos/laplatanosguiop.jpg",
-      "id": 56
+      "id": 57
     },
     {
       "title": "Teatro Metro.Todos Los Derechos Reservados.",
@@ -743,7 +756,7 @@
       "sourceKey": "teatrometrolp",
       "url": "http://www.misticastudio.com",
       "flyer": "https://www.teatrometrolp.com.arimages/mistica-logo.png",
-      "id": 57
+      "id": 58
     },
     {
       "title": "Toch – Pulso Inicial",
@@ -756,7 +769,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/toch/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/pantalla-led-Toch.png",
-      "id": 58
+      "id": 59
     }
   ]
 }
