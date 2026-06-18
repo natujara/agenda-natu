@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-18T12:36:38.435875",
+  "updated_at": "2026-06-18T18:00:33.580160",
   "source": "scraper-natu-v10",
   "city": "La Plata",
   "total": 60,
@@ -8,7 +8,7 @@
       "title": "SUBSUELO  |  FÁBRICA-PLANTA 5  |  DJ MARTIN DRAGO",
       "cat": "recital",
       "date": "2026-06-18",
-      "time": "",
+      "time": "21:00",
       "venue": "Casa Metro La Plata",
       "city": "La Plata",
       "source": "Casa Metro",
@@ -21,7 +21,7 @@
       "title": "AN ESPIL & EKATHE — TRIBUTO A ERYKAH BADU",
       "cat": "recital",
       "date": "2026-06-19",
-      "time": "",
+      "time": "21:00",
       "venue": "Casa Metro La Plata",
       "city": "La Plata",
       "source": "Casa Metro",
@@ -86,7 +86,7 @@
       "title": "Ana Prada & Malena Muyala",
       "cat": "recital",
       "date": "2026-06-20",
-      "time": "",
+      "time": "21:00",
       "venue": "Casa Metro La Plata",
       "city": "La Plata",
       "source": "Casa Metro",
@@ -151,7 +151,7 @@
       "title": "Núcleo – Sesiones de música clásica",
       "cat": "recital",
       "date": "2026-06-25",
-      "time": "",
+      "time": "20:00",
       "venue": "Casa Metro La Plata",
       "city": "La Plata",
       "source": "Casa Metro",
@@ -177,7 +177,7 @@
       "title": "Ciclo de Peñas Junio – Luna Cautiva",
       "cat": "recital",
       "date": "2026-06-26",
-      "time": "",
+      "time": "20:00",
       "venue": "Casa Metro La Plata",
       "city": "La Plata",
       "source": "Casa Metro",
@@ -255,7 +255,7 @@
       "title": "Gordillo",
       "cat": "recital",
       "date": "2026-07-02",
-      "time": "",
+      "time": "21:00",
       "venue": "Casa Metro La Plata",
       "city": "La Plata",
       "source": "Casa Metro",
@@ -268,7 +268,7 @@
       "title": "Gordillo – Nueva función 23hs",
       "cat": "recital",
       "date": "2026-07-02",
-      "time": "",
+      "time": "23:00",
       "venue": "Casa Metro La Plata",
       "city": "La Plata",
       "source": "Casa Metro",
@@ -294,7 +294,7 @@
       "title": "Roda de Boleros",
       "cat": "recital",
       "date": "2026-07-08",
-      "time": "",
+      "time": "21:00",
       "venue": "Casa Metro La Plata",
       "city": "La Plata",
       "source": "Casa Metro",
@@ -333,7 +333,7 @@
       "title": "Mundo Wouu!",
       "cat": "recital",
       "date": "2026-07-18",
-      "time": "",
+      "time": "13:00",
       "venue": "Casa Metro La Plata",
       "city": "La Plata",
       "source": "Casa Metro",
@@ -346,7 +346,7 @@
       "title": "Protegido: Leon Gieco",
       "cat": "recital",
       "date": "2026-07-18",
-      "time": "",
+      "time": "21:00",
       "venue": "Casa Metro La Plata",
       "city": "La Plata",
       "source": "Casa Metro",
@@ -359,7 +359,7 @@
       "title": "Ana Iniesta | Ronda cantada",
       "cat": "recital",
       "date": "2026-07-20",
-      "time": "",
+      "time": "16:30",
       "venue": "Casa Metro La Plata",
       "city": "La Plata",
       "source": "Casa Metro",
@@ -372,7 +372,7 @@
       "title": "La veredita Pequeña Orquesta",
       "cat": "recital",
       "date": "2026-07-23",
-      "time": "",
+      "time": "16:30",
       "venue": "Casa Metro La Plata",
       "city": "La Plata",
       "source": "Casa Metro",
@@ -385,7 +385,7 @@
       "title": "Laura Migliosiri | Canciones en abrazo",
       "cat": "recital",
       "date": "2026-07-24",
-      "time": "",
+      "time": "16:30",
       "venue": "Casa Metro La Plata",
       "city": "La Plata",
       "source": "Casa Metro",
@@ -398,7 +398,7 @@
       "title": "Hugo Figueras",
       "cat": "recital",
       "date": "2026-07-25",
-      "time": "",
+      "time": "16:30",
       "venue": "Casa Metro La Plata",
       "city": "La Plata",
       "source": "Casa Metro",
@@ -411,7 +411,7 @@
       "title": "Silvina Garré",
       "cat": "recital",
       "date": "2026-07-25",
-      "time": "",
+      "time": "21:00",
       "venue": "Casa Metro La Plata",
       "city": "La Plata",
       "source": "Casa Metro",
@@ -424,7 +424,7 @@
       "title": "Vuelta Canela | Queridas canciones",
       "cat": "recital",
       "date": "2026-07-26",
-      "time": "",
+      "time": "16:30",
       "venue": "Casa Metro La Plata",
       "city": "La Plata",
       "source": "Casa Metro",
@@ -437,7 +437,7 @@
       "title": "Melocotón Pajarito",
       "cat": "recital",
       "date": "2026-07-27",
-      "time": "",
+      "time": "16:30",
       "venue": "Casa Metro La Plata",
       "city": "La Plata",
       "source": "Casa Metro",
@@ -445,6 +445,45 @@
       "url": "https://casametro.com.ar/evento/melocoton-pajarito/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/melocoton.png",
       "id": 34
+    },
+    {
+      "title": "Lluvia de Borboletas  | Teatro para bebes",
+      "cat": "teatro",
+      "date": "2026-07-29",
+      "time": "14:00",
+      "venue": "Casa Metro La Plata",
+      "city": "La Plata",
+      "source": "Casa Metro",
+      "sourceKey": "casametro",
+      "url": "https://casametro.com.ar/evento/lluvia-de-borboletas-teatro-para-bebes/",
+      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/1_web-casa-metro.png",
+      "id": 35
+    },
+    {
+      "title": "Meta Caramba | Sueño con canciones",
+      "cat": "recital",
+      "date": "2026-07-29",
+      "time": "17:00",
+      "venue": "Casa Metro La Plata",
+      "city": "La Plata",
+      "source": "Casa Metro",
+      "sourceKey": "casametro",
+      "url": "https://casametro.com.ar/evento/meta-caramba-sueno-con-canciones/",
+      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/2_web-casa-metro.png",
+      "id": 36
+    },
+    {
+      "title": "Anda Calabaza",
+      "cat": "recital",
+      "date": "2026-07-31",
+      "time": "16:30",
+      "venue": "Casa Metro La Plata",
+      "city": "La Plata",
+      "source": "Casa Metro",
+      "sourceKey": "casametro",
+      "url": "https://casametro.com.ar/evento/anda-calabaza/",
+      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/3_web-casa-metro.png",
+      "id": 37
     },
     {
       "title": "MUERDO - LA PLATA - CIUDAD DE GATOS",
@@ -457,7 +496,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/Ilumus_Muerdo-LP-1080x1080.jpg?alt=media&token=20110bcb-31d3-4902-9156-1a815e9df2d8",
-      "id": 35
+      "id": 38
     },
     {
       "title": "VIVA ELASTICO  + ISLA DE CARAS",
@@ -470,7 +509,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/Feed.png?alt=media&token=9d4d877e-aa59-4e91-a1ae-0858e430a95a",
-      "id": 36
+      "id": 39
     },
     {
       "title": "Abril Olivera  • Río de la Plata Tour 2026 @ La Plata",
@@ -483,7 +522,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/RDP%20Tour%20LaPlata%20-01.jpeg?alt=media&token=4d7fcbdf-3e25-4eda-90b3-1c388c37fbb5",
-      "id": 37
+      "id": 40
     },
     {
       "title": "LOS BESOS",
@@ -496,7 +535,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/LOSBESOS_2026_FEED_LAPLATA_FINAL_003.jpeg?alt=media&token=401b09bd-e627-45a5-9213-65c568748c21",
-      "id": 38
+      "id": 41
     },
     {
       "title": "2026-08-29 | Seru Giran por Cinema Verité en La Plata",
@@ -509,20 +548,7 @@
       "sourceKey": "mianticipada",
       "url": "https://entradas.mianticipada.com/es/seruporcinema/evento/seru-giran-por-cinema-verite-en-la-plata-trzk",
       "flyer": "https://mianticipada.com/media/imagenes_eventos/home/2026/05/060526-cinema-laplata_2_1.webp",
-      "id": 39
-    },
-    {
-      "title": "Chu Rodríguez",
-      "cat": "recital",
-      "date": "2026-09-18",
-      "time": "",
-      "venue": "Casa Metro La Plata",
-      "city": "La Plata",
-      "source": "Casa Metro",
-      "sourceKey": "casametro",
-      "url": "https://casametro.com.ar/evento/chu-rodriguez/",
-      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/LA-PLATA.jpg",
-      "id": 40
+      "id": 42
     },
     {
       "title": "404",
@@ -535,7 +561,7 @@
       "sourceKey": "passline",
       "url": "https://www.passline.com/",
       "flyer": "https://www.passline.com/error-400/img/passline-01.png",
-      "id": 41
+      "id": 43
     },
     {
       "title": "5to día internacional del Recreo Uruguayo",
@@ -548,7 +574,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/5to-dia-internacional-del-recreo-uruguayo-26903",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1781024046_6a28452ee64ff.jpg",
-      "id": 42
+      "id": 44
     },
     {
       "title": "ANABEL URDANIZ presenta FESTEJO, el instante en el que elegimos la esperanza",
@@ -561,7 +587,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/anabel-urdaniz-presenta-festejo-el-instante-en-el-que-elegimos-la-esperanza-26704",
       "flyer": "https://imagenes.alpogo.com/eventos/a6b07b37-9de6-4731-bfa9-a19b3e370a73.webp",
-      "id": 43
+      "id": 45
     },
     {
       "title": "Botón de Arrep.",
@@ -574,7 +600,7 @@
       "sourceKey": "plateanet",
       "url": "http://qr.afip.gob.ar/?qr=kwtNgkcpGIa54lJJxVAn0A,,",
       "flyer": "https://www.plateanet.com./assets/footer/comodo_2021.svg",
-      "id": 44
+      "id": 46
     },
     {
       "title": "Canciones En La Banquina - Kiki Victoria, Frano, Marcos Fava",
@@ -587,7 +613,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/canciones-en-la-banquina-kiki-victoria-frano-marcos-fava-27059",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1781643355_6a31b85bd5c28.jpg",
-      "id": 45
+      "id": 47
     },
     {
       "title": "CHARLIE 3, DARAA y LOS FIN DEL MUNDO EN LA PLATA",
@@ -600,7 +626,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/charlie-3-daraa-y-los-fin-del-mundo-en-la-plata-26368",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1778675771_6a04703b0a64c.jpg",
-      "id": 46
+      "id": 48
     },
     {
       "title": "COMPRARObrasTeatrosEticketBeneficiosTérminos y condiciones",
@@ -613,20 +639,7 @@
       "sourceKey": "plateanet",
       "url": "https://www.plateanet.com/reportes",
       "flyer": "https://www.plateanet.comassets/footer/footer_flecha.svg",
-      "id": 47
-    },
-    {
-      "title": "Dúo Karma + Urraka",
-      "cat": "recital",
-      "date": "",
-      "time": "",
-      "venue": "Casa Metro La Plata",
-      "city": "La Plata",
-      "source": "Casa Metro",
-      "sourceKey": "casametro",
-      "url": "https://casametro.com.ar/evento/duo-karma-urraka/",
-      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/web_karma.png",
-      "id": 48
+      "id": 49
     },
     {
       "title": "encontranos en",
@@ -639,7 +652,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 49
+      "id": 50
     },
     {
       "title": "Escritorxs Just Wanna Have Fun",
@@ -652,7 +665,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/escritorxs-just-wanna-have-fun-26955",
       "flyer": "https://imagenes.alpogo.com/eventos/lllkhvevvevjsjzjf.jpg",
-      "id": 50
+      "id": 51
     },
     {
       "title": "Etiqueta Negra en La Plata",
@@ -665,7 +678,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/etiqueta-negra-en-la-plata-26666",
       "flyer": "https://imagenes.alpogo.com/eventos/62ae9d18-3ef1-4492-b932-9dbf4be312e8.webp",
-      "id": 51
+      "id": 52
     },
     {
       "title": "FABIO LIONE en La Plata",
@@ -678,7 +691,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/fabio-lione-en-la-plata-26479",
       "flyer": "https://imagenes.alpogo.com/eventos/72e98b66-94b4-43aa-ab0f-c60ad9bfe8a7.webp",
-      "id": 52
+      "id": 53
     },
     {
       "title": "FIESTA UGH! LA PLATA | POP VS. K-POP ft Akira",
@@ -691,7 +704,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/fiesta-ugh-la-plata-pop-vs-k-pop-ft-akira-26729",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1780371866_6a1e519a250d7.jpg",
-      "id": 53
+      "id": 54
     },
     {
       "title": "Fogones presenta : Manuel Moretti",
@@ -704,7 +717,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/fogones-presenta-manuel-moretti-25493",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1774460325_69c41da553a1a.jpg",
-      "id": 54
+      "id": 55
     },
     {
       "title": "Inicio(current)EL TEATROCARTELERANOTICIASCONTACTO",
@@ -717,7 +730,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 55
+      "id": 56
     },
     {
       "title": "LOS BRINDIS EN LA PLATA",
@@ -730,7 +743,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/los-brindis-en-la-plata-25630",
       "flyer": "https://imagenes.alpogo.com/eventos/loavvvbbbbbb.jpg",
-      "id": 56
+      "id": 57
     },
     {
       "title": "NIRVANA x SEATTLE SUPERSONICS en LA PLATA",
@@ -743,7 +756,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/nirvana-x-seattle-supersonics-en-la-plata-26777",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1780506437_6a205f45b3dc9.jpg",
-      "id": 57
+      "id": 58
     },
     {
       "title": "Nos Gustan los 80s en La Plata",
@@ -756,7 +769,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/nos-gustan-los-80s-en-la-plata-26267",
       "flyer": "https://imagenes.alpogo.com/eventos/laplatanosguiop.jpg",
-      "id": 58
+      "id": 59
     },
     {
       "title": "Teatro Metro.Todos Los Derechos Reservados.",
@@ -769,19 +782,6 @@
       "sourceKey": "teatrometrolp",
       "url": "http://www.misticastudio.com",
       "flyer": "https://www.teatrometrolp.com.arimages/mistica-logo.png",
-      "id": 59
-    },
-    {
-      "title": "Toch – Pulso Inicial",
-      "cat": "recital",
-      "date": "",
-      "time": "",
-      "venue": "Casa Metro La Plata",
-      "city": "La Plata",
-      "source": "Casa Metro",
-      "sourceKey": "casametro",
-      "url": "https://casametro.com.ar/evento/toch/",
-      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/pantalla-led-Toch.png",
       "id": 60
     }
   ]
