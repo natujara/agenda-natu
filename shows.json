@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-06-20T07:00:07.993857",
+  "updated_at": "2026-06-20T11:12:56.973251",
   "source": "scraper-natu-v10",
   "city": "La Plata",
-  "total": 55,
+  "total": 54,
   "events": [
     {
       "title": "+GATEO / OBRAS PÚBLICAS",
@@ -681,19 +681,6 @@
       "id": 52
     },
     {
-      "title": "Nos Gustan los 80s en La Plata",
-      "cat": "recital",
-      "date": "",
-      "time": "23:30",
-      "venue": "Viernes 19/06, 23:30 hsMedusa - La Plata",
-      "city": "La Plata",
-      "source": "Alpogo",
-      "sourceKey": "alpogo",
-      "url": "https://alpogo.com/evento/nos-gustan-los-80s-en-la-plata-26267",
-      "flyer": "https://imagenes.alpogo.com/eventos/laplatanosguiop.jpg",
-      "id": 53
-    },
-    {
       "title": "OCÉANO – COMPAÑIA D ZOQUETES",
       "cat": "recital",
       "date": "",
@@ -704,7 +691,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/oceano/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/4_web-casa-metro.png",
-      "id": 54
+      "id": 53
     },
     {
       "title": "Teatro Metro.Todos Los Derechos Reservados.",
@@ -717,7 +704,7 @@
       "sourceKey": "teatrometrolp",
       "url": "http://www.misticastudio.com",
       "flyer": "https://www.teatrometrolp.com.arimages/mistica-logo.png",
-      "id": 55
+      "id": 54
     }
   ]
 }
