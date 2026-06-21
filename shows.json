@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-06-21T07:29:58.401701",
+  "updated_at": "2026-06-21T11:44:39.725188",
   "source": "scraper-natu-v10",
   "city": "La Plata",
-  "total": 52,
+  "total": 51,
   "events": [
     {
       "title": "Chingalepa",
@@ -590,19 +590,6 @@
       "id": 45
     },
     {
-      "title": "FIESTA UGH! LA PLATA | POP VS. K-POP ft Akira",
-      "cat": "recital",
-      "date": "",
-      "time": "23:59",
-      "venue": "Sábado 20/06, 23:59 hsBYE HENRY DIAGONAL",
-      "city": "La Plata",
-      "source": "Alpogo",
-      "sourceKey": "alpogo",
-      "url": "https://alpogo.com/evento/fiesta-ugh-la-plata-pop-vs-k-pop-ft-akira-26729",
-      "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1780371866_6a1e519a250d7.jpg",
-      "id": 46
-    },
-    {
       "title": "Fogones presenta : Manuel Moretti",
       "cat": "recital",
       "date": "",
@@ -613,7 +600,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/fogones-presenta-manuel-moretti-25493",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1774460325_69c41da553a1a.jpg",
-      "id": 47
+      "id": 46
     },
     {
       "title": "Inicio(current)EL TEATROCARTELERANOTICIASCONTACTO",
@@ -626,7 +613,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 48
+      "id": 47
     },
     {
       "title": "LEA BENSASSON | Mi gran casamiento hebreo",
@@ -639,7 +626,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/lea-bensasson-mi-gran-casamiento-hebreo/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/pantalla-led-1-1.jpg",
-      "id": 49
+      "id": 48
     },
     {
       "title": "LOS BRINDIS EN LA PLATA",
@@ -652,7 +639,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/los-brindis-en-la-plata-25630",
       "flyer": "https://imagenes.alpogo.com/eventos/loavvvbbbbbb.jpg",
-      "id": 50
+      "id": 49
     },
     {
       "title": "OCÉANO – COMPAÑIA D ZOQUETES",
@@ -665,7 +652,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/oceano/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/4_web-casa-metro.png",
-      "id": 51
+      "id": 50
     },
     {
       "title": "Teatro Metro.Todos Los Derechos Reservados.",
@@ -678,7 +665,7 @@
       "sourceKey": "teatrometrolp",
       "url": "http://www.misticastudio.com",
       "flyer": "https://www.teatrometrolp.com.arimages/mistica-logo.png",
-      "id": 52
+      "id": 51
     }
   ]
 }
