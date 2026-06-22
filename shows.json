@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-06-22T08:53:35.788261",
+  "updated_at": "2026-06-22T14:31:46.464754",
   "source": "scraper-natu-v10",
   "city": "La Plata",
-  "total": 49,
+  "total": 48,
   "events": [
     {
       "title": "Programa de Ballet Contemporáneo | Miércoles 24/6 | 20:00",
@@ -408,19 +408,6 @@
       "id": 31
     },
     {
-      "title": "2026-08-29 | Seru Giran por Cinema Verité en La Plata",
-      "cat": "cine",
-      "date": "2026-08-29",
-      "time": "20:30",
-      "venue": "",
-      "city": "La Plata",
-      "source": "MiAnticipada",
-      "sourceKey": "mianticipada",
-      "url": "https://entradas.mianticipada.com/es/seruporcinema/evento/seru-giran-por-cinema-verite-en-la-plata-trzk",
-      "flyer": "https://mianticipada.com/media/imagenes_eventos/home/2026/05/060526-cinema-laplata_2_1.webp",
-      "id": 32
-    },
-    {
       "title": "404",
       "cat": "recital",
       "date": "",
@@ -431,7 +418,7 @@
       "sourceKey": "passline",
       "url": "https://www.passline.com/",
       "flyer": "https://www.passline.com/error-400/img/passline-01.png",
-      "id": 33
+      "id": 32
     },
     {
       "title": "5to día internacional del Recreo Uruguayo",
@@ -444,7 +431,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/5to-dia-internacional-del-recreo-uruguayo-26903",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1781024046_6a28452ee64ff.jpg",
-      "id": 34
+      "id": 33
     },
     {
       "title": "ANABEL URDANIZ presenta FESTEJO, el instante en el que elegimos la esperanza",
@@ -457,7 +444,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/anabel-urdaniz-presenta-festejo-el-instante-en-el-que-elegimos-la-esperanza-26704",
       "flyer": "https://imagenes.alpogo.com/eventos/a6b07b37-9de6-4731-bfa9-a19b3e370a73.webp",
-      "id": 35
+      "id": 34
     },
     {
       "title": "Botón de Arrep.",
@@ -470,7 +457,7 @@
       "sourceKey": "plateanet",
       "url": "http://qr.afip.gob.ar/?qr=kwtNgkcpGIa54lJJxVAn0A,,",
       "flyer": "https://www.plateanet.com./assets/footer/comodo_2021.svg",
-      "id": 36
+      "id": 35
     },
     {
       "title": "Canciones En La Banquina - Kiki Victoria, Frano, Marcos Fava",
@@ -483,7 +470,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/canciones-en-la-banquina-kiki-victoria-frano-marcos-fava-27059",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1781643355_6a31b85bd5c28.jpg",
-      "id": 37
+      "id": 36
     },
     {
       "title": "CHARLIE 3, DARAA y LOS FIN DEL MUNDO EN LA PLATA",
@@ -496,7 +483,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/charlie-3-daraa-y-los-fin-del-mundo-en-la-plata-26368",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1778675771_6a04703b0a64c.jpg",
-      "id": 38
+      "id": 37
     },
     {
       "title": "COMPRARObrasTeatrosEticketBeneficiosTérminos y condiciones",
@@ -509,7 +496,7 @@
       "sourceKey": "plateanet",
       "url": "https://www.plateanet.com/reportes",
       "flyer": "https://www.plateanet.comassets/footer/footer_flecha.svg",
-      "id": 39
+      "id": 38
     },
     {
       "title": "Dúo Karma + Urraka",
@@ -522,7 +509,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/duo-karma-urraka/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/web_karma.png",
-      "id": 40
+      "id": 39
     },
     {
       "title": "encontranos en",
@@ -535,7 +522,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 41
+      "id": 40
     },
     {
       "title": "Etiqueta Negra en La Plata",
@@ -548,7 +535,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/etiqueta-negra-en-la-plata-26666",
       "flyer": "https://imagenes.alpogo.com/eventos/62ae9d18-3ef1-4492-b932-9dbf4be312e8.webp",
-      "id": 42
+      "id": 41
     },
     {
       "title": "FABIO LIONE en La Plata",
@@ -561,7 +548,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/fabio-lione-en-la-plata-26479",
       "flyer": "https://imagenes.alpogo.com/eventos/72e98b66-94b4-43aa-ab0f-c60ad9bfe8a7.webp",
-      "id": 43
+      "id": 42
     },
     {
       "title": "Fogones presenta : Manuel Moretti",
@@ -574,7 +561,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/fogones-presenta-manuel-moretti-25493",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1774460325_69c41da553a1a.jpg",
-      "id": 44
+      "id": 43
     },
     {
       "title": "Inicio(current)EL TEATROCARTELERANOTICIASCONTACTO",
@@ -587,7 +574,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 45
+      "id": 44
     },
     {
       "title": "LEA BENSASSON | Mi gran casamiento hebreo",
@@ -600,7 +587,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/lea-bensasson-mi-gran-casamiento-hebreo/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/pantalla-led-1-1.jpg",
-      "id": 46
+      "id": 45
     },
     {
       "title": "LOS BRINDIS EN LA PLATA",
@@ -613,7 +600,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/los-brindis-en-la-plata-25630",
       "flyer": "https://imagenes.alpogo.com/eventos/loavvvbbbbbb.jpg",
-      "id": 47
+      "id": 46
     },
     {
       "title": "OCÉANO – COMPAÑIA D ZOQUETES",
@@ -626,7 +613,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/oceano/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/4_web-casa-metro.png",
-      "id": 48
+      "id": 47
     },
     {
       "title": "Teatro Metro.Todos Los Derechos Reservados.",
@@ -639,7 +626,7 @@
       "sourceKey": "teatrometrolp",
       "url": "http://www.misticastudio.com",
       "flyer": "https://www.teatrometrolp.com.arimages/mistica-logo.png",
-      "id": 49
+      "id": 48
     }
   ]
 }
