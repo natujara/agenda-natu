@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-27T16:04:22.125027",
+  "updated_at": "2026-06-27T21:58:46.612142",
   "source": "scraper-natu-v10",
   "city": "La Plata",
   "total": 47,
@@ -564,16 +564,16 @@
       "id": 43
     },
     {
-      "title": "LEA BENSASSON | Mi gran casamiento hebreo",
+      "title": "Los Raviolis | Piyama Party",
       "cat": "recital",
       "date": "",
-      "time": "21:00",
+      "time": "17:00",
       "venue": "Casa Metro La Plata",
       "city": "La Plata",
       "source": "Casa Metro",
       "sourceKey": "casametro",
-      "url": "https://casametro.com.ar/evento/lea-bensasson-mi-gran-casamiento-hebreo/",
-      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/pantalla-led-1-1.jpg",
+      "url": "https://casametro.com.ar/evento/los-raviolis-piyama-party/",
+      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/web_V1-1.png",
       "id": 44
     },
     {
@@ -590,6 +590,19 @@
       "id": 45
     },
     {
+      "title": "Teatro Ciego – Chakras",
+      "cat": "teatro",
+      "date": "",
+      "time": "19:00",
+      "venue": "Casa Metro La Plata",
+      "city": "La Plata",
+      "source": "Casa Metro",
+      "sourceKey": "casametro",
+      "url": "https://casametro.com.ar/evento/teatro-ciego-chakras/",
+      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/web_V1.jpg",
+      "id": 46
+    },
+    {
       "title": "Teatro Metro.Todos Los Derechos Reservados.",
       "cat": "teatro",
       "date": "",
@@ -600,19 +613,6 @@
       "sourceKey": "teatrometrolp",
       "url": "http://www.misticastudio.com",
       "flyer": "https://www.teatrometrolp.com.arimages/mistica-logo.png",
-      "id": 46
-    },
-    {
-      "title": "Toch – Pulso Inicial",
-      "cat": "recital",
-      "date": "",
-      "time": "22:30",
-      "venue": "Casa Metro La Plata",
-      "city": "La Plata",
-      "source": "Casa Metro",
-      "sourceKey": "casametro",
-      "url": "https://casametro.com.ar/evento/toch/",
-      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/pantalla-led-Toch.png",
       "id": 47
     }
   ]
