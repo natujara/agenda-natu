@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-06-27T10:58:22.526145",
+  "updated_at": "2026-06-27T16:04:22.125027",
   "source": "scraper-natu-v10",
   "city": "La Plata",
-  "total": 46,
+  "total": 47,
   "events": [
     {
       "title": "TRT BAILABLE",
@@ -525,6 +525,19 @@
       "id": 40
     },
     {
+      "title": "FIESTA UGH! (LA PLATA) | EDICIÓN MUNDIAL POP",
+      "cat": "recital",
+      "date": "",
+      "time": "23:59",
+      "venue": "Viernes 17/07, 23:59 hsBYE HENRY DIAGONAL",
+      "city": "La Plata",
+      "source": "Alpogo",
+      "sourceKey": "alpogo",
+      "url": "https://alpogo.com/evento/fiesta-ugh-la-plata-edicion-mundial-pop-27299",
+      "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1782517069_6a3f0d4d65c80.jpg",
+      "id": 41
+    },
+    {
       "title": "Fogones presenta : Manuel Moretti",
       "cat": "recital",
       "date": "",
@@ -535,7 +548,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/fogones-presenta-manuel-moretti-25493",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1774460325_69c41da553a1a.jpg",
-      "id": 41
+      "id": 42
     },
     {
       "title": "Inicio(current)EL TEATROCARTELERANOTICIASCONTACTO",
@@ -548,7 +561,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 42
+      "id": 43
     },
     {
       "title": "LEA BENSASSON | Mi gran casamiento hebreo",
@@ -561,7 +574,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/lea-bensasson-mi-gran-casamiento-hebreo/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/pantalla-led-1-1.jpg",
-      "id": 43
+      "id": 44
     },
     {
       "title": "OCÉANO – COMPAÑIA D ZOQUETES",
@@ -574,7 +587,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/oceano/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/4_web-casa-metro.png",
-      "id": 44
+      "id": 45
     },
     {
       "title": "Teatro Metro.Todos Los Derechos Reservados.",
@@ -587,7 +600,7 @@
       "sourceKey": "teatrometrolp",
       "url": "http://www.misticastudio.com",
       "flyer": "https://www.teatrometrolp.com.arimages/mistica-logo.png",
-      "id": 45
+      "id": 46
     },
     {
       "title": "Toch – Pulso Inicial",
@@ -600,7 +613,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/toch/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/pantalla-led-Toch.png",
-      "id": 46
+      "id": 47
     }
   ]
 }
