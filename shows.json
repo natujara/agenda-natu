@@ -1,35 +1,9 @@
 {
-  "updated_at": "2026-06-27T21:58:46.612142",
+  "updated_at": "2026-06-28T06:59:09.727010",
   "source": "scraper-natu-v10",
   "city": "La Plata",
-  "total": 47,
+  "total": 54,
   "events": [
-    {
-      "title": "TRT BAILABLE",
-      "cat": "recital",
-      "date": "2026-06-27",
-      "time": "23:59",
-      "venue": "",
-      "city": "La Plata",
-      "source": "CatPass",
-      "sourceKey": "catpass",
-      "url": "https://catpass.net/eventos",
-      "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/Dist%20Feed%20est.png?alt=media&token=ac6d00bb-2e75-4bd3-abb5-c4f2612f693d",
-      "id": 1
-    },
-    {
-      "title": "CarteleraCartelera deTodosJunio 2026Julio 2026Agosto 2026Septiembre 2026Octubre 2026Noviembre 2026",
-      "cat": "arte",
-      "date": "2026-06-28",
-      "time": "17:00",
-      "venue": "Teatro Metro LP",
-      "city": "La Plata",
-      "source": "Teatro Metro LP",
-      "sourceKey": "teatrometrolp",
-      "url": "https://www.teatrometrolp.com.ar/entrada/pequeno-pez-100581",
-      "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/entradas/774559161316.jpg",
-      "id": 2
-    },
     {
       "title": "Concierto | Coro de Niñxs | Domingo 28/6 | 16:00",
       "cat": "recital",
@@ -41,7 +15,7 @@
       "sourceKey": "teatroargentino",
       "url": "https://teatroargentino.gba.gob.ar/meets/no-season",
       "flyer": "",
-      "id": 3
+      "id": 1
     },
     {
       "title": "Programa de Ballet Contemporáneo | Domingo 28/6 | 17:00",
@@ -54,7 +28,7 @@
       "sourceKey": "teatroargentino",
       "url": "https://teatroargentino.gba.gob.ar/meets/no-season",
       "flyer": "",
-      "id": 4
+      "id": 2
     },
     {
       "title": "Gordillo",
@@ -67,6 +41,32 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/gordillo/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/05/web_casametro.png",
+      "id": 3
+    },
+    {
+      "title": "GORDILLO - Nueva función 23hs",
+      "cat": "recital",
+      "date": "2026-07-02",
+      "time": "23:00",
+      "venue": "Teatro Metro LP",
+      "city": "La Plata",
+      "source": "Teatro Metro LP",
+      "sourceKey": "teatrometrolp",
+      "url": "https://www.teatrometrolp.com.ar/entrada/gordillo-20-mas-1-100724",
+      "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/entradas/20260617122517_web_teatro_23hs.jpg",
+      "id": 4
+    },
+    {
+      "title": "GORDILLO 20 MAS 1",
+      "cat": "recital",
+      "date": "2026-07-02",
+      "time": "21:00",
+      "venue": "Teatro Metro LP",
+      "city": "La Plata",
+      "source": "Teatro Metro LP",
+      "sourceKey": "teatrometrolp",
+      "url": "https://www.teatrometrolp.com.ar/entrada/gordillo-20-mas-1-99812",
+      "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/entradas/20260507121247_web_metro.png",
       "id": 5
     },
     {
@@ -83,6 +83,19 @@
       "id": 6
     },
     {
+      "title": "Candlelight",
+      "cat": "recital",
+      "date": "2026-07-03",
+      "time": "19:00",
+      "venue": "Teatro Metro LP",
+      "city": "La Plata",
+      "source": "Teatro Metro LP",
+      "sourceKey": "teatrometrolp",
+      "url": "https://www.teatrometrolp.com.ar/entrada/candlelight-100726",
+      "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/entradas/20260618110024_573918-candlelight_mediakit_generic_2022_01_19_espace_lumen_brussels_be_01-dfab1d-original-1738053442.jpg",
+      "id": 7
+    },
+    {
       "title": "MUNDIAL DE BANDAS - ZONA 1",
       "cat": "recital",
       "date": "2026-07-03",
@@ -93,7 +106,20 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/fcf96342-9d8c-431f-aea1-1b3973fdca83.jpeg?alt=media&token=735caff7-434b-4c46-86c4-7ca72cc36899",
-      "id": 7
+      "id": 8
+    },
+    {
+      "title": "Daniel Agostini",
+      "cat": "recital",
+      "date": "2026-07-04",
+      "time": "21:00",
+      "venue": "Teatro Metro LP",
+      "city": "La Plata",
+      "source": "Teatro Metro LP",
+      "sourceKey": "teatrometrolp",
+      "url": "https://www.teatrometrolp.com.ar/entrada/daniel-agostini-100699",
+      "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/entradas/780588175041.jpg",
+      "id": 9
     },
     {
       "title": "LAS LIGAS MENORES + ELENA",
@@ -106,7 +132,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/FEED%20LA%20PLATA%202026.png?alt=media&token=a7d6fa6c-298e-4834-8308-2c7a595b0d2f",
-      "id": 8
+      "id": 10
     },
     {
       "title": "Roda de Boleros",
@@ -119,7 +145,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/roda-de-boleros/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/Ticketera-casa-metro.png",
-      "id": 9
+      "id": 11
     },
     {
       "title": "Hojas por el barrio y Fonso y las paritarias",
@@ -132,7 +158,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/1-FEED-HOJAS-%26-FONSO-CDG.jpg?alt=media&token=45d1122f-872d-4e79-8f94-91247e31914e",
-      "id": 10
+      "id": 12
     },
     {
       "title": "Fro! en LPUG",
@@ -145,7 +171,20 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/flyer%20fro.jpeg?alt=media&token=04130ec1-341b-4cd8-91fa-1131b5454cbf",
-      "id": 11
+      "id": 13
+    },
+    {
+      "title": "Leon Gieco - LOCALIDADES AGOTADAS",
+      "cat": "recital",
+      "date": "2026-07-18",
+      "time": "21:00",
+      "venue": "Teatro Metro LP",
+      "city": "La Plata",
+      "source": "Teatro Metro LP",
+      "sourceKey": "teatrometrolp",
+      "url": "https://www.teatrometrolp.com.ar/entrada/leon-gieco-100657",
+      "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/entradas/20260508225052_aviso-la-plata-1600x1000.png",
+      "id": 14
     },
     {
       "title": "Mundo Wouu!",
@@ -158,7 +197,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/mundo-wouu/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/web-mundo-wouu.png",
-      "id": 12
+      "id": 15
     },
     {
       "title": "Protegido: Leon Gieco",
@@ -171,7 +210,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/leon-gieco/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/05/Aviso-LA-PLATA-1600X1000.png",
-      "id": 13
+      "id": 16
     },
     {
       "title": "Ana Iniesta | Ronda cantada",
@@ -184,7 +223,59 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/ana_iniesta/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/ana_iniesta.png",
-      "id": 14
+      "id": 17
+    },
+    {
+      "title": "Aventuras Mineras",
+      "cat": "recital",
+      "date": "2026-07-20",
+      "time": "17:00",
+      "venue": "Teatro Metro LP",
+      "city": "La Plata",
+      "source": "Teatro Metro LP",
+      "sourceKey": "teatrometrolp",
+      "url": "https://www.teatrometrolp.com.ar/entrada/aventuras-mineras-100713",
+      "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/entradas/20260611123505_600x400-mineras.jpg",
+      "id": 18
+    },
+    {
+      "title": "Poder Kpop",
+      "cat": "recital",
+      "date": "2026-07-20",
+      "time": "15:00",
+      "venue": "Teatro Metro LP",
+      "city": "La Plata",
+      "source": "Teatro Metro LP",
+      "sourceKey": "teatrometrolp",
+      "url": "https://www.teatrometrolp.com.ar/entrada/poder-kpop-100712",
+      "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/entradas/20260611123437_600x400-kpop.jpg",
+      "id": 19
+    },
+    {
+      "title": "Aventuras Perrunas del K-Pop",
+      "cat": "recital",
+      "date": "2026-07-21",
+      "time": "15:00",
+      "venue": "Teatro Metro LP",
+      "city": "La Plata",
+      "source": "Teatro Metro LP",
+      "sourceKey": "teatrometrolp",
+      "url": "https://www.teatrometrolp.com.ar/entrada/-aventuras-perrunas-del-k-pop-100702",
+      "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/entradas/20260604133010_600x400-1.jpg",
+      "id": 20
+    },
+    {
+      "title": "Una Familia Tenebrosa",
+      "cat": "infantil",
+      "date": "2026-07-21",
+      "time": "17:00",
+      "venue": "Teatro Metro LP",
+      "city": "La Plata",
+      "source": "Teatro Metro LP",
+      "sourceKey": "teatrometrolp",
+      "url": "https://www.teatrometrolp.com.ar/entrada/una-familia-tenebrosa-100703",
+      "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/entradas/20260604133044_1920x1080-1-1.jpg",
+      "id": 21
     },
     {
       "title": "La veredita Pequeña Orquesta",
@@ -197,7 +288,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/la-veredita-pequena-orquesta/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/veredita-orquesta.png",
-      "id": 15
+      "id": 22
     },
     {
       "title": "Laura Migliosiri | Canciones en abrazo",
@@ -210,7 +301,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/laura-migliosiri-canciones-en-abrazo/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/Mesa-de-trabajo-4web-casa-metro.png",
-      "id": 16
+      "id": 23
     },
     {
       "title": "Hugo Figueras",
@@ -223,7 +314,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/hugo-figueras-la-cancion-sin-fin-3/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/Mesa-de-trabajo-5web-casa-metro.png",
-      "id": 17
+      "id": 24
     },
     {
       "title": "Silvina Garré",
@@ -236,7 +327,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/silvina-garre/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/04/web-1.png",
-      "id": 18
+      "id": 25
     },
     {
       "title": "Vuelta Canela | Queridas canciones",
@@ -249,7 +340,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/vuelta-canela-queridas-canciones/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/vueltacanela.png",
-      "id": 19
+      "id": 26
     },
     {
       "title": "Melocotón Pajarito",
@@ -262,7 +353,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/melocoton-pajarito/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/melocoton.png",
-      "id": 20
+      "id": 27
     },
     {
       "title": "Lluvia de Borboletas  | Teatro para bebes",
@@ -275,7 +366,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/lluvia-de-borboletas-teatro-para-bebes/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/1_web-casa-metro.png",
-      "id": 21
+      "id": 28
     },
     {
       "title": "Meta Caramba | Sueño con canciones",
@@ -288,7 +379,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/meta-caramba-sueno-con-canciones/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/2_web-casa-metro.png",
-      "id": 22
+      "id": 29
     },
     {
       "title": "Anda Calabaza",
@@ -301,7 +392,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/anda-calabaza/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/3_web-casa-metro.png",
-      "id": 23
+      "id": 30
     },
     {
       "title": "MUERDO - LA PLATA - CIUDAD DE GATOS",
@@ -314,7 +405,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/Ilumus_Muerdo-LP-1080x1080.jpg?alt=media&token=20110bcb-31d3-4902-9156-1a815e9df2d8",
-      "id": 24
+      "id": 31
     },
     {
       "title": "VIVA ELASTICO  + ISLA DE CARAS",
@@ -327,7 +418,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/Feed.png?alt=media&token=9d4d877e-aa59-4e91-a1ae-0858e430a95a",
-      "id": 25
+      "id": 32
     },
     {
       "title": "Abril Olivera  • Río de la Plata Tour 2026 @ La Plata",
@@ -340,7 +431,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/RDP%20Tour%20LaPlata%20-01.jpeg?alt=media&token=4d7fcbdf-3e25-4eda-90b3-1c388c37fbb5",
-      "id": 26
+      "id": 33
     },
     {
       "title": "FULGOR #20 INVIERNO HOT",
@@ -353,7 +444,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/Fulgor%2020%20.png?alt=media&token=4f95da24-7fca-4d90-b2b3-37c35d199bb2",
-      "id": 27
+      "id": 34
     },
     {
       "title": "LOS BESOS",
@@ -366,7 +457,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/LOSBESOS_2026_FEED_LAPLATA_FINAL_003.jpeg?alt=media&token=401b09bd-e627-45a5-9213-65c568748c21",
-      "id": 28
+      "id": 35
     },
     {
       "title": "2026-08-29 | Seru Giran por Cinema Verité en La Plata",
@@ -379,7 +470,7 @@
       "sourceKey": "mianticipada",
       "url": "https://entradas.mianticipada.com/es/seruporcinema/evento/seru-giran-por-cinema-verite-en-la-plata-trzk",
       "flyer": "https://mianticipada.com/media/imagenes_eventos/home/2026/05/060526-cinema-laplata_2_1.webp",
-      "id": 29
+      "id": 36
     },
     {
       "title": "Alba Camona | Ofrenda",
@@ -392,7 +483,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/alba-camona-ofrenda/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/Carmona_WEB.png",
-      "id": 30
+      "id": 37
     },
     {
       "title": "404",
@@ -405,7 +496,7 @@
       "sourceKey": "passline",
       "url": "https://www.passline.com/",
       "flyer": "https://www.passline.com/error-400/img/passline-01.png",
-      "id": 31
+      "id": 38
     },
     {
       "title": "5to día internacional del Recreo Uruguayo",
@@ -418,7 +509,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/5to-dia-internacional-del-recreo-uruguayo-26903",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1781024046_6a28452ee64ff.jpg",
-      "id": 32
+      "id": 39
     },
     {
       "title": "ANABEL URDANIZ presenta FESTEJO, el instante en el que elegimos la esperanza",
@@ -431,7 +522,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/anabel-urdaniz-presenta-festejo-el-instante-en-el-que-elegimos-la-esperanza-26704",
       "flyer": "https://imagenes.alpogo.com/eventos/a6b07b37-9de6-4731-bfa9-a19b3e370a73.webp",
-      "id": 33
+      "id": 40
     },
     {
       "title": "Botón de Arrep.",
@@ -444,7 +535,7 @@
       "sourceKey": "plateanet",
       "url": "http://qr.afip.gob.ar/?qr=kwtNgkcpGIa54lJJxVAn0A,,",
       "flyer": "https://www.plateanet.com./assets/footer/comodo_2021.svg",
-      "id": 34
+      "id": 41
     },
     {
       "title": "Canciones En La Banquina - Kiki Victoria, Frano, Marcos Fava",
@@ -457,7 +548,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/canciones-en-la-banquina-kiki-victoria-frano-marcos-fava-27059",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1781643355_6a31b85bd5c28.jpg",
-      "id": 35
+      "id": 42
     },
     {
       "title": "CHARLIE 3, DARAA y LOS FIN DEL MUNDO EN LA PLATA",
@@ -470,7 +561,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/charlie-3-daraa-y-los-fin-del-mundo-en-la-plata-26368",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1778675771_6a04703b0a64c.jpg",
-      "id": 36
+      "id": 43
     },
     {
       "title": "COMPRARObrasTeatrosEticketBeneficiosTérminos y condiciones",
@@ -483,7 +574,7 @@
       "sourceKey": "plateanet",
       "url": "https://www.plateanet.com/reportes",
       "flyer": "https://www.plateanet.comassets/footer/footer_flecha.svg",
-      "id": 37
+      "id": 44
     },
     {
       "title": "Dúo Karma + Urraka",
@@ -496,7 +587,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/duo-karma-urraka/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/web_karma.png",
-      "id": 38
+      "id": 45
     },
     {
       "title": "encontranos en",
@@ -509,7 +600,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 39
+      "id": 46
     },
     {
       "title": "Etiqueta Negra en La Plata",
@@ -522,7 +613,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/etiqueta-negra-en-la-plata-26666",
       "flyer": "https://imagenes.alpogo.com/eventos/62ae9d18-3ef1-4492-b932-9dbf4be312e8.webp",
-      "id": 40
+      "id": 47
     },
     {
       "title": "FIESTA UGH! (LA PLATA) | EDICIÓN MUNDIAL POP",
@@ -535,7 +626,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/fiesta-ugh-la-plata-edicion-mundial-pop-27299",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1782517069_6a3f0d4d65c80.jpg",
-      "id": 41
+      "id": 48
     },
     {
       "title": "Fogones presenta : Manuel Moretti",
@@ -548,7 +639,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/fogones-presenta-manuel-moretti-25493",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1774460325_69c41da553a1a.jpg",
-      "id": 42
+      "id": 49
     },
     {
       "title": "Inicio(current)EL TEATROCARTELERANOTICIASCONTACTO",
@@ -561,7 +652,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 43
+      "id": 50
     },
     {
       "title": "Los Raviolis | Piyama Party",
@@ -574,7 +665,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/los-raviolis-piyama-party/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/web_V1-1.png",
-      "id": 44
+      "id": 51
     },
     {
       "title": "OCÉANO – COMPAÑIA D ZOQUETES",
@@ -587,7 +678,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/oceano/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/4_web-casa-metro.png",
-      "id": 45
+      "id": 52
     },
     {
       "title": "Teatro Ciego – Chakras",
@@ -600,7 +691,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/teatro-ciego-chakras/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/web_V1.jpg",
-      "id": 46
+      "id": 53
     },
     {
       "title": "Teatro Metro.Todos Los Derechos Reservados.",
@@ -613,7 +704,7 @@
       "sourceKey": "teatrometrolp",
       "url": "http://www.misticastudio.com",
       "flyer": "https://www.teatrometrolp.com.arimages/mistica-logo.png",
-      "id": 47
+      "id": 54
     }
   ]
 }
