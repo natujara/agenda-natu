@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-06-29T17:32:48.492831",
+  "updated_at": "2026-06-29T22:09:08.474733",
   "source": "scraper-natu-v10",
   "city": "La Plata",
-  "total": 52,
+  "total": 53,
   "events": [
     {
       "title": "Gordillo",
@@ -473,6 +473,19 @@
       "id": 36
     },
     {
+      "title": "CALIOPE FAMILY - LA FRANQUICIA",
+      "cat": "recital",
+      "date": "2026-10-15",
+      "time": "20:00",
+      "venue": "",
+      "city": "La Plata",
+      "source": "CatPass",
+      "sourceKey": "catpass",
+      "url": "https://catpass.net/eventos",
+      "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/1000x1000.jpeg?alt=media&token=cc0cff0d-9370-4ef3-8d32-4131baa46dbf",
+      "id": 37
+    },
+    {
       "title": "404",
       "cat": "recital",
       "date": "",
@@ -483,7 +496,7 @@
       "sourceKey": "passline",
       "url": "https://www.passline.com/",
       "flyer": "https://www.passline.com/error-400/img/passline-01.png",
-      "id": 37
+      "id": 38
     },
     {
       "title": "5to día internacional del Recreo Uruguayo",
@@ -496,7 +509,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/5to-dia-internacional-del-recreo-uruguayo-26903",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1781024046_6a28452ee64ff.jpg",
-      "id": 38
+      "id": 39
     },
     {
       "title": "ANABEL URDANIZ presenta FESTEJO, el instante en el que elegimos la esperanza",
@@ -509,7 +522,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/anabel-urdaniz-presenta-festejo-el-instante-en-el-que-elegimos-la-esperanza-26704",
       "flyer": "https://imagenes.alpogo.com/eventos/a6b07b37-9de6-4731-bfa9-a19b3e370a73.webp",
-      "id": 39
+      "id": 40
     },
     {
       "title": "Botón de Arrep.",
@@ -522,7 +535,7 @@
       "sourceKey": "plateanet",
       "url": "http://qr.afip.gob.ar/?qr=kwtNgkcpGIa54lJJxVAn0A,,",
       "flyer": "https://www.plateanet.com./assets/footer/comodo_2021.svg",
-      "id": 40
+      "id": 41
     },
     {
       "title": "Canciones En La Banquina - Kiki Victoria, Frano, Marcos Fava",
@@ -535,7 +548,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/canciones-en-la-banquina-kiki-victoria-frano-marcos-fava-27059",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1781643355_6a31b85bd5c28.jpg",
-      "id": 41
+      "id": 42
     },
     {
       "title": "CHARLIE 3, DARAA y LOS FIN DEL MUNDO EN LA PLATA",
@@ -548,7 +561,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/charlie-3-daraa-y-los-fin-del-mundo-en-la-plata-26368",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1778675771_6a04703b0a64c.jpg",
-      "id": 42
+      "id": 43
     },
     {
       "title": "COMPRARObrasTeatrosEticketBeneficiosTérminos y condiciones",
@@ -561,7 +574,7 @@
       "sourceKey": "plateanet",
       "url": "https://www.plateanet.com/reportes",
       "flyer": "https://www.plateanet.comassets/footer/footer_flecha.svg",
-      "id": 43
+      "id": 44
     },
     {
       "title": "encontranos en",
@@ -574,7 +587,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 44
+      "id": 45
     },
     {
       "title": "Etiqueta Negra en La Plata",
@@ -587,7 +600,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/etiqueta-negra-en-la-plata-26666",
       "flyer": "https://imagenes.alpogo.com/eventos/62ae9d18-3ef1-4492-b932-9dbf4be312e8.webp",
-      "id": 45
+      "id": 46
     },
     {
       "title": "FIESTA UGH! (LA PLATA) | EDICIÓN MUNDIAL POP",
@@ -600,7 +613,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/fiesta-ugh-la-plata-edicion-mundial-pop-27299",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1782517069_6a3f0d4d65c80.jpg",
-      "id": 46
+      "id": 47
     },
     {
       "title": "Fogones presenta : Manuel Moretti",
@@ -613,7 +626,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/fogones-presenta-manuel-moretti-25493",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1774460325_69c41da553a1a.jpg",
-      "id": 47
+      "id": 48
     },
     {
       "title": "Inicio(current)EL TEATROCARTELERANOTICIASCONTACTO",
@@ -626,7 +639,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 48
+      "id": 49
     },
     {
       "title": "Los Raviolis | Piyama Party",
@@ -639,7 +652,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/los-raviolis-piyama-party/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/web_V1-1.png",
-      "id": 49
+      "id": 50
     },
     {
       "title": "OCÉANO – COMPAÑIA D ZOQUETES",
@@ -652,7 +665,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/oceano/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/4_web-casa-metro.png",
-      "id": 50
+      "id": 51
     },
     {
       "title": "Teatro Ciego – Chakras",
@@ -665,7 +678,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/teatro-ciego-chakras/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/web_V1.jpg",
-      "id": 51
+      "id": 52
     },
     {
       "title": "Teatro Metro.Todos Los Derechos Reservados.",
@@ -678,7 +691,7 @@
       "sourceKey": "teatrometrolp",
       "url": "http://www.misticastudio.com",
       "flyer": "https://www.teatrometrolp.com.arimages/mistica-logo.png",
-      "id": 52
+      "id": 53
     }
   ]
 }
