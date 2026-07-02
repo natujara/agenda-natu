@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-02T11:31:18.211823",
+  "updated_at": "2026-07-02T16:49:42.087364",
   "source": "scraper-natu-v10",
   "city": "La Plata",
   "total": 56,
@@ -499,19 +499,6 @@
       "id": 38
     },
     {
-      "title": "Alba Camona | Ofrenda",
-      "cat": "recital",
-      "date": "2026-09-19",
-      "time": "21:00",
-      "venue": "Casa Metro La Plata",
-      "city": "La Plata",
-      "source": "Casa Metro",
-      "sourceKey": "casametro",
-      "url": "https://casametro.com.ar/evento/alba-camona-ofrenda/",
-      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/Carmona_WEB.png",
-      "id": 39
-    },
-    {
       "title": "CALIOPE FAMILY - LA FRANQUICIA",
       "cat": "recital",
       "date": "2026-10-15",
@@ -522,7 +509,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/1000x1000.jpeg?alt=media&token=cc0cff0d-9370-4ef3-8d32-4131baa46dbf",
-      "id": 40
+      "id": 39
     },
     {
       "title": "404",
@@ -535,7 +522,7 @@
       "sourceKey": "passline",
       "url": "https://www.passline.com/",
       "flyer": "https://www.passline.com/error-400/img/passline-01.png",
-      "id": 41
+      "id": 40
     },
     {
       "title": "5to día internacional del Recreo Uruguayo",
@@ -548,7 +535,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/5to-dia-internacional-del-recreo-uruguayo-26903",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1781024046_6a28452ee64ff.jpg",
-      "id": 42
+      "id": 41
     },
     {
       "title": "ANABEL URDANIZ presenta FESTEJO, el instante en el que elegimos la esperanza",
@@ -561,7 +548,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/anabel-urdaniz-presenta-festejo-el-instante-en-el-que-elegimos-la-esperanza-26704",
       "flyer": "https://imagenes.alpogo.com/eventos/a6b07b37-9de6-4731-bfa9-a19b3e370a73.webp",
-      "id": 43
+      "id": 42
     },
     {
       "title": "Botón de Arrep.",
@@ -574,7 +561,7 @@
       "sourceKey": "plateanet",
       "url": "http://qr.afip.gob.ar/?qr=kwtNgkcpGIa54lJJxVAn0A,,",
       "flyer": "https://www.plateanet.com./assets/footer/comodo_2021.svg",
-      "id": 44
+      "id": 43
     },
     {
       "title": "Canciones En La Banquina - Kiki Victoria, Frano, Marcos Fava",
@@ -587,7 +574,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/canciones-en-la-banquina-kiki-victoria-frano-marcos-fava-27059",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1781643355_6a31b85bd5c28.jpg",
-      "id": 45
+      "id": 44
     },
     {
       "title": "CHARLIE 3, DARAA y LOS FIN DEL MUNDO EN LA PLATA",
@@ -600,7 +587,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/charlie-3-daraa-y-los-fin-del-mundo-en-la-plata-26368",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1778675771_6a04703b0a64c.jpg",
-      "id": 46
+      "id": 45
     },
     {
       "title": "COMPRARObrasTeatrosEticketBeneficiosTérminos y condiciones",
@@ -613,7 +600,7 @@
       "sourceKey": "plateanet",
       "url": "https://www.plateanet.com/reportes",
       "flyer": "https://www.plateanet.comassets/footer/footer_flecha.svg",
-      "id": 47
+      "id": 46
     },
     {
       "title": "Dúo Karma + Urraka",
@@ -626,7 +613,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/duo-karma-urraka/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/web_karma.png",
-      "id": 48
+      "id": 47
     },
     {
       "title": "encontranos en",
@@ -639,7 +626,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 49
+      "id": 48
     },
     {
       "title": "Etiqueta Negra en La Plata",
@@ -652,7 +639,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/etiqueta-negra-en-la-plata-26666",
       "flyer": "https://imagenes.alpogo.com/eventos/62ae9d18-3ef1-4492-b932-9dbf4be312e8.webp",
-      "id": 50
+      "id": 49
     },
     {
       "title": "FIESTA UGH! (LA PLATA) | EDICIÓN MUNDIAL POP",
@@ -665,7 +652,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/fiesta-ugh-la-plata-edicion-mundial-pop-27299",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1782517069_6a3f0d4d65c80.jpg",
-      "id": 51
+      "id": 50
     },
     {
       "title": "Fogones presenta : Manuel Moretti",
@@ -678,7 +665,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/fogones-presenta-manuel-moretti-25493",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1774460325_69c41da553a1a.jpg",
-      "id": 52
+      "id": 51
     },
     {
       "title": "Inicio(current)EL TEATROCARTELERANOTICIASCONTACTO",
@@ -691,6 +678,19 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
+      "id": 52
+    },
+    {
+      "title": "LEA BENSASSON | Mi gran casamiento hebreo",
+      "cat": "recital",
+      "date": "",
+      "time": "21:00",
+      "venue": "Casa Metro La Plata",
+      "city": "La Plata",
+      "source": "Casa Metro",
+      "sourceKey": "casametro",
+      "url": "https://casametro.com.ar/evento/lea-bensasson-mi-gran-casamiento-hebreo/",
+      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/pantalla-led-1-1.jpg",
       "id": 53
     },
     {
@@ -707,19 +707,6 @@
       "id": 54
     },
     {
-      "title": "Teatro Ciego – Chakras",
-      "cat": "teatro",
-      "date": "",
-      "time": "19:00",
-      "venue": "Casa Metro La Plata",
-      "city": "La Plata",
-      "source": "Casa Metro",
-      "sourceKey": "casametro",
-      "url": "https://casametro.com.ar/evento/teatro-ciego-chakras/",
-      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/web_V1.jpg",
-      "id": 55
-    },
-    {
       "title": "Teatro Metro.Todos Los Derechos Reservados.",
       "cat": "teatro",
       "date": "",
@@ -730,6 +717,19 @@
       "sourceKey": "teatrometrolp",
       "url": "http://www.misticastudio.com",
       "flyer": "https://www.teatrometrolp.com.arimages/mistica-logo.png",
+      "id": 55
+    },
+    {
+      "title": "Toch – Pulso Inicial",
+      "cat": "recital",
+      "date": "",
+      "time": "22:30",
+      "venue": "Casa Metro La Plata",
+      "city": "La Plata",
+      "source": "Casa Metro",
+      "sourceKey": "casametro",
+      "url": "https://casametro.com.ar/evento/toch/",
+      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/pantalla-led-Toch.png",
       "id": 56
     }
   ]
