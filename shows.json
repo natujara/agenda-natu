@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-07-13T17:11:09.478735",
+  "updated_at": "2026-07-13T21:49:26.834193",
   "source": "scraper-natu-v10",
   "city": "La Plata",
-  "total": 55,
+  "total": 56,
   "events": [
     {
       "title": "MUNDIAL DE BANDAS ZONA 2",
@@ -421,6 +421,19 @@
       "id": 32
     },
     {
+      "title": "CANTAMOS FATAL - CHARO LÓPEZ",
+      "cat": "recital",
+      "date": "2026-08-29",
+      "time": "23:59",
+      "venue": "",
+      "city": "La Plata",
+      "source": "CatPass",
+      "sourceKey": "catpass",
+      "url": "https://catpass.net/eventos",
+      "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/97465cd8-f782-4b75-b67b-0e7bf81fbeeb-65ab0285-e582-40c3-a6ad-f3fd00d15658.jpeg?alt=media&token=fd1c9aea-4899-4526-af45-f48f9bea448b",
+      "id": 33
+    },
+    {
       "title": "JOACO BURGOS en Ciudad de Gatos",
       "cat": "recital",
       "date": "2026-09-17",
@@ -431,7 +444,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/JOACO-BURGOS-LA-PLATA-FEED.png?alt=media&token=53d5e7c4-c0d6-484f-8ed9-8a0f2b6d7b8c",
-      "id": 33
+      "id": 34
     },
     {
       "title": "Militantes del Climax en Ciudad de Gatos",
@@ -444,7 +457,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/Militantes_LAPLATA_Cuadrado.png?alt=media&token=55708dba-c11a-4ed3-9647-5c19914cc29c",
-      "id": 34
+      "id": 35
     },
     {
       "title": "CALIOPE FAMILY - LA FRANQUICIA",
@@ -457,7 +470,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/1000x1000.jpeg?alt=media&token=cc0cff0d-9370-4ef3-8d32-4131baa46dbf",
-      "id": 35
+      "id": 36
     },
     {
       "title": "0800-HIT",
@@ -470,7 +483,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/0800-hit-27478",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1783366212_6a4c024452e66.jpg",
-      "id": 36
+      "id": 37
     },
     {
       "title": "404",
@@ -483,7 +496,7 @@
       "sourceKey": "passline",
       "url": "https://www.passline.com/",
       "flyer": "https://www.passline.com/error-400/img/passline-01.png",
-      "id": 37
+      "id": 38
     },
     {
       "title": "Adriana Varela",
@@ -496,7 +509,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/5463/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/04/web_Adriana.jpg",
-      "id": 38
+      "id": 39
     },
     {
       "title": "ANABEL URDANIZ presenta FESTEJO, el instante en el que elegimos la esperanza",
@@ -509,7 +522,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/anabel-urdaniz-presenta-festejo-el-instante-en-el-que-elegimos-la-esperanza-26704",
       "flyer": "https://imagenes.alpogo.com/eventos/a6b07b37-9de6-4731-bfa9-a19b3e370a73.webp",
-      "id": 39
+      "id": 40
     },
     {
       "title": "Botón de Arrep.",
@@ -522,7 +535,7 @@
       "sourceKey": "plateanet",
       "url": "http://qr.afip.gob.ar/?qr=kwtNgkcpGIa54lJJxVAn0A,,",
       "flyer": "https://www.plateanet.com./assets/footer/comodo_2021.svg",
-      "id": 40
+      "id": 41
     },
     {
       "title": "CHARLIE 3, DARAA y LOS FIN DEL MUNDO EN LA PLATA",
@@ -535,7 +548,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/charlie-3-daraa-y-los-fin-del-mundo-en-la-plata-26368",
       "flyer": "https://imagenes.alpogo.com/eventos/28c9ada5-bd9a-48f3-811d-d35f8a1ae7a0.webp",
-      "id": 41
+      "id": 42
     },
     {
       "title": "COMPRARObrasTeatrosEticketBeneficiosTérminos y condiciones",
@@ -548,7 +561,7 @@
       "sourceKey": "plateanet",
       "url": "https://www.plateanet.com/reportes",
       "flyer": "https://www.plateanet.comassets/footer/footer_flecha.svg",
-      "id": 42
+      "id": 43
     },
     {
       "title": "Dúo Karma + Urraka",
@@ -561,7 +574,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/duo-karma-urraka/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/web_karma.png",
-      "id": 43
+      "id": 44
     },
     {
       "title": "encontranos en",
@@ -574,7 +587,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 44
+      "id": 45
     },
     {
       "title": "Etiqueta Negra en La Plata",
@@ -587,7 +600,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/etiqueta-negra-en-la-plata-26666",
       "flyer": "https://imagenes.alpogo.com/eventos/62ae9d18-3ef1-4492-b932-9dbf4be312e8.webp",
-      "id": 45
+      "id": 46
     },
     {
       "title": "FIESTA UGH! (LA PLATA) | EDICIÓN MUNDIAL POP",
@@ -600,7 +613,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/fiesta-ugh-la-plata-edicion-mundial-pop-27299",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1782517069_6a3f0d4d65c80.jpg",
-      "id": 46
+      "id": 47
     },
     {
       "title": "Fogones presenta : Manuel Moretti",
@@ -613,7 +626,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/fogones-presenta-manuel-moretti-25493",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1774460325_69c41da553a1a.jpg",
-      "id": 47
+      "id": 48
     },
     {
       "title": "Inicio(current)EL TEATROCARTELERANOTICIASCONTACTO",
@@ -626,7 +639,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 48
+      "id": 49
     },
     {
       "title": "La milenaria",
@@ -639,7 +652,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/la-milenaria/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/1600X1000_MILENA_WEB.png",
-      "id": 49
+      "id": 50
     },
     {
       "title": "LEA BENSASSON | Mi gran casamiento hebreo",
@@ -652,7 +665,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/lea-bensasson-mi-gran-casamiento-hebreo/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/pantalla-led-1-1.jpg",
-      "id": 50
+      "id": 51
     },
     {
       "title": "Los Raviolis | Piyama Party",
@@ -665,7 +678,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/los-raviolis-piyama-party/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/web_V1-1.png",
-      "id": 51
+      "id": 52
     },
     {
       "title": "Margarita Xirgu – Una actriz entre dos continentes",
@@ -678,7 +691,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/margarita-xirgu-una-actriz-entre-dos-continentes/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/04/2Oteyza.png",
-      "id": 52
+      "id": 53
     },
     {
       "title": "OCÉANO – COMPAÑIA D ZOQUETES",
@@ -691,7 +704,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/oceano/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/4_web-casa-metro.png",
-      "id": 53
+      "id": 54
     },
     {
       "title": "Teatro Metro.Todos Los Derechos Reservados.",
@@ -704,7 +717,7 @@
       "sourceKey": "teatrometrolp",
       "url": "http://www.misticastudio.com",
       "flyer": "https://www.teatrometrolp.com.arimages/mistica-logo.png",
-      "id": 54
+      "id": 55
     },
     {
       "title": "Toch – Pulso Inicial",
@@ -717,7 +730,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/toch/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/pantalla-led-Toch.png",
-      "id": 55
+      "id": 56
     }
   ]
 }
