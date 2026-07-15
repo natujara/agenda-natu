@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-07-14T21:51:51.651480",
+  "updated_at": "2026-07-15T05:27:19.182119",
   "source": "scraper-natu-v10",
   "city": "La Plata",
-  "total": 57,
+  "total": 56,
   "events": [
     {
       "title": "Concierto de Cámara | Cecilia Isas y Lía Rezkala-Konias | Viernes 17/7 | 18:00",
@@ -486,19 +486,6 @@
       "id": 37
     },
     {
-      "title": "0800-HIT",
-      "cat": "recital",
-      "date": "",
-      "time": "15:00",
-      "venue": "Sábado 22/08, 15:00 hsCasa Unclan, La Plata",
-      "city": "La Plata",
-      "source": "Alpogo",
-      "sourceKey": "alpogo",
-      "url": "https://alpogo.com/evento/0800-hit-27478",
-      "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1783366212_6a4c024452e66.jpg",
-      "id": 38
-    },
-    {
       "title": "404",
       "cat": "recital",
       "date": "",
@@ -509,7 +496,7 @@
       "sourceKey": "passline",
       "url": "https://www.passline.com/",
       "flyer": "https://www.passline.com/error-400/img/passline-01.png",
-      "id": 39
+      "id": 38
     },
     {
       "title": "Adriana Varela",
@@ -522,7 +509,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/5463/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/04/web_Adriana.jpg",
-      "id": 40
+      "id": 39
     },
     {
       "title": "ANABEL URDANIZ presenta FESTEJO, el instante en el que elegimos la esperanza",
@@ -535,7 +522,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/anabel-urdaniz-presenta-festejo-el-instante-en-el-que-elegimos-la-esperanza-26704",
       "flyer": "https://imagenes.alpogo.com/eventos/a6b07b37-9de6-4731-bfa9-a19b3e370a73.webp",
-      "id": 41
+      "id": 40
     },
     {
       "title": "Botón de Arrep.",
@@ -548,7 +535,7 @@
       "sourceKey": "plateanet",
       "url": "http://qr.afip.gob.ar/?qr=kwtNgkcpGIa54lJJxVAn0A,,",
       "flyer": "https://www.plateanet.com./assets/footer/comodo_2021.svg",
-      "id": 42
+      "id": 41
     },
     {
       "title": "CHARLIE 3, DARAA y LOS FIN DEL MUNDO EN LA PLATA",
@@ -561,7 +548,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/charlie-3-daraa-y-los-fin-del-mundo-en-la-plata-26368",
       "flyer": "https://imagenes.alpogo.com/eventos/28c9ada5-bd9a-48f3-811d-d35f8a1ae7a0.webp",
-      "id": 43
+      "id": 42
     },
     {
       "title": "COMPRARObrasTeatrosEticketBeneficiosTérminos y condiciones",
@@ -574,7 +561,7 @@
       "sourceKey": "plateanet",
       "url": "https://www.plateanet.com/reportes",
       "flyer": "https://www.plateanet.comassets/footer/footer_flecha.svg",
-      "id": 44
+      "id": 43
     },
     {
       "title": "Dúo Karma + Urraka",
@@ -587,7 +574,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/duo-karma-urraka/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/web_karma.png",
-      "id": 45
+      "id": 44
     },
     {
       "title": "encontranos en",
@@ -600,7 +587,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 46
+      "id": 45
     },
     {
       "title": "Etiqueta Negra en La Plata",
@@ -613,7 +600,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/etiqueta-negra-en-la-plata-26666",
       "flyer": "https://imagenes.alpogo.com/eventos/62ae9d18-3ef1-4492-b932-9dbf4be312e8.webp",
-      "id": 47
+      "id": 46
     },
     {
       "title": "FIESTA UGH! (LA PLATA) | EDICIÓN MUNDIAL POP",
@@ -626,7 +613,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/fiesta-ugh-la-plata-edicion-mundial-pop-27299",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1782517069_6a3f0d4d65c80.jpg",
-      "id": 48
+      "id": 47
     },
     {
       "title": "Fogones presenta : Manuel Moretti",
@@ -639,7 +626,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/fogones-presenta-manuel-moretti-25493",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1774460325_69c41da553a1a.jpg",
-      "id": 49
+      "id": 48
     },
     {
       "title": "Inicio(current)EL TEATROCARTELERANOTICIASCONTACTO",
@@ -652,7 +639,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 50
+      "id": 49
     },
     {
       "title": "La milenaria",
@@ -665,7 +652,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/la-milenaria/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/1600X1000_MILENA_WEB.png",
-      "id": 51
+      "id": 50
     },
     {
       "title": "LEA BENSASSON | Mi gran casamiento hebreo",
@@ -678,7 +665,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/lea-bensasson-mi-gran-casamiento-hebreo/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/pantalla-led-1-1.jpg",
-      "id": 52
+      "id": 51
     },
     {
       "title": "Los Raviolis | Piyama Party",
@@ -691,7 +678,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/los-raviolis-piyama-party/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/web_V1-1.png",
-      "id": 53
+      "id": 52
     },
     {
       "title": "Margarita Xirgu – Una actriz entre dos continentes",
@@ -704,7 +691,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/margarita-xirgu-una-actriz-entre-dos-continentes/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/04/2Oteyza.png",
-      "id": 54
+      "id": 53
     },
     {
       "title": "OCÉANO – COMPAÑIA D ZOQUETES",
@@ -717,7 +704,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/oceano/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/4_web-casa-metro.png",
-      "id": 55
+      "id": 54
     },
     {
       "title": "Teatro Metro.Todos Los Derechos Reservados.",
@@ -730,7 +717,7 @@
       "sourceKey": "teatrometrolp",
       "url": "http://www.misticastudio.com",
       "flyer": "https://www.teatrometrolp.com.arimages/mistica-logo.png",
-      "id": 56
+      "id": 55
     },
     {
       "title": "Toch – Pulso Inicial",
@@ -743,7 +730,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/toch/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/pantalla-led-Toch.png",
-      "id": 57
+      "id": 56
     }
   ]
 }
