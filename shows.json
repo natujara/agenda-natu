@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-07-15T21:51:45.984203",
+  "updated_at": "2026-07-16T05:36:36.537474",
   "source": "scraper-natu-v10",
   "city": "La Plata",
-  "total": 58,
+  "total": 57,
   "events": [
     {
       "title": "Concierto de Cámara | Cecilia Isas y Lía Rezkala-Konias | Viernes 17/7 | 18:00",
@@ -642,19 +642,6 @@
       "id": 49
     },
     {
-      "title": "Fogones presenta : Manuel Moretti",
-      "cat": "recital",
-      "date": "",
-      "time": "20:00",
-      "venue": "Miércoles 15/07, 20:00 hsGuajira, La Plata",
-      "city": "La Plata",
-      "source": "Alpogo",
-      "sourceKey": "alpogo",
-      "url": "https://alpogo.com/evento/fogones-presenta-manuel-moretti-25493",
-      "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1774460325_69c41da553a1a.jpg",
-      "id": 50
-    },
-    {
       "title": "Inicio(current)EL TEATROCARTELERANOTICIASCONTACTO",
       "cat": "teatro",
       "date": "",
@@ -665,7 +652,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 51
+      "id": 50
     },
     {
       "title": "La milenaria",
@@ -678,7 +665,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/la-milenaria/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/1600X1000_MILENA_WEB.png",
-      "id": 52
+      "id": 51
     },
     {
       "title": "LEA BENSASSON | Mi gran casamiento hebreo",
@@ -691,7 +678,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/lea-bensasson-mi-gran-casamiento-hebreo/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/pantalla-led-1-1.jpg",
-      "id": 53
+      "id": 52
     },
     {
       "title": "Los Raviolis | Piyama Party",
@@ -704,7 +691,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/los-raviolis-piyama-party/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/web_V1-1.png",
-      "id": 54
+      "id": 53
     },
     {
       "title": "Margarita Xirgu – Una actriz entre dos continentes",
@@ -717,7 +704,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/margarita-xirgu-una-actriz-entre-dos-continentes/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/04/2Oteyza.png",
-      "id": 55
+      "id": 54
     },
     {
       "title": "OCÉANO – COMPAÑIA D ZOQUETES",
@@ -730,7 +717,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/oceano/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/4_web-casa-metro.png",
-      "id": 56
+      "id": 55
     },
     {
       "title": "Teatro Metro.Todos Los Derechos Reservados.",
@@ -743,7 +730,7 @@
       "sourceKey": "teatrometrolp",
       "url": "http://www.misticastudio.com",
       "flyer": "https://www.teatrometrolp.com.arimages/mistica-logo.png",
-      "id": 57
+      "id": 56
     },
     {
       "title": "Toch – Pulso Inicial",
@@ -756,7 +743,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/toch/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/pantalla-led-Toch.png",
-      "id": 58
+      "id": 57
     }
   ]
 }
