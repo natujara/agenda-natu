@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-07-18T05:21:04.903825",
+  "updated_at": "2026-07-18T10:14:18.713371",
   "source": "scraper-natu-v10",
   "city": "La Plata",
-  "total": 65,
+  "total": 64,
   "events": [
     {
       "title": "Fro! en LPUG",
@@ -746,19 +746,6 @@
       "id": 57
     },
     {
-      "title": "FIESTA UGH! (LA PLATA) | EDICIÓN MUNDIAL POP",
-      "cat": "recital",
-      "date": "",
-      "time": "23:59",
-      "venue": "Viernes 17/07, 23:59 hsBYE HENRY DIAGONAL",
-      "city": "La Plata",
-      "source": "Alpogo",
-      "sourceKey": "alpogo",
-      "url": "https://alpogo.com/evento/fiesta-ugh-la-plata-edicion-mundial-pop-27299",
-      "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1782517069_6a3f0d4d65c80.jpg",
-      "id": 58
-    },
-    {
       "title": "Inicio(current)EL TEATROCARTELERANOTICIASCONTACTO",
       "cat": "teatro",
       "date": "",
@@ -769,7 +756,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 59
+      "id": 58
     },
     {
       "title": "La milenaria",
@@ -782,7 +769,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/la-milenaria/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/1600X1000_MILENA_WEB.png",
-      "id": 60
+      "id": 59
     },
     {
       "title": "LEA BENSASSON | Mi gran casamiento hebreo",
@@ -795,7 +782,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/lea-bensasson-mi-gran-casamiento-hebreo/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/pantalla-led-1-1.jpg",
-      "id": 61
+      "id": 60
     },
     {
       "title": "Los Raviolis | Piyama Party",
@@ -808,7 +795,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/los-raviolis-piyama-party/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/web_V1-1.png",
-      "id": 62
+      "id": 61
     },
     {
       "title": "OCÉANO – COMPAÑIA D ZOQUETES",
@@ -821,7 +808,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/oceano/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/4_web-casa-metro.png",
-      "id": 63
+      "id": 62
     },
     {
       "title": "Teatro Metro.Todos Los Derechos Reservados.",
@@ -834,7 +821,7 @@
       "sourceKey": "teatrometrolp",
       "url": "http://www.misticastudio.com",
       "flyer": "https://www.teatrometrolp.com.arimages/mistica-logo.png",
-      "id": 64
+      "id": 63
     },
     {
       "title": "Toch – Pulso Inicial",
@@ -847,7 +834,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/toch/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/pantalla-led-Toch.png",
-      "id": 65
+      "id": 64
     }
   ]
 }
