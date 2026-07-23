@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-07-23T16:24:28.933604",
+  "updated_at": "2026-07-23T22:01:32.899313",
   "source": "scraper-natu-v10",
   "city": "La Plata",
-  "total": 63,
+  "total": 64,
   "events": [
     {
       "title": "Cazadoras Doradas",
@@ -694,6 +694,19 @@
       "id": 53
     },
     {
+      "title": "Etiqueta Negra en La Plata",
+      "cat": "recital",
+      "date": "",
+      "time": "21:00",
+      "venue": "Sábado 19/09, 21:00 hsTeatro René Favaloro",
+      "city": "La Plata",
+      "source": "Alpogo",
+      "sourceKey": "alpogo",
+      "url": "https://alpogo.com/evento/etiqueta-negra-en-la-plata-27787",
+      "flyer": "https://imagenes.alpogo.com/eventos/cde8e32b-a951-4ebc-8c19-61fe2d1e5511.webp",
+      "id": 54
+    },
+    {
       "title": "Inicio(current)EL TEATROCARTELERANOTICIASCONTACTO",
       "cat": "teatro",
       "date": "",
@@ -704,7 +717,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 54
+      "id": 55
     },
     {
       "title": "Juan Solá- Unipersonal",
@@ -717,7 +730,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/juan-sola/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/web_Juan_Sola.png",
-      "id": 55
+      "id": 56
     },
     {
       "title": "La milenaria",
@@ -730,7 +743,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/la-milenaria/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/1600X1000_MILENA_WEB.png",
-      "id": 56
+      "id": 57
     },
     {
       "title": "LEA BENSASSON | Mi gran casamiento hebreo",
@@ -743,7 +756,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/lea-bensasson-mi-gran-casamiento-hebreo/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/pantalla-led-1-1.jpg",
-      "id": 57
+      "id": 58
     },
     {
       "title": "Los Raviolis | Piyama Party",
@@ -756,7 +769,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/los-raviolis-piyama-party/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/web_V1-1.png",
-      "id": 58
+      "id": 59
     },
     {
       "title": "Margarita Xirgu – Una actriz entre dos continentes",
@@ -769,7 +782,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/margarita-xirgu-una-actriz-entre-dos-continentes/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/04/2Oteyza.png",
-      "id": 59
+      "id": 60
     },
     {
       "title": "Nos gusta los 80",
@@ -782,7 +795,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/nos-gusta-los-80-27698",
       "flyer": "https://imagenes.alpogo.com/eventos/80sss.png",
-      "id": 60
+      "id": 61
     },
     {
       "title": "OCÉANO – COMPAÑIA D ZOQUETES",
@@ -795,7 +808,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/oceano/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/4_web-casa-metro.png",
-      "id": 61
+      "id": 62
     },
     {
       "title": "Teatro Metro.Todos Los Derechos Reservados.",
@@ -808,7 +821,7 @@
       "sourceKey": "teatrometrolp",
       "url": "http://www.misticastudio.com",
       "flyer": "https://www.teatrometrolp.com.arimages/mistica-logo.png",
-      "id": 62
+      "id": 63
     },
     {
       "title": "Toch – Pulso Inicial",
@@ -821,7 +834,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/toch/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/pantalla-led-Toch.png",
-      "id": 63
+      "id": 64
     }
   ]
 }
