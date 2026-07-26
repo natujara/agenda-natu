@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-26T15:59:43.956047",
+  "updated_at": "2026-07-26T21:53:48.619190",
   "source": "scraper-natu-v10",
   "city": "La Plata",
   "total": 59,
@@ -57,19 +57,6 @@
       "id": 4
     },
     {
-      "title": "BELLA Y EL REENCUENTRO",
-      "cat": "recital",
-      "date": "2026-07-27",
-      "time": "17:00",
-      "venue": "Teatro Metro LP",
-      "city": "La Plata",
-      "source": "Teatro Metro LP",
-      "sourceKey": "teatrometrolp",
-      "url": "https://www.teatrometrolp.com.ar/entrada/bella-y-el-recuentro-100731",
-      "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/entradas/20260618153119_platea-uno-bella-banner-1920-x-1080-px.jpg",
-      "id": 5
-    },
-    {
       "title": "Melocotón Pajarito",
       "cat": "recital",
       "date": "2026-07-27",
@@ -80,20 +67,20 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/melocoton-pajarito/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/melocoton.png",
-      "id": 6
+      "id": 5
     },
     {
-      "title": "Viva las brujas",
+      "title": "BRAINROTS",
       "cat": "recital",
-      "date": "2026-07-27",
-      "time": "15:00",
+      "date": "2026-07-28",
+      "time": "18:00",
       "venue": "Teatro Metro LP",
       "city": "La Plata",
       "source": "Teatro Metro LP",
       "sourceKey": "teatrometrolp",
-      "url": "https://www.teatrometrolp.com.ar/entrada/viva-las-brujas-100730",
-      "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/entradas/20260618152953_brujas.png",
-      "id": 7
+      "url": "https://www.teatrometrolp.com.ar/entrada/brainrots--100704",
+      "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/entradas/780777511627.jpg",
+      "id": 6
     },
     {
       "title": "Cazadoras Doradas",
@@ -106,7 +93,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/entrada/cazadoras-doradas-100708",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/entradas/780777964051.jpg",
-      "id": 8
+      "id": 7
     },
     {
       "title": "Vacaciones Divertidas: El Cascanueces | Martes 28/7 | 16:00",
@@ -119,6 +106,19 @@
       "sourceKey": "teatroargentino",
       "url": "https://teatroargentino.gba.gob.ar/meets/no-season",
       "flyer": "",
+      "id": 8
+    },
+    {
+      "title": "Chingalepa",
+      "cat": "recital",
+      "date": "2026-07-29",
+      "time": "17:00",
+      "venue": "Teatro Metro LP",
+      "city": "La Plata",
+      "source": "Teatro Metro LP",
+      "sourceKey": "teatrometrolp",
+      "url": "https://www.teatrometrolp.com.ar/entrada/chingalepa-100667",
+      "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/entradas/20260514004657_chingalepa-21-jun-16-9.jpg",
       "id": 9
     },
     {
