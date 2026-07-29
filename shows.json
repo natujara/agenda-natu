@@ -1,48 +1,9 @@
 {
-  "updated_at": "2026-07-28T22:00:42.545433",
+  "updated_at": "2026-07-29T05:47:26.474443",
   "source": "scraper-natu-v10",
   "city": "La Plata",
   "total": 58,
   "events": [
-    {
-      "title": "BRAINROTS",
-      "cat": "recital",
-      "date": "2026-07-28",
-      "time": "18:00",
-      "venue": "Teatro Metro LP",
-      "city": "La Plata",
-      "source": "Teatro Metro LP",
-      "sourceKey": "teatrometrolp",
-      "url": "https://www.teatrometrolp.com.ar/entrada/brainrots--100704",
-      "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/entradas/780777511627.jpg",
-      "id": 1
-    },
-    {
-      "title": "Cazadoras Doradas",
-      "cat": "recital",
-      "date": "2026-07-28",
-      "time": "14:30",
-      "venue": "Teatro Metro LP",
-      "city": "La Plata",
-      "source": "Teatro Metro LP",
-      "sourceKey": "teatrometrolp",
-      "url": "https://www.teatrometrolp.com.ar/entrada/cazadoras-doradas-100708",
-      "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/entradas/780777964051.jpg",
-      "id": 2
-    },
-    {
-      "title": "Vacaciones Divertidas: El Cascanueces | Martes 28/7 | 16:00",
-      "cat": "arte",
-      "date": "2026-07-28",
-      "time": "16:00",
-      "venue": "Teatro Argentino — Alberto Ginastera",
-      "city": "La Plata",
-      "source": "Teatro Argentino",
-      "sourceKey": "teatroargentino",
-      "url": "https://teatroargentino.gba.gob.ar/meets/no-season",
-      "flyer": "",
-      "id": 3
-    },
     {
       "title": "Chingalepa",
       "cat": "recital",
@@ -54,7 +15,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/entrada/chingalepa-100667",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/entradas/20260514004657_chingalepa-21-jun-16-9.jpg",
-      "id": 4
+      "id": 1
     },
     {
       "title": "Lluvia de Borboletas  | Teatro para bebes",
@@ -67,7 +28,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/lluvia-de-borboletas-teatro-para-bebes/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/1_web-casa-metro.png",
-      "id": 5
+      "id": 2
     },
     {
       "title": "Meta Caramba | Sueño con canciones",
@@ -80,7 +41,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/meta-caramba-sueno-con-canciones/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/2_web-casa-metro.png",
-      "id": 6
+      "id": 3
     },
     {
       "title": "Vacaciones Divertidas: El Cascanueces | Miércoles 29/7 | 16:00",
@@ -93,7 +54,7 @@
       "sourceKey": "teatroargentino",
       "url": "https://teatroargentino.gba.gob.ar/meets/no-season",
       "flyer": "",
-      "id": 7
+      "id": 4
     },
     {
       "title": "Ciclo \"El cine está vivo\" | Proyección de \"Un lugar en el mundo\" y charla con Cecilia Roth | Jueves 30/7 | 18:00",
@@ -106,7 +67,20 @@
       "sourceKey": "teatroargentino",
       "url": "https://teatroargentino.gba.gob.ar/meets/no-season",
       "flyer": "",
-      "id": 8
+      "id": 5
+    },
+    {
+      "title": "JUGUETES EN ACCION",
+      "cat": "recital",
+      "date": "2026-07-30",
+      "time": "17:00",
+      "venue": "Teatro Metro LP",
+      "city": "La Plata",
+      "source": "Teatro Metro LP",
+      "sourceKey": "teatrometrolp",
+      "url": "https://www.teatrometrolp.com.ar/entrada/juguetes-en-accion-100692",
+      "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/entradas/20260601130900_3guguetes-en-accion.jpeg",
+      "id": 6
     },
     {
       "title": "Vacaciones Divertidas: El Cascanueces | Jueves 30/7 | 16:00",
@@ -119,7 +93,7 @@
       "sourceKey": "teatroargentino",
       "url": "https://teatroargentino.gba.gob.ar/meets/no-season",
       "flyer": "",
-      "id": 9
+      "id": 7
     },
     {
       "title": "Anda Calabaza",
@@ -132,7 +106,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/anda-calabaza/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/3_web-casa-metro.png",
-      "id": 10
+      "id": 8
     },
     {
       "title": "MUNDIAL DE BANDAS ZONA 3",
@@ -145,7 +119,20 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/general%2031-7-f6d5bafd-252f-4362-b162-a385da8d0a0d.png?alt=media&token=1127d1bc-7498-4c5c-b908-c9ba9412ccb8",
-      "id": 11
+      "id": 9
+    },
+    {
+      "title": "Supercachorros",
+      "cat": "recital",
+      "date": "2026-07-31",
+      "time": "15:00",
+      "venue": "Teatro Metro LP",
+      "city": "La Plata",
+      "source": "Teatro Metro LP",
+      "sourceKey": "teatrometrolp",
+      "url": "https://www.teatrometrolp.com.ar/entrada/supercachorros-100795",
+      "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/entradas/781192618917.jpg",
+      "id": 10
     },
     {
       "title": "Vacaciones Divertidas: El Cascanueces | Viernes 31/7 | 16:00",
@@ -158,6 +145,19 @@
       "sourceKey": "teatroargentino",
       "url": "https://teatroargentino.gba.gob.ar/meets/no-season",
       "flyer": "",
+      "id": 11
+    },
+    {
+      "title": "Viaje Jurásico",
+      "cat": "recital",
+      "date": "2026-07-31",
+      "time": "17:30",
+      "venue": "Teatro Metro LP",
+      "city": "La Plata",
+      "source": "Teatro Metro LP",
+      "sourceKey": "teatrometrolp",
+      "url": "https://www.teatrometrolp.com.ar/entrada/viaje-jurasico-100718",
+      "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/entradas/20260611141723_1920x1080.jpg",
       "id": 12
     },
     {
