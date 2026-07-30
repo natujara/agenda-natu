@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-07-30T16:25:45.201481",
+  "updated_at": "2026-07-30T22:03:53.407886",
   "source": "scraper-natu-v10",
   "city": "La Plata",
-  "total": 56,
+  "total": 57,
   "events": [
     {
       "title": "Ciclo \"El cine está vivo\" | Proyección de \"Un lugar en el mundo\" y charla con Cecilia Roth | Jueves 30/7 | 18:00",
@@ -460,6 +460,19 @@
       "id": 35
     },
     {
+      "title": "Botis Cromático en La Plata",
+      "cat": "recital",
+      "date": "",
+      "time": "20:00",
+      "venue": "Sábado 15/08, 20:00 hsLa Maga Club De Arte, La Plata.",
+      "city": "La Plata",
+      "source": "Alpogo",
+      "sourceKey": "alpogo",
+      "url": "https://alpogo.com/evento/botis-cromatico-en-la-plata-27894",
+      "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1785429697_6a6b7ec1d32fb.jpg",
+      "id": 36
+    },
+    {
       "title": "Botón de Arrep.",
       "cat": "recital",
       "date": "",
@@ -470,7 +483,7 @@
       "sourceKey": "plateanet",
       "url": "http://qr.afip.gob.ar/?qr=kwtNgkcpGIa54lJJxVAn0A,,",
       "flyer": "https://www.plateanet.com./assets/footer/comodo_2021.svg",
-      "id": 36
+      "id": 37
     },
     {
       "title": "Bruja Salguero",
@@ -483,7 +496,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/bruja-salguero/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/web_V1-1.jpg",
-      "id": 37
+      "id": 38
     },
     {
       "title": "Canciones en la Banquina: Fari - Heyy Ema - Naaju",
@@ -496,7 +509,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/canciones-en-la-banquina-fari-heyy-ema-naaju-27648",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1784302116_6a5a4a24c3657.jpg",
-      "id": 38
+      "id": 39
     },
     {
       "title": "Carinhosos y Caracol a Contramano",
@@ -509,7 +522,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/carinhosos-y-caracol-a-contramano/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-22-at-14.00.14.jpeg",
-      "id": 39
+      "id": 40
     },
     {
       "title": "COMPRARObrasTeatrosEticketBeneficiosTérminos y condiciones",
@@ -522,7 +535,7 @@
       "sourceKey": "plateanet",
       "url": "https://www.plateanet.com/reportes",
       "flyer": "https://www.plateanet.comassets/footer/footer_flecha.svg",
-      "id": 40
+      "id": 41
     },
     {
       "title": "El Tablao | Carito Echegaray",
@@ -535,7 +548,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/el-tablao-carito-echegaray/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/07/WEB-carito-echagaray.png",
-      "id": 41
+      "id": 42
     },
     {
       "title": "encontranos en",
@@ -548,7 +561,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 42
+      "id": 43
     },
     {
       "title": "Etiqueta Negra en La Plata",
@@ -561,7 +574,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/etiqueta-negra-en-la-plata-27787",
       "flyer": "https://imagenes.alpogo.com/eventos/cde8e32b-a951-4ebc-8c19-61fe2d1e5511.webp",
-      "id": 43
+      "id": 44
     },
     {
       "title": "Inicio(current)EL TEATROCARTELERANOTICIASCONTACTO",
@@ -574,7 +587,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 44
+      "id": 45
     },
     {
       "title": "Juan Solá- Unipersonal",
@@ -587,7 +600,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/juan-sola/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/web_Juan_Sola.png",
-      "id": 45
+      "id": 46
     },
     {
       "title": "La milenaria",
@@ -600,7 +613,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/la-milenaria/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/1600X1000.png",
-      "id": 46
+      "id": 47
     },
     {
       "title": "La Vuelta de La Chicharata",
@@ -613,7 +626,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/la-vuelta-de-la-chicharata-27830",
       "flyer": "https://imagenes.alpogo.com/eventos/49ac33bb-ada7-48e4-ac0d-90d2367774d1.webp",
-      "id": 47
+      "id": 48
     },
     {
       "title": "LEA BENSASSON | Mi gran casamiento hebreo",
@@ -626,7 +639,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/lea-bensasson-mi-gran-casamiento-hebreo/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/pantalla-led-1-1.jpg",
-      "id": 48
+      "id": 49
     },
     {
       "title": "Los Raviolis | Piyama Party",
@@ -639,7 +652,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/los-raviolis-piyama-party/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/web_V1-1.png",
-      "id": 49
+      "id": 50
     },
     {
       "title": "Margarita Xirgu – Una actriz entre dos continentes",
@@ -652,20 +665,20 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/margarita-xirgu-una-actriz-entre-dos-continentes/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/04/2Oteyza.png",
-      "id": 50
+      "id": 51
     },
     {
       "title": "Música como en casa – Juan Iñaki",
       "cat": "recital",
       "date": "",
-      "time": "21:00",
+      "time": "20:00",
       "venue": "Casa Metro La Plata",
       "city": "La Plata",
       "source": "Casa Metro",
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/musica-como-en-casa-juan-inaki/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/Inaki_1600x1000.png",
-      "id": 51
+      "id": 52
     },
     {
       "title": "Nos gusta los 80",
@@ -678,7 +691,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/nos-gusta-los-80-27698",
       "flyer": "https://imagenes.alpogo.com/eventos/824e62ef-c6ca-4871-8759-d4df1ed5d824.webp",
-      "id": 52
+      "id": 53
     },
     {
       "title": "OCÉANO – COMPAÑIA D ZOQUETES",
@@ -691,7 +704,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/oceano/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/4_web-casa-metro.png",
-      "id": 53
+      "id": 54
     },
     {
       "title": "Teatro Ciego – Chakras",
@@ -704,7 +717,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/teatro-ciego-chakras/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/web_V1.jpg",
-      "id": 54
+      "id": 55
     },
     {
       "title": "Teatro Metro.Todos Los Derechos Reservados.",
@@ -717,7 +730,7 @@
       "sourceKey": "teatrometrolp",
       "url": "http://www.misticastudio.com",
       "flyer": "https://www.teatrometrolp.com.arimages/mistica-logo.png",
-      "id": 55
+      "id": 56
     },
     {
       "title": "Toch – Pulso Inicial",
@@ -730,7 +743,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/toch/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/pantalla-led-Toch.png",
-      "id": 56
+      "id": 57
     }
   ]
 }
