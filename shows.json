@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-30T11:03:33.460412",
+  "updated_at": "2026-07-30T16:25:45.201481",
   "source": "scraper-natu-v10",
   "city": "La Plata",
   "total": 56,
@@ -664,7 +664,7 @@
       "source": "Casa Metro",
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/musica-como-en-casa-juan-inaki/",
-      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/1600x1000_inaki.png",
+      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/Inaki_1600x1000.png",
       "id": 51
     },
     {
