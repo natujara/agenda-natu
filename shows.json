@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-31T11:23:03.405163",
+  "updated_at": "2026-07-31T16:35:15.915778",
   "source": "scraper-natu-v10",
   "city": "La Plata",
   "total": 58,
@@ -196,7 +196,7 @@
       "source": "CatPass",
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
-      "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/Ilumus_Muerdo-LP-1080x1080.jpg?alt=media&token=20110bcb-31d3-4902-9156-1a815e9df2d8",
+      "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/Ilumus_Muerdo-LP-1080x1080-6f9b7c73-f8c9-4067-8151-715f5e8d036d.jpg?alt=media&token=ce56edc2-d97f-4494-aa27-0ebbfbb973f5",
       "id": 15
     },
     {
