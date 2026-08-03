@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-08-03T17:09:45.394271",
+  "updated_at": "2026-08-03T22:03:22.017546",
   "source": "scraper-natu-v10",
   "city": "La Plata",
-  "total": 53,
+  "total": 33,
   "events": [
     {
       "title": "MUNDIAL DE BANDAS ZONA 3",
@@ -226,58 +226,6 @@
       "id": 17
     },
     {
-      "title": "Bahiano",
-      "cat": "recital",
-      "date": "2026-09-04",
-      "time": "21:00",
-      "venue": "Casa Metro La Plata",
-      "city": "La Plata",
-      "source": "Casa Metro",
-      "sourceKey": "casametro",
-      "url": "https://casametro.com.ar/evento/bahiano/",
-      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/04/Iumus_BahianoTour-LaPlata-1600x1000.jpg.jpeg",
-      "id": 18
-    },
-    {
-      "title": "Milagros Amud",
-      "cat": "recital",
-      "date": "2026-09-05",
-      "time": "21:00",
-      "venue": "Casa Metro La Plata",
-      "city": "La Plata",
-      "source": "Casa Metro",
-      "sourceKey": "casametro",
-      "url": "https://casametro.com.ar/evento/milagros-amud/",
-      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/pantalla-led-.jpg",
-      "id": 19
-    },
-    {
-      "title": "Sutottos | Feliz Día",
-      "cat": "recital",
-      "date": "2026-09-06",
-      "time": "18:00",
-      "venue": "Casa Metro La Plata",
-      "city": "La Plata",
-      "source": "Casa Metro",
-      "sourceKey": "casametro",
-      "url": "https://casametro.com.ar/evento/sutottos-feliz-dia/",
-      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/07/1600x1000-1.png",
-      "id": 20
-    },
-    {
-      "title": "Celebramos a Mercedes Sosa | REPROGRAMADO",
-      "cat": "recital",
-      "date": "2026-09-10",
-      "time": "21:00",
-      "venue": "Casa Metro La Plata",
-      "city": "La Plata",
-      "source": "Casa Metro",
-      "sourceKey": "casametro",
-      "url": "https://casametro.com.ar/evento/celebramos-a-mercedes-sosa/",
-      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/1600x1000_Mercedes.png",
-      "id": 21
-    },
-    {
       "title": "JOACO BURGOS en Ciudad de Gatos",
       "cat": "recital",
       "date": "2026-09-17",
@@ -288,20 +236,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/JOACO-BURGOS-LA-PLATA-FEED.png?alt=media&token=53d5e7c4-c0d6-484f-8ed9-8a0f2b6d7b8c",
-      "id": 22
-    },
-    {
-      "title": "Chu Rodríguez",
-      "cat": "recital",
-      "date": "2026-09-18",
-      "time": "21:00",
-      "venue": "Casa Metro La Plata",
-      "city": "La Plata",
-      "source": "Casa Metro",
-      "sourceKey": "casametro",
-      "url": "https://casametro.com.ar/evento/chu-rodriguez/",
-      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/LA-PLATA.jpg",
-      "id": 23
+      "id": 18
     },
     {
       "title": "Militantes del Climax en Ciudad de Gatos",
@@ -314,33 +249,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/Militantes_LAPLATA_Cuadrado.png?alt=media&token=55708dba-c11a-4ed3-9647-5c19914cc29c",
-      "id": 24
-    },
-    {
-      "title": "RALY BARRIONUEVO – EL CAMINO DE SOLGO",
-      "cat": "recital",
-      "date": "2026-09-18",
-      "time": "21:00",
-      "venue": "Casa Metro La Plata",
-      "city": "La Plata",
-      "source": "Casa Metro",
-      "sourceKey": "casametro",
-      "url": "https://casametro.com.ar/evento/raly-barrionuevo-el-camino-de-solgo/",
-      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/Ilumus_Raly_1600x1000-LaPlata.jpg",
-      "id": 25
-    },
-    {
-      "title": "Duratierra",
-      "cat": "recital",
-      "date": "2026-09-19",
-      "time": "21:00",
-      "venue": "Casa Metro La Plata",
-      "city": "La Plata",
-      "source": "Casa Metro",
-      "sourceKey": "casametro",
-      "url": "https://casametro.com.ar/evento/duratierra/",
-      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/07/1600x1000.png",
-      "id": 26
+      "id": 19
     },
     {
       "title": "CALIOPE FAMILY - LA FRANQUICIA",
@@ -353,7 +262,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/1000x1000.jpeg?alt=media&token=cc0cff0d-9370-4ef3-8d32-4131baa46dbf",
-      "id": 27
+      "id": 20
     },
     {
       "title": "404",
@@ -366,20 +275,7 @@
       "sourceKey": "passline",
       "url": "https://www.passline.com/",
       "flyer": "https://www.passline.com/error-400/img/passline-01.png",
-      "id": 28
-    },
-    {
-      "title": "Adriana Varela",
-      "cat": "recital",
-      "date": "",
-      "time": "21:00",
-      "venue": "Casa Metro La Plata",
-      "city": "La Plata",
-      "source": "Casa Metro",
-      "sourceKey": "casametro",
-      "url": "https://casametro.com.ar/evento/5463/",
-      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/04/web_Adriana.jpg",
-      "id": 29
+      "id": 21
     },
     {
       "title": "ANABEL URDANIZ presenta FESTEJO, el instante en el que elegimos la esperanza",
@@ -392,7 +288,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/anabel-urdaniz-presenta-festejo-el-instante-en-el-que-elegimos-la-esperanza-26704",
       "flyer": "https://imagenes.alpogo.com/eventos/a6b07b37-9de6-4731-bfa9-a19b3e370a73.webp",
-      "id": 30
+      "id": 22
     },
     {
       "title": "Botis Cromático en La Plata",
@@ -405,7 +301,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/botis-cromatico-en-la-plata-27894",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1785429697_6a6b7ec1d32fb.jpg",
-      "id": 31
+      "id": 23
     },
     {
       "title": "Botón de Arrep.",
@@ -418,20 +314,7 @@
       "sourceKey": "plateanet",
       "url": "http://qr.afip.gob.ar/?qr=kwtNgkcpGIa54lJJxVAn0A,,",
       "flyer": "https://www.plateanet.com./assets/footer/comodo_2021.svg",
-      "id": 32
-    },
-    {
-      "title": "Bruja Salguero",
-      "cat": "recital",
-      "date": "",
-      "time": "21:00",
-      "venue": "Casa Metro La Plata",
-      "city": "La Plata",
-      "source": "Casa Metro",
-      "sourceKey": "casametro",
-      "url": "https://casametro.com.ar/evento/bruja-salguero/",
-      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/web_V1-1.jpg",
-      "id": 33
+      "id": 24
     },
     {
       "title": "Canciones en la Banquina: Fari - Heyy Ema - Naaju",
@@ -444,20 +327,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/canciones-en-la-banquina-fari-heyy-ema-naaju-27648",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1784302116_6a5a4a24c3657.jpg",
-      "id": 34
-    },
-    {
-      "title": "Carinhosos y Caracol a Contramano",
-      "cat": "recital",
-      "date": "",
-      "time": "21:00",
-      "venue": "Casa Metro La Plata",
-      "city": "La Plata",
-      "source": "Casa Metro",
-      "sourceKey": "casametro",
-      "url": "https://casametro.com.ar/evento/carinhosos-y-caracol-a-contramano/",
-      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-22-at-14.00.14.jpeg",
-      "id": 35
+      "id": 25
     },
     {
       "title": "COMPRARObrasTeatrosEticketBeneficiosTérminos y condiciones",
@@ -470,20 +340,7 @@
       "sourceKey": "plateanet",
       "url": "https://www.plateanet.com/reportes",
       "flyer": "https://www.plateanet.comassets/footer/footer_flecha.svg",
-      "id": 36
-    },
-    {
-      "title": "El Tablao | Carito Echegaray",
-      "cat": "recital",
-      "date": "",
-      "time": "22:30",
-      "venue": "Casa Metro La Plata",
-      "city": "La Plata",
-      "source": "Casa Metro",
-      "sourceKey": "casametro",
-      "url": "https://casametro.com.ar/evento/el-tablao-carito-echegaray/",
-      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/07/WEB-carito-echagaray.png",
-      "id": 37
+      "id": 26
     },
     {
       "title": "encontranos en",
@@ -496,7 +353,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 38
+      "id": 27
     },
     {
       "title": "Etiqueta Negra en La Plata",
@@ -509,7 +366,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/etiqueta-negra-en-la-plata-27787",
       "flyer": "https://imagenes.alpogo.com/eventos/cde8e32b-a951-4ebc-8c19-61fe2d1e5511.webp",
-      "id": 39
+      "id": 28
     },
     {
       "title": "Inicio(current)EL TEATROCARTELERANOTICIASCONTACTO",
@@ -522,33 +379,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 40
-    },
-    {
-      "title": "Juan Solá- Unipersonal",
-      "cat": "teatro",
-      "date": "",
-      "time": "20:30",
-      "venue": "Casa Metro La Plata",
-      "city": "La Plata",
-      "source": "Casa Metro",
-      "sourceKey": "casametro",
-      "url": "https://casametro.com.ar/evento/juan-sola/",
-      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/web_Juan_Sola.png",
-      "id": 41
-    },
-    {
-      "title": "La milenaria",
-      "cat": "recital",
-      "date": "",
-      "time": "21:00",
-      "venue": "Casa Metro La Plata",
-      "city": "La Plata",
-      "source": "Casa Metro",
-      "sourceKey": "casametro",
-      "url": "https://casametro.com.ar/evento/la-milenaria/",
-      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/1600X1000.png",
-      "id": 42
+      "id": 29
     },
     {
       "title": "La Vuelta de La Chicharata",
@@ -561,72 +392,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/la-vuelta-de-la-chicharata-27830",
       "flyer": "https://imagenes.alpogo.com/eventos/49ac33bb-ada7-48e4-ac0d-90d2367774d1.webp",
-      "id": 43
-    },
-    {
-      "title": "LEA BENSASSON | Mi gran casamiento hebreo",
-      "cat": "recital",
-      "date": "",
-      "time": "21:00",
-      "venue": "Casa Metro La Plata",
-      "city": "La Plata",
-      "source": "Casa Metro",
-      "sourceKey": "casametro",
-      "url": "https://casametro.com.ar/evento/lea-bensasson-mi-gran-casamiento-hebreo/",
-      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/pantalla-led-1-1.jpg",
-      "id": 44
-    },
-    {
-      "title": "Los Raviolis | Piyama Party",
-      "cat": "recital",
-      "date": "",
-      "time": "17:00",
-      "venue": "Casa Metro La Plata",
-      "city": "La Plata",
-      "source": "Casa Metro",
-      "sourceKey": "casametro",
-      "url": "https://casametro.com.ar/evento/los-raviolis-piyama-party/",
-      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/web_V1-1.png",
-      "id": 45
-    },
-    {
-      "title": "Margarita Xirgu – Una actriz entre dos continentes",
-      "cat": "recital",
-      "date": "",
-      "time": "21:00",
-      "venue": "Casa Metro La Plata",
-      "city": "La Plata",
-      "source": "Casa Metro",
-      "sourceKey": "casametro",
-      "url": "https://casametro.com.ar/evento/margarita-xirgu-una-actriz-entre-dos-continentes/",
-      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/04/2Oteyza.png",
-      "id": 46
-    },
-    {
-      "title": "Mundo Wouu!",
-      "cat": "recital",
-      "date": "",
-      "time": "15:00",
-      "venue": "Casa Metro La Plata",
-      "city": "La Plata",
-      "source": "Casa Metro",
-      "sourceKey": "casametro",
-      "url": "https://casametro.com.ar/evento/mundo-wouu-2/",
-      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/08/web-mundo-wouu-1.png",
-      "id": 47
-    },
-    {
-      "title": "Música como en casa – Juan Iñaki",
-      "cat": "recital",
-      "date": "",
-      "time": "20:00",
-      "venue": "Casa Metro La Plata",
-      "city": "La Plata",
-      "source": "Casa Metro",
-      "sourceKey": "casametro",
-      "url": "https://casametro.com.ar/evento/musica-como-en-casa-juan-inaki/",
-      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/Inaki_1600x1000.png",
-      "id": 48
+      "id": 30
     },
     {
       "title": "Nos gusta los 80",
@@ -639,20 +405,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/nos-gusta-los-80-27698",
       "flyer": "https://imagenes.alpogo.com/eventos/824e62ef-c6ca-4871-8759-d4df1ed5d824.webp",
-      "id": 49
-    },
-    {
-      "title": "Teatro Ciego – Chakras",
-      "cat": "teatro",
-      "date": "",
-      "time": "19:00",
-      "venue": "Casa Metro La Plata",
-      "city": "La Plata",
-      "source": "Casa Metro",
-      "sourceKey": "casametro",
-      "url": "https://casametro.com.ar/evento/teatro-ciego-chakras/",
-      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/web_V1.jpg",
-      "id": 50
+      "id": 31
     },
     {
       "title": "Teatro Metro.Todos Los Derechos Reservados.",
@@ -665,20 +418,7 @@
       "sourceKey": "teatrometrolp",
       "url": "http://www.misticastudio.com",
       "flyer": "https://www.teatrometrolp.com.arimages/mistica-logo.png",
-      "id": 51
-    },
-    {
-      "title": "Toch – Pulso Inicial",
-      "cat": "recital",
-      "date": "",
-      "time": "22:30",
-      "venue": "Casa Metro La Plata",
-      "city": "La Plata",
-      "source": "Casa Metro",
-      "sourceKey": "casametro",
-      "url": "https://casametro.com.ar/evento/toch/",
-      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/pantalla-led-Toch.png",
-      "id": 52
+      "id": 32
     },
     {
       "title": "VICTORIA KLEIN BANDA",
@@ -691,7 +431,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/victoria-klein-banda-27931",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1785535805_6a6d1d3d5c66c.jpg",
-      "id": 53
+      "id": 33
     }
   ]
 }
