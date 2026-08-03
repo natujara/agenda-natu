@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-08-03T12:17:01.441778",
+  "updated_at": "2026-08-03T17:09:45.394271",
   "source": "scraper-natu-v10",
   "city": "La Plata",
-  "total": 52,
+  "total": 53,
   "events": [
     {
       "title": "MUNDIAL DE BANDAS ZONA 3",
@@ -603,6 +603,19 @@
       "id": 46
     },
     {
+      "title": "Mundo Wouu!",
+      "cat": "recital",
+      "date": "",
+      "time": "15:00",
+      "venue": "Casa Metro La Plata",
+      "city": "La Plata",
+      "source": "Casa Metro",
+      "sourceKey": "casametro",
+      "url": "https://casametro.com.ar/evento/mundo-wouu-2/",
+      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/08/web-mundo-wouu-1.png",
+      "id": 47
+    },
+    {
       "title": "Música como en casa – Juan Iñaki",
       "cat": "recital",
       "date": "",
@@ -613,7 +626,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/musica-como-en-casa-juan-inaki/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/Inaki_1600x1000.png",
-      "id": 47
+      "id": 48
     },
     {
       "title": "Nos gusta los 80",
@@ -626,7 +639,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/nos-gusta-los-80-27698",
       "flyer": "https://imagenes.alpogo.com/eventos/824e62ef-c6ca-4871-8759-d4df1ed5d824.webp",
-      "id": 48
+      "id": 49
     },
     {
       "title": "Teatro Ciego – Chakras",
@@ -639,7 +652,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/teatro-ciego-chakras/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/web_V1.jpg",
-      "id": 49
+      "id": 50
     },
     {
       "title": "Teatro Metro.Todos Los Derechos Reservados.",
@@ -652,7 +665,7 @@
       "sourceKey": "teatrometrolp",
       "url": "http://www.misticastudio.com",
       "flyer": "https://www.teatrometrolp.com.arimages/mistica-logo.png",
-      "id": 50
+      "id": 51
     },
     {
       "title": "Toch – Pulso Inicial",
@@ -665,7 +678,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/toch/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/pantalla-led-Toch.png",
-      "id": 51
+      "id": 52
     },
     {
       "title": "VICTORIA KLEIN BANDA",
@@ -678,7 +691,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/victoria-klein-banda-27931",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1785535805_6a6d1d3d5c66c.jpg",
-      "id": 52
+      "id": 53
     }
   ]
 }
