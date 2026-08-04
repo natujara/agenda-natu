@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-04T11:20:21.875836",
+  "updated_at": "2026-08-04T16:52:03.841198",
   "source": "scraper-natu-v10",
   "city": "La Plata",
   "total": 55,
@@ -14,7 +14,7 @@
       "source": "CatPass",
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
-      "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/1-6c5c723d-2aec-40a4-a788-066672f4365c.jpg?alt=media&token=3f9ebae0-cb71-4ce1-be39-977c71f9abd6",
+      "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/WhatsApp%20Image%202026-08-03%20at%2017.16.49-960700f7-3a5e-45a7-a725-c835d6da2402.jpeg?alt=media&token=44965c89-9651-414c-b46e-0390afb81d3d",
       "id": 1
     },
     {
