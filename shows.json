@@ -1,22 +1,9 @@
 {
-  "updated_at": "2026-08-06T11:18:01.436924",
+  "updated_at": "2026-08-07T01:05:19.528576",
   "source": "scraper-natu-v10",
   "city": "La Plata",
-  "total": 58,
+  "total": 59,
   "events": [
-    {
-      "title": "MUNDIAL DE BANDAS ZONA 3",
-      "cat": "recital",
-      "date": "2026-08-06",
-      "time": "19:00",
-      "venue": "",
-      "city": "La Plata",
-      "source": "CatPass",
-      "sourceKey": "catpass",
-      "url": "https://catpass.net/eventos",
-      "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/WhatsApp%20Image%202026-08-03%20at%2017.16.49-960700f7-3a5e-45a7-a725-c835d6da2402.jpeg?alt=media&token=44965c89-9651-414c-b46e-0390afb81d3d",
-      "id": 1
-    },
     {
       "title": "Candlelight",
       "cat": "recital",
@@ -28,7 +15,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/entrada/candlelight-100727",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/entradas/20260618110024_573918-candlelight_mediakit_generic_2022_01_19_espace_lumen_brussels_be_01-dfab1d-original-1738053442.jpg",
-      "id": 2
+      "id": 1
     },
     {
       "title": "LOSA | La Kueva del Perreo",
@@ -41,7 +28,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/7%20DE%20AGOSTO-3291240a-aab6-4799-a4ff-4ca3831fb371.png?alt=media&token=69d9a1c3-c153-4d81-8b1b-2c0336783645",
-      "id": 3
+      "id": 2
     },
     {
       "title": "MIEDO PURO + EL PIBE MATERIA",
@@ -54,7 +41,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/1ra%20placa-990929d2-32bb-4e89-a41e-3c83c1c09952.png?alt=media&token=57e9a3d9-76ee-462d-bf6f-83793ebb3385",
-      "id": 4
+      "id": 3
     },
     {
       "title": "Oscuro & bailable",
@@ -67,7 +54,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/Oscuro%20y%20bailable%201-fde46f10-48bd-4fd7-b984-aabd9ce6f278.png?alt=media&token=63636866-a9e1-4298-a4ab-6b3f4371d7ed",
-      "id": 5
+      "id": 4
     },
     {
       "title": "+ GATEO",
@@ -80,7 +67,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/Gateo02-e7b2df0f-92fb-4c33-a9f5-bd4d0912346f.png?alt=media&token=8c24b64e-5daf-47b6-8ec2-f5cf1ce20a78",
-      "id": 6
+      "id": 5
     },
     {
       "title": "Mañana Mi Coche Explotará + La Teoria del Caos",
@@ -93,7 +80,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/08082026.jpeg?alt=media&token=4bff9788-3cbe-4303-816e-54d225a88a4b",
-      "id": 7
+      "id": 6
     },
     {
       "title": "MUERDO - LA PLATA - CIUDAD DE GATOS",
@@ -106,6 +93,19 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/Ilumus_Muerdo-LP-1080x1080-6f9b7c73-f8c9-4067-8151-715f5e8d036d.jpg?alt=media&token=ce56edc2-d97f-4494-aa27-0ebbfbb973f5",
+      "id": 7
+    },
+    {
+      "title": "CABINA ABIERTA VOL I",
+      "cat": "recital",
+      "date": "2026-08-13",
+      "time": "19:00",
+      "venue": "",
+      "city": "La Plata",
+      "source": "CatPass",
+      "sourceKey": "catpass",
+      "url": "https://catpass.net/eventos",
+      "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/WhatsApp%20Image%202026-08-06%20at%2016.35.32-9273aa31-2a61-4327-88e4-5068c8a64a49.jpeg?alt=media&token=b4b160f7-515e-4880-873c-088cfd5b6f85",
       "id": 8
     },
     {
@@ -525,6 +525,19 @@
       "id": 40
     },
     {
+      "title": "Diego Martez & La Nadia Matilde en el Pasaje Dardo Rocha",
+      "cat": "arte",
+      "date": "",
+      "time": "20:00",
+      "venue": "Viernes 04/09, 20:00 hsCentro Municipal de las Artes Pasaje Dardo Rocha, La Plata.",
+      "city": "La Plata",
+      "source": "Alpogo",
+      "sourceKey": "alpogo",
+      "url": "https://alpogo.com/evento/diego-martez-la-nadia-matilde-en-el-pasaje-dardo-rocha-28051",
+      "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1786039566_6a74cd0e1c20a.jpg",
+      "id": 41
+    },
+    {
       "title": "El Tablao | Carito Echegaray",
       "cat": "recital",
       "date": "",
@@ -535,7 +548,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/el-tablao-carito-echegaray/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/07/WEB-carito-echagaray.png",
-      "id": 41
+      "id": 42
     },
     {
       "title": "encontranos en",
@@ -548,7 +561,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 42
+      "id": 43
     },
     {
       "title": "Etiqueta Negra en La Plata",
@@ -561,7 +574,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/etiqueta-negra-en-la-plata-27787",
       "flyer": "https://imagenes.alpogo.com/eventos/cde8e32b-a951-4ebc-8c19-61fe2d1e5511.webp",
-      "id": 43
+      "id": 44
     },
     {
       "title": "Inicio(current)EL TEATROCARTELERANOTICIASCONTACTO",
@@ -574,7 +587,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 44
+      "id": 45
     },
     {
       "title": "Juan Solá- Unipersonal",
@@ -587,7 +600,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/juan-sola/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/web_Juan_Sola.png",
-      "id": 45
+      "id": 46
     },
     {
       "title": "La milenaria",
@@ -600,7 +613,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/la-milenaria/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/1600X1000.png",
-      "id": 46
+      "id": 47
     },
     {
       "title": "La Vuelta de La Chicharata",
@@ -613,7 +626,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/la-vuelta-de-la-chicharata-27830",
       "flyer": "https://imagenes.alpogo.com/eventos/49ac33bb-ada7-48e4-ac0d-90d2367774d1.webp",
-      "id": 47
+      "id": 48
     },
     {
       "title": "LEA BENSASSON | Mi gran casamiento hebreo",
@@ -626,7 +639,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/lea-bensasson-mi-gran-casamiento-hebreo/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/pantalla-led-1-1.jpg",
-      "id": 48
+      "id": 49
     },
     {
       "title": "Los Raviolis | Piyama Party",
@@ -639,7 +652,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/los-raviolis-piyama-party/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/web_V1-1.png",
-      "id": 49
+      "id": 50
     },
     {
       "title": "Margarita Xirgu – Una actriz entre dos continentes",
@@ -652,7 +665,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/margarita-xirgu-una-actriz-entre-dos-continentes/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/04/2Oteyza.png",
-      "id": 50
+      "id": 51
     },
     {
       "title": "Mundo Wouu!",
@@ -665,7 +678,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/mundo-wouu-2/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/08/web-mundo-wouu-1.png",
-      "id": 51
+      "id": 52
     },
     {
       "title": "Música como en casa – Juan Iñaki",
@@ -678,7 +691,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/musica-como-en-casa-juan-inaki/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/Inaki_1600x1000.png",
-      "id": 52
+      "id": 53
     },
     {
       "title": "Nos gusta los 80",
@@ -691,7 +704,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/nos-gusta-los-80-27698",
       "flyer": "https://imagenes.alpogo.com/eventos/824e62ef-c6ca-4871-8759-d4df1ed5d824.webp",
-      "id": 53
+      "id": 54
     },
     {
       "title": "Teatro Ciego – Chakras",
@@ -704,7 +717,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/teatro-ciego-chakras/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/web_V1.jpg",
-      "id": 54
+      "id": 55
     },
     {
       "title": "Teatro Metro.Todos Los Derechos Reservados.",
@@ -717,7 +730,7 @@
       "sourceKey": "teatrometrolp",
       "url": "http://www.misticastudio.com",
       "flyer": "https://www.teatrometrolp.com.arimages/mistica-logo.png",
-      "id": 55
+      "id": 56
     },
     {
       "title": "Toch – Pulso Inicial",
@@ -730,7 +743,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/toch/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/pantalla-led-Toch.png",
-      "id": 56
+      "id": 57
     },
     {
       "title": "TOMAS METRIKF EN LA PLATA",
@@ -743,7 +756,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/tomas-metrikf-en-la-plata-28005",
       "flyer": "https://imagenes.alpogo.com/eventos/b3163f6a-c3b6-46aa-a735-b71da729c8da.webp",
-      "id": 57
+      "id": 58
     },
     {
       "title": "VICTORIA KLEIN BANDA",
@@ -756,7 +769,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/victoria-klein-banda-27931",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1785535805_6a6d1d3d5c66c.jpg",
-      "id": 58
+      "id": 59
     }
   ]
 }
