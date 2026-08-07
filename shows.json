@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-08-07T09:55:39.451817",
+  "updated_at": "2026-08-07T15:48:44.887484",
   "source": "scraper-natu-v10",
   "city": "La Plata",
-  "total": 59,
+  "total": 60,
   "events": [
     {
       "title": "Candlelight",
@@ -109,7 +109,7 @@
       "id": 8
     },
     {
-      "title": "LIGHTPLAY | TRIBUTO A COLDPLAY",
+      "title": "Lightplay | SUSPENDIDO",
       "cat": "recital",
       "date": "2026-08-14",
       "time": "21:00",
@@ -603,6 +603,19 @@
       "id": 46
     },
     {
+      "title": "LA DUPLA METALERA en LA PLATA",
+      "cat": "recital",
+      "date": "",
+      "time": "20:00",
+      "venue": "Viernes 30/10, 20:00 hsCentro Cultural Los lobos, Buenos Aires",
+      "city": "La Plata",
+      "source": "Alpogo",
+      "sourceKey": "alpogo",
+      "url": "https://alpogo.com/evento/la-dupla-metalera-en-la-plata-28059",
+      "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1786097161_6a75ae0954f6a.jpg",
+      "id": 47
+    },
+    {
       "title": "La milenaria",
       "cat": "recital",
       "date": "",
@@ -613,7 +626,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/la-milenaria/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/1600X1000.png",
-      "id": 47
+      "id": 48
     },
     {
       "title": "La Vuelta de La Chicharata",
@@ -626,7 +639,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/la-vuelta-de-la-chicharata-27830",
       "flyer": "https://imagenes.alpogo.com/eventos/49ac33bb-ada7-48e4-ac0d-90d2367774d1.webp",
-      "id": 48
+      "id": 49
     },
     {
       "title": "LEA BENSASSON | Mi gran casamiento hebreo",
@@ -639,7 +652,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/lea-bensasson-mi-gran-casamiento-hebreo/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/pantalla-led-1-1.jpg",
-      "id": 49
+      "id": 50
     },
     {
       "title": "Los Raviolis | Piyama Party",
@@ -652,7 +665,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/los-raviolis-piyama-party/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/web_V1-1.png",
-      "id": 50
+      "id": 51
     },
     {
       "title": "Margarita Xirgu – Una actriz entre dos continentes",
@@ -665,7 +678,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/margarita-xirgu-una-actriz-entre-dos-continentes/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/04/2Oteyza.png",
-      "id": 51
+      "id": 52
     },
     {
       "title": "Mundo Wouu!",
@@ -678,7 +691,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/mundo-wouu-2/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/08/web-mundo-wouu-1.png",
-      "id": 52
+      "id": 53
     },
     {
       "title": "Música como en casa – Juan Iñaki",
@@ -691,7 +704,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/musica-como-en-casa-juan-inaki/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/Inaki_1600x1000.png",
-      "id": 53
+      "id": 54
     },
     {
       "title": "Nos gusta los 80",
@@ -704,7 +717,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/nos-gusta-los-80-27698",
       "flyer": "https://imagenes.alpogo.com/eventos/824e62ef-c6ca-4871-8759-d4df1ed5d824.webp",
-      "id": 54
+      "id": 55
     },
     {
       "title": "Teatro Ciego – Chakras",
@@ -717,7 +730,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/teatro-ciego-chakras/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/web_V1.jpg",
-      "id": 55
+      "id": 56
     },
     {
       "title": "Teatro Metro.Todos Los Derechos Reservados.",
@@ -730,7 +743,7 @@
       "sourceKey": "teatrometrolp",
       "url": "http://www.misticastudio.com",
       "flyer": "https://www.teatrometrolp.com.arimages/mistica-logo.png",
-      "id": 56
+      "id": 57
     },
     {
       "title": "Toch – Pulso Inicial",
@@ -743,7 +756,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/toch/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/pantalla-led-Toch.png",
-      "id": 57
+      "id": 58
     },
     {
       "title": "TOMAS METRIKF EN LA PLATA",
@@ -756,7 +769,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/tomas-metrikf-en-la-plata-28005",
       "flyer": "https://imagenes.alpogo.com/eventos/b3163f6a-c3b6-46aa-a735-b71da729c8da.webp",
-      "id": 58
+      "id": 59
     },
     {
       "title": "VICTORIA KLEIN BANDA",
@@ -769,7 +782,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/victoria-klein-banda-27931",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1785535805_6a6d1d3d5c66c.jpg",
-      "id": 59
+      "id": 60
     }
   ]
 }
