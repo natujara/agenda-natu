@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-08-11T09:55:18.834966",
+  "updated_at": "2026-08-11T15:54:21.732510",
   "source": "scraper-natu-v10",
   "city": "La Plata",
-  "total": 53,
+  "total": 54,
   "events": [
     {
       "title": "Ciclo \"El cine está vivo\" | Homenaje a Adolfo Aristarain | Proyección de “Martín Hache” | Miércoles 12/8 | 18:00",
@@ -460,6 +460,19 @@
       "id": 35
     },
     {
+      "title": "DA SKATE -  EN LA PLATA",
+      "cat": "recital",
+      "date": "",
+      "time": "19:00",
+      "venue": "Viernes 06/11, 19:00 hsCasa Unclan",
+      "city": "La Plata",
+      "source": "Alpogo",
+      "sourceKey": "alpogo",
+      "url": "https://alpogo.com/evento/da-skate-en-la-plata-28137",
+      "flyer": "https://imagenes.alpogo.com/eventos/5a3b6713-4d6e-4a48-8618-8a6ffab20cf3.webp",
+      "id": 36
+    },
+    {
       "title": "Diego Martez & La Nadia Matilde en el Pasaje Dardo Rocha",
       "cat": "arte",
       "date": "",
@@ -470,7 +483,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/diego-martez-la-nadia-matilde-en-el-pasaje-dardo-rocha-28051",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1786039566_6a74cd0e1c20a.jpg",
-      "id": 36
+      "id": 37
     },
     {
       "title": "El Tablao | Carito Echegaray",
@@ -483,7 +496,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/el-tablao-carito-echegaray/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/07/WEB-carito-echagaray.png",
-      "id": 37
+      "id": 38
     },
     {
       "title": "encontranos en",
@@ -496,7 +509,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 38
+      "id": 39
     },
     {
       "title": "Etiqueta Negra en La Plata",
@@ -509,7 +522,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/etiqueta-negra-en-la-plata-27787",
       "flyer": "https://imagenes.alpogo.com/eventos/cde8e32b-a951-4ebc-8c19-61fe2d1e5511.webp",
-      "id": 39
+      "id": 40
     },
     {
       "title": "Inicio(current)EL TEATROCARTELERANOTICIASCONTACTO",
@@ -522,7 +535,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 40
+      "id": 41
     },
     {
       "title": "Juan Solá- Unipersonal",
@@ -535,7 +548,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/juan-sola/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/web_Juan_Sola.png",
-      "id": 41
+      "id": 42
     },
     {
       "title": "LA DUPLA METALERA en LA PLATA",
@@ -548,7 +561,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/la-dupla-metalera-en-la-plata-28059",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1786097161_6a75ae0954f6a.jpg",
-      "id": 42
+      "id": 43
     },
     {
       "title": "La milenaria",
@@ -561,7 +574,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/la-milenaria/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/1600X1000.png",
-      "id": 43
+      "id": 44
     },
     {
       "title": "La Vuelta de La Chicharata",
@@ -574,7 +587,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/la-vuelta-de-la-chicharata-27830",
       "flyer": "https://imagenes.alpogo.com/eventos/49ac33bb-ada7-48e4-ac0d-90d2367774d1.webp",
-      "id": 44
+      "id": 45
     },
     {
       "title": "Margarita Xirgu – Una actriz entre dos continentes",
@@ -587,7 +600,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/margarita-xirgu-una-actriz-entre-dos-continentes/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/04/2Oteyza.png",
-      "id": 45
+      "id": 46
     },
     {
       "title": "Música como en casa – Juan Iñaki",
@@ -600,7 +613,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/musica-como-en-casa-juan-inaki/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/Inaki_1600x1000.png",
-      "id": 46
+      "id": 47
     },
     {
       "title": "Nos gusta los 80",
@@ -613,7 +626,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/nos-gusta-los-80-27698",
       "flyer": "https://imagenes.alpogo.com/eventos/824e62ef-c6ca-4871-8759-d4df1ed5d824.webp",
-      "id": 47
+      "id": 48
     },
     {
       "title": "Núcleo – Sesiones de música clásica",
@@ -626,7 +639,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/nucleo-segunda-edicion/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/nucleo_web_banner-copia.png",
-      "id": 48
+      "id": 49
     },
     {
       "title": "Sindicato Argentino de Boleros | Amor de Miércoles",
@@ -639,7 +652,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/sindicato-argentino-de-boleros-amor-de-miercoles/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/08/ticketera-ciclo-metro-14-08.jpg",
-      "id": 49
+      "id": 50
     },
     {
       "title": "Teatro Ciego – Chakras",
@@ -652,7 +665,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/teatro-ciego-chakras/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/web_V1.jpg",
-      "id": 50
+      "id": 51
     },
     {
       "title": "Teatro Metro.Todos Los Derechos Reservados.",
@@ -665,7 +678,7 @@
       "sourceKey": "teatrometrolp",
       "url": "http://www.misticastudio.com",
       "flyer": "https://www.teatrometrolp.com.arimages/mistica-logo.png",
-      "id": 51
+      "id": 52
     },
     {
       "title": "TOMAS METRIKF EN LA PLATA",
@@ -678,7 +691,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/tomas-metrikf-en-la-plata-28005",
       "flyer": "https://imagenes.alpogo.com/eventos/b3163f6a-c3b6-46aa-a735-b71da729c8da.webp",
-      "id": 52
+      "id": 53
     },
     {
       "title": "VICTORIA KLEIN BANDA",
@@ -691,7 +704,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/victoria-klein-banda-27931",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1785535805_6a6d1d3d5c66c.jpg",
-      "id": 53
+      "id": 54
     }
   ]
 }
