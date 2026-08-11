@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-08-10T21:37:45.420843",
+  "updated_at": "2026-08-11T04:16:23.942349",
   "source": "scraper-natu-v10",
   "city": "La Plata",
-  "total": 52,
+  "total": 53,
   "events": [
     {
       "title": "Ciclo \"El cine está vivo\" | Homenaje a Adolfo Aristarain | Proyección de “Martín Hache” | Miércoles 12/8 | 18:00",
@@ -96,6 +96,19 @@
       "id": 7
     },
     {
+      "title": "LA PLATA SPORT FT. ATRAKO",
+      "cat": "recital",
+      "date": "2026-08-16",
+      "time": "23:59",
+      "venue": "",
+      "city": "La Plata",
+      "source": "CatPass",
+      "sourceKey": "catpass",
+      "url": "https://catpass.net/eventos",
+      "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/IMG_0918-391cf32c-438f-4bf8-80d1-8aa3815ff6ca.png?alt=media&token=24823b0f-2eb5-48a4-8286-39571c6cdded",
+      "id": 8
+    },
+    {
       "title": "CARCA & MOSTRUO",
       "cat": "recital",
       "date": "2026-08-21",
@@ -106,7 +119,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/1-FEED-CARCA%2BMOSTRUO.jpg?alt=media&token=2fcc0304-2ae9-43db-b2c9-9fd5498a98ec",
-      "id": 8
+      "id": 9
     },
     {
       "title": "FULGOR #20 INVIERNO HOT",
@@ -119,7 +132,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/Fulgor%2020%20.png?alt=media&token=4f95da24-7fca-4d90-b2b3-37c35d199bb2",
-      "id": 9
+      "id": 10
     },
     {
       "title": "LOS BESOS",
@@ -132,7 +145,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/LOSBESOS_2026_FEED_LAPLATA_FINAL_003.jpeg?alt=media&token=401b09bd-e627-45a5-9213-65c568748c21",
-      "id": 10
+      "id": 11
     },
     {
       "title": "2026-08-29 | Seru Giran por Cinema Verité en La Plata",
@@ -145,7 +158,7 @@
       "sourceKey": "mianticipada",
       "url": "https://entradas.mianticipada.com/es/seruporcinema/evento/seru-giran-por-cinema-verite-en-la-plata-trzk",
       "flyer": "https://mianticipada.com/media/imagenes_eventos/home/2026/05/060526-cinema-laplata_2_1.webp",
-      "id": 11
+      "id": 12
     },
     {
       "title": "CANTAMOS FATAL - CHARO LÓPEZ",
@@ -158,7 +171,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/97465cd8-f782-4b75-b67b-0e7bf81fbeeb-65ab0285-e582-40c3-a6ad-f3fd00d15658.jpeg?alt=media&token=fd1c9aea-4899-4526-af45-f48f9bea448b",
-      "id": 12
+      "id": 13
     },
     {
       "title": "CarteleraCartelera deTodosAgosto 2026Septiembre 2026Octubre 2026Noviembre 2026",
@@ -171,7 +184,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/entrada/es-complicado-100819",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/entradas/20260801171551_425x318.jpg",
-      "id": 13
+      "id": 14
     },
     {
       "title": "Baglietto – Vitale | Canciones de amor",
@@ -184,7 +197,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/baglietto-vitale-canciones-de-amor/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/08/1600x1000_baglietto.png",
-      "id": 14
+      "id": 15
     },
     {
       "title": "Piazzola electrónico x Nico Sorín 2DA FUNCIÓN",
@@ -197,7 +210,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/Piazzolla%20electronico_Feed.png?alt=media&token=efeed174-a275-480d-bfe7-8737e5ab5d35",
-      "id": 15
+      "id": 16
     },
     {
       "title": "Bahiano",
@@ -210,7 +223,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/bahiano/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/04/Iumus_BahianoTour-LaPlata-1600x1000.jpg.jpeg",
-      "id": 16
+      "id": 17
     },
     {
       "title": "Gaby Echevarría y Lucho Sellan | Rock Nacional para Bebés",
@@ -223,7 +236,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/gaby-echevarria-y-lucho-sellan-rock-nacional-para-bebes/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/08/portada-web-tv-Rock-nacional-para-bebes.png",
-      "id": 17
+      "id": 18
     },
     {
       "title": "Milagros Amud",
@@ -236,7 +249,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/milagros-amud/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/pantalla-led-.jpg",
-      "id": 18
+      "id": 19
     },
     {
       "title": "Sutottos | Feliz Día",
@@ -249,7 +262,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/sutottos-feliz-dia/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/07/1600x1000-1.png",
-      "id": 19
+      "id": 20
     },
     {
       "title": "Celebramos a Mercedes Sosa | REPROGRAMADO",
@@ -262,7 +275,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/celebramos-a-mercedes-sosa/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/1600x1000_Mercedes.png",
-      "id": 20
+      "id": 21
     },
     {
       "title": "HOJAS POR EL BARRIO presenta Aun que sea",
@@ -275,7 +288,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/Hojas_Flyer%20presentacio%CC%81n%20de%20disco_EN%20ALTA-ff7ad7a8-f237-4a92-b815-b1a8328c21aa.jpg?alt=media&token=fdd9486e-2ca1-4287-9965-f67d0f933245",
-      "id": 21
+      "id": 22
     },
     {
       "title": "La Carroza de Voz en Accion ft. LA PUTA AMA!",
@@ -288,7 +301,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/WhatsApp%20Image%202026-08-08%20at%2011.49.41%20PM-f6083b61-20bc-4396-9c5c-d290d9e2895b.jpeg?alt=media&token=c0b3106e-58e6-461c-9a6e-c81eee099d39",
-      "id": 22
+      "id": 23
     },
     {
       "title": "JOACO BURGOS en Ciudad de Gatos",
@@ -301,7 +314,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/JOACO-BURGOS-LA-PLATA-FEED.png?alt=media&token=53d5e7c4-c0d6-484f-8ed9-8a0f2b6d7b8c",
-      "id": 23
+      "id": 24
     },
     {
       "title": "Chu Rodríguez",
@@ -314,7 +327,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/chu-rodriguez/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/LA-PLATA.jpg",
-      "id": 24
+      "id": 25
     },
     {
       "title": "Militantes del Climax en Ciudad de Gatos",
@@ -327,7 +340,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/Militantes_LAPLATA_Cuadrado.png?alt=media&token=55708dba-c11a-4ed3-9647-5c19914cc29c",
-      "id": 25
+      "id": 26
     },
     {
       "title": "RALY BARRIONUEVO – EL CAMINO DE SOLGO",
@@ -340,19 +353,6 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/raly-barrionuevo-el-camino-de-solgo/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/Ilumus_Raly_1600x1000-LaPlata.jpg",
-      "id": 26
-    },
-    {
-      "title": "Duratierra",
-      "cat": "recital",
-      "date": "2026-09-19",
-      "time": "21:00",
-      "venue": "Casa Metro La Plata",
-      "city": "La Plata",
-      "source": "Casa Metro",
-      "sourceKey": "casametro",
-      "url": "https://casametro.com.ar/evento/duratierra/",
-      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/07/1600x1000.png",
       "id": 27
     },
     {
@@ -616,6 +616,19 @@
       "id": 47
     },
     {
+      "title": "Núcleo – Sesiones de música clásica",
+      "cat": "recital",
+      "date": "",
+      "time": "20:00",
+      "venue": "Casa Metro La Plata",
+      "city": "La Plata",
+      "source": "Casa Metro",
+      "sourceKey": "casametro",
+      "url": "https://casametro.com.ar/evento/nucleo-segunda-edicion/",
+      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/nucleo_web_banner-copia.png",
+      "id": 48
+    },
+    {
       "title": "Sindicato Argentino de Boleros | Amor de Miércoles",
       "cat": "recital",
       "date": "",
@@ -626,7 +639,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/sindicato-argentino-de-boleros-amor-de-miercoles/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/08/ticketera-ciclo-metro-14-08.jpg",
-      "id": 48
+      "id": 49
     },
     {
       "title": "Teatro Ciego – Chakras",
@@ -639,7 +652,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/teatro-ciego-chakras/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/web_V1.jpg",
-      "id": 49
+      "id": 50
     },
     {
       "title": "Teatro Metro.Todos Los Derechos Reservados.",
@@ -652,7 +665,7 @@
       "sourceKey": "teatrometrolp",
       "url": "http://www.misticastudio.com",
       "flyer": "https://www.teatrometrolp.com.arimages/mistica-logo.png",
-      "id": 50
+      "id": 51
     },
     {
       "title": "TOMAS METRIKF EN LA PLATA",
@@ -665,7 +678,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/tomas-metrikf-en-la-plata-28005",
       "flyer": "https://imagenes.alpogo.com/eventos/b3163f6a-c3b6-46aa-a735-b71da729c8da.webp",
-      "id": 51
+      "id": 52
     },
     {
       "title": "VICTORIA KLEIN BANDA",
@@ -678,7 +691,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/victoria-klein-banda-27931",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1785535805_6a6d1d3d5c66c.jpg",
-      "id": 52
+      "id": 53
     }
   ]
 }
