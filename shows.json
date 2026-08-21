@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-08-21T09:30:34.235117",
+  "updated_at": "2026-08-21T15:28:07.053479",
   "source": "scraper-natu-v10",
   "city": "La Plata",
-  "total": 66,
+  "total": 67,
   "events": [
     {
       "title": "CARCA & MOSTRUO",
@@ -861,6 +861,19 @@
       "url": "https://alpogo.com/evento/vie-2808-bratters-en-la-plata-28375",
       "flyer": "https://imagenes.alpogo.com/eventos/9623a2f4-74eb-4e07-9770-c204b5ea555a.webp",
       "id": 66
+    },
+    {
+      "title": "VIE 28/8 - BRATTERS en La Plata",
+      "cat": "recital",
+      "date": "",
+      "time": "20:00",
+      "venue": "Viernes 28/08, 20:00 hsBlondie Cultural, La Plata",
+      "city": "La Plata",
+      "source": "Alpogo",
+      "sourceKey": "alpogo",
+      "url": "https://alpogo.com/evento/vie-288-bratters-en-la-plata-28316",
+      "flyer": "https://imagenes.alpogo.com/eventos/fd9faf3e-b6cb-4711-b987-01b1c033239d.webp",
+      "id": 67
     }
   ]
 }
