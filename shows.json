@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-22T09:22:43.265095",
+  "updated_at": "2026-08-22T15:16:15.990800",
   "source": "scraper-natu-v10",
   "city": "La Plata",
   "total": 65,
@@ -460,6 +460,19 @@
       "id": 35
     },
     {
+      "title": "LEONARDO AMUEDOY DANIEL MAZA",
+      "cat": "recital",
+      "date": "2026-10-01",
+      "time": "21:00",
+      "venue": "Casa Metro La Plata",
+      "city": "La Plata",
+      "source": "Casa Metro",
+      "sourceKey": "casametro",
+      "url": "https://casametro.com.ar/evento/leonardoamuedoy-daniel-maza/",
+      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/08/WEB-1.png",
+      "id": 36
+    },
+    {
       "title": "CALIOPE FAMILY - LA FRANQUICIA",
       "cat": "recital",
       "date": "2026-10-15",
@@ -470,7 +483,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/1000x1000.jpeg?alt=media&token=cc0cff0d-9370-4ef3-8d32-4131baa46dbf",
-      "id": 36
+      "id": 37
     },
     {
       "title": "THD+N ALL NIGHT LONG",
@@ -483,7 +496,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/IMG_0989-79ffbfba-13b7-496f-b6ae-9101602981f1.png?alt=media&token=4ab31ac2-8bd8-403a-89fd-12b1fc2a385b",
-      "id": 37
+      "id": 38
     },
     {
       "title": "404",
@@ -496,7 +509,7 @@
       "sourceKey": "passline",
       "url": "https://www.passline.com/",
       "flyer": "https://www.passline.com/error-400/img/passline-01.png",
-      "id": 38
+      "id": 39
     },
     {
       "title": "5to día y medio del Recreo uruguayo",
@@ -509,7 +522,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/5to-dia-y-medio-del-recreo-uruguayo-28199",
       "flyer": "https://imagenes.alpogo.com/eventos/aa771891-9221-458c-b440-80e016b8f960.webp",
-      "id": 39
+      "id": 40
     },
     {
       "title": "ANABEL URDANIZ presenta FESTEJO, el instante en el que elegimos la esperanza",
@@ -522,7 +535,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/anabel-urdaniz-presenta-festejo-el-instante-en-el-que-elegimos-la-esperanza-26704",
       "flyer": "https://imagenes.alpogo.com/eventos/a6b07b37-9de6-4731-bfa9-a19b3e370a73.webp",
-      "id": 40
+      "id": 41
     },
     {
       "title": "Botón de Arrep.",
@@ -535,7 +548,7 @@
       "sourceKey": "plateanet",
       "url": "http://qr.afip.gob.ar/?qr=kwtNgkcpGIa54lJJxVAn0A,,",
       "flyer": "https://www.plateanet.com./assets/footer/comodo_2021.svg",
-      "id": 41
+      "id": 42
     },
     {
       "title": "Bruja Salguero",
@@ -548,7 +561,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/bruja-salguero/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/web_V1-1.jpg",
-      "id": 42
+      "id": 43
     },
     {
       "title": "CATA DE VINO - Formidable x Autopista",
@@ -561,7 +574,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/cata-de-vino-formidable-x-autopista-28264",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1786743135_6a7f895fd5024.jpg",
-      "id": 43
+      "id": 44
     },
     {
       "title": "COMPRARObrasTeatrosEticketBeneficiosTérminos y condiciones",
@@ -574,7 +587,7 @@
       "sourceKey": "plateanet",
       "url": "https://www.plateanet.com/reportes",
       "flyer": "https://www.plateanet.comassets/footer/footer_flecha.svg",
-      "id": 44
+      "id": 45
     },
     {
       "title": "DA SKATE -  EN LA PLATA",
@@ -587,7 +600,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/da-skate-en-la-plata-28137",
       "flyer": "https://imagenes.alpogo.com/eventos/5a3b6713-4d6e-4a48-8618-8a6ffab20cf3.webp",
-      "id": 45
+      "id": 46
     },
     {
       "title": "Diego Martez & La Nadia Matilde en el Pasaje Dardo Rocha",
@@ -600,7 +613,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/diego-martez-la-nadia-matilde-en-el-pasaje-dardo-rocha-28051",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1786039566_6a74cd0e1c20a.jpg",
-      "id": 46
+      "id": 47
     },
     {
       "title": "encontranos en",
@@ -613,7 +626,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 47
+      "id": 48
     },
     {
       "title": "ENSAYO ABIERTO - Benja Molina Chazarreta (Full Band)",
@@ -626,7 +639,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/ensayo-abierto-benja-molina-chazarreta-full-band-28287",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1786837561_6a80fa3967d2f.jpg",
-      "id": 48
+      "id": 49
     },
     {
       "title": "Etiqueta Negra en La Plata",
@@ -639,7 +652,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/etiqueta-negra-en-la-plata-27787",
       "flyer": "https://imagenes.alpogo.com/eventos/cde8e32b-a951-4ebc-8c19-61fe2d1e5511.webp",
-      "id": 49
+      "id": 50
     },
     {
       "title": "FIESTA UGH! | LA PLATA | EDICIÓN POWERPOP GIRLS",
@@ -652,7 +665,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/fiesta-ugh-la-plata-edicion-powerpop-girls-28343",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1787165718_6a85fc16c8b2c.jpg",
-      "id": 50
+      "id": 51
     },
     {
       "title": "Inicio(current)EL TEATROCARTELERANOTICIASCONTACTO",
@@ -665,7 +678,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 51
+      "id": 52
     },
     {
       "title": "Juan Solá- Unipersonal",
@@ -678,7 +691,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/juan-sola/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/web_Juan_Sola.png",
-      "id": 52
+      "id": 53
     },
     {
       "title": "LA DUPLA METALERA en LA PLATA",
@@ -691,7 +704,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/la-dupla-metalera-en-la-plata-28059",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1786097161_6a75ae0954f6a.jpg",
-      "id": 53
+      "id": 54
     },
     {
       "title": "La milenaria",
@@ -704,7 +717,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/la-milenaria/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/1600X1000.png",
-      "id": 54
+      "id": 55
     },
     {
       "title": "La Vuelta de La Chicharata",
@@ -717,19 +730,6 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/la-vuelta-de-la-chicharata-27830",
       "flyer": "https://imagenes.alpogo.com/eventos/49ac33bb-ada7-48e4-ac0d-90d2367774d1.webp",
-      "id": 55
-    },
-    {
-      "title": "Margarita Xirgu – Una actriz entre dos continentes",
-      "cat": "recital",
-      "date": "",
-      "time": "21:00",
-      "venue": "Casa Metro La Plata",
-      "city": "La Plata",
-      "source": "Casa Metro",
-      "sourceKey": "casametro",
-      "url": "https://casametro.com.ar/evento/margarita-xirgu-una-actriz-entre-dos-continentes/",
-      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/04/2Oteyza.png",
       "id": 56
     },
     {
@@ -768,7 +768,7 @@
       "source": "Casa Metro",
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/sindicato-argentino-de-boleros-amor-de-miercoles-2/",
-      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/08/1787244537463-531521135.jpg",
+      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/08/Carolina-Kiki_Ticketera_ok.png",
       "id": 59
     },
     {
