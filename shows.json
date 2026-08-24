@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-08-24T15:33:57.998631",
+  "updated_at": "2026-08-24T21:24:19.175061",
   "source": "scraper-natu-v10",
   "city": "La Plata",
-  "total": 59,
+  "total": 60,
   "events": [
     {
       "title": "Cabina abierta Vol III",
@@ -395,7 +395,20 @@
       "id": 30
     },
     {
-      "title": "LEONARDO AMUEDOY DANIEL MAZA",
+      "title": "Balbís & Fernández",
+      "cat": "recital",
+      "date": "2026-09-27",
+      "time": "21:00",
+      "venue": "Casa Metro La Plata",
+      "city": "La Plata",
+      "source": "Casa Metro",
+      "sourceKey": "casametro",
+      "url": "https://casametro.com.ar/evento/balbis-fernandez/",
+      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/08/pantalla-led-copia.jpg",
+      "id": 31
+    },
+    {
+      "title": "Leonardo Amuedo & Daniel Maza",
       "cat": "recital",
       "date": "2026-10-01",
       "time": "21:00",
@@ -405,33 +418,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/leonardoamuedoy-daniel-maza/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/08/WEB-1.png",
-      "id": 31
-    },
-    {
-      "title": "Miguel Cantilo",
-      "cat": "recital",
-      "date": "2026-10-02",
-      "time": "21:00",
-      "venue": "Casa Metro La Plata",
-      "city": "La Plata",
-      "source": "Casa Metro",
-      "sourceKey": "casametro",
-      "url": "https://casametro.com.ar/evento/miguel-cantilo/",
-      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/08/WEB-miguel-cantilo.png",
       "id": 32
-    },
-    {
-      "title": "Gabo y Comedia",
-      "cat": "standup",
-      "date": "2026-10-03",
-      "time": "21:00",
-      "venue": "Casa Metro La Plata",
-      "city": "La Plata",
-      "source": "Casa Metro",
-      "sourceKey": "casametro",
-      "url": "https://casametro.com.ar/evento/gabo-y-comedia/",
-      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/08/Web_Gabo.png",
-      "id": 33
     },
     {
       "title": "CALIOPE FAMILY - LA FRANQUICIA",
@@ -444,7 +431,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/1000x1000.jpeg?alt=media&token=cc0cff0d-9370-4ef3-8d32-4131baa46dbf",
-      "id": 34
+      "id": 33
     },
     {
       "title": "THD+N ALL NIGHT LONG",
@@ -457,7 +444,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/IMG_0989-79ffbfba-13b7-496f-b6ae-9101602981f1.png?alt=media&token=4ab31ac2-8bd8-403a-89fd-12b1fc2a385b",
-      "id": 35
+      "id": 34
     },
     {
       "title": "404",
@@ -470,7 +457,7 @@
       "sourceKey": "passline",
       "url": "https://www.passline.com/",
       "flyer": "https://www.passline.com/error-400/img/passline-01.png",
-      "id": 36
+      "id": 35
     },
     {
       "title": "5to día y medio del Recreo uruguayo",
@@ -483,7 +470,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/5to-dia-y-medio-del-recreo-uruguayo-28199",
       "flyer": "https://imagenes.alpogo.com/eventos/aa771891-9221-458c-b440-80e016b8f960.webp",
-      "id": 37
+      "id": 36
     },
     {
       "title": "ANABEL URDANIZ presenta FESTEJO, el instante en el que elegimos la esperanza",
@@ -496,7 +483,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/anabel-urdaniz-presenta-festejo-el-instante-en-el-que-elegimos-la-esperanza-26704",
       "flyer": "https://imagenes.alpogo.com/eventos/a6b07b37-9de6-4731-bfa9-a19b3e370a73.webp",
-      "id": 38
+      "id": 37
     },
     {
       "title": "Botón de Arrep.",
@@ -509,7 +496,7 @@
       "sourceKey": "plateanet",
       "url": "http://qr.afip.gob.ar/?qr=kwtNgkcpGIa54lJJxVAn0A,,",
       "flyer": "https://www.plateanet.com./assets/footer/comodo_2021.svg",
-      "id": 39
+      "id": 38
     },
     {
       "title": "Bruja Salguero",
@@ -522,7 +509,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/bruja-salguero/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/web_V1-1.jpg",
-      "id": 40
+      "id": 39
     },
     {
       "title": "CATA DE VINO - Formidable x Autopista",
@@ -535,7 +522,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/cata-de-vino-formidable-x-autopista-28264",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1786743135_6a7f895fd5024.jpg",
-      "id": 41
+      "id": 40
     },
     {
       "title": "COMPRARObrasTeatrosEticketBeneficiosTérminos y condiciones",
@@ -548,7 +535,7 @@
       "sourceKey": "plateanet",
       "url": "https://www.plateanet.com/reportes",
       "flyer": "https://www.plateanet.comassets/footer/footer_flecha.svg",
-      "id": 42
+      "id": 41
     },
     {
       "title": "DA SKATE -  EN LA PLATA",
@@ -561,7 +548,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/da-skate-en-la-plata-28137",
       "flyer": "https://imagenes.alpogo.com/eventos/5a3b6713-4d6e-4a48-8618-8a6ffab20cf3.webp",
-      "id": 43
+      "id": 42
     },
     {
       "title": "Diego Martez & La Nadia Matilde en el Pasaje Dardo Rocha",
@@ -574,7 +561,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/diego-martez-la-nadia-matilde-en-el-pasaje-dardo-rocha-28051",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1786039566_6a74cd0e1c20a.jpg",
-      "id": 44
+      "id": 43
     },
     {
       "title": "encontranos en",
@@ -587,7 +574,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 45
+      "id": 44
     },
     {
       "title": "ENSAYO ABIERTO - Benja Molina Chazarreta (Full Band)",
@@ -600,7 +587,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/ensayo-abierto-benja-molina-chazarreta-full-band-28287",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1786837561_6a80fa3967d2f.jpg",
-      "id": 46
+      "id": 45
     },
     {
       "title": "Etiqueta Negra en La Plata",
@@ -613,7 +600,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/etiqueta-negra-en-la-plata-27787",
       "flyer": "https://imagenes.alpogo.com/eventos/cde8e32b-a951-4ebc-8c19-61fe2d1e5511.webp",
-      "id": 47
+      "id": 46
     },
     {
       "title": "FIESTA UGH! | LA PLATA | EDICIÓN POWERPOP GIRLS",
@@ -626,7 +613,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/fiesta-ugh-la-plata-edicion-powerpop-girls-28343",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1787165718_6a85fc16c8b2c.jpg",
-      "id": 48
+      "id": 47
     },
     {
       "title": "Inicio(current)EL TEATROCARTELERANOTICIASCONTACTO",
@@ -639,7 +626,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 49
+      "id": 48
     },
     {
       "title": "LA DUPLA METALERA en LA PLATA",
@@ -652,7 +639,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/la-dupla-metalera-en-la-plata-28059",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1786097161_6a75ae0954f6a.jpg",
-      "id": 50
+      "id": 49
     },
     {
       "title": "La milenaria",
@@ -665,6 +652,19 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/la-milenaria/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/1600X1000.png",
+      "id": 50
+    },
+    {
+      "title": "MICHALE GRAVES en La Plata",
+      "cat": "recital",
+      "date": "",
+      "time": "23:00",
+      "venue": "Sábado 19/09, 23:00 hsTeatro René Favaloro",
+      "city": "La Plata",
+      "source": "Alpogo",
+      "sourceKey": "alpogo",
+      "url": "https://alpogo.com/evento/michale-graves-en-la-plata-28385",
+      "flyer": "https://imagenes.alpogo.com/eventos/947f6d2a-4bb7-4973-a7db-d227fc2bb50f.webp",
       "id": 51
     },
     {
@@ -694,6 +694,19 @@
       "id": 53
     },
     {
+      "title": "Sueños de Pescado",
+      "cat": "recital",
+      "date": "",
+      "time": "21:00",
+      "venue": "Casa Metro La Plata",
+      "city": "La Plata",
+      "source": "Casa Metro",
+      "sourceKey": "casametro",
+      "url": "https://casametro.com.ar/evento/suenos-de-pescado/",
+      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/08/sueno-de-pescado-en-la-plata-540418-rec-e1787596925547.jpg",
+      "id": 54
+    },
+    {
       "title": "Teatro Ciego – Chakras",
       "cat": "teatro",
       "date": "",
@@ -704,7 +717,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/teatro-ciego-chakras/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/web_V1.jpg",
-      "id": 54
+      "id": 55
     },
     {
       "title": "Teatro Metro.Todos Los Derechos Reservados.",
@@ -717,7 +730,7 @@
       "sourceKey": "teatrometrolp",
       "url": "http://www.misticastudio.com",
       "flyer": "https://www.teatrometrolp.com.arimages/mistica-logo.png",
-      "id": 55
+      "id": 56
     },
     {
       "title": "Tocho y los carroñeros",
@@ -730,7 +743,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/tocho-y-los-carroneros-28298",
       "flyer": "https://imagenes.alpogo.com/eventos/135e305e-5435-45b9-850f-c5121f9fb893.webp",
-      "id": 56
+      "id": 57
     },
     {
       "title": "TOMAS METRIKF EN LA PLATA",
@@ -743,7 +756,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/tomas-metrikf-en-la-plata-28005",
       "flyer": "https://imagenes.alpogo.com/eventos/b3163f6a-c3b6-46aa-a735-b71da729c8da.webp",
-      "id": 57
+      "id": 58
     },
     {
       "title": "VIE 28/08 - BRATTERS en La Plata",
@@ -756,7 +769,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/vie-2808-bratters-en-la-plata-28375",
       "flyer": "https://imagenes.alpogo.com/eventos/9623a2f4-74eb-4e07-9770-c204b5ea555a.webp",
-      "id": 58
+      "id": 59
     },
     {
       "title": "VIE 28/8 - BRATTERS en La Plata",
@@ -769,7 +782,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/vie-288-bratters-en-la-plata-28316",
       "flyer": "https://imagenes.alpogo.com/eventos/fd9faf3e-b6cb-4711-b987-01b1c033239d.webp",
-      "id": 59
+      "id": 60
     }
   ]
 }
