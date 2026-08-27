@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-27T00:25:55.338298",
+  "updated_at": "2026-08-27T13:23:16.428011",
   "source": "scraper-natu-v10",
   "city": "La Plata",
   "total": 67,
@@ -486,6 +486,19 @@
       "id": 37
     },
     {
+      "title": "Miguel Cantilo",
+      "cat": "recital",
+      "date": "2026-10-02",
+      "time": "21:00",
+      "venue": "Casa Metro La Plata",
+      "city": "La Plata",
+      "source": "Casa Metro",
+      "sourceKey": "casametro",
+      "url": "https://casametro.com.ar/evento/miguel-cantilo/",
+      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/08/WEB-miguel-cantilo.png",
+      "id": 38
+    },
+    {
       "title": "CALIOPE FAMILY - LA FRANQUICIA",
       "cat": "recital",
       "date": "2026-10-15",
@@ -496,7 +509,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/1000x1000.jpeg?alt=media&token=cc0cff0d-9370-4ef3-8d32-4131baa46dbf",
-      "id": 38
+      "id": 39
     },
     {
       "title": "THD+N ALL NIGHT LONG",
@@ -509,7 +522,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/IMG_0989-79ffbfba-13b7-496f-b6ae-9101602981f1.png?alt=media&token=4ab31ac2-8bd8-403a-89fd-12b1fc2a385b",
-      "id": 39
+      "id": 40
     },
     {
       "title": "LOS ESPIRITUS EN LA PLATA",
@@ -522,7 +535,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/los-espiritus-gira-1-disco-laplata-feed-724df67e-0e9f-4d1e-ab12-133e7fc1cad3.webp?alt=media&token=f663e24a-6edd-4703-9756-9e7877ebb8f8",
-      "id": 40
+      "id": 41
     },
     {
       "title": "404",
@@ -535,7 +548,7 @@
       "sourceKey": "passline",
       "url": "https://www.passline.com/",
       "flyer": "https://www.passline.com/error-400/img/passline-01.png",
-      "id": 41
+      "id": 42
     },
     {
       "title": "5to día y medio del Recreo uruguayo",
@@ -548,7 +561,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/5to-dia-y-medio-del-recreo-uruguayo-28199",
       "flyer": "https://imagenes.alpogo.com/eventos/aa771891-9221-458c-b440-80e016b8f960.webp",
-      "id": 42
+      "id": 43
     },
     {
       "title": "ANABEL URDANIZ presenta FESTEJO, el instante en el que elegimos la esperanza",
@@ -561,7 +574,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/anabel-urdaniz-presenta-festejo-el-instante-en-el-que-elegimos-la-esperanza-26704",
       "flyer": "https://imagenes.alpogo.com/eventos/a6b07b37-9de6-4731-bfa9-a19b3e370a73.webp",
-      "id": 43
+      "id": 44
     },
     {
       "title": "Botón de Arrep.",
@@ -574,7 +587,7 @@
       "sourceKey": "plateanet",
       "url": "http://qr.afip.gob.ar/?qr=kwtNgkcpGIa54lJJxVAn0A,,",
       "flyer": "https://www.plateanet.com./assets/footer/comodo_2021.svg",
-      "id": 44
+      "id": 45
     },
     {
       "title": "Bruja Salguero",
@@ -587,7 +600,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/bruja-salguero/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/web_V1-1.jpg",
-      "id": 45
+      "id": 46
     },
     {
       "title": "CATA DE VINO - Formidable x Autopista",
@@ -600,7 +613,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/cata-de-vino-formidable-x-autopista-28264",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1786743135_6a7f895fd5024.jpg",
-      "id": 46
+      "id": 47
     },
     {
       "title": "COMPRARObrasTeatrosEticketBeneficiosTérminos y condiciones",
@@ -613,7 +626,7 @@
       "sourceKey": "plateanet",
       "url": "https://www.plateanet.com/reportes",
       "flyer": "https://www.plateanet.comassets/footer/footer_flecha.svg",
-      "id": 47
+      "id": 48
     },
     {
       "title": "DA SKATE -  EN LA PLATA",
@@ -626,7 +639,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/da-skate-en-la-plata-28137",
       "flyer": "https://imagenes.alpogo.com/eventos/5a3b6713-4d6e-4a48-8618-8a6ffab20cf3.webp",
-      "id": 48
+      "id": 49
     },
     {
       "title": "Diego Martez & La Nadia Matilde en el Pasaje Dardo Rocha",
@@ -639,7 +652,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/diego-martez-la-nadia-matilde-en-el-pasaje-dardo-rocha-28051",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1786039566_6a74cd0e1c20a.jpg",
-      "id": 49
+      "id": 50
     },
     {
       "title": "encontranos en",
@@ -652,7 +665,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 50
+      "id": 51
     },
     {
       "title": "ENSAYO ABIERTO - Benja Molina Chazarreta (Full Band)",
@@ -665,7 +678,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/ensayo-abierto-benja-molina-chazarreta-full-band-28287",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1786837561_6a80fa3967d2f.jpg",
-      "id": 51
+      "id": 52
     },
     {
       "title": "Etiqueta Negra en La Plata",
@@ -678,7 +691,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/etiqueta-negra-en-la-plata-27787",
       "flyer": "https://imagenes.alpogo.com/eventos/cde8e32b-a951-4ebc-8c19-61fe2d1e5511.webp",
-      "id": 52
+      "id": 53
     },
     {
       "title": "FIESTA UGH! | LA PLATA | EDICIÓN POWERPOP GIRLS",
@@ -691,7 +704,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/fiesta-ugh-la-plata-edicion-powerpop-girls-28343",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1787165718_6a85fc16c8b2c.jpg",
-      "id": 53
+      "id": 54
     },
     {
       "title": "GAH GAH AUGUSTO GIANNONI CORAZONES PURA VIDA",
@@ -704,7 +717,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/gah-gah-augusto-giannoni-corazones-pura-vida-28512",
       "flyer": "https://imagenes.alpogo.com/eventos/19151078-dbef-4345-8bc8-d23065fa0618.webp",
-      "id": 54
+      "id": 55
     },
     {
       "title": "Inicio(current)EL TEATROCARTELERANOTICIASCONTACTO",
@@ -717,7 +730,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 55
+      "id": 56
     },
     {
       "title": "LA DUPLA METALERA en LA PLATA",
@@ -730,7 +743,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/la-dupla-metalera-en-la-plata-28059",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1786097161_6a75ae0954f6a.jpg",
-      "id": 56
+      "id": 57
     },
     {
       "title": "La milenaria",
@@ -743,7 +756,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/la-milenaria/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/1600X1000.png",
-      "id": 57
+      "id": 58
     },
     {
       "title": "MICHALE GRAVES en La Plata",
@@ -756,7 +769,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/michale-graves-en-la-plata-28385",
       "flyer": "https://imagenes.alpogo.com/eventos/947f6d2a-4bb7-4973-a7db-d227fc2bb50f.webp",
-      "id": 58
+      "id": 59
     },
     {
       "title": "SAKATUMBA + LAS TUSSI + NACAR // LA PLATA",
@@ -769,19 +782,6 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/sakatumba-las-tussi-nacar-la-plata-28313",
       "flyer": "https://imagenes.alpogo.com/eventos/0a76e064-853b-4634-aa53-7370d939abd3.webp",
-      "id": 59
-    },
-    {
-      "title": "Sindicato Argentino de Boleros | Amor de Miércoles",
-      "cat": "recital",
-      "date": "",
-      "time": "20:00",
-      "venue": "Casa Metro La Plata",
-      "city": "La Plata",
-      "source": "Casa Metro",
-      "sourceKey": "casametro",
-      "url": "https://casametro.com.ar/evento/sindicato-argentino-de-boleros-amor-de-miercoles-2/",
-      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/08/Carolina-Kiki_Ticketera_ok.png",
       "id": 60
     },
     {
