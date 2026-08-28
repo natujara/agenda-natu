@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-08-28T00:14:37.211414",
+  "updated_at": "2026-08-28T14:46:57.233283",
   "source": "scraper-natu-v10",
   "city": "La Plata",
-  "total": 66,
+  "total": 67,
   "events": [
     {
       "title": "MUNDIAL DE BANDAS- LA FINAL",
@@ -681,6 +681,19 @@
       "id": 52
     },
     {
+      "title": "F9 y Capacidad Negativa en Pura Vida LA PLATA",
+      "cat": "recital",
+      "date": "",
+      "time": "21:00",
+      "venue": "Sábado 10/10, 21:00 hsPura Vida, La Plata",
+      "city": "La Plata",
+      "source": "Alpogo",
+      "sourceKey": "alpogo",
+      "url": "https://alpogo.com/evento/f9-y-capacidad-negativa-en-pura-vida-la-plata-28587",
+      "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1787863673_6a90a2796dd08.jpg",
+      "id": 53
+    },
+    {
       "title": "FIESTA UGH! | LA PLATA | EDICIÓN POWERPOP GIRLS",
       "cat": "recital",
       "date": "",
@@ -691,7 +704,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/fiesta-ugh-la-plata-edicion-powerpop-girls-28343",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1787165718_6a85fc16c8b2c.jpg",
-      "id": 53
+      "id": 54
     },
     {
       "title": "GAH GAH AUGUSTO GIANNONI CORAZONES PURA VIDA",
@@ -704,7 +717,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/gah-gah-augusto-giannoni-corazones-pura-vida-28512",
       "flyer": "https://imagenes.alpogo.com/eventos/19151078-dbef-4345-8bc8-d23065fa0618.webp",
-      "id": 54
+      "id": 55
     },
     {
       "title": "Inicio(current)EL TEATROCARTELERANOTICIASCONTACTO",
@@ -717,7 +730,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 55
+      "id": 56
     },
     {
       "title": "LA DUPLA METALERA en LA PLATA",
@@ -730,7 +743,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/la-dupla-metalera-en-la-plata-28059",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1786097161_6a75ae0954f6a.jpg",
-      "id": 56
+      "id": 57
     },
     {
       "title": "La milenaria",
@@ -743,7 +756,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/la-milenaria/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/1600X1000.png",
-      "id": 57
+      "id": 58
     },
     {
       "title": "MICHALE GRAVES en La Plata",
@@ -756,7 +769,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/michale-graves-en-la-plata-28385",
       "flyer": "https://imagenes.alpogo.com/eventos/947f6d2a-4bb7-4973-a7db-d227fc2bb50f.webp",
-      "id": 58
+      "id": 59
     },
     {
       "title": "SAKATUMBA + LAS TUSSI + NACAR // LA PLATA",
@@ -769,7 +782,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/sakatumba-las-tussi-nacar-la-plata-28313",
       "flyer": "https://imagenes.alpogo.com/eventos/0a76e064-853b-4634-aa53-7370d939abd3.webp",
-      "id": 59
+      "id": 60
     },
     {
       "title": "Sueños de Pescado",
@@ -782,7 +795,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/suenos-de-pescado/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/08/sueno-de-pescado-en-la-plata-540418-rec-e1787596925547.jpg",
-      "id": 60
+      "id": 61
     },
     {
       "title": "Teatro Ciego – Chakras",
@@ -795,7 +808,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/teatro-ciego-chakras/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/web_V1.jpg",
-      "id": 61
+      "id": 62
     },
     {
       "title": "Teatro Metro.Todos Los Derechos Reservados.",
@@ -808,7 +821,7 @@
       "sourceKey": "teatrometrolp",
       "url": "http://www.misticastudio.com",
       "flyer": "https://www.teatrometrolp.com.arimages/mistica-logo.png",
-      "id": 62
+      "id": 63
     },
     {
       "title": "Tocho y los carroñeros",
@@ -821,7 +834,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/tocho-y-los-carroneros-28298",
       "flyer": "https://imagenes.alpogo.com/eventos/135e305e-5435-45b9-850f-c5121f9fb893.webp",
-      "id": 63
+      "id": 64
     },
     {
       "title": "TOMAS METRIKF EN LA PLATA",
@@ -834,7 +847,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/tomas-metrikf-en-la-plata-28005",
       "flyer": "https://imagenes.alpogo.com/eventos/b3163f6a-c3b6-46aa-a735-b71da729c8da.webp",
-      "id": 64
+      "id": 65
     },
     {
       "title": "VIE 28/08 - BRATTERS en La Plata",
@@ -847,7 +860,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/vie-2808-bratters-en-la-plata-28375",
       "flyer": "https://imagenes.alpogo.com/eventos/9623a2f4-74eb-4e07-9770-c204b5ea555a.webp",
-      "id": 65
+      "id": 66
     },
     {
       "title": "VIE 28/8 - BRATTERS en La Plata",
@@ -860,7 +873,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/vie-288-bratters-en-la-plata-28316",
       "flyer": "https://imagenes.alpogo.com/eventos/fd9faf3e-b6cb-4711-b987-01b1c033239d.webp",
-      "id": 66
+      "id": 67
     }
   ]
 }
