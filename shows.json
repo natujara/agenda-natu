@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-28T14:46:57.233283",
+  "updated_at": "2026-08-28T23:51:15.826321",
   "source": "scraper-natu-v10",
   "city": "La Plata",
   "total": 67,
@@ -122,10 +122,10 @@
       "id": 9
     },
     {
-      "title": "Ceremonia de Apertura | FICPBA | Miércoles 2/9 | 17:00",
+      "title": "Ceremonia de Apertura | FICPBA | Miércoles 2/9 | 16:00",
       "cat": "recital",
       "date": "2026-09-02",
-      "time": "17:00",
+      "time": "16:00",
       "venue": "Teatro Argentino — Alberto Ginastera",
       "city": "La Plata",
       "source": "Teatro Argentino",
