@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-01T18:09:28.316893",
+  "updated_at": "2026-09-01T23:00:32.648023",
   "source": "scraper-natu-v10",
   "city": "La Plata",
-  "total": 67,
+  "total": 68,
   "events": [
     {
       "title": "Ceremonia de Apertura | FICPBA | Miércoles 2/9 | 16:00",
@@ -183,7 +183,7 @@
       "source": "Casa Metro",
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/celebramos-a-mercedes-sosa/",
-      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/1600x1000_Mercedes.png",
+      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/1600x1000_Mercedes-1.png",
       "id": 14
     },
     {
@@ -252,32 +252,6 @@
       "id": 19
     },
     {
-      "title": "Baglietto Vitale",
-      "cat": "recital",
-      "date": "2026-09-16",
-      "time": "21:00",
-      "venue": "Teatro Metro LP",
-      "city": "La Plata",
-      "source": "Teatro Metro LP",
-      "sourceKey": "teatrometrolp",
-      "url": "https://www.teatrometrolp.com.ar/entrada/baglietto-vitale-100824",
-      "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/entradas/20260831211237_600x400_baglietto.png",
-      "id": 20
-    },
-    {
-      "title": "Baglietto – Vitale | Canciones de amor",
-      "cat": "recital",
-      "date": "2026-09-16",
-      "time": "21:00",
-      "venue": "Casa Metro La Plata",
-      "city": "La Plata",
-      "source": "Casa Metro",
-      "sourceKey": "casametro",
-      "url": "https://casametro.com.ar/evento/baglietto-vitale-canciones-de-amor/",
-      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/08/1600x1000_baglietto-1.png",
-      "id": 21
-    },
-    {
       "title": "EMPIEZA CON D",
       "cat": "recital",
       "date": "2026-09-17",
@@ -288,7 +262,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/entrada/empieza-con-d-100834",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/entradas/20260807123318_empieza-con-d-la-plata-600x450.jpg",
-      "id": 22
+      "id": 20
     },
     {
       "title": "Chu Rodríguez",
@@ -301,7 +275,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/chu-rodriguez/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/LA-PLATA.jpg",
-      "id": 23
+      "id": 21
     },
     {
       "title": "Militantes del Climax en Ciudad de Gatos",
@@ -314,7 +288,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/Militantes_LAPLATA_Cuadrado.png?alt=media&token=55708dba-c11a-4ed3-9647-5c19914cc29c",
-      "id": 24
+      "id": 22
     },
     {
       "title": "Raly Barrionuevo",
@@ -327,7 +301,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/entrada/raly-barrionuevo-100701",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/entradas/20260604132232_ilumus_raly_600x400-laplata.jpg",
-      "id": 25
+      "id": 23
     },
     {
       "title": "RALY BARRIONUEVO – EL CAMINO DE SOLGO",
@@ -340,7 +314,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/raly-barrionuevo-el-camino-de-solgo/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/Ilumus_Raly_1600x1000-LaPlata.jpg",
-      "id": 26
+      "id": 24
     },
     {
       "title": "Alba Carmona & Jesús Guerrero | Ofrenda",
@@ -353,7 +327,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/alba-camona-ofrenda/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/Carmona_WEB.png",
-      "id": 27
+      "id": 25
     },
     {
       "title": "Duratierra",
@@ -366,7 +340,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/duratierra/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/07/1600x1000.png",
-      "id": 28
+      "id": 26
     },
     {
       "title": "Historias Innecesarias En Vivo.",
@@ -379,6 +353,32 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/entrada/historias-innecesarias-en-vivo.-100466",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/entradas/20260210172859_kuc_historias_innecesarias_la_plata_600_500.jpg",
+      "id": 27
+    },
+    {
+      "title": "Baglietto Vitale",
+      "cat": "recital",
+      "date": "2026-09-22",
+      "time": "21:00",
+      "venue": "Teatro Metro LP",
+      "city": "La Plata",
+      "source": "Teatro Metro LP",
+      "sourceKey": "teatrometrolp",
+      "url": "https://www.teatrometrolp.com.ar/entrada/baglietto-vitale-100824",
+      "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/entradas/20260901172537_600x400_baglietto.png",
+      "id": 28
+    },
+    {
+      "title": "Baglietto – Vitale | Canciones de amor",
+      "cat": "recital",
+      "date": "2026-09-22",
+      "time": "21:00",
+      "venue": "Casa Metro La Plata",
+      "city": "La Plata",
+      "source": "Casa Metro",
+      "sourceKey": "casametro",
+      "url": "https://casametro.com.ar/evento/baglietto-vitale-canciones-de-amor/",
+      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/08/1600x1000_baglietto-2.png",
       "id": 29
     },
     {
@@ -538,6 +538,19 @@
       "id": 41
     },
     {
+      "title": "An Espil -La Plata - Gira 2026",
+      "cat": "recital",
+      "date": "2026-10-16",
+      "time": "20:00",
+      "venue": "",
+      "city": "La Plata",
+      "source": "CatPass",
+      "sourceKey": "catpass",
+      "url": "https://catpass.net/eventos",
+      "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/POST%20COVER-a1ed721f-3e1e-4565-84fb-61aacc46b63c.webp?alt=media&token=e32525d3-7cf5-4b82-b4cb-a207e57632f8",
+      "id": 42
+    },
+    {
       "title": "Nuevas historias argentinas | Felipe Pigna & Pedro Saborido",
       "cat": "recital",
       "date": "2026-10-16",
@@ -548,7 +561,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/nuevas-historias-argentinas-felipe-pigna-pedro-saborido/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/08/1600X1000.png",
-      "id": 42
+      "id": 43
     },
     {
       "title": "La Callejera | La Peña que baila",
@@ -561,7 +574,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/la-callejera-la-pena-que-baila/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/08/WEB_La-callejera.png",
-      "id": 43
+      "id": 44
     },
     {
       "title": "THD+N ALL NIGHT LONG",
@@ -574,7 +587,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/IMG_0989-79ffbfba-13b7-496f-b6ae-9101602981f1.png?alt=media&token=4ab31ac2-8bd8-403a-89fd-12b1fc2a385b",
-      "id": 44
+      "id": 45
     },
     {
       "title": "LOS ESPIRITUS EN LA PLATA",
@@ -587,7 +600,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/los-espiritus-gira-1-disco-laplata-feed-724df67e-0e9f-4d1e-ab12-133e7fc1cad3.webp?alt=media&token=f663e24a-6edd-4703-9756-9e7877ebb8f8",
-      "id": 45
+      "id": 46
     },
     {
       "title": "Caracol a Contramano 20 AÑOS",
@@ -600,7 +613,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/Flyer%20Pub%2028-11-6e54790c-6947-420a-b1aa-1db66f294f45.webp?alt=media&token=40adcadc-238a-4d30-8962-f33deb694f42",
-      "id": 46
+      "id": 47
     },
     {
       "title": "404",
@@ -613,7 +626,7 @@
       "sourceKey": "passline",
       "url": "https://www.passline.com/",
       "flyer": "https://www.passline.com/error-400/img/passline-01.png",
-      "id": 47
+      "id": 48
     },
     {
       "title": "5to día y medio del Recreo uruguayo",
@@ -626,7 +639,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/5to-dia-y-medio-del-recreo-uruguayo-28199",
       "flyer": "https://imagenes.alpogo.com/eventos/aa771891-9221-458c-b440-80e016b8f960.webp",
-      "id": 48
+      "id": 49
     },
     {
       "title": "ANABEL URDANIZ presenta FESTEJO, el instante en el que elegimos la esperanza",
@@ -639,7 +652,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/anabel-urdaniz-presenta-festejo-el-instante-en-el-que-elegimos-la-esperanza-26704",
       "flyer": "https://imagenes.alpogo.com/eventos/a6b07b37-9de6-4731-bfa9-a19b3e370a73.webp",
-      "id": 49
+      "id": 50
     },
     {
       "title": "Botón de Arrep.",
@@ -652,7 +665,7 @@
       "sourceKey": "plateanet",
       "url": "http://qr.afip.gob.ar/?qr=kwtNgkcpGIa54lJJxVAn0A,,",
       "flyer": "https://www.plateanet.com./assets/footer/comodo_2021.svg",
-      "id": 50
+      "id": 51
     },
     {
       "title": "CATA DE VINO - Formidable x Autopista",
@@ -665,7 +678,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/cata-de-vino-formidable-x-autopista-28264",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1786743135_6a7f895fd5024.jpg",
-      "id": 51
+      "id": 52
     },
     {
       "title": "COMPRARObrasTeatrosEticketBeneficiosTérminos y condiciones",
@@ -678,7 +691,7 @@
       "sourceKey": "plateanet",
       "url": "https://www.plateanet.com/reportes",
       "flyer": "https://www.plateanet.comassets/footer/footer_flecha.svg",
-      "id": 52
+      "id": 53
     },
     {
       "title": "DA SKATE -  EN LA PLATA",
@@ -691,7 +704,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/da-skate-en-la-plata-28137",
       "flyer": "https://imagenes.alpogo.com/eventos/5a3b6713-4d6e-4a48-8618-8a6ffab20cf3.webp",
-      "id": 53
+      "id": 54
     },
     {
       "title": "Diego Martez & La Nadia Matilde en el Pasaje Dardo Rocha",
@@ -704,7 +717,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/diego-martez-la-nadia-matilde-en-el-pasaje-dardo-rocha-28051",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1786039566_6a74cd0e1c20a.jpg",
-      "id": 54
+      "id": 55
     },
     {
       "title": "encontranos en",
@@ -717,7 +730,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 55
+      "id": 56
     },
     {
       "title": "ENSAYO ABIERTO - Benja Molina Chazarreta (Full Band)",
@@ -730,7 +743,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/ensayo-abierto-benja-molina-chazarreta-full-band-28287",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1786837561_6a80fa3967d2f.jpg",
-      "id": 56
+      "id": 57
     },
     {
       "title": "Etiqueta Negra en La Plata",
@@ -743,7 +756,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/etiqueta-negra-en-la-plata-27787",
       "flyer": "https://imagenes.alpogo.com/eventos/cde8e32b-a951-4ebc-8c19-61fe2d1e5511.webp",
-      "id": 57
+      "id": 58
     },
     {
       "title": "F9 y Capacidad Negativa en Pura Vida LA PLATA",
@@ -756,7 +769,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/f9-y-capacidad-negativa-en-pura-vida-la-plata-28587",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1787863673_6a90a2796dd08.jpg",
-      "id": 58
+      "id": 59
     },
     {
       "title": "FIESTA UGH! | LA PLATA | EDICIÓN POWERPOP GIRLS",
@@ -769,7 +782,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/fiesta-ugh-la-plata-edicion-powerpop-girls-28343",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1787165718_6a85fc16c8b2c.jpg",
-      "id": 59
+      "id": 60
     },
     {
       "title": "GAH GAH AUGUSTO GIANNONI CORAZONES PURA VIDA",
@@ -782,7 +795,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/gah-gah-augusto-giannoni-corazones-pura-vida-28512",
       "flyer": "https://imagenes.alpogo.com/eventos/19151078-dbef-4345-8bc8-d23065fa0618.webp",
-      "id": 60
+      "id": 61
     },
     {
       "title": "Inicio(current)EL TEATROCARTELERANOTICIASCONTACTO",
@@ -795,7 +808,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 61
+      "id": 62
     },
     {
       "title": "LA DUPLA METALERA en LA PLATA",
@@ -808,7 +821,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/la-dupla-metalera-en-la-plata-28059",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1786097161_6a75ae0954f6a.jpg",
-      "id": 62
+      "id": 63
     },
     {
       "title": "MICHALE GRAVES en La Plata",
@@ -821,7 +834,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/michale-graves-en-la-plata-28385",
       "flyer": "https://imagenes.alpogo.com/eventos/947f6d2a-4bb7-4973-a7db-d227fc2bb50f.webp",
-      "id": 63
+      "id": 64
     },
     {
       "title": "SAKATUMBA + LAS TUSSI + NACAR // LA PLATA",
@@ -834,7 +847,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/sakatumba-las-tussi-nacar-la-plata-28313",
       "flyer": "https://imagenes.alpogo.com/eventos/0a76e064-853b-4634-aa53-7370d939abd3.webp",
-      "id": 64
+      "id": 65
     },
     {
       "title": "Teatro Metro.Todos Los Derechos Reservados.",
@@ -847,7 +860,7 @@
       "sourceKey": "teatrometrolp",
       "url": "http://www.misticastudio.com",
       "flyer": "https://www.teatrometrolp.com.arimages/mistica-logo.png",
-      "id": 65
+      "id": 66
     },
     {
       "title": "Tocho y los carroñeros",
@@ -860,7 +873,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/tocho-y-los-carroneros-28298",
       "flyer": "https://imagenes.alpogo.com/eventos/135e305e-5435-45b9-850f-c5121f9fb893.webp",
-      "id": 66
+      "id": 67
     },
     {
       "title": "TOMAS METRIKF EN LA PLATA",
@@ -873,7 +886,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/tomas-metrikf-en-la-plata-28005",
       "flyer": "https://imagenes.alpogo.com/eventos/b3163f6a-c3b6-46aa-a735-b71da729c8da.webp",
-      "id": 67
+      "id": 68
     }
   ]
 }
