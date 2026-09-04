@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04T18:02:07.348249",
+  "updated_at": "2026-09-04T22:46:06.806533",
   "source": "scraper-natu-v10",
   "city": "La Plata",
   "total": 71,
@@ -421,7 +421,7 @@
       "id": 32
     },
     {
-      "title": "Los Mirlos y Los Charros",
+      "title": "KiloMETROs de CUMBIA | Los Mirlos y Los Charros",
       "cat": "recital",
       "date": "2026-09-26",
       "time": "21:00",
@@ -430,7 +430,7 @@
       "source": "Casa Metro",
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/los-mirlos-y-los-charros/",
-      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/07/WEB.png",
+      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/07/WEB-Los-mirlos.png",
       "id": 33
     },
     {
@@ -551,6 +551,19 @@
       "id": 42
     },
     {
+      "title": "La Veredita Pequeña Orquesta",
+      "cat": "recital",
+      "date": "2026-10-12",
+      "time": "16:30",
+      "venue": "Casa Metro La Plata",
+      "city": "La Plata",
+      "source": "Casa Metro",
+      "sourceKey": "casametro",
+      "url": "https://casametro.com.ar/evento/la-veredita-pequena-orquesta-2/",
+      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/09/portada-web-tvLa-veredita.png",
+      "id": 43
+    },
+    {
       "title": "CALIOPE FAMILY - LA FRANQUICIA",
       "cat": "recital",
       "date": "2026-10-15",
@@ -561,7 +574,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/1000x1000.jpeg?alt=media&token=cc0cff0d-9370-4ef3-8d32-4131baa46dbf",
-      "id": 43
+      "id": 44
     },
     {
       "title": "An Espil -La Plata - Gira 2026",
@@ -574,19 +587,6 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/POST%20COVER-a1ed721f-3e1e-4565-84fb-61aacc46b63c.webp?alt=media&token=e32525d3-7cf5-4b82-b4cb-a207e57632f8",
-      "id": 44
-    },
-    {
-      "title": "Nuevas historias argentinas | Felipe Pigna & Pedro Saborido",
-      "cat": "recital",
-      "date": "2026-10-16",
-      "time": "20:30",
-      "venue": "Casa Metro La Plata",
-      "city": "La Plata",
-      "source": "Casa Metro",
-      "sourceKey": "casametro",
-      "url": "https://casametro.com.ar/evento/nuevas-historias-argentinas-felipe-pigna-pedro-saborido/",
-      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/08/1600X1000.png",
       "id": 45
     },
     {
