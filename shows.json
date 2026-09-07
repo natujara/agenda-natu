@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T07:47:23.323214",
+  "updated_at": "2026-09-07T14:42:23.561178",
   "source": "scraper-natu-v10",
   "city": "La Plata",
   "total": 66,
@@ -226,6 +226,19 @@
       "id": 17
     },
     {
+      "title": "Sindicato Argentino de Boleros | Amor de Miércoles",
+      "cat": "recital",
+      "date": "2026-09-23",
+      "time": "20:00",
+      "venue": "Casa Metro La Plata",
+      "city": "La Plata",
+      "source": "Casa Metro",
+      "sourceKey": "casametro",
+      "url": "https://casametro.com.ar/evento/sindicato-argentino-de-boleros-amor-de-miercoles-3/",
+      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-07-at-11.11.21.jpeg",
+      "id": 18
+    },
+    {
       "title": "RXNDE AKOZTA EN LA PLATA 🇨🇺",
       "cat": "recital",
       "date": "2026-09-24",
@@ -236,7 +249,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/4197ab6b-bc9e-47b9-9221-d42bbd63ba02-2cf1de99-4928-4832-be9b-301df49d430c.jpeg?alt=media&token=9ebbf7de-359f-4610-bb67-80071164325c",
-      "id": 18
+      "id": 19
     },
     {
       "title": "EL ESCRITOR DE TODAS LAS COSAS",
@@ -249,7 +262,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/entrada/el-escritor-de-todas-las-cosas-100738",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/entradas/782251565962.jpg",
-      "id": 19
+      "id": 20
     },
     {
       "title": "FRIKI PERREO edicion primavera",
@@ -262,7 +275,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/Redise%C3%B1o%20Flyer%20IG(3)-4bd1c2d7-5248-43f7-a715-6205bd63e09c.webp?alt=media&token=aa33cff9-dd96-4621-8477-189a314d301d",
-      "id": 20
+      "id": 21
     },
     {
       "title": "MÁZE + MORA Y LOS METEGOLES",
@@ -275,7 +288,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/WhatsApp%20Image%202026-09-03%20at%2018.23.49-439fa2c7-7e1c-42ea-b5cd-e81a254b6b1c.webp?alt=media&token=d749a93f-e82e-43d0-adef-afb2d0cc41a7",
-      "id": 21
+      "id": 22
     },
     {
       "title": "Música como en casa – Juan Falú",
@@ -288,7 +301,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/musica-como-en-casa-juan-falu/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/Mesa-de-trabajo-6.png",
-      "id": 22
+      "id": 23
     },
     {
       "title": "Euge Rodriguez",
@@ -301,7 +314,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/euge-rodriguez/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/07/pantalla-led-.png",
-      "id": 23
+      "id": 24
     },
     {
       "title": "KiloMETROs de CUMBIA | Los Mirlos y Los Charros",
@@ -314,7 +327,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/los-mirlos-y-los-charros/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/07/WEB-Los-mirlos.png",
-      "id": 24
+      "id": 25
     },
     {
       "title": "MUSTAFUNK Y RECREO URUGUAYO",
@@ -327,7 +340,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/Musta_feed_1350x1080-09b019c5-ae54-4a2a-9ac4-65f0323ddf7e.png?alt=media&token=3f13cd6a-a403-43b4-aa73-39c512c569d5",
-      "id": 25
+      "id": 26
     },
     {
       "title": "Balbís & Fernández",
@@ -340,7 +353,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/balbis-fernandez/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/08/pantalla-led-copia.jpg",
-      "id": 26
+      "id": 27
     },
     {
       "title": "HOMENAJE SINFONICO A LOS REDONDOS",
@@ -353,7 +366,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/entrada/homenaje-sinfonico-a-los-redondos-100879",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/entradas/20260830200140_3373.jpeg",
-      "id": 27
+      "id": 28
     },
     {
       "title": "Leonardo Amuedo & Daniel Maza",
@@ -366,7 +379,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/leonardoamuedoy-daniel-maza/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/08/WEB-1.png",
-      "id": 28
+      "id": 29
     },
     {
       "title": "Homero Taisen | Triángulo uno",
@@ -379,7 +392,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/homero-taisen-triangulo-uno/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/09/1600x1080.png",
-      "id": 29
+      "id": 30
     },
     {
       "title": "Miguel Cantilo",
@@ -392,7 +405,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/miguel-cantilo/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/08/WEB-miguel-cantilo.png",
-      "id": 30
+      "id": 31
     },
     {
       "title": "Superfly La Plata",
@@ -405,7 +418,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/SUPERFLY-FEED-a00208d4-9b1e-4243-9ac0-1d2956996a31.webp?alt=media&token=0ceecf60-d790-4134-a1a9-1b4585f9c860",
-      "id": 31
+      "id": 32
     },
     {
       "title": "ATRAKO",
@@ -418,7 +431,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/IMG_1604-d68fce3b-8edd-4875-873e-b92fb90d3c19.webp?alt=media&token=9ba77138-c6d9-404c-84cc-11f5fccf1c10",
-      "id": 32
+      "id": 33
     },
     {
       "title": "Gabo y Comedia",
@@ -431,7 +444,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/gabo-y-comedia/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/08/Web_Gabo.png",
-      "id": 33
+      "id": 34
     },
     {
       "title": "Jai Yia + Shaman y los hombres en llamas",
@@ -444,7 +457,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/jaiyia00.jpg-7e8d51f5-cc2d-4b7a-9349-4aca438332d7.webp?alt=media&token=68768082-db92-49d3-b84e-0f5154f6d9d0",
-      "id": 34
+      "id": 35
     },
     {
       "title": "Camerata Rosario",
@@ -457,7 +470,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/camerata-rosario/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/LP-1920x1080-1.jpg",
-      "id": 35
+      "id": 36
     },
     {
       "title": "La Veredita Pequeña Orquesta",
@@ -470,7 +483,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/la-veredita-pequena-orquesta-2/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/09/portada-web-tvLa-veredita.png",
-      "id": 36
+      "id": 37
     },
     {
       "title": "CALIOPE FAMILY - LA FRANQUICIA",
@@ -483,7 +496,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/1000x1000.jpeg?alt=media&token=cc0cff0d-9370-4ef3-8d32-4131baa46dbf",
-      "id": 37
+      "id": 38
     },
     {
       "title": "An Espil -La Plata - Gira 2026",
@@ -496,7 +509,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/POST%20COVER-a1ed721f-3e1e-4565-84fb-61aacc46b63c.webp?alt=media&token=e32525d3-7cf5-4b82-b4cb-a207e57632f8",
-      "id": 38
+      "id": 39
     },
     {
       "title": "Nuevas historias argentinas | Felipe Pigna & Pedro Saborido",
@@ -509,7 +522,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/nuevas-historias-argentinas-felipe-pigna-pedro-saborido/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/08/1600X1000.png",
-      "id": 39
+      "id": 40
     },
     {
       "title": "La Callejera | La Peña que baila",
@@ -522,7 +535,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/la-callejera-la-pena-que-baila/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/08/WEB_La-callejera.png",
-      "id": 40
+      "id": 41
     },
     {
       "title": "Feli Colina en La Plata",
@@ -535,7 +548,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/Formato%20Ticketera_La%20Plata-d7622674-2a89-4379-accb-9b3f4f502f58.webp?alt=media&token=59bf859c-3e99-4aa2-9b55-92ec453a4c81",
-      "id": 41
+      "id": 42
     },
     {
       "title": "La Patrulla Espacial",
@@ -548,7 +561,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/6-TICKETERA-LA-PATRULLA---EN-VIVO_24-DE-OCT---CDG-6e431ac8-24e4-49d6-a360-7c1d14d357d3.webp?alt=media&token=4a075186-15c2-4f43-bc09-deec1412f3bc",
-      "id": 42
+      "id": 43
     },
     {
       "title": "THD+N ALL NIGHT LONG",
@@ -561,7 +574,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/IMG_0989-79ffbfba-13b7-496f-b6ae-9101602981f1.png?alt=media&token=4ab31ac2-8bd8-403a-89fd-12b1fc2a385b",
-      "id": 43
+      "id": 44
     },
     {
       "title": "Kevin Johansen + Liniers",
@@ -574,19 +587,6 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/kevin-johansen-liniers/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/09/1920x1080-1.png",
-      "id": 44
-    },
-    {
-      "title": "Música como en casa – Segundo tiempo sexteto",
-      "cat": "recital",
-      "date": "2026-10-31",
-      "time": "20:00",
-      "venue": "Casa Metro La Plata",
-      "city": "La Plata",
-      "source": "Casa Metro",
-      "sourceKey": "casametro",
-      "url": "https://casametro.com.ar/evento/musica-como-en-casa-segundo-tiempo-sexteto/",
-      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/07/Inaki_1600x1000.jpg",
       "id": 45
     },
     {
