@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-12T07:34:08.000585",
+  "updated_at": "2026-09-12T12:38:49.660022",
   "source": "scraper-natu-v10",
   "city": "La Plata",
-  "total": 74,
+  "total": 73,
   "events": [
     {
       "title": "Concierto de Cámara | Cuarteto de Cuerdas (Rossi, Canadell, Bugallo y Bellisomi) | Sábado 12/9 | 18:00",
@@ -863,19 +863,6 @@
       "id": 66
     },
     {
-      "title": "FIESTA UGH! | LA PLATA | EDICIÓN POWERPOP GIRLS",
-      "cat": "recital",
-      "date": "",
-      "time": "23:59",
-      "venue": "Viernes 11/09, 23:59 hsBYE HENRY DIAGONAL",
-      "city": "La Plata",
-      "source": "Alpogo",
-      "sourceKey": "alpogo",
-      "url": "https://alpogo.com/evento/fiesta-ugh-la-plata-edicion-powerpop-girls-28343",
-      "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1787165718_6a85fc16c8b2c.jpg",
-      "id": 67
-    },
-    {
       "title": "Inicio(current)EL TEATROCARTELERANOTICIASCONTACTO",
       "cat": "teatro",
       "date": "",
@@ -886,7 +873,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 68
+      "id": 67
     },
     {
       "title": "LA DUPLA METALERA en LA PLATA",
@@ -899,7 +886,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/la-dupla-metalera-en-la-plata-28059",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1786097161_6a75ae0954f6a.jpg",
-      "id": 69
+      "id": 68
     },
     {
       "title": "MICHALE GRAVES en La Plata",
@@ -912,7 +899,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/michale-graves-en-la-plata-28385",
       "flyer": "https://imagenes.alpogo.com/eventos/947f6d2a-4bb7-4973-a7db-d227fc2bb50f.webp",
-      "id": 70
+      "id": 69
     },
     {
       "title": "SAKATUMBA + LAS TUSSI + NACAR // LA PLATA",
@@ -925,7 +912,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/sakatumba-las-tussi-nacar-la-plata-28313",
       "flyer": "https://imagenes.alpogo.com/eventos/0a76e064-853b-4634-aa53-7370d939abd3.webp",
-      "id": 71
+      "id": 70
     },
     {
       "title": "Teatro Metro.Todos Los Derechos Reservados.",
@@ -938,7 +925,7 @@
       "sourceKey": "teatrometrolp",
       "url": "http://www.misticastudio.com",
       "flyer": "https://www.teatrometrolp.com.arimages/mistica-logo.png",
-      "id": 72
+      "id": 71
     },
     {
       "title": "Tocho y los carroñeros",
@@ -951,7 +938,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/tocho-y-los-carroneros-28298",
       "flyer": "https://imagenes.alpogo.com/eventos/135e305e-5435-45b9-850f-c5121f9fb893.webp",
-      "id": 73
+      "id": 72
     },
     {
       "title": "TOMAS METRIKF EN LA PLATA",
@@ -964,7 +951,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/tomas-metrikf-en-la-plata-28005",
       "flyer": "https://imagenes.alpogo.com/eventos/b3163f6a-c3b6-46aa-a735-b71da729c8da.webp",
-      "id": 74
+      "id": 73
     }
   ]
 }
