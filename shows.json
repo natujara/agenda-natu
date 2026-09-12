@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T12:38:49.660022",
+  "updated_at": "2026-09-12T17:39:37.504929",
   "source": "scraper-natu-v10",
   "city": "La Plata",
   "total": 73,
@@ -499,19 +499,6 @@
       "id": 38
     },
     {
-      "title": "Fernando Montalbano | Serrat, Sabina y canciones propias",
-      "cat": "recital",
-      "date": "2026-10-10",
-      "time": "20:00",
-      "venue": "Casa Metro La Plata",
-      "city": "La Plata",
-      "source": "Casa Metro",
-      "sourceKey": "casametro",
-      "url": "https://casametro.com.ar/evento/fernando-montalbano-serrat-sabina-y-canciones-propias/",
-      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/09/fernando-montalbano-en-casa-metro-web-1.png",
-      "id": 39
-    },
-    {
       "title": "Peña del Dúo Coplanacu",
       "cat": "recital",
       "date": "2026-10-10",
@@ -522,7 +509,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/duo-coplanacu/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/05/complanacu_web-1.jpg",
-      "id": 40
+      "id": 39
     },
     {
       "title": "La Veredita Pequeña Orquesta",
@@ -535,7 +522,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/la-veredita-pequena-orquesta-2/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/09/portada-web-tvLa-veredita.png",
-      "id": 41
+      "id": 40
     },
     {
       "title": "CALIOPE FAMILY - LA FRANQUICIA",
@@ -548,7 +535,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/1000x1000.jpeg?alt=media&token=cc0cff0d-9370-4ef3-8d32-4131baa46dbf",
-      "id": 42
+      "id": 41
     },
     {
       "title": "An Espil -La Plata - Gira 2026",
@@ -561,7 +548,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/POST%20COVER-a1ed721f-3e1e-4565-84fb-61aacc46b63c.webp?alt=media&token=e32525d3-7cf5-4b82-b4cb-a207e57632f8",
-      "id": 43
+      "id": 42
     },
     {
       "title": "Nuevas historias argentinas | Felipe Pigna & Pedro Saborido",
@@ -574,7 +561,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/nuevas-historias-argentinas-felipe-pigna-pedro-saborido/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/08/1600X1000.png",
-      "id": 44
+      "id": 43
     },
     {
       "title": "La Callejera | La Peña que baila",
@@ -587,7 +574,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/la-callejera-la-pena-que-baila/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/08/WEB_La-callejera.png",
-      "id": 45
+      "id": 44
     },
     {
       "title": "Poseidótica + Cuco + Para Establecer un Río + Los Tábanos Experience en La Plata",
@@ -600,7 +587,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/CIUDAD%20DE%20GATOS_vertical-ce6d75e3-c17c-4199-8928-e92155a25433.webp?alt=media&token=2a1549c0-b155-466b-b69b-c74145c6c4ad",
-      "id": 46
+      "id": 45
     },
     {
       "title": "Feli Colina en La Plata",
@@ -613,7 +600,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/Formato%20Ticketera_La%20Plata-d7622674-2a89-4379-accb-9b3f4f502f58.webp?alt=media&token=59bf859c-3e99-4aa2-9b55-92ec453a4c81",
-      "id": 47
+      "id": 46
     },
     {
       "title": "La Patrulla Espacial",
@@ -626,7 +613,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/2-FEED-LA-PATRULLA---EN-VIVO_24-DE-OCT---CDG-AGOTADO-975068b3-6ac4-49f7-b331-82bcaaaf2354.webp?alt=media&token=83c1babf-9109-4c6c-856a-e9a1dd2c6f2f",
-      "id": 48
+      "id": 47
     },
     {
       "title": "THD+N ALL NIGHT LONG",
@@ -639,7 +626,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/IMG_0989-79ffbfba-13b7-496f-b6ae-9101602981f1.png?alt=media&token=4ab31ac2-8bd8-403a-89fd-12b1fc2a385b",
-      "id": 49
+      "id": 48
     },
     {
       "title": "La Patrulla Espacial (Nueva función)",
@@ -652,6 +639,19 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/1-FEED-LA-PATRULLA---EN-VIVO_25-DE-OCT---CDG-b0fd1adf-2fa7-497a-8754-a6d2c59a32dd.webp?alt=media&token=084b7879-7d87-430e-b11b-873a6c55d48e",
+      "id": 49
+    },
+    {
+      "title": "Kevin Johansen + Liniers",
+      "cat": "recital",
+      "date": "2026-10-29",
+      "time": "21:00",
+      "venue": "Casa Metro La Plata",
+      "city": "La Plata",
+      "source": "Casa Metro",
+      "sourceKey": "casametro",
+      "url": "https://casametro.com.ar/evento/kevin-johansen-liniers/",
+      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/09/1920x1080-1.png",
       "id": 50
     },
     {
