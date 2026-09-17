@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T14:02:42.554930",
+  "updated_at": "2026-09-17T18:48:51.456108",
   "source": "scraper-natu-v10",
   "city": "La Plata",
   "total": 77,
@@ -209,7 +209,7 @@
       "source": "Teatro Metro LP",
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/entrada/baglietto-vitale-100824",
-      "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/entradas/20260901172537_600x400_baglietto.png",
+      "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/entradas/20260917110812_600x400_baglietto.png",
       "id": 16
     },
     {
@@ -222,7 +222,7 @@
       "source": "Casa Metro",
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/baglietto-vitale-canciones-de-amor/",
-      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/08/1600x1000_baglietto-2.png",
+      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/08/1600x1000_baglietto-3.png",
       "id": 17
     },
     {
@@ -378,7 +378,7 @@
       "source": "CatPass",
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
-      "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/LA%20PLATA%20-%2029-9-f0cd5995-8491-4641-865c-2c7c02dba0f8.webp?alt=media&token=de8c506b-689c-4b69-9d07-74e1aa562c96",
+      "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/LA%20PLATA%20-%2029-9%20(1)-f7fe8392-ac07-476e-9444-4511b28c821e.webp?alt=media&token=254c68a9-89fb-47fc-9656-e8127484323b",
       "id": 29
     },
     {
