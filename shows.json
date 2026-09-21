@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-21T08:28:05.570335",
+  "updated_at": "2026-09-21T15:35:39.941665",
   "source": "scraper-natu-v10",
   "city": "La Plata",
-  "total": 63,
+  "total": 64,
   "events": [
     {
       "title": "Baglietto Vitale",
@@ -759,6 +759,19 @@
       "id": 58
     },
     {
+      "title": "KECHIRUSA en vivo",
+      "cat": "recital",
+      "date": "",
+      "time": "21:00",
+      "venue": "Sábado 24/10, 21:00 hsMedusa - La Plata",
+      "city": "La Plata",
+      "source": "Alpogo",
+      "sourceKey": "alpogo",
+      "url": "https://alpogo.com/evento/kechirusa-en-vivo-29022",
+      "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1789871769_6aaf46996e16a.jpg",
+      "id": 59
+    },
+    {
       "title": "LA DUPLA METALERA en LA PLATA",
       "cat": "recital",
       "date": "",
@@ -769,7 +782,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/la-dupla-metalera-en-la-plata-28059",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1786097161_6a75ae0954f6a.jpg",
-      "id": 59
+      "id": 60
     },
     {
       "title": "Oktubre para Oktubre",
@@ -782,7 +795,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/oktubre-para-oktubre-28953",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1789501780_6aa9a154a7b89.jpg",
-      "id": 60
+      "id": 61
     },
     {
       "title": "Teatro Metro.Todos Los Derechos Reservados.",
@@ -795,7 +808,7 @@
       "sourceKey": "teatrometrolp",
       "url": "http://www.misticastudio.com",
       "flyer": "https://www.teatrometrolp.com.arimages/mistica-logo.png",
-      "id": 61
+      "id": 62
     },
     {
       "title": "Tocho y los carroñeros",
@@ -808,7 +821,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/tocho-y-los-carroneros-28298",
       "flyer": "https://imagenes.alpogo.com/eventos/135e305e-5435-45b9-850f-c5121f9fb893.webp",
-      "id": 62
+      "id": 63
     },
     {
       "title": "TOMAS METRIKF EN LA PLATA",
@@ -821,7 +834,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/tomas-metrikf-en-la-plata-28005",
       "flyer": "https://imagenes.alpogo.com/eventos/b3163f6a-c3b6-46aa-a735-b71da729c8da.webp",
-      "id": 63
+      "id": 64
     }
   ]
 }
