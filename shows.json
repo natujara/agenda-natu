@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-23T08:13:10.566146",
+  "updated_at": "2026-09-23T14:05:23.767126",
   "source": "scraper-natu-v10",
   "city": "La Plata",
-  "total": 67,
+  "total": 68,
   "events": [
     {
       "title": "Sindicato Argentino de Boleros | Amor de Miércoles",
@@ -837,6 +837,19 @@
       "id": 64
     },
     {
+      "title": "Silvia Gómez Grupo en La Maga Club de Arte",
+      "cat": "arte",
+      "date": "",
+      "time": "20:00",
+      "venue": "Viernes 16/10, 20:00 hsLa Maga Club De Arte, La Plata.",
+      "city": "La Plata",
+      "source": "Alpogo",
+      "sourceKey": "alpogo",
+      "url": "https://alpogo.com/evento/silvia-gomez-grupo-en-la-maga-club-de-arte-29133",
+      "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1790113374_6ab2f65e32637.jpg",
+      "id": 65
+    },
+    {
       "title": "Teatro Metro.Todos Los Derechos Reservados.",
       "cat": "teatro",
       "date": "",
@@ -847,7 +860,7 @@
       "sourceKey": "teatrometrolp",
       "url": "http://www.misticastudio.com",
       "flyer": "https://www.teatrometrolp.com.arimages/mistica-logo.png",
-      "id": 65
+      "id": 66
     },
     {
       "title": "Tocho y los carroñeros",
@@ -860,7 +873,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/tocho-y-los-carroneros-28298",
       "flyer": "https://imagenes.alpogo.com/eventos/135e305e-5435-45b9-850f-c5121f9fb893.webp",
-      "id": 66
+      "id": 67
     },
     {
       "title": "TOMAS METRIKF EN LA PLATA",
@@ -873,7 +886,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/tomas-metrikf-en-la-plata-28005",
       "flyer": "https://imagenes.alpogo.com/eventos/b3163f6a-c3b6-46aa-a735-b71da729c8da.webp",
-      "id": 67
+      "id": 68
     }
   ]
 }
