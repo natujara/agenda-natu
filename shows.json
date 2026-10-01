@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-30T19:52:18.344019",
+  "updated_at": "2026-10-01T00:23:22.556585",
   "source": "scraper-natu-v10",
   "city": "La Plata",
-  "total": 71,
+  "total": 72,
   "events": [
     {
       "title": "EL HOMBRE INESPERADO",
@@ -749,8 +749,8 @@
       "title": "Canciones en la Banquina - Leuvú - Abra Dúo - Madera Mineral",
       "cat": "recital",
       "date": "",
-      "time": "22:00",
-      "venue": "Lunes 28/09, 22:00 hsAutopista del sonido, La Plata",
+      "time": "21:00",
+      "venue": "Sábado 24/10, 21:00 hsAutopista del sonido, La Plata",
       "city": "La Plata",
       "source": "Alpogo",
       "sourceKey": "alpogo",
@@ -824,6 +824,19 @@
       "id": 63
     },
     {
+      "title": "Esquirlas ASM - Aniversario 5 - La Plata",
+      "cat": "recital",
+      "date": "",
+      "time": "21:00",
+      "venue": "Viernes 04/12, 21:00 hsGuajira, La Plata",
+      "city": "La Plata",
+      "source": "Alpogo",
+      "sourceKey": "alpogo",
+      "url": "https://alpogo.com/evento/esquirlas-asm-aniversario-5-la-plata-29315",
+      "flyer": "https://imagenes.alpogo.com/eventos/3f6e51c0-d5eb-4922-bf31-2844b3c4c585.webp",
+      "id": 64
+    },
+    {
       "title": "F9 y Capacidad Negativa en Pura Vida LA PLATA",
       "cat": "recital",
       "date": "",
@@ -834,7 +847,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/f9-y-capacidad-negativa-en-pura-vida-la-plata-28587",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1787863673_6a90a2796dd08.jpg",
-      "id": 64
+      "id": 65
     },
     {
       "title": "Inicio(current)EL TEATROCARTELERANOTICIASCONTACTO",
@@ -847,7 +860,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 65
+      "id": 66
     },
     {
       "title": "KECHIRUSA en vivo",
@@ -860,7 +873,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/kechirusa-en-vivo-29022",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1789871769_6aaf46996e16a.jpg",
-      "id": 66
+      "id": 67
     },
     {
       "title": "LA DUPLA METALERA en LA PLATA",
@@ -873,7 +886,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/la-dupla-metalera-en-la-plata-28059",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1786097161_6a75ae0954f6a.jpg",
-      "id": 67
+      "id": 68
     },
     {
       "title": "Oktubre para Oktubre",
@@ -886,7 +899,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/oktubre-para-oktubre-28953",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1789501780_6aa9a154a7b89.jpg",
-      "id": 68
+      "id": 69
     },
     {
       "title": "Silvia Gómez Grupo en La Maga Club de Arte",
@@ -899,7 +912,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/silvia-gomez-grupo-en-la-maga-club-de-arte-29133",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1790113374_6ab2f65e32637.jpg",
-      "id": 69
+      "id": 70
     },
     {
       "title": "Teatro Metro.Todos Los Derechos Reservados.",
@@ -912,7 +925,7 @@
       "sourceKey": "teatrometrolp",
       "url": "http://www.misticastudio.com",
       "flyer": "https://www.teatrometrolp.com.arimages/mistica-logo.png",
-      "id": 70
+      "id": 71
     },
     {
       "title": "Tocho y los carroñeros",
@@ -925,7 +938,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/tocho-y-los-carroneros-28298",
       "flyer": "https://imagenes.alpogo.com/eventos/135e305e-5435-45b9-850f-c5121f9fb893.webp",
-      "id": 71
+      "id": 72
     }
   ]
 }
