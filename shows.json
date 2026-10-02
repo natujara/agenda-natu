@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02T09:16:43.311550",
+  "updated_at": "2026-10-02T19:47:24.255903",
   "source": "scraper-natu-v10",
   "city": "La Plata",
   "total": 74,
@@ -846,7 +846,7 @@
       "source": "Alpogo",
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/esquirlas-asm-aniversario-5-la-plata-29315",
-      "flyer": "https://imagenes.alpogo.com/eventos/3f6e51c0-d5eb-4922-bf31-2844b3c4c585.webp",
+      "flyer": "https://imagenes.alpogo.com/eventos/d94eee1d-abfe-44a3-8788-8fa10ebf1419.webp",
       "id": 65
     },
     {
