@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-03T00:11:58.198720",
+  "updated_at": "2026-10-03T08:49:49.342622",
   "source": "scraper-natu-v10",
   "city": "La Plata",
-  "total": 70,
+  "total": 71,
   "events": [
     {
       "title": "ATRAKO",
@@ -629,6 +629,19 @@
       "id": 48
     },
     {
+      "title": "Música como en casa – Lilian Saba",
+      "cat": "recital",
+      "date": "2026-11-21",
+      "time": "20:00",
+      "venue": "Casa Metro La Plata",
+      "city": "La Plata",
+      "source": "Casa Metro",
+      "sourceKey": "casametro",
+      "url": "https://casametro.com.ar/evento/musica-como-en-casa-lilian-saba/",
+      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/07/Inaki_1600x1000-1.png",
+      "id": 49
+    },
+    {
       "title": "KAMADA - Juebless",
       "cat": "recital",
       "date": "2026-11-26",
@@ -639,7 +652,20 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/IMG_2239-4b2eb47c-3b6c-4d80-a57b-be73b48b6c77.webp?alt=media&token=9b8a4481-ac26-4bd6-8426-21baee7b9f61",
-      "id": 49
+      "id": 50
+    },
+    {
+      "title": "La Trasnochada",
+      "cat": "recital",
+      "date": "2026-11-27",
+      "time": "21:00",
+      "venue": "Casa Metro La Plata",
+      "city": "La Plata",
+      "source": "Casa Metro",
+      "sourceKey": "casametro",
+      "url": "https://casametro.com.ar/evento/la-trasnochada/",
+      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/web_V1.png",
+      "id": 51
     },
     {
       "title": "Caracol a Contramano 20 AÑOS",
@@ -652,7 +678,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/Flyer%20Pub%2028-11-6e54790c-6947-420a-b1aa-1db66f294f45.webp?alt=media&token=40adcadc-238a-4d30-8962-f33deb694f42",
-      "id": 50
+      "id": 52
     },
     {
       "title": "404",
@@ -665,7 +691,7 @@
       "sourceKey": "passline",
       "url": "https://www.passline.com/",
       "flyer": "https://www.passline.com/error-400/img/passline-01.png",
-      "id": 51
+      "id": 53
     },
     {
       "title": "After Chabon en La Plata",
@@ -678,7 +704,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/after-chabon-en-la-plata-28922",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1789400798_6aa816de2d3ac.jpg",
-      "id": 52
+      "id": 54
     },
     {
       "title": "Bisturí + Mica Sotera + Catalina Bayá",
@@ -691,7 +717,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/bisturi-mica-sotera-catalina-baya-28887",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1789151715_6aa449e31a0e7.jpg",
-      "id": 53
+      "id": 55
     },
     {
       "title": "Botón de Arrep.",
@@ -704,7 +730,7 @@
       "sourceKey": "plateanet",
       "url": "http://qr.afip.gob.ar/?qr=kwtNgkcpGIa54lJJxVAn0A,,",
       "flyer": "https://www.plateanet.com./assets/footer/comodo_2021.svg",
-      "id": 54
+      "id": 56
     },
     {
       "title": "Canciones en la Banquina - Leuvú - Abra Dúo - Madera Mineral",
@@ -717,7 +743,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/canciones-en-la-banquina-leuvu-abra-duo-madera-mineral-29265",
       "flyer": "https://imagenes.alpogo.com/eventos/306c6978-c7b9-42ee-965f-63fb5a95b42d.webp",
-      "id": 55
+      "id": 57
     },
     {
       "title": "COMPRARObrasTeatrosEticketBeneficiosTérminos y condiciones",
@@ -730,7 +756,7 @@
       "sourceKey": "plateanet",
       "url": "https://www.plateanet.com/reportes",
       "flyer": "https://www.plateanet.comassets/footer/footer_flecha.svg",
-      "id": 56
+      "id": 58
     },
     {
       "title": "DA SKATE -  EN LA PLATA",
@@ -743,7 +769,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/da-skate-en-la-plata-28137",
       "flyer": "https://imagenes.alpogo.com/eventos/5a3b6713-4d6e-4a48-8618-8a6ffab20cf3.webp",
-      "id": 57
+      "id": 59
     },
     {
       "title": "Delirio 20 años",
@@ -756,7 +782,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/delirio-20-anos-28876",
       "flyer": "https://imagenes.alpogo.com/eventos/6ad0d11d-0cc6-4eaf-a999-b8fbd865910c.webp",
-      "id": 58
+      "id": 60
     },
     {
       "title": "encontranos en",
@@ -769,7 +795,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 59
+      "id": 61
     },
     {
       "title": "ENSAYO ABIERTO - Lauta Gonzalez & La Orquesta Flotante",
@@ -782,7 +808,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/ensayo-abierto-lauta-gonzalez-la-orquesta-flotante-28722",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1788386223_6a989baf8694b.jpg",
-      "id": 60
+      "id": 62
     },
     {
       "title": "Esquirlas ASM - Aniversario 5 - La Plata",
@@ -795,7 +821,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/esquirlas-asm-aniversario-5-la-plata-29315",
       "flyer": "https://imagenes.alpogo.com/eventos/d94eee1d-abfe-44a3-8788-8fa10ebf1419.webp",
-      "id": 61
+      "id": 63
     },
     {
       "title": "F9 y Capacidad Negativa en Pura Vida LA PLATA",
@@ -808,7 +834,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/f9-y-capacidad-negativa-en-pura-vida-la-plata-28587",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1787863673_6a90a2796dd08.jpg",
-      "id": 62
+      "id": 64
     },
     {
       "title": "FIESTA UGH! | LA PLATA | EDICIÓN HALLOWEEN",
@@ -821,7 +847,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/fiesta-ugh-la-plata-edicion-halloween-29321",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1790806324_6abd8934a89c7.jpg",
-      "id": 63
+      "id": 65
     },
     {
       "title": "Inicio(current)EL TEATROCARTELERANOTICIASCONTACTO",
@@ -834,7 +860,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 64
+      "id": 66
     },
     {
       "title": "KECHIRUSA en vivo",
@@ -847,7 +873,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/kechirusa-en-vivo-29022",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1789871769_6aaf46996e16a.jpg",
-      "id": 65
+      "id": 67
     },
     {
       "title": "LA DUPLA METALERA en LA PLATA",
@@ -860,7 +886,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/la-dupla-metalera-en-la-plata-28059",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1786097161_6a75ae0954f6a.jpg",
-      "id": 66
+      "id": 68
     },
     {
       "title": "Oktubre para Oktubre",
@@ -873,7 +899,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/oktubre-para-oktubre-28953",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1789501780_6aa9a154a7b89.jpg",
-      "id": 67
+      "id": 69
     },
     {
       "title": "Silvia Gómez Grupo en La Maga Club de Arte",
@@ -886,7 +912,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/silvia-gomez-grupo-en-la-maga-club-de-arte-29133",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1790113374_6ab2f65e32637.jpg",
-      "id": 68
+      "id": 70
     },
     {
       "title": "Teatro Metro.Todos Los Derechos Reservados.",
@@ -899,20 +925,7 @@
       "sourceKey": "teatrometrolp",
       "url": "http://www.misticastudio.com",
       "flyer": "https://www.teatrometrolp.com.arimages/mistica-logo.png",
-      "id": 69
-    },
-    {
-      "title": "Tocho y los carroñeros",
-      "cat": "recital",
-      "date": "",
-      "time": "20:00",
-      "venue": "Viernes 02/10, 20:00 hsPura Vida, La Plata",
-      "city": "La Plata",
-      "source": "Alpogo",
-      "sourceKey": "alpogo",
-      "url": "https://alpogo.com/evento/tocho-y-los-carroneros-28298",
-      "flyer": "https://imagenes.alpogo.com/eventos/135e305e-5435-45b9-850f-c5121f9fb893.webp",
-      "id": 70
+      "id": 71
     }
   ]
 }
