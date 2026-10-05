@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-05T09:54:41.874552",
+  "updated_at": "2026-10-05T21:51:28.411642",
   "source": "scraper-natu-v10",
   "city": "La Plata",
   "total": 66,
@@ -66,7 +66,7 @@
       "source": "CatPass",
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
-      "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/FULGOR%20%2321%20CUMPLE%20EL%20JEFE%20sombras1-ed9f7d6c-3374-430c-ace8-4ef65a961399.webp?alt=media&token=e285a515-83b1-4ed7-89c6-d8153e7d20aa",
+      "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/FULGOR%20%2321%20CUMPLE%20EL%20JEFE%20full-19fee0d6-5a92-45a7-85e3-f0637860c704.webp?alt=media&token=d16b79be-f452-4c05-ba46-83459f9e836c",
       "id": 5
     },
     {
