@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-06T09:42:04.720635",
+  "updated_at": "2026-10-06T20:02:25.724679",
   "source": "scraper-natu-v10",
   "city": "La Plata",
-  "total": 63,
+  "total": 67,
   "events": [
     {
       "title": "Sindicato Argentino de Boleros | Amor de Miércoles",
@@ -616,6 +616,19 @@
       "id": 47
     },
     {
+      "title": "404",
+      "cat": "recital",
+      "date": "",
+      "time": "",
+      "venue": "",
+      "city": "La Plata",
+      "source": "Passline",
+      "sourceKey": "passline",
+      "url": "https://www.passline.com/",
+      "flyer": "https://www.passline.com/error-400/img/passline-01.png",
+      "id": 48
+    },
+    {
       "title": "After Chabon en La Plata",
       "cat": "recital",
       "date": "",
@@ -626,7 +639,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/after-chabon-en-la-plata-28922",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1789400798_6aa816de2d3ac.jpg",
-      "id": 48
+      "id": 49
     },
     {
       "title": "Bisturí + Mica Sotera + Catalina Bayá",
@@ -639,7 +652,20 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/bisturi-mica-sotera-catalina-baya-28887",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1789151715_6aa449e31a0e7.jpg",
-      "id": 49
+      "id": 50
+    },
+    {
+      "title": "Botón de Arrep.",
+      "cat": "recital",
+      "date": "",
+      "time": "",
+      "venue": "",
+      "city": "La Plata",
+      "source": "Plateanet",
+      "sourceKey": "plateanet",
+      "url": "http://qr.afip.gob.ar/?qr=kwtNgkcpGIa54lJJxVAn0A,,",
+      "flyer": "https://www.plateanet.com./assets/footer/comodo_2021.svg",
+      "id": 51
     },
     {
       "title": "Canciones en la Banquina - Leuvú - Abra Dúo - Madera Mineral",
@@ -652,7 +678,20 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/canciones-en-la-banquina-leuvu-abra-duo-madera-mineral-29265",
       "flyer": "https://imagenes.alpogo.com/eventos/306c6978-c7b9-42ee-965f-63fb5a95b42d.webp",
-      "id": 50
+      "id": 52
+    },
+    {
+      "title": "COMPRARObrasTeatrosEticketBeneficiosTérminos y condiciones",
+      "cat": "teatro",
+      "date": "",
+      "time": "",
+      "venue": "",
+      "city": "La Plata",
+      "source": "Plateanet",
+      "sourceKey": "plateanet",
+      "url": "https://www.plateanet.com/reportes",
+      "flyer": "https://www.plateanet.comassets/footer/footer_flecha.svg",
+      "id": 53
     },
     {
       "title": "DA SKATE -  EN LA PLATA",
@@ -665,7 +704,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/da-skate-en-la-plata-28137",
       "flyer": "https://imagenes.alpogo.com/eventos/5a3b6713-4d6e-4a48-8618-8a6ffab20cf3.webp",
-      "id": 51
+      "id": 54
     },
     {
       "title": "Delirio 20 años",
@@ -678,7 +717,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/delirio-20-anos-28876",
       "flyer": "https://imagenes.alpogo.com/eventos/6ad0d11d-0cc6-4eaf-a999-b8fbd865910c.webp",
-      "id": 52
+      "id": 55
     },
     {
       "title": "encontranos en",
@@ -691,7 +730,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 53
+      "id": 56
     },
     {
       "title": "ENSAYO ABIERTO - Lauta Gonzalez & La Orquesta Flotante",
@@ -704,7 +743,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/ensayo-abierto-lauta-gonzalez-la-orquesta-flotante-28722",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1788386223_6a989baf8694b.jpg",
-      "id": 54
+      "id": 57
     },
     {
       "title": "Esquirlas ASM - Aniversario 5 - La Plata",
@@ -717,7 +756,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/esquirlas-asm-aniversario-5-la-plata-29315",
       "flyer": "https://imagenes.alpogo.com/eventos/d94eee1d-abfe-44a3-8788-8fa10ebf1419.webp",
-      "id": 55
+      "id": 58
     },
     {
       "title": "F9 y Capacidad Negativa en Pura Vida LA PLATA",
@@ -730,7 +769,20 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/f9-y-capacidad-negativa-en-pura-vida-la-plata-28587",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1787863673_6a90a2796dd08.jpg",
-      "id": 56
+      "id": 59
+    },
+    {
+      "title": "FestiPunk entre el Rock Y Bosc 28 Nov 23hs",
+      "cat": "recital",
+      "date": "",
+      "time": "23:00",
+      "venue": "Sábado 28/11, 23:00 hsBlondie Cultural, La Plata",
+      "city": "La Plata",
+      "source": "Alpogo",
+      "sourceKey": "alpogo",
+      "url": "https://alpogo.com/evento/festipunk-entre-el-rock-y-bosc-28-nov-23hs-29423",
+      "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1791309664_6ac5376075b1c.jpg",
+      "id": 60
     },
     {
       "title": "FIESTA UGH! | LA PLATA | EDICIÓN HALLOWEEN",
@@ -743,7 +795,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/fiesta-ugh-la-plata-edicion-halloween-29321",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1790806324_6abd8934a89c7.jpg",
-      "id": 57
+      "id": 61
     },
     {
       "title": "Inicio(current)EL TEATROCARTELERANOTICIASCONTACTO",
@@ -756,7 +808,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 58
+      "id": 62
     },
     {
       "title": "KECHIRUSA en vivo",
@@ -769,7 +821,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/kechirusa-en-vivo-29022",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1789871769_6aaf46996e16a.jpg",
-      "id": 59
+      "id": 63
     },
     {
       "title": "LA DUPLA METALERA en LA PLATA",
@@ -782,7 +834,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/la-dupla-metalera-en-la-plata-28059",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1786097161_6a75ae0954f6a.jpg",
-      "id": 60
+      "id": 64
     },
     {
       "title": "Oktubre para Oktubre",
@@ -795,7 +847,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/oktubre-para-oktubre-28953",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1789501780_6aa9a154a7b89.jpg",
-      "id": 61
+      "id": 65
     },
     {
       "title": "Silvia Gómez Grupo en La Maga Club de Arte",
@@ -808,7 +860,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/silvia-gomez-grupo-en-la-maga-club-de-arte-29133",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1790113374_6ab2f65e32637.jpg",
-      "id": 62
+      "id": 66
     },
     {
       "title": "Teatro Metro.Todos Los Derechos Reservados.",
@@ -821,7 +873,7 @@
       "sourceKey": "teatrometrolp",
       "url": "http://www.misticastudio.com",
       "flyer": "https://www.teatrometrolp.com.arimages/mistica-logo.png",
-      "id": 63
+      "id": 67
     }
   ]
 }
