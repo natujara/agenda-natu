@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T18:53:44.770520",
+  "updated_at": "2026-10-15T23:32:34.673632",
   "source": "scraper-natu-v10",
   "city": "La Plata",
   "total": 71,
@@ -473,19 +473,6 @@
       "id": 36
     },
     {
-      "title": "Pan con Manteca con Augusto Alonso y Frankillo",
-      "cat": "recital",
-      "date": "2026-11-14",
-      "time": "21:00",
-      "venue": "Casa Metro La Plata",
-      "city": "La Plata",
-      "source": "Casa Metro",
-      "sourceKey": "casametro",
-      "url": "https://casametro.com.ar/evento/pan-con-manteca-con-augusto-alonso-y-frankillo/",
-      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/10/PanConManteca_web-gonna_1080x900.jpg",
-      "id": 37
-    },
-    {
       "title": "INDIA BOMBAY + CASUALCASUAL + LAUREANO Y LAS VALKIRIAS",
       "cat": "recital",
       "date": "2026-11-20",
@@ -496,7 +483,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/INDIA%2020-11-0d98687a-b637-46f1-8c3a-751ef6806292.webp?alt=media&token=885e2faa-4d34-4f37-bf9a-c65f557d28dc",
-      "id": 38
+      "id": 37
     },
     {
       "title": "Memphis La Blusera – Siempre",
@@ -509,7 +496,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/memphis-la-blusera-siempre/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/09/WEB-Auditorio-memphis-la-blusera.png",
-      "id": 39
+      "id": 38
     },
     {
       "title": "Música como en casa – Lilian Saba",
@@ -522,6 +509,19 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/musica-como-en-casa-lilian-saba/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/07/Inaki_1600x1000-1.png",
+      "id": 39
+    },
+    {
+      "title": "Pan con Manteca con Augusto Alonso y Frankillo",
+      "cat": "recital",
+      "date": "2026-11-21",
+      "time": "21:00",
+      "venue": "Casa Metro La Plata",
+      "city": "La Plata",
+      "source": "Casa Metro",
+      "sourceKey": "casametro",
+      "url": "https://casametro.com.ar/evento/pan-con-manteca-con-augusto-alonso-y-frankillo/",
+      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/10/PanConManteca_LP_1920x1080.jpg",
       "id": 40
     },
     {
