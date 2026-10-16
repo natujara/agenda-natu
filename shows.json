@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T13:44:57.518854",
+  "updated_at": "2026-10-16T18:38:28.950538",
   "source": "scraper-natu-v10",
   "city": "La Plata",
   "total": 71,
@@ -31,19 +31,6 @@
       "id": 2
     },
     {
-      "title": "Homenaje a Víctor Heredia | Feria del Libro y la Cultura Indígena | Viernes 16/10 | 16:00",
-      "cat": "festival",
-      "date": "2026-10-16",
-      "time": "16:00",
-      "venue": "Teatro Argentino — Astor Piazzolla",
-      "city": "La Plata",
-      "source": "Teatro Argentino",
-      "sourceKey": "teatroargentino",
-      "url": "https://teatroargentino.gba.gob.ar/meets/no-season",
-      "flyer": "",
-      "id": 3
-    },
-    {
       "title": "Nuevas historias argentinas | Felipe Pigna & Pedro...",
       "cat": "recital",
       "date": "2026-10-16",
@@ -54,6 +41,19 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/entrada/nuevas-historias-argentinas-felipe-pigna-pedro-saborido-100835",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/entradas/20260807151910_1600x1000.png",
+      "id": 3
+    },
+    {
+      "title": "SUSPENDIDO | Homenaje a Víctor Heredia | Feria del Libro y la Cultura Indígena | Viernes 16/10 | 16:00",
+      "cat": "festival",
+      "date": "2026-10-16",
+      "time": "16:00",
+      "venue": "Teatro Argentino — Astor Piazzolla",
+      "city": "La Plata",
+      "source": "Teatro Argentino",
+      "sourceKey": "teatroargentino",
+      "url": "https://teatroargentino.gba.gob.ar/meets/no-season",
+      "flyer": "",
       "id": 4
     },
     {
