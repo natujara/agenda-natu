@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-21T08:13:36.248298",
+  "updated_at": "2026-10-21T14:21:28.675129",
   "source": "scraper-natu-v10",
   "city": "La Plata",
-  "total": 62,
+  "total": 63,
   "events": [
     {
       "title": "Sindicato Argentino de Boleros | Amor de Miércoles",
@@ -785,6 +785,19 @@
       "id": 60
     },
     {
+      "title": "Pabloxo en lpug",
+      "cat": "recital",
+      "date": "",
+      "time": "18:00",
+      "venue": "Sábado 31/10, 18:00 hsCasa Unclan, La Plata",
+      "city": "La Plata",
+      "source": "Alpogo",
+      "sourceKey": "alpogo",
+      "url": "https://alpogo.com/evento/pabloxo-en-lpug-29760",
+      "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1792532287_6ad7df3f8f079.jpg",
+      "id": 61
+    },
+    {
       "title": "Tallando el Elefante en La Plata",
       "cat": "recital",
       "date": "",
@@ -795,7 +808,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/tallando-el-elefante-en-la-plata-29521",
       "flyer": "https://imagenes.alpogo.com/eventos/a748377f-faa9-43fe-b3aa-12ff95836ec4.webp",
-      "id": 61
+      "id": 62
     },
     {
       "title": "Teatro Metro.Todos Los Derechos Reservados.",
@@ -808,7 +821,7 @@
       "sourceKey": "teatrometrolp",
       "url": "http://www.misticastudio.com",
       "flyer": "https://www.teatrometrolp.com.arimages/mistica-logo.png",
-      "id": 62
+      "id": 63
     }
   ]
 }
