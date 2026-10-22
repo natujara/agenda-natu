@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T14:20:39.594518",
+  "updated_at": "2026-10-22T19:14:53.676344",
   "source": "scraper-natu-v10",
   "city": "La Plata",
   "total": 64,
@@ -395,6 +395,19 @@
       "id": 30
     },
     {
+      "title": "Malena Muyala",
+      "cat": "recital",
+      "date": "2026-11-21",
+      "time": "22:00",
+      "venue": "Casa Metro La Plata",
+      "city": "La Plata",
+      "source": "Casa Metro",
+      "sourceKey": "casametro",
+      "url": "https://casametro.com.ar/evento/malena-muyala/",
+      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/10/webMalena-muyala.png",
+      "id": 31
+    },
+    {
       "title": "MEET & GREET – Pan con Manteca con Augusto Alonso y Frankillo",
       "cat": "recital",
       "date": "2026-11-21",
@@ -405,7 +418,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/meet-greet-pan-con-manteca-con-augusto-alonso-y-frankillo/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/10/PanConManteca_LP_1920x1080.jpg",
-      "id": 31
+      "id": 32
     },
     {
       "title": "Música como en casa – Lilian Saba",
@@ -418,7 +431,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/musica-como-en-casa-lilian-saba/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/07/Inaki_1600x1000-1.png",
-      "id": 32
+      "id": 33
     },
     {
       "title": "Pan con Manteca con Augusto Alonso y Frankillo",
@@ -431,7 +444,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/pan-con-manteca-con-augusto-alonso-y-frankillo/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/10/PanConManteca_LP_1920x1080.jpg",
-      "id": 33
+      "id": 34
     },
     {
       "title": "BALLET DE SAN PETERSBURGO / CASCANUECES",
@@ -444,7 +457,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/ballet-de-san-petersburgo-cascanueces/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/10/web_cascanuec-1.png",
-      "id": 34
+      "id": 35
     },
     {
       "title": "Lisandro Aristimuño – Experiencia Coral",
@@ -457,7 +470,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/lisandro-aristimuno-experiencia-coral/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/10/1600-X-1000-OK.jpg",
-      "id": 35
+      "id": 36
     },
     {
       "title": "KAMADA - Juebless",
@@ -470,7 +483,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/IMG_2239-4b2eb47c-3b6c-4d80-a57b-be73b48b6c77.webp?alt=media&token=9b8a4481-ac26-4bd6-8426-21baee7b9f61",
-      "id": 36
+      "id": 37
     },
     {
       "title": "Teatro Ciego: Chakras | Meditación en completa oscuridad",
@@ -483,7 +496,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/teatro-ciego-chakras-copia/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/10/web_V1.png",
-      "id": 37
+      "id": 38
     },
     {
       "title": "Julián Hernández",
@@ -496,7 +509,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/julian-hernandez-moscoso/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/09/1600x1000_JH.png",
-      "id": 38
+      "id": 39
     },
     {
       "title": "La Trasnochada",
@@ -509,7 +522,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/la-trasnochada/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/web_V1.png",
-      "id": 39
+      "id": 40
     },
     {
       "title": "Caracol a Contramano 20 AÑOS",
@@ -522,7 +535,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/Flyer%20Pub%2028-11-6e54790c-6947-420a-b1aa-1db66f294f45.webp?alt=media&token=40adcadc-238a-4d30-8962-f33deb694f42",
-      "id": 40
+      "id": 41
     },
     {
       "title": "Sueño Stereo",
@@ -535,7 +548,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/sueno-stereo/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/09/webSuenos-stereo.png",
-      "id": 41
+      "id": 42
     },
     {
       "title": "Joaco Burgos en la Plata",
@@ -548,7 +561,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/1.1%20JOACO%20LP%20I-619159a1-1d74-4a78-bf81-cdaff3c87be6.webp?alt=media&token=14e8f7d2-7be7-42b1-9971-0c398c8c6c87",
-      "id": 42
+      "id": 43
     },
     {
       "title": "404",
@@ -561,7 +574,7 @@
       "sourceKey": "passline",
       "url": "https://www.passline.com/",
       "flyer": "https://www.passline.com/error-400/img/passline-01.png",
-      "id": 43
+      "id": 44
     },
     {
       "title": "Botón de Arrep.",
@@ -574,7 +587,7 @@
       "sourceKey": "plateanet",
       "url": "http://qr.afip.gob.ar/?qr=kwtNgkcpGIa54lJJxVAn0A,,",
       "flyer": "https://www.plateanet.com./assets/footer/comodo_2021.svg",
-      "id": 44
+      "id": 45
     },
     {
       "title": "Canciones en la Banquina - Leuvú - Abra Dúo - Madera Mineral",
@@ -587,19 +600,6 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/canciones-en-la-banquina-leuvu-abra-duo-madera-mineral-29265",
       "flyer": "https://imagenes.alpogo.com/eventos/306c6978-c7b9-42ee-965f-63fb5a95b42d.webp",
-      "id": 45
-    },
-    {
-      "title": "Chango Spasiuk",
-      "cat": "recital",
-      "date": "",
-      "time": "21:00",
-      "venue": "Casa Metro La Plata",
-      "city": "La Plata",
-      "source": "Casa Metro",
-      "sourceKey": "casametro",
-      "url": "https://casametro.com.ar/evento/chango-spasiuk/",
-      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/10/1600x1000_spa.png",
       "id": 46
     },
     {
