@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-23T18:55:46.126558",
+  "updated_at": "2026-10-23T23:49:35.572787",
   "source": "scraper-natu-v10",
   "city": "La Plata",
-  "total": 64,
+  "total": 65,
   "events": [
     {
       "title": "Feli Colina en La Plata",
@@ -603,6 +603,19 @@
       "id": 46
     },
     {
+      "title": "CARALOCO CRAZY FEST",
+      "cat": "recital",
+      "date": "",
+      "time": "17:00",
+      "venue": "Jueves 19/11, 17:00 hsBlondie Cultural, La Plata",
+      "city": "La Plata",
+      "source": "Alpogo",
+      "sourceKey": "alpogo",
+      "url": "https://alpogo.com/evento/caraloco-crazy-fest-29826",
+      "flyer": "https://imagenes.alpogo.com/eventos/a8363889-6a7b-49d9-8488-f897040cd7c8.webp",
+      "id": 47
+    },
+    {
       "title": "COMPRARObrasTeatrosEticketBeneficiosTérminos y condiciones",
       "cat": "teatro",
       "date": "",
@@ -613,7 +626,7 @@
       "sourceKey": "plateanet",
       "url": "https://www.plateanet.com/reportes",
       "flyer": "https://www.plateanet.comassets/footer/footer_flecha.svg",
-      "id": 47
+      "id": 48
     },
     {
       "title": "DA SKATE -  EN LA PLATA",
@@ -626,7 +639,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/da-skate-en-la-plata-28137",
       "flyer": "https://imagenes.alpogo.com/eventos/5a3b6713-4d6e-4a48-8618-8a6ffab20cf3.webp",
-      "id": 48
+      "id": 49
     },
     {
       "title": "Delirio 20 años",
@@ -639,7 +652,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/delirio-20-anos-28876",
       "flyer": "https://imagenes.alpogo.com/eventos/6ad0d11d-0cc6-4eaf-a999-b8fbd865910c.webp",
-      "id": 49
+      "id": 50
     },
     {
       "title": "encontranos en",
@@ -652,7 +665,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 50
+      "id": 51
     },
     {
       "title": "ENSAYO ABIERTO - Ensambles Mano Zurda - Frisson / Impostores",
@@ -665,7 +678,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/ensayo-abierto-ensambles-mano-zurda-frisson-impostores-29516",
       "flyer": "https://imagenes.alpogo.com/eventos/097302c6-5678-4bc4-911b-71e918c6c38d.webp",
-      "id": 51
+      "id": 52
     },
     {
       "title": "Esquirlas ASM - Aniversario 5 - La Plata",
@@ -678,7 +691,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/esquirlas-asm-aniversario-5-la-plata-29315",
       "flyer": "https://imagenes.alpogo.com/eventos/d94eee1d-abfe-44a3-8788-8fa10ebf1419.webp",
-      "id": 52
+      "id": 53
     },
     {
       "title": "Etiqueta Negra en el Teatro René Favaloro",
@@ -691,7 +704,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/etiqueta-negra-en-el-teatro-rene-favaloro-28970",
       "flyer": "https://imagenes.alpogo.com/eventos/18af140c-2be4-4bf3-a0d9-c13a1f9514a1.webp",
-      "id": 53
+      "id": 54
     },
     {
       "title": "Fernando Cabrera & Hugo Fattoruso",
@@ -704,7 +717,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/fernando-cabrera-y-hugo-fattoruso/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/08/WEB_-fattoruso-y-cabrera.png",
-      "id": 54
+      "id": 55
     },
     {
       "title": "FestiPunk entre el Rock Y Bosc 28 Nov 23hs",
@@ -717,7 +730,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/festipunk-entre-el-rock-y-bosc-28-nov-23hs-29423",
       "flyer": "https://imagenes.alpogo.com/eventos/8a9c341d-8263-4647-8df0-900700945f0b.webp",
-      "id": 55
+      "id": 56
     },
     {
       "title": "FIESTA UGH! | LA PLATA | EDICIÓN HALLOWEEN",
@@ -730,7 +743,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/fiesta-ugh-la-plata-edicion-halloween-29321",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1790806324_6abd8934a89c7.jpg",
-      "id": 56
+      "id": 57
     },
     {
       "title": "Inicio(current)EL TEATROCARTELERANOTICIASCONTACTO",
@@ -743,7 +756,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 57
+      "id": 58
     },
     {
       "title": "KECHIRUSA en vivo",
@@ -756,7 +769,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/kechirusa-en-vivo-29022",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1789871769_6aaf46996e16a.jpg",
-      "id": 58
+      "id": 59
     },
     {
       "title": "LA DUPLA METALERA en LA PLATA",
@@ -769,7 +782,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/la-dupla-metalera-en-la-plata-28059",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1786097161_6a75ae0954f6a.jpg",
-      "id": 59
+      "id": 60
     },
     {
       "title": "La Margarita",
@@ -782,7 +795,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/la-margarita-29571",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1791979441_6acf6fb10d46f.jpg",
-      "id": 60
+      "id": 61
     },
     {
       "title": "Lpug",
@@ -795,7 +808,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/lpug-29492",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1791497276_6ac8143ca6157.jpg",
-      "id": 61
+      "id": 62
     },
     {
       "title": "Pabloxo en lpug",
@@ -808,7 +821,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/pabloxo-en-lpug-29760",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1792532287_6ad7df3f8f079.jpg",
-      "id": 62
+      "id": 63
     },
     {
       "title": "Tallando el Elefante en La Plata",
@@ -821,7 +834,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/tallando-el-elefante-en-la-plata-29521",
       "flyer": "https://imagenes.alpogo.com/eventos/a748377f-faa9-43fe-b3aa-12ff95836ec4.webp",
-      "id": 63
+      "id": 64
     },
     {
       "title": "Teatro Metro.Todos Los Derechos Reservados.",
@@ -834,7 +847,7 @@
       "sourceKey": "teatrometrolp",
       "url": "http://www.misticastudio.com",
       "flyer": "https://www.teatrometrolp.com.arimages/mistica-logo.png",
-      "id": 64
+      "id": 65
     }
   ]
 }
