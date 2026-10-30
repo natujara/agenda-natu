@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-30T00:37:43.642701",
+  "updated_at": "2026-10-30T09:22:34.136299",
   "source": "scraper-natu-v10",
   "city": "La Plata",
-  "total": 64,
+  "total": 65,
   "events": [
     {
       "title": "CANTAMOS FATAL - CHARO LÓPEZ",
@@ -746,6 +746,19 @@
       "id": 57
     },
     {
+      "title": "Juan Solá- Unipersonal",
+      "cat": "teatro",
+      "date": "",
+      "time": "20:00",
+      "venue": "Casa Metro La Plata",
+      "city": "La Plata",
+      "source": "Casa Metro",
+      "sourceKey": "casametro",
+      "url": "https://casametro.com.ar/evento/juan-sola-unipersonal/",
+      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/10/web_Juan-sola.png",
+      "id": 58
+    },
+    {
       "title": "LA DUPLA METALERA en LA PLATA",
       "cat": "recital",
       "date": "",
@@ -756,7 +769,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/la-dupla-metalera-en-la-plata-28059",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1786097161_6a75ae0954f6a.jpg",
-      "id": 58
+      "id": 59
     },
     {
       "title": "La Margarita",
@@ -769,7 +782,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/la-margarita-29571",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1791979441_6acf6fb10d46f.jpg",
-      "id": 59
+      "id": 60
     },
     {
       "title": "Lpug",
@@ -782,7 +795,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/lpug-29492",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1791497276_6ac8143ca6157.jpg",
-      "id": 60
+      "id": 61
     },
     {
       "title": "Pabloxo en lpug",
@@ -795,7 +808,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/pabloxo-en-lpug-29760",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1792532287_6ad7df3f8f079.jpg",
-      "id": 61
+      "id": 62
     },
     {
       "title": "Tallando el Elefante en La Plata",
@@ -808,7 +821,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/tallando-el-elefante-en-la-plata-29521",
       "flyer": "https://imagenes.alpogo.com/eventos/a748377f-faa9-43fe-b3aa-12ff95836ec4.webp",
-      "id": 62
+      "id": 63
     },
     {
       "title": "Teatro Metro.Todos Los Derechos Reservados.",
@@ -821,7 +834,7 @@
       "sourceKey": "teatrometrolp",
       "url": "http://www.misticastudio.com",
       "flyer": "https://www.teatrometrolp.com.arimages/mistica-logo.png",
-      "id": 63
+      "id": 64
     },
     {
       "title": "Teresa Parodi en La Plata",
@@ -834,7 +847,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/teresa-parodi-en-la-plata-29886",
       "flyer": "https://imagenes.alpogo.com/eventos/e61c8986-cb57-4a14-90f3-4b3258804262.webp",
-      "id": 64
+      "id": 65
     }
   ]
 }
