@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-31T09:10:20.433805",
+  "updated_at": "2026-10-31T19:02:29.406132",
   "source": "scraper-natu-v10",
   "city": "La Plata",
-  "total": 68,
+  "total": 69,
   "events": [
     {
       "title": "+ GATEO",
@@ -564,6 +564,19 @@
       "id": 43
     },
     {
+      "title": "CASANOVAS / NORMA",
+      "cat": "recital",
+      "date": "2026-12-04",
+      "time": "20:00",
+      "venue": "",
+      "city": "La Plata",
+      "source": "CatPass",
+      "sourceKey": "catpass",
+      "url": "https://catpass.net/eventos",
+      "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/diciembre%202025-06-89e322d9-db4c-404c-832c-65a7ada398ca.webp?alt=media&token=4c5fc214-1163-4bb5-bd71-56c5db1cd141",
+      "id": 44
+    },
+    {
       "title": "Las ligas menores/La teoría del caos/OK pirámides",
       "cat": "recital",
       "date": "2026-12-12",
@@ -574,7 +587,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/OKPI-CDG-LP-6e590d78-d509-4572-b314-ae0e694fc938.webp?alt=media&token=34502880-f407-4214-aef3-d7bbf974860e",
-      "id": 44
+      "id": 45
     },
     {
       "title": "Joaco Burgos en la Plata",
@@ -587,7 +600,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/1.1%20JOACO%20LP%20I-619159a1-1d74-4a78-bf81-cdaff3c87be6.webp?alt=media&token=14e8f7d2-7be7-42b1-9971-0c398c8c6c87",
-      "id": 45
+      "id": 46
     },
     {
       "title": "404",
@@ -600,7 +613,7 @@
       "sourceKey": "passline",
       "url": "https://www.passline.com/",
       "flyer": "https://www.passline.com/error-400/img/passline-01.png",
-      "id": 46
+      "id": 47
     },
     {
       "title": "Botón de Arrep.",
@@ -613,7 +626,7 @@
       "sourceKey": "plateanet",
       "url": "http://qr.afip.gob.ar/?qr=kwtNgkcpGIa54lJJxVAn0A,,",
       "flyer": "https://www.plateanet.com./assets/footer/comodo_2021.svg",
-      "id": 47
+      "id": 48
     },
     {
       "title": "CARALOCO CRAZY FEST",
@@ -626,7 +639,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/caraloco-crazy-fest-29826",
       "flyer": "https://imagenes.alpogo.com/eventos/94c4192f-1ea7-4be9-97ef-620a6edd7c9c.webp",
-      "id": 48
+      "id": 49
     },
     {
       "title": "Chango Spasiuk",
@@ -639,7 +652,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/chango-spasiuk/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/10/1600x1000_spa.png",
-      "id": 49
+      "id": 50
     },
     {
       "title": "COMPRARObrasTeatrosEticketBeneficiosTérminos y condiciones",
@@ -652,7 +665,7 @@
       "sourceKey": "plateanet",
       "url": "https://www.plateanet.com/reportes",
       "flyer": "https://www.plateanet.comassets/footer/footer_flecha.svg",
-      "id": 50
+      "id": 51
     },
     {
       "title": "DA SKATE -  EN LA PLATA",
@@ -665,7 +678,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/da-skate-en-la-plata-28137",
       "flyer": "https://imagenes.alpogo.com/eventos/5a3b6713-4d6e-4a48-8618-8a6ffab20cf3.webp",
-      "id": 51
+      "id": 52
     },
     {
       "title": "Dan Tumburús | Estoy bien, gracias",
@@ -678,7 +691,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/dan-tumburus-estoy-bien-gracias/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/10/web_dan.png",
-      "id": 52
+      "id": 53
     },
     {
       "title": "Delirio 20 años",
@@ -691,7 +704,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/delirio-20-anos-28876",
       "flyer": "https://imagenes.alpogo.com/eventos/6ad0d11d-0cc6-4eaf-a999-b8fbd865910c.webp",
-      "id": 53
+      "id": 54
     },
     {
       "title": "encontranos en",
@@ -704,7 +717,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 54
+      "id": 55
     },
     {
       "title": "ENSAYO ABIERTO - Ensambles Mano Zurda - Frisson / Impostores",
@@ -717,7 +730,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/ensayo-abierto-ensambles-mano-zurda-frisson-impostores-29516",
       "flyer": "https://imagenes.alpogo.com/eventos/097302c6-5678-4bc4-911b-71e918c6c38d.webp",
-      "id": 55
+      "id": 56
     },
     {
       "title": "Esquirlas ASM - Aniversario 5 - La Plata",
@@ -730,7 +743,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/esquirlas-asm-aniversario-5-la-plata-29315",
       "flyer": "https://imagenes.alpogo.com/eventos/d94eee1d-abfe-44a3-8788-8fa10ebf1419.webp",
-      "id": 56
+      "id": 57
     },
     {
       "title": "Etiqueta Negra en el Teatro René Favaloro",
@@ -743,7 +756,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/etiqueta-negra-en-el-teatro-rene-favaloro-28970",
       "flyer": "https://imagenes.alpogo.com/eventos/18af140c-2be4-4bf3-a0d9-c13a1f9514a1.webp",
-      "id": 57
+      "id": 58
     },
     {
       "title": "Fernando Cabrera & Hugo Fattoruso",
@@ -756,7 +769,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/fernando-cabrera-y-hugo-fattoruso/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/08/WEB_-fattoruso-y-cabrera.png",
-      "id": 58
+      "id": 59
     },
     {
       "title": "FestiPunk entre el Rock Y Bosc 28 Nov 23hs",
@@ -769,7 +782,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/festipunk-entre-el-rock-y-bosc-28-nov-23hs-29423",
       "flyer": "https://imagenes.alpogo.com/eventos/e2f9f0f5-7a4a-46ac-8327-62001ecbb2fa.webp",
-      "id": 59
+      "id": 60
     },
     {
       "title": "FIESTA UGH! | LA PLATA | EDICIÓN HALLOWEEN",
@@ -782,7 +795,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/fiesta-ugh-la-plata-edicion-halloween-29321",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1790806324_6abd8934a89c7.jpg",
-      "id": 60
+      "id": 61
     },
     {
       "title": "Inicio(current)EL TEATROCARTELERANOTICIASCONTACTO",
@@ -795,7 +808,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 61
+      "id": 62
     },
     {
       "title": "Juan Solá- Unipersonal",
@@ -808,7 +821,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/juan-sola-unipersonal/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/10/web_Juan-sola.png",
-      "id": 62
+      "id": 63
     },
     {
       "title": "La Margarita",
@@ -821,7 +834,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/la-margarita-29571",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1791979441_6acf6fb10d46f.jpg",
-      "id": 63
+      "id": 64
     },
     {
       "title": "Lpug",
@@ -834,7 +847,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/lpug-29492",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1791497276_6ac8143ca6157.jpg",
-      "id": 64
+      "id": 65
     },
     {
       "title": "Pabloxo en lpug",
@@ -847,7 +860,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/pabloxo-en-lpug-29760",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1792532287_6ad7df3f8f079.jpg",
-      "id": 65
+      "id": 66
     },
     {
       "title": "Tallando el Elefante en La Plata",
@@ -860,7 +873,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/tallando-el-elefante-en-la-plata-29521",
       "flyer": "https://imagenes.alpogo.com/eventos/a748377f-faa9-43fe-b3aa-12ff95836ec4.webp",
-      "id": 66
+      "id": 67
     },
     {
       "title": "Teatro Metro.Todos Los Derechos Reservados.",
@@ -873,7 +886,7 @@
       "sourceKey": "teatrometrolp",
       "url": "http://www.misticastudio.com",
       "flyer": "https://www.teatrometrolp.com.arimages/mistica-logo.png",
-      "id": 67
+      "id": 68
     },
     {
       "title": "Teresa Parodi en La Plata",
@@ -886,7 +899,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/teresa-parodi-en-la-plata-29886",
       "flyer": "https://imagenes.alpogo.com/eventos/e61c8986-cb57-4a14-90f3-4b3258804262.webp",
-      "id": 68
+      "id": 69
     }
   ]
 }
