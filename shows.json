@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-01T00:03:41.652485",
+  "updated_at": "2026-11-01T10:00:43.376205",
   "source": "scraper-natu-v10",
   "city": "La Plata",
-  "total": 66,
+  "total": 64,
   "events": [
     {
       "title": "Obra teatral “Mi vida anterior” de Teresa Donato y Dennis Smith | Domingo 1/11 | 19:00",
@@ -746,19 +746,6 @@
       "id": 57
     },
     {
-      "title": "FIESTA UGH! | LA PLATA | EDICIÓN HALLOWEEN",
-      "cat": "recital",
-      "date": "",
-      "time": "23:59",
-      "venue": "Sábado 31/10, 23:59 hsBYE HENRY DIAGONAL",
-      "city": "La Plata",
-      "source": "Alpogo",
-      "sourceKey": "alpogo",
-      "url": "https://alpogo.com/evento/fiesta-ugh-la-plata-edicion-halloween-29321",
-      "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1790806324_6abd8934a89c7.jpg",
-      "id": 58
-    },
-    {
       "title": "Inicio(current)EL TEATROCARTELERANOTICIASCONTACTO",
       "cat": "teatro",
       "date": "",
@@ -769,7 +756,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 59
+      "id": 58
     },
     {
       "title": "Juan Solá- Unipersonal",
@@ -782,7 +769,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/juan-sola-unipersonal/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/10/web_Juan-sola.png",
-      "id": 60
+      "id": 59
     },
     {
       "title": "La Margarita",
@@ -795,33 +782,20 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/la-margarita-29571",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1791979441_6acf6fb10d46f.jpg",
+      "id": 60
+    },
+    {
+      "title": "Música como en casa – Gato Luna",
+      "cat": "recital",
+      "date": "",
+      "time": "21:00",
+      "venue": "Casa Metro La Plata",
+      "city": "La Plata",
+      "source": "Casa Metro",
+      "sourceKey": "casametro",
+      "url": "https://casametro.com.ar/evento/musica-como-en-casa-gato-luna/",
+      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/09/gato_1600x1000.jpg",
       "id": 61
-    },
-    {
-      "title": "Lpug",
-      "cat": "recital",
-      "date": "",
-      "time": "18:01",
-      "venue": "Sábado 31/10, 18:01 hsCasa Unclan, La Plata",
-      "city": "La Plata",
-      "source": "Alpogo",
-      "sourceKey": "alpogo",
-      "url": "https://alpogo.com/evento/lpug-29492",
-      "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1791497276_6ac8143ca6157.jpg",
-      "id": 62
-    },
-    {
-      "title": "Pabloxo en lpug",
-      "cat": "recital",
-      "date": "",
-      "time": "18:00",
-      "venue": "Sábado 31/10, 18:00 hsCasa Unclan, La Plata",
-      "city": "La Plata",
-      "source": "Alpogo",
-      "sourceKey": "alpogo",
-      "url": "https://alpogo.com/evento/pabloxo-en-lpug-29760",
-      "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1792532287_6ad7df3f8f079.jpg",
-      "id": 63
     },
     {
       "title": "Tallando el Elefante en La Plata",
@@ -834,7 +808,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/tallando-el-elefante-en-la-plata-29521",
       "flyer": "https://imagenes.alpogo.com/eventos/a748377f-faa9-43fe-b3aa-12ff95836ec4.webp",
-      "id": 64
+      "id": 62
     },
     {
       "title": "Teatro Metro.Todos Los Derechos Reservados.",
@@ -847,7 +821,7 @@
       "sourceKey": "teatrometrolp",
       "url": "http://www.misticastudio.com",
       "flyer": "https://www.teatrometrolp.com.arimages/mistica-logo.png",
-      "id": 65
+      "id": 63
     },
     {
       "title": "Teresa Parodi en La Plata",
@@ -860,7 +834,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/teresa-parodi-en-la-plata-29886",
       "flyer": "https://imagenes.alpogo.com/eventos/e61c8986-cb57-4a14-90f3-4b3258804262.webp",
-      "id": 66
+      "id": 64
     }
   ]
 }
