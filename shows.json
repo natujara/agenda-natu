@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-08T00:12:26.704905",
+  "updated_at": "2026-11-08T09:48:57.197878",
   "source": "scraper-natu-v10",
   "city": "La Plata",
-  "total": 64,
+  "total": 63,
   "events": [
     {
       "title": "Las Hijas",
@@ -668,19 +668,6 @@
       "id": 51
     },
     {
-      "title": "ENSAYO ABIERTO - Ensambles Mano Zurda - Frisson / Impostores",
-      "cat": "recital",
-      "date": "",
-      "time": "21:00",
-      "venue": "Sábado 07/11, 21:00 hsAutopista del sonido, La Plata",
-      "city": "La Plata",
-      "source": "Alpogo",
-      "sourceKey": "alpogo",
-      "url": "https://alpogo.com/evento/ensayo-abierto-ensambles-mano-zurda-frisson-impostores-29516",
-      "flyer": "https://imagenes.alpogo.com/eventos/097302c6-5678-4bc4-911b-71e918c6c38d.webp",
-      "id": 52
-    },
-    {
       "title": "Esquirlas ASM - Aniversario 5 - La Plata",
       "cat": "recital",
       "date": "",
@@ -691,7 +678,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/esquirlas-asm-aniversario-5-la-plata-29315",
       "flyer": "https://imagenes.alpogo.com/eventos/d94eee1d-abfe-44a3-8788-8fa10ebf1419.webp",
-      "id": 53
+      "id": 52
     },
     {
       "title": "Etiqueta Negra en el Teatro René Favaloro",
@@ -704,7 +691,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/etiqueta-negra-en-el-teatro-rene-favaloro-28970",
       "flyer": "https://imagenes.alpogo.com/eventos/18af140c-2be4-4bf3-a0d9-c13a1f9514a1.webp",
-      "id": 54
+      "id": 53
     },
     {
       "title": "Fernando Cabrera & Hugo Fattoruso",
@@ -717,7 +704,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/fernando-cabrera-y-hugo-fattoruso/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/08/WEB_-fattoruso-y-cabrera.png",
-      "id": 55
+      "id": 54
     },
     {
       "title": "FestiPunk entre el Rock Y Bosc 28 Nov 23hs",
@@ -730,7 +717,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/festipunk-entre-el-rock-y-bosc-28-nov-23hs-29423",
       "flyer": "https://imagenes.alpogo.com/eventos/e2f9f0f5-7a4a-46ac-8327-62001ecbb2fa.webp",
-      "id": 56
+      "id": 55
     },
     {
       "title": "FIESTA UGH! | LA PLATA | EDICIÓN ANIVERSARIO",
@@ -743,7 +730,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/fiesta-ugh-la-plata-edicion-aniversario-30013",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1793721668_6aea054417336.jpg",
-      "id": 57
+      "id": 56
     },
     {
       "title": "Inicio(current)EL TEATROCARTELERANOTICIASCONTACTO",
@@ -756,7 +743,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 58
+      "id": 57
     },
     {
       "title": "Juan Solá- Unipersonal",
@@ -769,7 +756,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/juan-sola-unipersonal/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/10/web_Juan-sola.png",
-      "id": 59
+      "id": 58
     },
     {
       "title": "La Margarita",
@@ -782,7 +769,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/la-margarita-29571",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1791979441_6acf6fb10d46f.jpg",
-      "id": 60
+      "id": 59
     },
     {
       "title": "Música como en casa – Gato Luna",
@@ -795,7 +782,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/musica-como-en-casa-gato-luna/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/09/gato_1600x1000.jpg",
-      "id": 61
+      "id": 60
     },
     {
       "title": "Teatro Metro.Todos Los Derechos Reservados.",
@@ -808,7 +795,7 @@
       "sourceKey": "teatrometrolp",
       "url": "http://www.misticastudio.com",
       "flyer": "https://www.teatrometrolp.com.arimages/mistica-logo.png",
-      "id": 62
+      "id": 61
     },
     {
       "title": "Teresa Parodi en La Plata",
@@ -821,7 +808,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/teresa-parodi-en-la-plata-29886",
       "flyer": "https://imagenes.alpogo.com/eventos/e61c8986-cb57-4a14-90f3-4b3258804262.webp",
-      "id": 63
+      "id": 62
     },
     {
       "title": "Xeito Novo",
@@ -834,7 +821,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/xeito-novo/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/10/webxeito-novo-1.png",
-      "id": 64
+      "id": 63
     }
   ]
 }
