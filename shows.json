@@ -1,48 +1,9 @@
 {
-  "updated_at": "2026-11-13T21:12:33.750316",
+  "updated_at": "2026-11-14T09:45:26.714325",
   "source": "scraper-natu-v10",
   "city": "La Plata",
-  "total": 53,
+  "total": 50,
   "events": [
-    {
-      "title": "FACTORY / MISSLUPE, ANDRES SABAT Y AMIGXS",
-      "cat": "recital",
-      "date": "2026-11-13",
-      "time": "23:59",
-      "venue": "",
-      "city": "La Plata",
-      "source": "CatPass",
-      "sourceKey": "catpass",
-      "url": "https://catpass.net/eventos",
-      "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/FINALISSIMA-e4b5a6b5-1a94-4590-b9cb-23208b464ee6.webp?alt=media&token=f170d189-340c-4de2-89d4-866d97e56eb8",
-      "id": 1
-    },
-    {
-      "title": "MUJER CEBRA / MIEDO PURO EN CDG",
-      "cat": "recital",
-      "date": "2026-11-13",
-      "time": "20:00",
-      "venue": "",
-      "city": "La Plata",
-      "source": "CatPass",
-      "sourceKey": "catpass",
-      "url": "https://catpass.net/eventos",
-      "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/MC%20LA%20PLATA%20FEED-0fba40bf-fa17-447d-94ae-17693e047d7e.webp?alt=media&token=ad460e39-8dc9-4431-a9e1-bab72974b15c",
-      "id": 2
-    },
-    {
-      "title": "OSCURO Y BAILABLE  - Cobra Rod",
-      "cat": "teatro",
-      "date": "2026-11-13",
-      "time": "23:59",
-      "venue": "",
-      "city": "La Plata",
-      "source": "CatPass",
-      "sourceKey": "catpass",
-      "url": "https://catpass.net/eventos",
-      "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/oscuro%20VERSION%201%20final%202-e3f2d57c-e631-45cf-91e0-1d9f72dc5873.webp?alt=media&token=58c5d5eb-95b3-476e-87e4-8f6f458c2bb3",
-      "id": 3
-    },
     {
       "title": "JULIETA LASO | FABRIQUERA",
       "cat": "recital",
@@ -54,7 +15,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/julieta-laso-fabriquera/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/09/WEB-_Julieta-Laso.png",
-      "id": 4
+      "id": 1
     },
     {
       "title": "Mortal punky",
@@ -67,7 +28,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/IMG_0789-b00dbaaf-521c-4577-b131-70eaae727542.webp?alt=media&token=aaccc1d9-306c-46ce-89ce-33a0905994db",
-      "id": 5
+      "id": 2
     },
     {
       "title": "Bailó toda la noche, tomó agua fría y se murió",
@@ -80,7 +41,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/bailo-toda-la-noche-tomo-agua-fria-y-se-murio/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/10/FLYER-HORIZONTAL-NOVIEMBRE.png",
-      "id": 6
+      "id": 3
     },
     {
       "title": "EL CUARTO DE VERONICA",
@@ -93,7 +54,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/entrada/el-cuarto-de-veronica-100980",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/entradas/20261016152035_cuarto-de-veronica-baja.jpg",
-      "id": 7
+      "id": 4
     },
     {
       "title": "INDIA BOMBAY + CASUALCASUAL + LAUREANO Y LAS VALKIRIAS",
@@ -106,7 +67,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/INDIA%2020-11-0d98687a-b637-46f1-8c3a-751ef6806292.webp?alt=media&token=885e2faa-4d34-4f37-bf9a-c65f557d28dc",
-      "id": 8
+      "id": 5
     },
     {
       "title": "Malena Muyala",
@@ -119,7 +80,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/malena-muyala/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/10/webMalena-muyala.png",
-      "id": 9
+      "id": 6
     },
     {
       "title": "Música como en casa – Lilian Saba",
@@ -132,7 +93,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/musica-como-en-casa-lilian-saba/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/07/lilian_1600x1000.png",
-      "id": 10
+      "id": 7
     },
     {
       "title": "Pan con Manteca con Augusto Alonso y Frankillo",
@@ -145,7 +106,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/entrada/pan-con-manteca-con-augusto-alonso-y-frankillo-100976",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/entradas/20261015161117_panconmanteca_600x450.jpg",
-      "id": 11
+      "id": 8
     },
     {
       "title": "BALLET DE SAN PETERSBURGO / CASCANUECES",
@@ -158,7 +119,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/ballet-de-san-petersburgo-cascanueces/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/10/web_cascanuec-1.png",
-      "id": 12
+      "id": 9
     },
     {
       "title": "BALLET DE SAN PETERSBURGO / CASCANUECES",
@@ -171,7 +132,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/entrada/ballet-de-san-petersburgo-cascanueces-100993",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/entradas/20261022005622_web_cascanuec.png",
-      "id": 13
+      "id": 10
     },
     {
       "title": "Lisandro Aristimuño  Experiencia Coral",
@@ -184,7 +145,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/entrada/lisandro-aristimuno-experiencia-coral-100959",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/entradas/20261006200213_600-x-450-ok.jpg",
-      "id": 14
+      "id": 11
     },
     {
       "title": "Lisandro Aristimuño – Experiencia Coral",
@@ -197,7 +158,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/lisandro-aristimuno-experiencia-coral/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/10/1600-X-1000-OK.jpg",
-      "id": 15
+      "id": 12
     },
     {
       "title": "KAMADA - Juebless",
@@ -210,7 +171,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/IMG_2239-4b2eb47c-3b6c-4d80-a57b-be73b48b6c77.webp?alt=media&token=9b8a4481-ac26-4bd6-8426-21baee7b9f61",
-      "id": 16
+      "id": 13
     },
     {
       "title": "Teatro Ciego: Chakras | Meditación en completa oscuridad",
@@ -223,7 +184,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/teatro-ciego-chakras-copia/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/10/web_V1.png",
-      "id": 17
+      "id": 14
     },
     {
       "title": "Esperanzah. + moah + kiki victoria @ R&B y soul criollo",
@@ -236,7 +197,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/IMG_6811-d4023f94-c2a0-43db-9c5a-50492a8aaf90.webp?alt=media&token=af3de95e-4d6d-40d6-8e94-c33e0af11538",
-      "id": 18
+      "id": 15
     },
     {
       "title": "Julián Hernández",
@@ -249,20 +210,20 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/julian-hernandez-moscoso/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/09/1600x1000_JH.png",
-      "id": 19
+      "id": 16
     },
     {
       "title": "Julián Hernández",
       "cat": "recital",
       "date": "2026-11-27",
-      "time": "21:00",
+      "time": "20:00",
       "venue": "Teatro Metro LP",
       "city": "La Plata",
       "source": "Teatro Metro LP",
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/entrada/julian-hernandez-moscoso-100941",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/entradas/20260928162633_1600x1000_jh.png",
-      "id": 20
+      "id": 17
     },
     {
       "title": "La Trasnochada",
@@ -275,7 +236,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/la-trasnochada/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/web_V1.png",
-      "id": 21
+      "id": 18
     },
     {
       "title": "Caracol a Contramano 20 AÑOS",
@@ -288,7 +249,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/Flyer%20Pub%2028-11-6e54790c-6947-420a-b1aa-1db66f294f45.webp?alt=media&token=40adcadc-238a-4d30-8962-f33deb694f42",
-      "id": 22
+      "id": 19
     },
     {
       "title": "Sueño Stereo",
@@ -301,7 +262,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/sueno-stereo/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/09/webSuenos-stereo.png",
-      "id": 23
+      "id": 20
     },
     {
       "title": "CASANOVAS / NORMA",
@@ -314,7 +275,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/diciembre%202025-06-89e322d9-db4c-404c-832c-65a7ada398ca.webp?alt=media&token=4c5fc214-1163-4bb5-bd71-56c5db1cd141",
-      "id": 24
+      "id": 21
     },
     {
       "title": "FULGOR - La despedida ❤️‍🩹",
@@ -327,7 +288,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/LA%20DESPEDIDA-ff8d0fac-6a7b-4f55-be15-212fe3994a78.webp?alt=media&token=49ae409c-a0fa-48c0-91f3-a03b483f04c7",
-      "id": 25
+      "id": 22
     },
     {
       "title": "K4 + JAI YIA + FRAXU / CDG",
@@ -340,7 +301,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/IMG_6087-7a3f811b-4ed6-4e7b-a538-3ba277c0d6fe.webp?alt=media&token=d84baa3c-a555-4bb1-b996-6603d386c7c9",
-      "id": 26
+      "id": 23
     },
     {
       "title": "Las ligas menores/La teoría del caos/OK pirámides",
@@ -353,7 +314,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/OKPI-CDG-LP-6e590d78-d509-4572-b314-ae0e694fc938.webp?alt=media&token=34502880-f407-4214-aef3-d7bbf974860e",
-      "id": 27
+      "id": 24
     },
     {
       "title": "Joaco Burgos en la Plata",
@@ -366,7 +327,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/1.1%20JOACO%20LP%20I-619159a1-1d74-4a78-bf81-cdaff3c87be6.webp?alt=media&token=14e8f7d2-7be7-42b1-9971-0c398c8c6c87",
-      "id": 28
+      "id": 25
     },
     {
       "title": "THESSINIESTROS presenta HAMBRE",
@@ -379,7 +340,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/thessiniestros-PRESENTA-HAMBRE-9ac8b3c7-10b2-4942-ad3d-bbcc916aebc7.webp?alt=media&token=5b77324c-ea99-4f69-8b25-a67d6b6c3878",
-      "id": 29
+      "id": 26
     },
     {
       "title": "404",
@@ -392,7 +353,7 @@
       "sourceKey": "passline",
       "url": "https://www.passline.com/",
       "flyer": "https://www.passline.com/error-400/img/passline-01.png",
-      "id": 30
+      "id": 27
     },
     {
       "title": "ATTACK ON TITAN: The Last Concert - Orquesta Sinfonica en La Plata | 6 De Diciembre",
@@ -405,7 +366,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/attack-on-titan-the-last-concert-orquesta-sinfonica-en-la-plata-6-de-diciembre-30084",
       "flyer": "https://imagenes.alpogo.com/eventos/b1f301a9-2366-49f5-9711-7731a9984ba4.webp",
-      "id": 31
+      "id": 28
     },
     {
       "title": "Botón de Arrep.",
@@ -418,7 +379,7 @@
       "sourceKey": "plateanet",
       "url": "http://qr.afip.gob.ar/?qr=kwtNgkcpGIa54lJJxVAn0A,,",
       "flyer": "https://www.plateanet.com./assets/footer/comodo_2021.svg",
-      "id": 32
+      "id": 29
     },
     {
       "title": "CARALOCO CRAZY FEST",
@@ -431,7 +392,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/caraloco-crazy-fest-29826",
       "flyer": "https://imagenes.alpogo.com/eventos/94c4192f-1ea7-4be9-97ef-620a6edd7c9c.webp",
-      "id": 33
+      "id": 30
     },
     {
       "title": "Chango Spasiuk",
@@ -444,7 +405,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/chango-spasiuk/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/10/1600x1000_spa.png",
-      "id": 34
+      "id": 31
     },
     {
       "title": "COMPRARObrasTeatrosEticketBeneficiosTérminos y condiciones",
@@ -457,7 +418,7 @@
       "sourceKey": "plateanet",
       "url": "https://www.plateanet.com/reportes",
       "flyer": "https://www.plateanet.comassets/footer/footer_flecha.svg",
-      "id": 35
+      "id": 32
     },
     {
       "title": "Dan Tumburús | Estoy bien, gracias",
@@ -470,7 +431,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/dan-tumburus-estoy-bien-gracias/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/10/web_dan.png",
-      "id": 36
+      "id": 33
     },
     {
       "title": "Delirio 20 años",
@@ -483,7 +444,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/delirio-20-anos-28876",
       "flyer": "https://imagenes.alpogo.com/eventos/6ad0d11d-0cc6-4eaf-a999-b8fbd865910c.webp",
-      "id": 37
+      "id": 34
     },
     {
       "title": "encontranos en",
@@ -496,7 +457,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 38
+      "id": 35
     },
     {
       "title": "Esquirlas ASM - Aniversario 5 - La Plata",
@@ -509,7 +470,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/esquirlas-asm-aniversario-5-la-plata-29315",
       "flyer": "https://imagenes.alpogo.com/eventos/d94eee1d-abfe-44a3-8788-8fa10ebf1419.webp",
-      "id": 39
+      "id": 36
     },
     {
       "title": "Etiqueta Negra en el Teatro René Favaloro",
@@ -522,7 +483,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/etiqueta-negra-en-el-teatro-rene-favaloro-28970",
       "flyer": "https://imagenes.alpogo.com/eventos/18af140c-2be4-4bf3-a0d9-c13a1f9514a1.webp",
-      "id": 40
+      "id": 37
     },
     {
       "title": "Fernando Cabrera & Hugo Fattoruso",
@@ -535,7 +496,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/fernando-cabrera-y-hugo-fattoruso/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/08/WEB_-fattoruso-y-cabrera.png",
-      "id": 41
+      "id": 38
     },
     {
       "title": "FestiPunk entre el Rock Y Bosc 28 Nov 23hs",
@@ -548,7 +509,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/festipunk-entre-el-rock-y-bosc-28-nov-23hs-29423",
       "flyer": "https://imagenes.alpogo.com/eventos/e2f9f0f5-7a4a-46ac-8327-62001ecbb2fa.webp",
-      "id": 42
+      "id": 39
     },
     {
       "title": "Fiesta del programa",
@@ -561,7 +522,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/fiesta-del-programa-30164",
       "flyer": "https://imagenes.alpogo.com/eventos/1cbdbb8c-4232-44b9-848d-e5e45452c651.webp",
-      "id": 43
+      "id": 40
     },
     {
       "title": "FIESTA UGH! | LA PLATA | EDICIÓN ANIVERSARIO",
@@ -574,7 +535,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/fiesta-ugh-la-plata-edicion-aniversario-30013",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1793721668_6aea054417336.jpg",
-      "id": 44
+      "id": 41
     },
     {
       "title": "Inicio(current)EL TEATROCARTELERANOTICIASCONTACTO",
@@ -587,7 +548,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 45
+      "id": 42
     },
     {
       "title": "Instalación I",
@@ -600,7 +561,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/instalacion-i-10-diciembre/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/11/web_arquicuarteto.png",
-      "id": 46
+      "id": 43
     },
     {
       "title": "Juan Solá- Unipersonal",
@@ -613,7 +574,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/juan-sola-unipersonal/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/10/web_Juan-sola.png",
-      "id": 47
+      "id": 44
     },
     {
       "title": "La Margarita",
@@ -626,7 +587,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/la-margarita-29571",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1791979441_6acf6fb10d46f.jpg",
-      "id": 48
+      "id": 45
     },
     {
       "title": "Marina Fages en Blondie Cultural",
@@ -639,7 +600,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/marina-fages-en-blondie-cultural-30211",
       "flyer": "https://imagenes.alpogo.com/eventos/ba0c5b87-e0c6-47d0-8e61-3b388990a2c9.webp",
-      "id": 49
+      "id": 46
     },
     {
       "title": "Música como en casa – Gato Luna",
@@ -652,7 +613,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/musica-como-en-casa-gato-luna/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/09/gato_1600x1000.jpg",
-      "id": 50
+      "id": 47
     },
     {
       "title": "Teatro Metro.Todos Los Derechos Reservados.",
@@ -665,7 +626,7 @@
       "sourceKey": "teatrometrolp",
       "url": "http://www.misticastudio.com",
       "flyer": "https://www.teatrometrolp.com.arimages/mistica-logo.png",
-      "id": 51
+      "id": 48
     },
     {
       "title": "Teresa Parodi en La Plata",
@@ -678,7 +639,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/teresa-parodi-en-la-plata-29886",
       "flyer": "https://imagenes.alpogo.com/eventos/e61c8986-cb57-4a14-90f3-4b3258804262.webp",
-      "id": 52
+      "id": 49
     },
     {
       "title": "Xeito Novo",
@@ -691,7 +652,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/xeito-novo/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/10/webxeito-novo-1.png",
-      "id": 53
+      "id": 50
     }
   ]
 }
