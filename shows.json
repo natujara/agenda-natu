@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-15T10:15:09.701862",
+  "updated_at": "2026-11-15T20:10:00.030016",
   "source": "scraper-natu-v10",
   "city": "La Plata",
-  "total": 54,
+  "total": 55,
   "events": [
     {
       "title": "Bailó toda la noche, tomó agua fría y se murió",
@@ -590,6 +590,19 @@
       "id": 45
     },
     {
+      "title": "FOGÓN",
+      "cat": "recital",
+      "date": "",
+      "time": "21:00",
+      "venue": "Sábado 05/12, 21:00 hsAutopista del sonido, La Plata",
+      "city": "La Plata",
+      "source": "Alpogo",
+      "sourceKey": "alpogo",
+      "url": "https://alpogo.com/evento/fogon-30241",
+      "flyer": "https://imagenes.alpogo.com/eventos/b113d230-e4fb-4ad4-9dcd-fd5a7f6b9c51.webp",
+      "id": 46
+    },
+    {
       "title": "Inicio(current)EL TEATROCARTELERANOTICIASCONTACTO",
       "cat": "teatro",
       "date": "",
@@ -600,7 +613,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 46
+      "id": 47
     },
     {
       "title": "Instalación I",
@@ -613,7 +626,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/instalacion-i-10-diciembre/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/11/web_arquicuarteto.png",
-      "id": 47
+      "id": 48
     },
     {
       "title": "Juan Solá- Unipersonal",
@@ -626,7 +639,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/juan-sola-unipersonal/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/10/web_Juan-sola.png",
-      "id": 48
+      "id": 49
     },
     {
       "title": "La Margarita",
@@ -639,7 +652,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/la-margarita-29571",
       "flyer": "https://imagenes.alpogo.com/eventos/alta_evento_1791979441_6acf6fb10d46f.jpg",
-      "id": 49
+      "id": 50
     },
     {
       "title": "Marina Fages en Blondie Cultural",
@@ -652,7 +665,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/marina-fages-en-blondie-cultural-30211",
       "flyer": "https://imagenes.alpogo.com/eventos/ba0c5b87-e0c6-47d0-8e61-3b388990a2c9.webp",
-      "id": 50
+      "id": 51
     },
     {
       "title": "Música como en casa – Gato Luna",
@@ -665,7 +678,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/musica-como-en-casa-gato-luna/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/09/gato_1600x1000.jpg",
-      "id": 51
+      "id": 52
     },
     {
       "title": "Teatro Metro.Todos Los Derechos Reservados.",
@@ -678,7 +691,7 @@
       "sourceKey": "teatrometrolp",
       "url": "http://www.misticastudio.com",
       "flyer": "https://www.teatrometrolp.com.arimages/mistica-logo.png",
-      "id": 52
+      "id": 53
     },
     {
       "title": "Teresa Parodi en La Plata",
@@ -691,7 +704,7 @@
       "sourceKey": "alpogo",
       "url": "https://alpogo.com/evento/teresa-parodi-en-la-plata-29886",
       "flyer": "https://imagenes.alpogo.com/eventos/e61c8986-cb57-4a14-90f3-4b3258804262.webp",
-      "id": 53
+      "id": 54
     },
     {
       "title": "Xeito Novo",
@@ -704,7 +717,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/xeito-novo/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/10/webxeito-novo-1.png",
-      "id": 54
+      "id": 55
     }
   ]
 }
