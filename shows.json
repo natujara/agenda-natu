@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-19T22:38:20.941108",
+  "updated_at": "2026-11-20T10:49:32.481019",
   "source": "scraper-natu-v10",
   "city": "La Plata",
-  "total": 49,
+  "total": 48,
   "events": [
     {
       "title": "EL CUARTO DE VERONICA",
@@ -450,7 +450,7 @@
       "title": "CARALOCO CRAZY FEST",
       "cat": "recital",
       "date": "2027-11-19",
-      "time": "17:00",
+      "time": "21:00",
       "venue": "",
       "city": "La Plata",
       "source": "Alpogo",
@@ -458,19 +458,6 @@
       "url": "https://alpogo.com/evento/caraloco-crazy-fest-29826",
       "flyer": "https://imagenes.alpogo.com/eventos/94c4192f-1ea7-4be9-97ef-620a6edd7c9c.webp",
       "id": 35
-    },
-    {
-      "title": "Cine en el Galpón | Lost Highway",
-      "cat": "cine",
-      "date": "2027-11-19",
-      "time": "20:30",
-      "venue": "",
-      "city": "La Plata",
-      "source": "Alpogo",
-      "sourceKey": "alpogo",
-      "url": "https://alpogo.com/evento/cine-en-el-galpon-lost-highway-30305",
-      "flyer": "https://imagenes.alpogo.com/eventos/c47e85ec-fbe4-4970-abd2-eb82a617519d.webp",
-      "id": 36
     },
     {
       "title": "404",
@@ -483,7 +470,7 @@
       "sourceKey": "passline",
       "url": "https://www.passline.com/",
       "flyer": "https://www.passline.com/error-400/img/passline-01.png",
-      "id": 37
+      "id": 36
     },
     {
       "title": "Botón de Arrep.",
@@ -496,7 +483,7 @@
       "sourceKey": "plateanet",
       "url": "http://qr.afip.gob.ar/?qr=kwtNgkcpGIa54lJJxVAn0A,,",
       "flyer": "https://www.plateanet.com./assets/footer/comodo_2021.svg",
-      "id": 38
+      "id": 37
     },
     {
       "title": "Chango Spasiuk",
@@ -509,7 +496,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/chango-spasiuk/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/10/1600x1000_spa.png",
-      "id": 39
+      "id": 38
     },
     {
       "title": "COMPRARObrasTeatrosEticketBeneficiosTérminos y condiciones",
@@ -522,7 +509,7 @@
       "sourceKey": "plateanet",
       "url": "https://www.plateanet.com/reportes",
       "flyer": "https://www.plateanet.comassets/footer/footer_flecha.svg",
-      "id": 40
+      "id": 39
     },
     {
       "title": "Dan Tumburús | Estoy bien, gracias",
@@ -535,7 +522,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/dan-tumburus-estoy-bien-gracias/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/10/web_dan.png",
-      "id": 41
+      "id": 40
     },
     {
       "title": "encontranos en",
@@ -548,7 +535,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 42
+      "id": 41
     },
     {
       "title": "Fernando Cabrera & Hugo Fattoruso",
@@ -561,7 +548,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/fernando-cabrera-y-hugo-fattoruso/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/08/WEB_-fattoruso-y-cabrera.png",
-      "id": 43
+      "id": 42
     },
     {
       "title": "Inicio(current)EL TEATROCARTELERANOTICIASCONTACTO",
@@ -574,7 +561,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 44
+      "id": 43
     },
     {
       "title": "Instalación I",
@@ -587,7 +574,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/instalacion-i-10-diciembre/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/11/web_arquicuarteto.png",
-      "id": 45
+      "id": 44
     },
     {
       "title": "Juan Solá- Unipersonal",
@@ -600,7 +587,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/juan-sola-unipersonal/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/10/web_Juan-sola.png",
-      "id": 46
+      "id": 45
     },
     {
       "title": "Música como en casa – Gato Luna",
@@ -613,7 +600,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/musica-como-en-casa-gato-luna/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/09/gato_1600x1000.jpg",
-      "id": 47
+      "id": 46
     },
     {
       "title": "Teatro Metro.Todos Los Derechos Reservados.",
@@ -626,7 +613,7 @@
       "sourceKey": "teatrometrolp",
       "url": "http://www.misticastudio.com",
       "flyer": "https://www.teatrometrolp.com.arimages/mistica-logo.png",
-      "id": 48
+      "id": 47
     },
     {
       "title": "Xeito Novo",
@@ -639,7 +626,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/xeito-novo/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/10/webxeito-novo-1.png",
-      "id": 49
+      "id": 48
     }
   ]
 }
