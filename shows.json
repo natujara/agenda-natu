@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-22T00:54:31.256369",
+  "updated_at": "2026-11-22T10:36:35.329608",
   "source": "scraper-natu-v10",
   "city": "La Plata",
-  "total": 42,
+  "total": 41,
   "events": [
     {
       "title": "Ballet \"El Lago de los Cisnes\" de P. I. Chaikovski | Domingo 22/11 | 18:00",
@@ -369,19 +369,6 @@
       "id": 28
     },
     {
-      "title": "Etiqueta Negra en el Teatro René Favaloro",
-      "cat": "teatro",
-      "date": "2027-11-21",
-      "time": "21:00",
-      "venue": "",
-      "city": "La Plata",
-      "source": "Alpogo",
-      "sourceKey": "alpogo",
-      "url": "https://alpogo.com/evento/etiqueta-negra-en-el-teatro-rene-favaloro-28970",
-      "flyer": "https://imagenes.alpogo.com/eventos/18af140c-2be4-4bf3-a0d9-c13a1f9514a1.webp",
-      "id": 29
-    },
-    {
       "title": "404",
       "cat": "recital",
       "date": "",
@@ -392,7 +379,7 @@
       "sourceKey": "passline",
       "url": "https://www.passline.com/",
       "flyer": "https://www.passline.com/error-400/img/passline-01.png",
-      "id": 30
+      "id": 29
     },
     {
       "title": "Botón de Arrep.",
@@ -405,7 +392,7 @@
       "sourceKey": "plateanet",
       "url": "http://qr.afip.gob.ar/?qr=kwtNgkcpGIa54lJJxVAn0A,,",
       "flyer": "https://www.plateanet.com./assets/footer/comodo_2021.svg",
-      "id": 31
+      "id": 30
     },
     {
       "title": "Chango Spasiuk",
@@ -418,7 +405,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/chango-spasiuk/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/10/1600x1000_spa.png",
-      "id": 32
+      "id": 31
     },
     {
       "title": "COMPRARObrasTeatrosEticketBeneficiosTérminos y condiciones",
@@ -431,7 +418,7 @@
       "sourceKey": "plateanet",
       "url": "https://www.plateanet.com/reportes",
       "flyer": "https://www.plateanet.comassets/footer/footer_flecha.svg",
-      "id": 33
+      "id": 32
     },
     {
       "title": "Dan Tumburús | Estoy bien, gracias",
@@ -444,7 +431,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/dan-tumburus-estoy-bien-gracias/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/10/web_dan.png",
-      "id": 34
+      "id": 33
     },
     {
       "title": "encontranos en",
@@ -457,7 +444,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 35
+      "id": 34
     },
     {
       "title": "Fernando Cabrera & Hugo Fattoruso",
@@ -470,7 +457,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/fernando-cabrera-y-hugo-fattoruso/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/08/WEB_-fattoruso-y-cabrera.png",
-      "id": 36
+      "id": 35
     },
     {
       "title": "Inicio(current)EL TEATROCARTELERANOTICIASCONTACTO",
@@ -483,7 +470,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 37
+      "id": 36
     },
     {
       "title": "Instalación I",
@@ -496,7 +483,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/instalacion-i-10-diciembre/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/11/web_arquicuarteto-1.png",
-      "id": 38
+      "id": 37
     },
     {
       "title": "Juan Solá- Unipersonal",
@@ -509,7 +496,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/juan-sola-unipersonal/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/10/web_Juan-sola.png",
-      "id": 39
+      "id": 38
     },
     {
       "title": "Música como en casa – Gato Luna",
@@ -522,7 +509,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/musica-como-en-casa-gato-luna/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/09/gato_1600x1000.jpg",
-      "id": 40
+      "id": 39
     },
     {
       "title": "Teatro Metro.Todos Los Derechos Reservados.",
@@ -535,7 +522,7 @@
       "sourceKey": "teatrometrolp",
       "url": "http://www.misticastudio.com",
       "flyer": "https://www.teatrometrolp.com.arimages/mistica-logo.png",
-      "id": 41
+      "id": 40
     },
     {
       "title": "Xeito Novo",
@@ -548,7 +535,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/xeito-novo/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/10/webxeito-novo-1.png",
-      "id": 42
+      "id": 41
     }
   ]
 }
