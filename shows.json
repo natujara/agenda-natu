@@ -1,35 +1,9 @@
 {
-  "updated_at": "2026-11-23T11:36:14.291004",
+  "updated_at": "2026-11-24T02:10:02.125285",
   "source": "scraper-natu-v10",
   "city": "La Plata",
   "total": 36,
   "events": [
-    {
-      "title": "Lisandro Aristimuño  Experiencia Coral",
-      "cat": "recital",
-      "date": "2026-11-23",
-      "time": "20:00",
-      "venue": "Teatro Metro LP",
-      "city": "La Plata",
-      "source": "Teatro Metro LP",
-      "sourceKey": "teatrometrolp",
-      "url": "https://www.teatrometrolp.com.ar/entrada/lisandro-aristimuno-experiencia-coral-100959",
-      "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/entradas/20261006200213_600-x-450-ok.jpg",
-      "id": 1
-    },
-    {
-      "title": "Lisandro Aristimuño – Experiencia Coral",
-      "cat": "recital",
-      "date": "2026-11-23",
-      "time": "20:00",
-      "venue": "Casa Metro La Plata",
-      "city": "La Plata",
-      "source": "Casa Metro",
-      "sourceKey": "casametro",
-      "url": "https://casametro.com.ar/evento/lisandro-aristimuno-experiencia-coral/",
-      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/10/1600-X-1000-OK.jpg",
-      "id": 2
-    },
     {
       "title": "Ballet \"El Lago de los Cisnes\" de P. I. Chaikovski | Miércoles 25/11 | 20:00",
       "cat": "danza",
@@ -41,7 +15,7 @@
       "sourceKey": "teatroargentino",
       "url": "https://teatroargentino.gba.gob.ar/meets/no-season",
       "flyer": "",
-      "id": 3
+      "id": 1
     },
     {
       "title": "Ballet \"El Lago de los Cisnes\" de P. I. Chaikovski | Jueves 26/11 | 20:00",
@@ -54,7 +28,7 @@
       "sourceKey": "teatroargentino",
       "url": "https://teatroargentino.gba.gob.ar/meets/no-season",
       "flyer": "",
-      "id": 4
+      "id": 2
     },
     {
       "title": "KAMADA - Juebless",
@@ -67,7 +41,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/IMG_2239-4b2eb47c-3b6c-4d80-a57b-be73b48b6c77.webp?alt=media&token=9b8a4481-ac26-4bd6-8426-21baee7b9f61",
-      "id": 5
+      "id": 3
     },
     {
       "title": "Teatro Ciego: Chakras | Meditación en completa oscuridad",
@@ -80,7 +54,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/teatro-ciego-chakras-copia/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/10/web_V1.png",
-      "id": 6
+      "id": 4
     },
     {
       "title": "Ballet \"El Lago de los Cisnes\" de P. I. Chaikovski | Viernes 27/11 | 20:00",
@@ -93,7 +67,20 @@
       "sourceKey": "teatroargentino",
       "url": "https://teatroargentino.gba.gob.ar/meets/no-season",
       "flyer": "",
-      "id": 7
+      "id": 5
+    },
+    {
+      "title": "CarteleraCartelera deTodosNoviembre 2026Diciembre 2026",
+      "cat": "arte",
+      "date": "2026-11-27",
+      "time": "20:00",
+      "venue": "Teatro Metro LP",
+      "city": "La Plata",
+      "source": "Teatro Metro LP",
+      "sourceKey": "teatrometrolp",
+      "url": "https://www.teatrometrolp.com.ar/entrada/julian-hernandez-moscoso-100941",
+      "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/entradas/20260928162633_1600x1000_jh.png",
+      "id": 6
     },
     {
       "title": "Esperanzah. + moah + kiki victoria @ R&B y soul criollo",
@@ -106,6 +93,19 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/IMG_6811-d4023f94-c2a0-43db-9c5a-50492a8aaf90.webp?alt=media&token=af3de95e-4d6d-40d6-8e94-c33e0af11538",
+      "id": 7
+    },
+    {
+      "title": "FANII CREW EN CIUDAD DE GATOS",
+      "cat": "recital",
+      "date": "2026-11-27",
+      "time": "23:59",
+      "venue": "",
+      "city": "La Plata",
+      "source": "CatPass",
+      "sourceKey": "catpass",
+      "url": "https://catpass.net/eventos",
+      "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/IMG-20261123-WA0003-c5522cbb-a683-4ddc-a531-10539a32e451.webp?alt=media&token=88e7e47e-f363-4e14-aa72-af87b0af7370",
       "id": 8
     },
     {
@@ -122,19 +122,6 @@
       "id": 9
     },
     {
-      "title": "Julián Hernández",
-      "cat": "recital",
-      "date": "2026-11-27",
-      "time": "20:00",
-      "venue": "Teatro Metro LP",
-      "city": "La Plata",
-      "source": "Teatro Metro LP",
-      "sourceKey": "teatrometrolp",
-      "url": "https://www.teatrometrolp.com.ar/entrada/julian-hernandez-moscoso-100941",
-      "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/entradas/20260928162633_1600x1000_jh.png",
-      "id": 10
-    },
-    {
       "title": "La Trasnochada",
       "cat": "recital",
       "date": "2026-11-27",
@@ -145,6 +132,19 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/la-trasnochada/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/06/web_V1.png",
+      "id": 10
+    },
+    {
+      "title": "+ GATEO",
+      "cat": "recital",
+      "date": "2026-11-28",
+      "time": "23:59",
+      "venue": "",
+      "city": "La Plata",
+      "source": "CatPass",
+      "sourceKey": "catpass",
+      "url": "https://catpass.net/eventos",
+      "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/feed-201ff0c1-7ede-4a8f-bfe9-ee2b892bf7ae.webp?alt=media&token=34fe6df8-d34e-4527-a95c-eae958fc29dc",
       "id": 11
     },
     {
