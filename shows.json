@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-25T11:59:56.024767",
+  "updated_at": "2026-11-25T23:32:39.626093",
   "source": "scraper-natu-v10",
   "city": "La Plata",
-  "total": 37,
+  "total": 38,
   "events": [
     {
       "title": "Ballet \"El Lago de los Cisnes\" de P. I. Chaikovski | Miércoles 25/11 | 20:00",
@@ -200,6 +200,19 @@
       "id": 15
     },
     {
+      "title": "Concierto | Camerata Académica |  Domingo 29/11 | 17:00",
+      "cat": "recital",
+      "date": "2026-11-29",
+      "time": "17:00",
+      "venue": "Teatro Argentino — Astor Piazzolla",
+      "city": "La Plata",
+      "source": "Teatro Argentino",
+      "sourceKey": "teatroargentino",
+      "url": "https://teatroargentino.gba.gob.ar/meets/no-season",
+      "flyer": "",
+      "id": 16
+    },
+    {
       "title": "CASANOVAS / NORMA",
       "cat": "recital",
       "date": "2026-12-04",
@@ -210,7 +223,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/diciembre%202025-06-89e322d9-db4c-404c-832c-65a7ada398ca.webp?alt=media&token=4c5fc214-1163-4bb5-bd71-56c5db1cd141",
-      "id": 16
+      "id": 17
     },
     {
       "title": "FULGOR - La despedida ❤️‍🩹",
@@ -223,7 +236,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/LA%20DESPEDIDA-ff8d0fac-6a7b-4f55-be15-212fe3994a78.webp?alt=media&token=49ae409c-a0fa-48c0-91f3-a03b483f04c7",
-      "id": 17
+      "id": 18
     },
     {
       "title": "K4 + JAI YIA + FRAXU / CDG",
@@ -236,7 +249,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/IMG_6087-7a3f811b-4ed6-4e7b-a538-3ba277c0d6fe.webp?alt=media&token=d84baa3c-a555-4bb1-b996-6603d386c7c9",
-      "id": 18
+      "id": 19
     },
     {
       "title": "Las ligas menores/La teoría del caos/OK pirámides",
@@ -249,7 +262,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/OKPI-CDG-LP-6e590d78-d509-4572-b314-ae0e694fc938.webp?alt=media&token=34502880-f407-4214-aef3-d7bbf974860e",
-      "id": 19
+      "id": 20
     },
     {
       "title": "Joaco Burgos en la Plata",
@@ -262,7 +275,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/1.1%20JOACO%20LP%20I-619159a1-1d74-4a78-bf81-cdaff3c87be6.webp?alt=media&token=14e8f7d2-7be7-42b1-9971-0c398c8c6c87",
-      "id": 20
+      "id": 21
     },
     {
       "title": "DUM CHICA en CIUDAD DE GATOS - 18/12",
@@ -275,7 +288,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/FEED-a6f57a56-c501-43f9-90a1-61a7271983dd.webp?alt=media&token=189bf231-cbe5-43a7-b743-b0d9c7aa220d",
-      "id": 21
+      "id": 22
     },
     {
       "title": "Winona Riders",
@@ -288,7 +301,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/La%20Plata%20feed-dbbdbc05-6316-42cd-bfe5-8223e721d566.webp?alt=media&token=84b5a7d7-7c84-4a83-bcc4-51da884da0c5",
-      "id": 22
+      "id": 23
     },
     {
       "title": "THESSINIESTROS presenta HAMBRE",
@@ -301,7 +314,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/thessiniestros-PRESENTA-HAMBRE-9ac8b3c7-10b2-4942-ad3d-bbcc916aebc7.webp?alt=media&token=5b77324c-ea99-4f69-8b25-a67d6b6c3878",
-      "id": 23
+      "id": 24
     },
     {
       "title": "INTRA - Fin de Año",
@@ -314,7 +327,7 @@
       "sourceKey": "catpass",
       "url": "https://catpass.net/eventos",
       "flyer": "https://firebasestorage.googleapis.com/v0/b/catpass-eea83.firebasestorage.app/o/IMG_9964-e4ee2bf4-075d-4e69-af67-d03367aa5e5b.webp?alt=media&token=35157e06-4b09-499c-a397-bc1085421589",
-      "id": 24
+      "id": 25
     },
     {
       "title": "404",
@@ -327,7 +340,7 @@
       "sourceKey": "passline",
       "url": "https://www.passline.com/",
       "flyer": "https://www.passline.com/error-400/img/passline-01.png",
-      "id": 25
+      "id": 26
     },
     {
       "title": "Botón de Arrep.",
@@ -340,7 +353,7 @@
       "sourceKey": "plateanet",
       "url": "http://qr.afip.gob.ar/?qr=kwtNgkcpGIa54lJJxVAn0A,,",
       "flyer": "https://www.plateanet.com./assets/footer/comodo_2021.svg",
-      "id": 26
+      "id": 27
     },
     {
       "title": "Chango Spasiuk",
@@ -353,7 +366,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/chango-spasiuk/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/10/1600x1000_spa.png",
-      "id": 27
+      "id": 28
     },
     {
       "title": "COMPRARObrasTeatrosEticketBeneficiosTérminos y condiciones",
@@ -366,7 +379,7 @@
       "sourceKey": "plateanet",
       "url": "https://www.plateanet.com/reportes",
       "flyer": "https://www.plateanet.comassets/footer/footer_flecha.svg",
-      "id": 28
+      "id": 29
     },
     {
       "title": "Dan Tumburús | Estoy bien, gracias",
@@ -379,7 +392,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/dan-tumburus-estoy-bien-gracias/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/10/web_dan.png",
-      "id": 29
+      "id": 30
     },
     {
       "title": "encontranos en",
@@ -392,7 +405,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 30
+      "id": 31
     },
     {
       "title": "Fernando Cabrera & Hugo Fattoruso",
@@ -405,7 +418,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/fernando-cabrera-y-hugo-fattoruso/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/08/WEB_-fattoruso-y-cabrera.png",
-      "id": 31
+      "id": 32
     },
     {
       "title": "Inicio(current)EL TEATROCARTELERANOTICIASCONTACTO",
@@ -418,7 +431,7 @@
       "sourceKey": "teatrometrolp",
       "url": "https://www.teatrometrolp.com.ar/",
       "flyer": "https://www.teatrometrolp.com.ar/sistema/uploads/366/images738964656557.png",
-      "id": 32
+      "id": 33
     },
     {
       "title": "Instalación I",
@@ -431,7 +444,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/instalacion-i-10-diciembre/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/11/web_arquicuarteto-1.png",
-      "id": 33
+      "id": 34
     },
     {
       "title": "Juan Solá- Unipersonal",
@@ -443,8 +456,8 @@
       "source": "Casa Metro",
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/juan-sola-unipersonal/",
-      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/10/web_Juan-sola.png",
-      "id": 34
+      "flyer": "https://casametro.com.ar/wp-content/uploads/2026/10/webjuan-sola-info.png",
+      "id": 35
     },
     {
       "title": "Música como en casa – Gato Luna",
@@ -457,7 +470,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/musica-como-en-casa-gato-luna/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/09/gato_1600x1000-1.jpg",
-      "id": 35
+      "id": 36
     },
     {
       "title": "Teatro Metro.Todos Los Derechos Reservados.",
@@ -470,7 +483,7 @@
       "sourceKey": "teatrometrolp",
       "url": "http://www.misticastudio.com",
       "flyer": "https://www.teatrometrolp.com.arimages/mistica-logo.png",
-      "id": 36
+      "id": 37
     },
     {
       "title": "Xeito Novo",
@@ -483,7 +496,7 @@
       "sourceKey": "casametro",
       "url": "https://casametro.com.ar/evento/xeito-novo/",
       "flyer": "https://casametro.com.ar/wp-content/uploads/2026/10/webxeito-novo-1.png",
-      "id": 37
+      "id": 38
     }
   ]
 }
